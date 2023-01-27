@@ -19,7 +19,7 @@
 		<Namespace Name="OpcUa" Version="1.03" PublicationDate="2013-12-02T00:00:00Z" Prefix="Opc.Ua" InternalPrefix="Opc.Ua.Server" XmlNamespace="http://opcfoundation.org/UA/2008/02/Types.xsd" XmlPrefix="OpcUa">http://opcfoundation.org/UA/</Namespace>
 		<Namespace Name="DI" Prefix="Opc.Ua.Di" XmlNamespace="http://opcfoundation.org/UA/DI/Types.xsd" XmlPrefix="DI">http://opcfoundation.org/UA/DI/</Namespace>
 		<Namespace Name="OpcUaRobotics" Prefix="Opc.Ua.Robotics" XmlNamespace="http://opcfoundation.org/UA/Robotics/Types.xsd" XmlPrefix="Robotics">http://opcfoundation.org/UA/Robotics/</Namespace>
-		<Namespace Name="PLC" Prefix="Opc.Ua.Plc" InternalPrefix="http://plcopen.org/OpcUa/IEC61131-3/" XmlNamespace="http://plcopen.org/OpcUa/IEC61131-3/" XmlPrefix="PLC" Version="1.02" PublicationDate="25/11/2020">http://plcopen.org/OpcUa/IEC61131-3/</Namespace>	</Namespaces>
+		<Namespace Name="OpcUaPlc" Prefix="Opc.Ua.Plc" InternalPrefix="http://plcopen.org/OpcUa/IEC61131-3/" XmlNamespace="http://plcopen.org/OpcUa/IEC61131-3/" XmlPrefix="PLC" Version="1.02" PublicationDate="25/11/2020">http://plcopen.org/OpcUa/IEC61131-3/</Namespace>	</Namespaces>
 	
 	
 	<!-- OpcUaDiModel Definition -->
@@ -492,19 +492,19 @@
 		</Fields>
 	</DataType>
 
-	<DataType SymbolicName="DI:TransferResultDataDataType" BaseType="DI:FetchResultDataType">
-		<Fields>
-			<Field Name="SequenceNumber" DataType="ua:Int32" />
-			<Field Name="EndOfResults" DataType="ua:Boolean" />
-			<Field Name="ParameterDefs" DataType="DI:ParameterResultDataType" ValueRank="Array" />
-		</Fields>
-	</DataType>
-
 	<DataType SymbolicName="DI:ParameterResultDataType" BaseType="ua:Structure">
 		<Fields>
 			<Field Name="NodePath" DataType="ua:QualifiedName" ValueRank="Array" />
 			<Field Name="StatusCode" DataType="ua:StatusCode" />
 			<Field Name="Diagnostics" DataType="ua:DiagnosticInfo" />
+		</Fields>
+	</DataType>
+
+	<DataType SymbolicName="DI:TransferResultDataDataType" BaseType="DI:FetchResultDataType">
+		<Fields>
+			<Field Name="SequenceNumber" DataType="ua:Int32" />
+			<Field Name="EndOfResults" DataType="ua:Boolean" />
+			<Field Name="ParameterDefs" DataType="DI:ParameterResultDataType" ValueRank="Array" />
 		</Fields>
 	</DataType>
 
@@ -1958,7 +1958,7 @@
 	<ObjectType SymbolicName="PLC:SFCType" BaseType="ua:BaseObjectType">
 	</ObjectType>
 
-	<!-- Custom Information Model OpcUaConneXtModel Definition-->
+	<!-- Custom Information Model OpcUaFfModel Definition-->
 	<Object SymbolicName="FF:OPCUAConneXtNamespaceMetadata" TypeDefinition="ua:NamespaceMetadataType">
 		<BrowseName>http://opcfoundation.org/UA/DI/</BrowseName>
 		<Children>
