@@ -1685,6 +1685,7 @@
   </UADataType>
   <UADataType NodeId="ns=1;i=16103" BrowseName="1:ParameterResultDataType">
     <DisplayName>ParameterResultDataType</DisplayName>
+	<Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/6.4.6</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -1696,6 +1697,8 @@
   </UADataType>
   <UAObjectType NodeId="ns=1;i=16104" BrowseName="1:TransferServicesType">
     <DisplayName>TransferServicesType</DisplayName>
+	<Category>DI Offline</Category>
+	<Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/6.4.2</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=16105</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=16107</Reference>
@@ -1705,6 +1708,7 @@
   </UAObjectType>
   <UAMethod NodeId="ns=1;i=16105" BrowseName="1:TransferToDevice" ParentNodeId="ns=1;i=16104">
     <DisplayName>TransferToDevice</DisplayName>
+	<Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/6.4.4</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">ns=1;i=16106</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
@@ -1755,6 +1759,7 @@
   </UAVariable>
   <UAMethod NodeId="ns=1;i=16107" BrowseName="1:TransferFromDevice" ParentNodeId="ns=1;i=16104">
     <DisplayName>TransferFromDevice</DisplayName>
+	<Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/6.4.5</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">ns=1;i=16108</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
@@ -1805,6 +1810,7 @@
   </UAVariable>
   <UAMethod NodeId="ns=1;i=16109" BrowseName="1:FetchTransferResultData" ParentNodeId="ns=1;i=16104">
     <DisplayName>FetchTransferResultData</DisplayName>
+	<Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/6.4.6</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">ns=1;i=16110</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=16111</Reference>
@@ -1982,6 +1988,7 @@
   </UAVariable>
   <UAMethod NodeId="ns=1;i=16128" BrowseName="1:InitLock" ParentNodeId="ns=1;i=16122">
     <DisplayName>InitLock</DisplayName>
+    <Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/7.5</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">ns=1;i=16129</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=16130</Reference>
@@ -2045,6 +2052,7 @@
   </UAVariable>
   <UAMethod NodeId="ns=1;i=16131" BrowseName="1:RenewLock" ParentNodeId="ns=1;i=16122">
     <DisplayName>RenewLock</DisplayName>
+	<Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/7.7</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">ns=1;i=16132</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
@@ -2080,6 +2088,7 @@
   </UAVariable>
   <UAMethod NodeId="ns=1;i=16133" BrowseName="1:ExitLock" ParentNodeId="ns=1;i=16122">
     <DisplayName>ExitLock</DisplayName>
+	<Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/7.6</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">ns=1;i=16134</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
@@ -2115,6 +2124,7 @@
   </UAVariable>
   <UAMethod NodeId="ns=1;i=16135" BrowseName="1:BreakLock" ParentNodeId="ns=1;i=16122">
     <DisplayName>BreakLock</DisplayName>
+	<Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/7.8</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">ns=1;i=16136</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
@@ -2150,6 +2160,7 @@
   </UAVariable>
   <UAObjectType NodeId="ns=1;i=16137" BrowseName="1:SoftwareUpdateType">
     <DisplayName>SoftwareUpdateType</DisplayName>
+    <Documentation>https://reference.opcfoundation.org/v104/DI/v103/docs/8.4.1/#8.4.1.1</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=16138</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=16140</Reference>
