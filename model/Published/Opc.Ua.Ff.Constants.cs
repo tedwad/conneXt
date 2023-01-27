@@ -64,14 +64,14 @@ namespace Opc.Ua.Ff
         public const uint TransferResultErrorDataType = 16101;
 
         /// <summary>
-        /// The identifier for the ParameterResultDataType DataType.
-        /// </summary>
-        public const uint ParameterResultDataType = 16103;
-
-        /// <summary>
         /// The identifier for the TransferResultDataDataType DataType.
         /// </summary>
         public const uint TransferResultDataDataType = 16102;
+
+        /// <summary>
+        /// The identifier for the ParameterResultDataType DataType.
+        /// </summary>
+        public const uint ParameterResultDataType = 16103;
 
         /// <summary>
         /// The identifier for the SoftwareVersionFileType DataType.
@@ -6839,14 +6839,14 @@ namespace Opc.Ua.Ff
         public const uint TransferResultErrorDataType_Encoding_DefaultBinary = 26738;
 
         /// <summary>
-        /// The identifier for the ParameterResultDataType_Encoding_DefaultBinary Object.
-        /// </summary>
-        public const uint ParameterResultDataType_Encoding_DefaultBinary = 26740;
-
-        /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultBinary Object.
         /// </summary>
         public const uint TransferResultDataDataType_Encoding_DefaultBinary = 26739;
+
+        /// <summary>
+        /// The identifier for the ParameterResultDataType_Encoding_DefaultBinary Object.
+        /// </summary>
+        public const uint ParameterResultDataType_Encoding_DefaultBinary = 26740;
 
         /// <summary>
         /// The identifier for the FetchResultDataType_Encoding_DefaultXml Object.
@@ -6859,14 +6859,14 @@ namespace Opc.Ua.Ff
         public const uint TransferResultErrorDataType_Encoding_DefaultXml = 26758;
 
         /// <summary>
-        /// The identifier for the ParameterResultDataType_Encoding_DefaultXml Object.
-        /// </summary>
-        public const uint ParameterResultDataType_Encoding_DefaultXml = 26760;
-
-        /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultXml Object.
         /// </summary>
         public const uint TransferResultDataDataType_Encoding_DefaultXml = 26759;
+
+        /// <summary>
+        /// The identifier for the ParameterResultDataType_Encoding_DefaultXml Object.
+        /// </summary>
+        public const uint ParameterResultDataType_Encoding_DefaultXml = 26760;
 
         /// <summary>
         /// The identifier for the FetchResultDataType_Encoding_DefaultJson Object.
@@ -6879,14 +6879,14 @@ namespace Opc.Ua.Ff
         public const uint TransferResultErrorDataType_Encoding_DefaultJson = 26778;
 
         /// <summary>
-        /// The identifier for the ParameterResultDataType_Encoding_DefaultJson Object.
-        /// </summary>
-        public const uint ParameterResultDataType_Encoding_DefaultJson = 26780;
-
-        /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultJson Object.
         /// </summary>
         public const uint TransferResultDataDataType_Encoding_DefaultJson = 26779;
+
+        /// <summary>
+        /// The identifier for the ParameterResultDataType_Encoding_DefaultJson Object.
+        /// </summary>
+        public const uint ParameterResultDataType_Encoding_DefaultJson = 26780;
     }
     #endregion
 
@@ -26614,14 +26614,14 @@ namespace Opc.Ua.Ff
         public const uint FutureFactories_BinarySchema_TransferResultErrorDataType = 26748;
 
         /// <summary>
-        /// The identifier for the FutureFactories_BinarySchema_ParameterResultDataType Variable.
-        /// </summary>
-        public const uint FutureFactories_BinarySchema_ParameterResultDataType = 26754;
-
-        /// <summary>
         /// The identifier for the FutureFactories_BinarySchema_TransferResultDataDataType Variable.
         /// </summary>
         public const uint FutureFactories_BinarySchema_TransferResultDataDataType = 26751;
+
+        /// <summary>
+        /// The identifier for the FutureFactories_BinarySchema_ParameterResultDataType Variable.
+        /// </summary>
+        public const uint FutureFactories_BinarySchema_ParameterResultDataType = 26754;
 
         /// <summary>
         /// The identifier for the FutureFactories_XmlSchema Variable.
@@ -26649,14 +26649,14 @@ namespace Opc.Ua.Ff
         public const uint FutureFactories_XmlSchema_TransferResultErrorDataType = 26768;
 
         /// <summary>
-        /// The identifier for the FutureFactories_XmlSchema_ParameterResultDataType Variable.
-        /// </summary>
-        public const uint FutureFactories_XmlSchema_ParameterResultDataType = 26774;
-
-        /// <summary>
         /// The identifier for the FutureFactories_XmlSchema_TransferResultDataDataType Variable.
         /// </summary>
         public const uint FutureFactories_XmlSchema_TransferResultDataDataType = 26771;
+
+        /// <summary>
+        /// The identifier for the FutureFactories_XmlSchema_ParameterResultDataType Variable.
+        /// </summary>
+        public const uint FutureFactories_XmlSchema_ParameterResultDataType = 26774;
     }
     #endregion
 
@@ -26699,14 +26699,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId TransferResultErrorDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.TransferResultErrorDataType, Opc.Ua.Di.Namespaces.DI);
 
         /// <summary>
-        /// The identifier for the ParameterResultDataType DataType.
-        /// </summary>
-        public static readonly ExpandedNodeId ParameterResultDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.ParameterResultDataType, Opc.Ua.Di.Namespaces.DI);
-
-        /// <summary>
         /// The identifier for the TransferResultDataDataType DataType.
         /// </summary>
         public static readonly ExpandedNodeId TransferResultDataDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.TransferResultDataDataType, Opc.Ua.Di.Namespaces.DI);
+
+        /// <summary>
+        /// The identifier for the ParameterResultDataType DataType.
+        /// </summary>
+        public static readonly ExpandedNodeId ParameterResultDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.ParameterResultDataType, Opc.Ua.Di.Namespaces.DI);
 
         /// <summary>
         /// The identifier for the SoftwareVersionFileType DataType.
@@ -33474,14 +33474,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.DI);
 
         /// <summary>
-        /// The identifier for the ParameterResultDataType_Encoding_DefaultBinary Object.
-        /// </summary>
-        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.DI);
-
-        /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultBinary Object.
         /// </summary>
         public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.DI);
+
+        /// <summary>
+        /// The identifier for the ParameterResultDataType_Encoding_DefaultBinary Object.
+        /// </summary>
+        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.DI);
 
         /// <summary>
         /// The identifier for the FetchResultDataType_Encoding_DefaultXml Object.
@@ -33494,14 +33494,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.DI);
 
         /// <summary>
-        /// The identifier for the ParameterResultDataType_Encoding_DefaultXml Object.
-        /// </summary>
-        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.DI);
-
-        /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultXml Object.
         /// </summary>
         public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.DI);
+
+        /// <summary>
+        /// The identifier for the ParameterResultDataType_Encoding_DefaultXml Object.
+        /// </summary>
+        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.DI);
 
         /// <summary>
         /// The identifier for the FetchResultDataType_Encoding_DefaultJson Object.
@@ -33514,14 +33514,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.DI);
 
         /// <summary>
-        /// The identifier for the ParameterResultDataType_Encoding_DefaultJson Object.
-        /// </summary>
-        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.DI);
-
-        /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultJson Object.
         /// </summary>
         public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.DI);
+
+        /// <summary>
+        /// The identifier for the ParameterResultDataType_Encoding_DefaultJson Object.
+        /// </summary>
+        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.DI);
     }
     #endregion
 
@@ -53249,14 +53249,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId FutureFactories_BinarySchema_TransferResultErrorDataType = new ExpandedNodeId(Opc.Ua.Ff.Variables.FutureFactories_BinarySchema_TransferResultErrorDataType, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the FutureFactories_BinarySchema_ParameterResultDataType Variable.
-        /// </summary>
-        public static readonly ExpandedNodeId FutureFactories_BinarySchema_ParameterResultDataType = new ExpandedNodeId(Opc.Ua.Ff.Variables.FutureFactories_BinarySchema_ParameterResultDataType, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
         /// The identifier for the FutureFactories_BinarySchema_TransferResultDataDataType Variable.
         /// </summary>
         public static readonly ExpandedNodeId FutureFactories_BinarySchema_TransferResultDataDataType = new ExpandedNodeId(Opc.Ua.Ff.Variables.FutureFactories_BinarySchema_TransferResultDataDataType, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
+        /// The identifier for the FutureFactories_BinarySchema_ParameterResultDataType Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId FutureFactories_BinarySchema_ParameterResultDataType = new ExpandedNodeId(Opc.Ua.Ff.Variables.FutureFactories_BinarySchema_ParameterResultDataType, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the FutureFactories_XmlSchema Variable.
@@ -53284,14 +53284,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId FutureFactories_XmlSchema_TransferResultErrorDataType = new ExpandedNodeId(Opc.Ua.Ff.Variables.FutureFactories_XmlSchema_TransferResultErrorDataType, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the FutureFactories_XmlSchema_ParameterResultDataType Variable.
-        /// </summary>
-        public static readonly ExpandedNodeId FutureFactories_XmlSchema_ParameterResultDataType = new ExpandedNodeId(Opc.Ua.Ff.Variables.FutureFactories_XmlSchema_ParameterResultDataType, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
         /// The identifier for the FutureFactories_XmlSchema_TransferResultDataDataType Variable.
         /// </summary>
         public static readonly ExpandedNodeId FutureFactories_XmlSchema_TransferResultDataDataType = new ExpandedNodeId(Opc.Ua.Ff.Variables.FutureFactories_XmlSchema_TransferResultDataDataType, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
+        /// The identifier for the FutureFactories_XmlSchema_ParameterResultDataType Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId FutureFactories_XmlSchema_ParameterResultDataType = new ExpandedNodeId(Opc.Ua.Ff.Variables.FutureFactories_XmlSchema_ParameterResultDataType, Opc.Ua.Ff.Namespaces.FutureFactories);
     }
     #endregion
 

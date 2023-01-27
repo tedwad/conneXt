@@ -25,24 +25,24 @@
   <opc:StructuredType Name="FetchResultDataType" BaseType="ua:ExtensionObject">
   </opc:StructuredType>
 
-  <opc:StructuredType Name="TransferResultErrorDataType" BaseType="DI:FetchResultDataType">
-    <opc:Field Name="Status" TypeName="opc:Int32" />
-    <opc:Field Name="Diagnostics" TypeName="ua:DiagnosticInfo" />
-  </opc:StructuredType>
+	<opc:StructuredType Name="TransferResultErrorDataType" BaseType="tns:FetchResultDataType">
+		<opc:Field Name="Status" TypeName="opc:Int32" />
+		<opc:Field Name="Diagnostics" TypeName="ua:DiagnosticInfo" />
+	</opc:StructuredType>
 
-  <opc:StructuredType Name="ParameterResultDataType" BaseType="ua:ExtensionObject">
-    <opc:Field Name="NoOfNodePath" TypeName="opc:Int32" />
-    <opc:Field Name="NodePath" TypeName="ua:QualifiedName" LengthField="NoOfNodePath" />
-    <opc:Field Name="StatusCode" TypeName="ua:StatusCode" />
-    <opc:Field Name="Diagnostics" TypeName="ua:DiagnosticInfo" />
-  </opc:StructuredType>
+	<opc:StructuredType Name="TransferResultDataDataType" BaseType="tns:FetchResultDataType">
+		<opc:Field Name="SequenceNumber" TypeName="opc:Int32" />
+		<opc:Field Name="EndOfResults" TypeName="opc:Boolean" />
+		<opc:Field Name="NoOfParameterDefs" TypeName="opc:Int32" />
+		<opc:Field Name="ParameterDefs" TypeName="tns:ParameterResultDataType" LengthField="NoOfParameterDefs" />
+	</opc:StructuredType>
 
-  <opc:StructuredType Name="TransferResultDataDataType" BaseType="DI:FetchResultDataType">
-    <opc:Field Name="SequenceNumber" TypeName="opc:Int32" />
-    <opc:Field Name="EndOfResults" TypeName="opc:Boolean" />
-    <opc:Field Name="NoOfParameterDefs" TypeName="opc:Int32" />
-    <opc:Field Name="ParameterDefs" TypeName="DI:ParameterResultDataType" LengthField="NoOfParameterDefs" />
-  </opc:StructuredType>
+	<opc:StructuredType Name="ParameterResultDataType" BaseType="ua:ExtensionObject">
+		<opc:Field Name="NoOfNodePath" TypeName="opc:Int32" />
+		<opc:Field Name="NodePath" TypeName="ua:QualifiedName" LengthField="NoOfNodePath" />
+		<opc:Field Name="StatusCode" TypeName="ua:StatusCode" />
+		<opc:Field Name="Diagnostics" TypeName="ua:DiagnosticInfo" />
+	</opc:StructuredType>
 
   <opc:EnumeratedType Name="SoftwareVersionFileType" LengthInBits="32">
     <opc:EnumeratedValue Name="Current" Value="0" />

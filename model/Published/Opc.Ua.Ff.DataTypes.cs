@@ -597,265 +597,6 @@ namespace Opc.Ua.Ff
     #endif
     #endregion
 
-    #region ParameterResultDataType Class
-    #if (!OPCUA_EXCLUDE_ParameterResultDataType)
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)]
-    public partial class ParameterResultDataType : IEncodeable
-    {
-        #region Constructors
-        /// <summary>
-        /// The default constructor.
-        /// </summary>
-        public ParameterResultDataType()
-        {
-            Initialize();
-        }
-
-        /// <summary>
-        /// Called by the .NET framework during deserialization.
-        /// </summary>
-        [OnDeserializing]
-        private void Initialize(StreamingContext context)
-        {
-            Initialize();
-        }
-
-        /// <summary>
-        /// Sets private members to default values.
-        /// </summary>
-        private void Initialize()
-        {
-            m_nodePath = new QualifiedNameCollection();
-            m_statusCode = StatusCodes.Good;
-            m_diagnostics = null;
-        }
-        #endregion
-
-        #region Public Properties
-        /// <summary>
-        /// 
-        /// </summary>
-        [DataMember(Name = "NodePath", IsRequired = false, Order = 1)]
-        public QualifiedNameCollection NodePath
-        {
-            get
-            {
-                return m_nodePath;
-            }
-
-            set
-            {
-                m_nodePath = value;
-
-                if (value == null)
-                {
-                    m_nodePath = new QualifiedNameCollection();
-                }
-            }
-        }
-
-        /// <remarks />
-        [DataMember(Name = "StatusCode", IsRequired = false, Order = 2)]
-        public StatusCode StatusCode
-        {
-            get { return m_statusCode;  }
-            set { m_statusCode = value; }
-        }
-
-        /// <remarks />
-        [DataMember(Name = "Diagnostics", IsRequired = false, Order = 3)]
-        public DiagnosticInfo Diagnostics
-        {
-            get { return m_diagnostics;  }
-            set { m_diagnostics = value; }
-        }
-        #endregion
-
-        #region IEncodeable Members
-        /// <summary cref="IEncodeable.TypeId" />
-        public virtual ExpandedNodeId TypeId
-        {
-            get { return DataTypeIds.ParameterResultDataType; }
-        }
-
-        /// <summary cref="IEncodeable.BinaryEncodingId" />
-        public virtual ExpandedNodeId BinaryEncodingId
-        {
-            get { return ObjectIds.ParameterResultDataType_Encoding_DefaultBinary; }
-        }
-
-        /// <summary cref="IEncodeable.XmlEncodingId" />
-        public virtual ExpandedNodeId XmlEncodingId
-        {
-            get { return ObjectIds.ParameterResultDataType_Encoding_DefaultXml; }
-        }
-
-        /// <summary cref="IEncodeable.Encode(IEncoder)" />
-        public virtual void Encode(IEncoder encoder)
-        {
-            encoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
-
-            encoder.WriteQualifiedNameArray("NodePath", NodePath);
-            encoder.WriteStatusCode("StatusCode", StatusCode);
-            encoder.WriteDiagnosticInfo("Diagnostics", Diagnostics);
-
-            encoder.PopNamespace();
-        }
-
-        /// <summary cref="IEncodeable.Decode(IDecoder)" />
-        public virtual void Decode(IDecoder decoder)
-        {
-            decoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
-
-            NodePath = decoder.ReadQualifiedNameArray("NodePath");
-            StatusCode = decoder.ReadStatusCode("StatusCode");
-            Diagnostics = decoder.ReadDiagnosticInfo("Diagnostics");
-
-            decoder.PopNamespace();
-        }
-
-        /// <summary cref="IEncodeable.IsEqual(IEncodeable)" />
-        public virtual bool IsEqual(IEncodeable encodeable)
-        {
-            if (Object.ReferenceEquals(this, encodeable))
-            {
-                return true;
-            }
-
-            ParameterResultDataType value = encodeable as ParameterResultDataType;
-
-            if (value == null)
-            {
-                return false;
-            }
-
-            if (!Utils.IsEqual(m_nodePath, value.m_nodePath)) return false;
-            if (!Utils.IsEqual(m_statusCode, value.m_statusCode)) return false;
-            if (!Utils.IsEqual(m_diagnostics, value.m_diagnostics)) return false;
-
-            return true;
-        }
-
-        #if !NET_STANDARD
-        /// <summary cref="ICloneable.Clone" />
-        public virtual object Clone()
-        {
-            return (ParameterResultDataType)this.MemberwiseClone();
-        }
-        #endif
-
-        /// <summary cref="Object.MemberwiseClone" />
-        public new object MemberwiseClone()
-        {
-            ParameterResultDataType clone = (ParameterResultDataType)base.MemberwiseClone();
-
-            clone.m_nodePath = (QualifiedNameCollection)Utils.Clone(this.m_nodePath);
-            clone.m_statusCode = (StatusCode)Utils.Clone(this.m_statusCode);
-            clone.m_diagnostics = (DiagnosticInfo)Utils.Clone(this.m_diagnostics);
-
-            return clone;
-        }
-        #endregion
-
-        #region Private Fields
-        private QualifiedNameCollection m_nodePath;
-        private StatusCode m_statusCode;
-        private DiagnosticInfo m_diagnostics;
-        #endregion
-    }
-
-    #region ParameterResultDataTypeCollection Class
-    /// <summary>
-    /// A collection of ParameterResultDataType objects.
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [CollectionDataContract(Name = "ListOfParameterResultDataType", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "ParameterResultDataType")]
-    #if !NET_STANDARD
-    public partial class ParameterResultDataTypeCollection : List<ParameterResultDataType>, ICloneable
-    #else
-    public partial class ParameterResultDataTypeCollection : List<ParameterResultDataType>
-    #endif
-    {
-        #region Constructors
-        /// <summary>
-        /// Initializes the collection with default values.
-        /// </summary>
-        public ParameterResultDataTypeCollection() {}
-
-        /// <summary>
-        /// Initializes the collection with an initial capacity.
-        /// </summary>
-        public ParameterResultDataTypeCollection(int capacity) : base(capacity) {}
-
-        /// <summary>
-        /// Initializes the collection with another collection.
-        /// </summary>
-        public ParameterResultDataTypeCollection(IEnumerable<ParameterResultDataType> collection) : base(collection) {}
-        #endregion
-
-        #region Static Operators
-        /// <summary>
-        /// Converts an array to a collection.
-        /// </summary>
-        public static implicit operator ParameterResultDataTypeCollection(ParameterResultDataType[] values)
-        {
-            if (values != null)
-            {
-                return new ParameterResultDataTypeCollection(values);
-            }
-
-            return new ParameterResultDataTypeCollection();
-        }
-
-        /// <summary>
-        /// Converts a collection to an array.
-        /// </summary>
-        public static explicit operator ParameterResultDataType[](ParameterResultDataTypeCollection values)
-        {
-            if (values != null)
-            {
-                return values.ToArray();
-            }
-
-            return null;
-        }
-        #endregion
-
-        #if !NET_STANDARD
-        #region ICloneable Methods
-        /// <summary>
-        /// Creates a deep copy of the collection.
-        /// </summary>
-        public object Clone()
-        {
-            return (ParameterResultDataTypeCollection)this.MemberwiseClone();
-        }
-        #endregion
-        #endif
-
-        /// <summary cref="Object.MemberwiseClone" />
-        public new object MemberwiseClone()
-        {
-            ParameterResultDataTypeCollection clone = new ParameterResultDataTypeCollection(this.Count);
-
-            for (int ii = 0; ii < this.Count; ii++)
-            {
-                clone.Add((ParameterResultDataType)Utils.Clone(this[ii]));
-            }
-
-            return clone;
-        }
-    }
-    #endregion
-    #endif
-    #endregion
-
     #region TransferResultDataDataType Class
     #if (!OPCUA_EXCLUDE_TransferResultDataDataType)
     /// <summary>
@@ -1111,6 +852,265 @@ namespace Opc.Ua.Ff
             for (int ii = 0; ii < this.Count; ii++)
             {
                 clone.Add((TransferResultDataDataType)Utils.Clone(this[ii]));
+            }
+
+            return clone;
+        }
+    }
+    #endregion
+    #endif
+    #endregion
+
+    #region ParameterResultDataType Class
+    #if (!OPCUA_EXCLUDE_ParameterResultDataType)
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <exclude />
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
+    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)]
+    public partial class ParameterResultDataType : IEncodeable
+    {
+        #region Constructors
+        /// <summary>
+        /// The default constructor.
+        /// </summary>
+        public ParameterResultDataType()
+        {
+            Initialize();
+        }
+
+        /// <summary>
+        /// Called by the .NET framework during deserialization.
+        /// </summary>
+        [OnDeserializing]
+        private void Initialize(StreamingContext context)
+        {
+            Initialize();
+        }
+
+        /// <summary>
+        /// Sets private members to default values.
+        /// </summary>
+        private void Initialize()
+        {
+            m_nodePath = new QualifiedNameCollection();
+            m_statusCode = StatusCodes.Good;
+            m_diagnostics = null;
+        }
+        #endregion
+
+        #region Public Properties
+        /// <summary>
+        /// 
+        /// </summary>
+        [DataMember(Name = "NodePath", IsRequired = false, Order = 1)]
+        public QualifiedNameCollection NodePath
+        {
+            get
+            {
+                return m_nodePath;
+            }
+
+            set
+            {
+                m_nodePath = value;
+
+                if (value == null)
+                {
+                    m_nodePath = new QualifiedNameCollection();
+                }
+            }
+        }
+
+        /// <remarks />
+        [DataMember(Name = "StatusCode", IsRequired = false, Order = 2)]
+        public StatusCode StatusCode
+        {
+            get { return m_statusCode;  }
+            set { m_statusCode = value; }
+        }
+
+        /// <remarks />
+        [DataMember(Name = "Diagnostics", IsRequired = false, Order = 3)]
+        public DiagnosticInfo Diagnostics
+        {
+            get { return m_diagnostics;  }
+            set { m_diagnostics = value; }
+        }
+        #endregion
+
+        #region IEncodeable Members
+        /// <summary cref="IEncodeable.TypeId" />
+        public virtual ExpandedNodeId TypeId
+        {
+            get { return DataTypeIds.ParameterResultDataType; }
+        }
+
+        /// <summary cref="IEncodeable.BinaryEncodingId" />
+        public virtual ExpandedNodeId BinaryEncodingId
+        {
+            get { return ObjectIds.ParameterResultDataType_Encoding_DefaultBinary; }
+        }
+
+        /// <summary cref="IEncodeable.XmlEncodingId" />
+        public virtual ExpandedNodeId XmlEncodingId
+        {
+            get { return ObjectIds.ParameterResultDataType_Encoding_DefaultXml; }
+        }
+
+        /// <summary cref="IEncodeable.Encode(IEncoder)" />
+        public virtual void Encode(IEncoder encoder)
+        {
+            encoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+
+            encoder.WriteQualifiedNameArray("NodePath", NodePath);
+            encoder.WriteStatusCode("StatusCode", StatusCode);
+            encoder.WriteDiagnosticInfo("Diagnostics", Diagnostics);
+
+            encoder.PopNamespace();
+        }
+
+        /// <summary cref="IEncodeable.Decode(IDecoder)" />
+        public virtual void Decode(IDecoder decoder)
+        {
+            decoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+
+            NodePath = decoder.ReadQualifiedNameArray("NodePath");
+            StatusCode = decoder.ReadStatusCode("StatusCode");
+            Diagnostics = decoder.ReadDiagnosticInfo("Diagnostics");
+
+            decoder.PopNamespace();
+        }
+
+        /// <summary cref="IEncodeable.IsEqual(IEncodeable)" />
+        public virtual bool IsEqual(IEncodeable encodeable)
+        {
+            if (Object.ReferenceEquals(this, encodeable))
+            {
+                return true;
+            }
+
+            ParameterResultDataType value = encodeable as ParameterResultDataType;
+
+            if (value == null)
+            {
+                return false;
+            }
+
+            if (!Utils.IsEqual(m_nodePath, value.m_nodePath)) return false;
+            if (!Utils.IsEqual(m_statusCode, value.m_statusCode)) return false;
+            if (!Utils.IsEqual(m_diagnostics, value.m_diagnostics)) return false;
+
+            return true;
+        }
+
+        #if !NET_STANDARD
+        /// <summary cref="ICloneable.Clone" />
+        public virtual object Clone()
+        {
+            return (ParameterResultDataType)this.MemberwiseClone();
+        }
+        #endif
+
+        /// <summary cref="Object.MemberwiseClone" />
+        public new object MemberwiseClone()
+        {
+            ParameterResultDataType clone = (ParameterResultDataType)base.MemberwiseClone();
+
+            clone.m_nodePath = (QualifiedNameCollection)Utils.Clone(this.m_nodePath);
+            clone.m_statusCode = (StatusCode)Utils.Clone(this.m_statusCode);
+            clone.m_diagnostics = (DiagnosticInfo)Utils.Clone(this.m_diagnostics);
+
+            return clone;
+        }
+        #endregion
+
+        #region Private Fields
+        private QualifiedNameCollection m_nodePath;
+        private StatusCode m_statusCode;
+        private DiagnosticInfo m_diagnostics;
+        #endregion
+    }
+
+    #region ParameterResultDataTypeCollection Class
+    /// <summary>
+    /// A collection of ParameterResultDataType objects.
+    /// </summary>
+    /// <exclude />
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
+    [CollectionDataContract(Name = "ListOfParameterResultDataType", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "ParameterResultDataType")]
+    #if !NET_STANDARD
+    public partial class ParameterResultDataTypeCollection : List<ParameterResultDataType>, ICloneable
+    #else
+    public partial class ParameterResultDataTypeCollection : List<ParameterResultDataType>
+    #endif
+    {
+        #region Constructors
+        /// <summary>
+        /// Initializes the collection with default values.
+        /// </summary>
+        public ParameterResultDataTypeCollection() {}
+
+        /// <summary>
+        /// Initializes the collection with an initial capacity.
+        /// </summary>
+        public ParameterResultDataTypeCollection(int capacity) : base(capacity) {}
+
+        /// <summary>
+        /// Initializes the collection with another collection.
+        /// </summary>
+        public ParameterResultDataTypeCollection(IEnumerable<ParameterResultDataType> collection) : base(collection) {}
+        #endregion
+
+        #region Static Operators
+        /// <summary>
+        /// Converts an array to a collection.
+        /// </summary>
+        public static implicit operator ParameterResultDataTypeCollection(ParameterResultDataType[] values)
+        {
+            if (values != null)
+            {
+                return new ParameterResultDataTypeCollection(values);
+            }
+
+            return new ParameterResultDataTypeCollection();
+        }
+
+        /// <summary>
+        /// Converts a collection to an array.
+        /// </summary>
+        public static explicit operator ParameterResultDataType[](ParameterResultDataTypeCollection values)
+        {
+            if (values != null)
+            {
+                return values.ToArray();
+            }
+
+            return null;
+        }
+        #endregion
+
+        #if !NET_STANDARD
+        #region ICloneable Methods
+        /// <summary>
+        /// Creates a deep copy of the collection.
+        /// </summary>
+        public object Clone()
+        {
+            return (ParameterResultDataTypeCollection)this.MemberwiseClone();
+        }
+        #endregion
+        #endif
+
+        /// <summary cref="Object.MemberwiseClone" />
+        public new object MemberwiseClone()
+        {
+            ParameterResultDataTypeCollection clone = new ParameterResultDataTypeCollection(this.Count);
+
+            for (int ii = 0; ii < this.Count; ii++)
+            {
+                clone.Add((ParameterResultDataType)Utils.Clone(this[ii]));
             }
 
             return clone;

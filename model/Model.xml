@@ -492,19 +492,19 @@
 		</Fields>
 	</DataType>
 
-	<DataType SymbolicName="DI:ParameterResultDataType" BaseType="ua:Structure">
-		<Fields>
-			<Field Name="NodePath" DataType="ua:QualifiedName" ValueRank="Array" />
-			<Field Name="StatusCode" DataType="ua:StatusCode" />
-			<Field Name="Diagnostics" DataType="ua:DiagnosticInfo" />
-		</Fields>
-	</DataType>
-
 	<DataType SymbolicName="DI:TransferResultDataDataType" BaseType="DI:FetchResultDataType">
 		<Fields>
 			<Field Name="SequenceNumber" DataType="ua:Int32" />
 			<Field Name="EndOfResults" DataType="ua:Boolean" />
 			<Field Name="ParameterDefs" DataType="DI:ParameterResultDataType" ValueRank="Array" />
+		</Fields>
+	</DataType>
+
+	<DataType SymbolicName="DI:ParameterResultDataType" BaseType="ua:Structure">
+		<Fields>
+			<Field Name="NodePath" DataType="ua:QualifiedName" ValueRank="Array" />
+			<Field Name="StatusCode" DataType="ua:StatusCode" />
+			<Field Name="Diagnostics" DataType="ua:DiagnosticInfo" />
 		</Fields>
 	</DataType>
 
