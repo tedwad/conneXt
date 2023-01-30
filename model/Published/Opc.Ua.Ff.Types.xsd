@@ -1,6 +1,6 @@
 <xs:schema
   xmlns:DI="http://opcfoundation.org/UA/DI/Types.xsd"
-  xmlns:Robotics="http://opcfoundation.org/UA/Robotics/Types.xsd"
+  xmlns:ROB="http://opcfoundation.org/UA/Robotics/Types.xsd"
   xmlns:PLC="http://plcopen.org/OpcUa/IEC61131-3/"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd"

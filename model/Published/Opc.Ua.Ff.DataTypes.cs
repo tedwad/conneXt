@@ -46,7 +46,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)]
+    [DataContract(Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd)]
     public enum DeviceHealthEnumeration
     {
         /// <remarks />
@@ -76,7 +76,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [CollectionDataContract(Name = "ListOfDeviceHealthEnumeration", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "DeviceHealthEnumeration")]
+    [CollectionDataContract(Name = "ListOfDeviceHealthEnumeration", Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd, ItemName = "DeviceHealthEnumeration")]
     #if !NET_STANDARD
     public partial class DeviceHealthEnumerationCollection : List<DeviceHealthEnumeration>, ICloneable
     #else
@@ -164,7 +164,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)]
+    [DataContract(Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd)]
     public partial class FetchResultDataType : IEncodeable
     {
         #region Constructors
@@ -218,7 +218,7 @@ namespace Opc.Ua.Ff
         /// <summary cref="IEncodeable.Encode(IEncoder)" />
         public virtual void Encode(IEncoder encoder)
         {
-            encoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+            encoder.PushNamespace(Opc.Ua.Di.Namespaces.OpcUaDiXsd);
 
 
             encoder.PopNamespace();
@@ -227,7 +227,7 @@ namespace Opc.Ua.Ff
         /// <summary cref="IEncodeable.Decode(IDecoder)" />
         public virtual void Decode(IDecoder decoder)
         {
-            decoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+            decoder.PushNamespace(Opc.Ua.Di.Namespaces.OpcUaDiXsd);
 
 
             decoder.PopNamespace();
@@ -280,7 +280,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [CollectionDataContract(Name = "ListOfFetchResultDataType", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "FetchResultDataType")]
+    [CollectionDataContract(Name = "ListOfFetchResultDataType", Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd, ItemName = "FetchResultDataType")]
     #if !NET_STANDARD
     public partial class FetchResultDataTypeCollection : List<FetchResultDataType>, ICloneable
     #else
@@ -368,7 +368,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)]
+    [DataContract(Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd)]
     public partial class TransferResultErrorDataType : FetchResultDataType
     {
         #region Constructors
@@ -441,7 +441,7 @@ namespace Opc.Ua.Ff
         {
             base.Encode(encoder);
 
-            encoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+            encoder.PushNamespace(Opc.Ua.Di.Namespaces.OpcUaDiXsd);
 
             encoder.WriteInt32("Status", Status);
             encoder.WriteDiagnosticInfo("Diagnostics", Diagnostics);
@@ -454,7 +454,7 @@ namespace Opc.Ua.Ff
         {
             base.Decode(decoder);
 
-            decoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+            decoder.PushNamespace(Opc.Ua.Di.Namespaces.OpcUaDiXsd);
 
             Status = decoder.ReadInt32("Status");
             Diagnostics = decoder.ReadDiagnosticInfo("Diagnostics");
@@ -516,7 +516,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [CollectionDataContract(Name = "ListOfTransferResultErrorDataType", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "TransferResultErrorDataType")]
+    [CollectionDataContract(Name = "ListOfTransferResultErrorDataType", Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd, ItemName = "TransferResultErrorDataType")]
     #if !NET_STANDARD
     public partial class TransferResultErrorDataTypeCollection : List<TransferResultErrorDataType>, ICloneable
     #else
@@ -604,7 +604,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)]
+    [DataContract(Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd)]
     public partial class TransferResultDataDataType : FetchResultDataType
     {
         #region Constructors
@@ -700,7 +700,7 @@ namespace Opc.Ua.Ff
         {
             base.Encode(encoder);
 
-            encoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+            encoder.PushNamespace(Opc.Ua.Di.Namespaces.OpcUaDiXsd);
 
             encoder.WriteInt32("SequenceNumber", SequenceNumber);
             encoder.WriteBoolean("EndOfResults", EndOfResults);
@@ -714,7 +714,7 @@ namespace Opc.Ua.Ff
         {
             base.Decode(decoder);
 
-            decoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+            decoder.PushNamespace(Opc.Ua.Di.Namespaces.OpcUaDiXsd);
 
             SequenceNumber = decoder.ReadInt32("SequenceNumber");
             EndOfResults = decoder.ReadBoolean("EndOfResults");
@@ -780,7 +780,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [CollectionDataContract(Name = "ListOfTransferResultDataDataType", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "TransferResultDataDataType")]
+    [CollectionDataContract(Name = "ListOfTransferResultDataDataType", Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd, ItemName = "TransferResultDataDataType")]
     #if !NET_STANDARD
     public partial class TransferResultDataDataTypeCollection : List<TransferResultDataDataType>, ICloneable
     #else
@@ -868,7 +868,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)]
+    [DataContract(Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd)]
     public partial class ParameterResultDataType : IEncodeable
     {
         #region Constructors
@@ -962,7 +962,7 @@ namespace Opc.Ua.Ff
         /// <summary cref="IEncodeable.Encode(IEncoder)" />
         public virtual void Encode(IEncoder encoder)
         {
-            encoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+            encoder.PushNamespace(Opc.Ua.Di.Namespaces.OpcUaDiXsd);
 
             encoder.WriteQualifiedNameArray("NodePath", NodePath);
             encoder.WriteStatusCode("StatusCode", StatusCode);
@@ -974,7 +974,7 @@ namespace Opc.Ua.Ff
         /// <summary cref="IEncodeable.Decode(IDecoder)" />
         public virtual void Decode(IDecoder decoder)
         {
-            decoder.PushNamespace(Opc.Ua.Di.Namespaces.DIXsd);
+            decoder.PushNamespace(Opc.Ua.Di.Namespaces.OpcUaDiXsd);
 
             NodePath = decoder.ReadQualifiedNameArray("NodePath");
             StatusCode = decoder.ReadStatusCode("StatusCode");
@@ -1039,7 +1039,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [CollectionDataContract(Name = "ListOfParameterResultDataType", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "ParameterResultDataType")]
+    [CollectionDataContract(Name = "ListOfParameterResultDataType", Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd, ItemName = "ParameterResultDataType")]
     #if !NET_STANDARD
     public partial class ParameterResultDataTypeCollection : List<ParameterResultDataType>, ICloneable
     #else
@@ -1127,7 +1127,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)]
+    [DataContract(Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd)]
     public enum SoftwareVersionFileType
     {
         /// <remarks />
@@ -1149,7 +1149,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [CollectionDataContract(Name = "ListOfSoftwareVersionFileType", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "SoftwareVersionFileType")]
+    [CollectionDataContract(Name = "ListOfSoftwareVersionFileType", Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd, ItemName = "SoftwareVersionFileType")]
     #if !NET_STANDARD
     public partial class SoftwareVersionFileTypeCollection : List<SoftwareVersionFileType>, ICloneable
     #else
@@ -1237,7 +1237,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [DataContract(Namespace = Opc.Ua.Di.Namespaces.DIXsd)][Flags]
+    [DataContract(Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd)][Flags]
     public enum UpdateBehavior : UInt32
     {
         /// <remarks />
@@ -1271,7 +1271,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    [CollectionDataContract(Name = "ListOfUpdateBehavior", Namespace = Opc.Ua.Di.Namespaces.DIXsd, ItemName = "UpdateBehavior")]
+    [CollectionDataContract(Name = "ListOfUpdateBehavior", Namespace = Opc.Ua.Di.Namespaces.OpcUaDiXsd, ItemName = "UpdateBehavior")]
     #if !NET_STANDARD
     public partial class UpdateBehaviorCollection : List<UpdateBehavior>, ICloneable
     #else

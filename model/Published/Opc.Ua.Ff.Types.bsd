@@ -1,6 +1,6 @@
 <opc:TypeDictionary
   xmlns:DI="http://opcfoundation.org/UA/DI/"
-  xmlns:Robotics="http://opcfoundation.org/UA/Robotics/"
+  xmlns:ROB="http://opcfoundation.org/UA/Robotics/"
   xmlns:PLC="http://plcopen.org/OpcUa/IEC61131-3/"
   xmlns:opc="http://opcfoundation.org/BinarySchema/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

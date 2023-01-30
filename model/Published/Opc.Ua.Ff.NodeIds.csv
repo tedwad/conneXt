@@ -24,7 +24,6 @@ DeviceHealthEnumeration,16012,DataType
 DeviceSet,15037,Object
 DeviceTopology,15040,Object
 DeviceType,15128,ObjectType
-DINamespaceMetadata,26781,Object
 DirectLoadingType,16249,ObjectType
 DriveType,18197,ObjectType
 EmergencyStopFunctionType,17682,ObjectType
@@ -75,6 +74,7 @@ NetworkSet,15039,Object
 NetworkType,16015,ObjectType
 OffSpecAlarmType,15706,ObjectType
 OPCUAConneXtNamespaceMetadata,18562,Object
+OPCUADINamespaceMetadata,15001,Object
 OPCUAROBOTICSNamespaceMetadata,16479,Object
 OperationalModeEnumeration,18560,DataType
 PackageLoadingType,16226,ObjectType

@@ -114,34 +114,34 @@ namespace Opc.Ua.Ff
     public static partial class Methods
     {
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Open Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Open Method.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Open = 26795;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Open = 15015;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Close Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Close Method.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Close = 26798;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Close = 15018;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Read Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Read Method.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Read = 26800;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Read = 15020;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Write Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Write Method.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Write = 26803;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Write = 15023;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_GetPosition Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_GetPosition Method.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_GetPosition = 26805;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_GetPosition = 15025;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_SetPosition Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_SetPosition Method.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_SetPosition = 26808;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_SetPosition = 15028;
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_InitLock Method.
@@ -5084,9 +5084,9 @@ namespace Opc.Ua.Ff
     public static partial class Objects
     {
         /// <summary>
-        /// The identifier for the DINamespaceMetadata Object.
+        /// The identifier for the OPCUADINamespaceMetadata Object.
         /// </summary>
-        public const uint DINamespaceMetadata = 26781;
+        public const uint OPCUADINamespaceMetadata = 15001;
 
         /// <summary>
         /// The identifier for the DeviceSet Object.
@@ -7294,119 +7294,119 @@ namespace Opc.Ua.Ff
     public static partial class Variables
     {
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceUri Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceUri Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceUri = 26782;
+        public const uint OPCUADINamespaceMetadata_NamespaceUri = 15002;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceVersion Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceVersion Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceVersion = 26783;
+        public const uint OPCUADINamespaceMetadata_NamespaceVersion = 15003;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespacePublicationDate Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespacePublicationDate Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespacePublicationDate = 26784;
+        public const uint OPCUADINamespaceMetadata_NamespacePublicationDate = 15004;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_IsNamespaceSubset Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_IsNamespaceSubset Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_IsNamespaceSubset = 26785;
+        public const uint OPCUADINamespaceMetadata_IsNamespaceSubset = 15005;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_StaticNodeIdTypes Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_StaticNodeIdTypes Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_StaticNodeIdTypes = 26786;
+        public const uint OPCUADINamespaceMetadata_StaticNodeIdTypes = 15006;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_StaticNumericNodeIdRange Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_StaticNumericNodeIdRange Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_StaticNumericNodeIdRange = 26787;
+        public const uint OPCUADINamespaceMetadata_StaticNumericNodeIdRange = 15007;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_StaticStringNodeIdPattern Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_StaticStringNodeIdPattern Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_StaticStringNodeIdPattern = 26788;
+        public const uint OPCUADINamespaceMetadata_StaticStringNodeIdPattern = 15008;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Size Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Size Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Size = 26790;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Size = 15010;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Writable Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Writable Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Writable = 26791;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Writable = 15011;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_UserWritable Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_UserWritable Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_UserWritable = 26792;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_UserWritable = 15012;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_OpenCount Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_OpenCount Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_OpenCount = 26793;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_OpenCount = 15013;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Open_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Open_InputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Open_InputArguments = 26796;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Open_InputArguments = 15016;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Open_OutputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Open_OutputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Open_OutputArguments = 26797;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Open_OutputArguments = 15017;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Close_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Close_InputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Close_InputArguments = 26799;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Close_InputArguments = 15019;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Read_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Read_InputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Read_InputArguments = 26801;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Read_InputArguments = 15021;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Read_OutputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Read_OutputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Read_OutputArguments = 26802;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Read_OutputArguments = 15022;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Write_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Write_InputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_Write_InputArguments = 26804;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_Write_InputArguments = 15024;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_GetPosition_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_GetPosition_InputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_GetPosition_InputArguments = 26806;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_GetPosition_InputArguments = 15026;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments = 26807;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments = 15027;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_SetPosition_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_SetPosition_InputArguments Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_NamespaceFile_SetPosition_InputArguments = 26809;
+        public const uint OPCUADINamespaceMetadata_NamespaceFile_SetPosition_InputArguments = 15029;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_DefaultRolePermissions Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_DefaultRolePermissions Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_DefaultRolePermissions = 26811;
+        public const uint OPCUADINamespaceMetadata_DefaultRolePermissions = 15031;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_DefaultUserRolePermissions Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_DefaultUserRolePermissions Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_DefaultUserRolePermissions = 26812;
+        public const uint OPCUADINamespaceMetadata_DefaultUserRolePermissions = 15032;
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_DefaultAccessRestrictions Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_DefaultAccessRestrictions Variable.
         /// </summary>
-        public const uint DINamespaceMetadata_DefaultAccessRestrictions = 26813;
+        public const uint OPCUADINamespaceMetadata_DefaultAccessRestrictions = 15033;
 
         /// <summary>
         /// The identifier for the DeviceTopology_OnlineAccess Variable.
@@ -26686,37 +26686,37 @@ namespace Opc.Ua.Ff
         /// <summary>
         /// The identifier for the DeviceHealthEnumeration DataType.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthEnumeration = new ExpandedNodeId(Opc.Ua.Di.DataTypes.DeviceHealthEnumeration, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthEnumeration = new ExpandedNodeId(Opc.Ua.Di.DataTypes.DeviceHealthEnumeration, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FetchResultDataType DataType.
         /// </summary>
-        public static readonly ExpandedNodeId FetchResultDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.FetchResultDataType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FetchResultDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.FetchResultDataType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferResultErrorDataType DataType.
         /// </summary>
-        public static readonly ExpandedNodeId TransferResultErrorDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.TransferResultErrorDataType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferResultErrorDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.TransferResultErrorDataType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferResultDataDataType DataType.
         /// </summary>
-        public static readonly ExpandedNodeId TransferResultDataDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.TransferResultDataDataType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferResultDataDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.TransferResultDataDataType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ParameterResultDataType DataType.
         /// </summary>
-        public static readonly ExpandedNodeId ParameterResultDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.ParameterResultDataType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ParameterResultDataType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.ParameterResultDataType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionFileType DataType.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionFileType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.SoftwareVersionFileType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionFileType = new ExpandedNodeId(Opc.Ua.Di.DataTypes.SoftwareVersionFileType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the UpdateBehavior DataType.
         /// </summary>
-        public static readonly ExpandedNodeId UpdateBehavior = new ExpandedNodeId(Opc.Ua.Di.DataTypes.UpdateBehavior, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId UpdateBehavior = new ExpandedNodeId(Opc.Ua.Di.DataTypes.UpdateBehavior, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ExecutionModeEnumeration DataType.
@@ -26749,494 +26749,494 @@ namespace Opc.Ua.Ff
     public static partial class MethodIds
     {
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Open Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Open Method.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Open = new ExpandedNodeId(Opc.Ua.Di.Methods.DINamespaceMetadata_NamespaceFile_Open, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Open = new ExpandedNodeId(Opc.Ua.Di.Methods.OPCUADINamespaceMetadata_NamespaceFile_Open, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Close Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Close Method.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Close = new ExpandedNodeId(Opc.Ua.Di.Methods.DINamespaceMetadata_NamespaceFile_Close, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Close = new ExpandedNodeId(Opc.Ua.Di.Methods.OPCUADINamespaceMetadata_NamespaceFile_Close, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Read Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Read Method.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Read = new ExpandedNodeId(Opc.Ua.Di.Methods.DINamespaceMetadata_NamespaceFile_Read, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Read = new ExpandedNodeId(Opc.Ua.Di.Methods.OPCUADINamespaceMetadata_NamespaceFile_Read, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Write Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Write Method.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Write = new ExpandedNodeId(Opc.Ua.Di.Methods.DINamespaceMetadata_NamespaceFile_Write, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Write = new ExpandedNodeId(Opc.Ua.Di.Methods.OPCUADINamespaceMetadata_NamespaceFile_Write, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_GetPosition Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_GetPosition Method.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_GetPosition = new ExpandedNodeId(Opc.Ua.Di.Methods.DINamespaceMetadata_NamespaceFile_GetPosition, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_GetPosition = new ExpandedNodeId(Opc.Ua.Di.Methods.OPCUADINamespaceMetadata_NamespaceFile_GetPosition, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_SetPosition Method.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_SetPosition Method.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_SetPosition = new ExpandedNodeId(Opc.Ua.Di.Methods.DINamespaceMetadata_NamespaceFile_SetPosition, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_SetPosition = new ExpandedNodeId(Opc.Ua.Di.Methods.OPCUADINamespaceMetadata_NamespaceFile_SetPosition, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.TopologyElementType_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.TopologyElementType_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.TopologyElementType_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.TopologyElementType_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.TopologyElementType_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.TopologyElementType_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.TopologyElementType_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.TopologyElementType_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ComponentType_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ComponentType_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ComponentType_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ComponentType_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ComponentType_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ComponentType_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ComponentType_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ComponentType_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_CPIdentifier_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_CPIdentifier_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_CPIdentifier_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_CPIdentifier_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_CPIdentifier_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_CPIdentifier_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_CPIdentifier_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceType_CPIdentifier_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareType_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareType_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareType_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareType_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareType_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareType_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareType_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareType_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.BlockType_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.BlockType_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.BlockType_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.BlockType_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.BlockType_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.BlockType_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.BlockType_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.BlockType_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ShelvingState_Unshelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceHealthDiagnosticAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceHealthDiagnosticAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ShelvingState_OneShotShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceHealthDiagnosticAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.DeviceHealthDiagnosticAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ShelvingState_TimedShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.FailureAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.FailureAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ShelvingState_Unshelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.FailureAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.FailureAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ShelvingState_OneShotShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.FailureAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.FailureAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ShelvingState_TimedShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.CheckFunctionAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.CheckFunctionAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ShelvingState_Unshelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.CheckFunctionAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.CheckFunctionAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ShelvingState_OneShotShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.CheckFunctionAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.CheckFunctionAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ShelvingState_TimedShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.OffSpecAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.OffSpecAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ShelvingState_Unshelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.OffSpecAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.OffSpecAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ShelvingState_OneShotShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.OffSpecAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.OffSpecAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ShelvingState_TimedShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.MaintenanceRequiredAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_TimedShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.MaintenanceRequiredAlarmType_ShelvingState_TimedShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ShelvingState_Unshelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.MaintenanceRequiredAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_Unshelve = new ExpandedNodeId(Opc.Ua.Di.Methods.MaintenanceRequiredAlarmType_ShelvingState_Unshelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ShelvingState_OneShotShelve Method.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.MaintenanceRequiredAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_OneShotShelve = new ExpandedNodeId(Opc.Ua.Di.Methods.MaintenanceRequiredAlarmType_ShelvingState_OneShotShelve, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_CPIdentifier_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_CPIdentifier_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_CPIdentifier_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_CPIdentifier_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_CPIdentifier_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_CPIdentifier_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_CPIdentifier_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_CPIdentifier_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.NetworkType_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_NetworkIdentifier_Lock_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_NetworkIdentifier_Lock_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_NetworkIdentifier_Lock_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_NetworkIdentifier_Lock_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_NetworkIdentifier_Lock_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_NetworkIdentifier_Lock_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_NetworkIdentifier_Lock_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.ConnectionPointType_NetworkIdentifier_Lock_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferServicesType_TransferToDevice Method.
         /// </summary>
-        public static readonly ExpandedNodeId TransferServicesType_TransferToDevice = new ExpandedNodeId(Opc.Ua.Di.Methods.TransferServicesType_TransferToDevice, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferServicesType_TransferToDevice = new ExpandedNodeId(Opc.Ua.Di.Methods.TransferServicesType_TransferToDevice, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferServicesType_TransferFromDevice Method.
         /// </summary>
-        public static readonly ExpandedNodeId TransferServicesType_TransferFromDevice = new ExpandedNodeId(Opc.Ua.Di.Methods.TransferServicesType_TransferFromDevice, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferServicesType_TransferFromDevice = new ExpandedNodeId(Opc.Ua.Di.Methods.TransferServicesType_TransferFromDevice, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferServicesType_FetchTransferResultData Method.
         /// </summary>
-        public static readonly ExpandedNodeId TransferServicesType_FetchTransferResultData = new ExpandedNodeId(Opc.Ua.Di.Methods.TransferServicesType_FetchTransferResultData, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferServicesType_FetchTransferResultData = new ExpandedNodeId(Opc.Ua.Di.Methods.TransferServicesType_FetchTransferResultData, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_InitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.LockingServicesType_InitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_InitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.LockingServicesType_InitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_RenewLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.LockingServicesType_RenewLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_RenewLock = new ExpandedNodeId(Opc.Ua.Di.Methods.LockingServicesType_RenewLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_ExitLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.LockingServicesType_ExitLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_ExitLock = new ExpandedNodeId(Opc.Ua.Di.Methods.LockingServicesType_ExitLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_BreakLock Method.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.LockingServicesType_BreakLock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_BreakLock = new ExpandedNodeId(Opc.Ua.Di.Methods.LockingServicesType_BreakLock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PrepareForUpdate_Prepare Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_Prepare = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_PrepareForUpdate_Prepare, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_Prepare = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_PrepareForUpdate_Prepare, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PrepareForUpdate_Abort Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_Abort = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_PrepareForUpdate_Abort, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_Abort = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_PrepareForUpdate_Abort, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Installation_Resume Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_Resume = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Installation_Resume, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_Resume = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Installation_Resume, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Confirmation_Confirm Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_Confirm = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Confirmation_Confirm, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_Confirm = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Confirmation_Confirm, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_GenerateFileForRead Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForRead = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Parameters_GenerateFileForRead, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForRead = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Parameters_GenerateFileForRead, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_GenerateFileForWrite Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForWrite = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Parameters_GenerateFileForWrite, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForWrite = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Parameters_GenerateFileForWrite, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_CloseAndCommit Method.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_CloseAndCommit = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Parameters_CloseAndCommit, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_CloseAndCommit = new ExpandedNodeId(Opc.Ua.Di.Methods.SoftwareUpdateType_Parameters_CloseAndCommit, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_GenerateFileForRead Method.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForRead = new ExpandedNodeId(Opc.Ua.Di.Methods.PackageLoadingType_FileTransfer_GenerateFileForRead, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForRead = new ExpandedNodeId(Opc.Ua.Di.Methods.PackageLoadingType_FileTransfer_GenerateFileForRead, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_GenerateFileForWrite Method.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForWrite = new ExpandedNodeId(Opc.Ua.Di.Methods.PackageLoadingType_FileTransfer_GenerateFileForWrite, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForWrite = new ExpandedNodeId(Opc.Ua.Di.Methods.PackageLoadingType_FileTransfer_GenerateFileForWrite, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_CloseAndCommit Method.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_CloseAndCommit = new ExpandedNodeId(Opc.Ua.Di.Methods.PackageLoadingType_FileTransfer_CloseAndCommit, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_CloseAndCommit = new ExpandedNodeId(Opc.Ua.Di.Methods.PackageLoadingType_FileTransfer_CloseAndCommit, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_GenerateFileForRead Method.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForRead = new ExpandedNodeId(Opc.Ua.Di.Methods.DirectLoadingType_FileTransfer_GenerateFileForRead, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForRead = new ExpandedNodeId(Opc.Ua.Di.Methods.DirectLoadingType_FileTransfer_GenerateFileForRead, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_GenerateFileForWrite Method.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForWrite = new ExpandedNodeId(Opc.Ua.Di.Methods.DirectLoadingType_FileTransfer_GenerateFileForWrite, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForWrite = new ExpandedNodeId(Opc.Ua.Di.Methods.DirectLoadingType_FileTransfer_GenerateFileForWrite, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_CloseAndCommit Method.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_CloseAndCommit = new ExpandedNodeId(Opc.Ua.Di.Methods.DirectLoadingType_FileTransfer_CloseAndCommit, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_CloseAndCommit = new ExpandedNodeId(Opc.Ua.Di.Methods.DirectLoadingType_FileTransfer_CloseAndCommit, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_GenerateFileForRead Method.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForRead = new ExpandedNodeId(Opc.Ua.Di.Methods.CachedLoadingType_FileTransfer_GenerateFileForRead, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForRead = new ExpandedNodeId(Opc.Ua.Di.Methods.CachedLoadingType_FileTransfer_GenerateFileForRead, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_GenerateFileForWrite Method.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForWrite = new ExpandedNodeId(Opc.Ua.Di.Methods.CachedLoadingType_FileTransfer_GenerateFileForWrite, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForWrite = new ExpandedNodeId(Opc.Ua.Di.Methods.CachedLoadingType_FileTransfer_GenerateFileForWrite, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_CloseAndCommit Method.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_CloseAndCommit = new ExpandedNodeId(Opc.Ua.Di.Methods.CachedLoadingType_FileTransfer_CloseAndCommit, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_CloseAndCommit = new ExpandedNodeId(Opc.Ua.Di.Methods.CachedLoadingType_FileTransfer_CloseAndCommit, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_GetUpdateBehavior Method.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_GetUpdateBehavior = new ExpandedNodeId(Opc.Ua.Di.Methods.CachedLoadingType_GetUpdateBehavior, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_GetUpdateBehavior = new ExpandedNodeId(Opc.Ua.Di.Methods.CachedLoadingType_GetUpdateBehavior, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_CreateDirectory Method.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateDirectory = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_FileSystem_CreateDirectory, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateDirectory = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_FileSystem_CreateDirectory, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_CreateFile Method.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateFile = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_FileSystem_CreateFile, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateFile = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_FileSystem_CreateFile, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_DeleteFileSystemObject Method.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_DeleteFileSystemObject = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_FileSystem_DeleteFileSystemObject, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_DeleteFileSystemObject = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_FileSystem_DeleteFileSystemObject, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_MoveOrCopy Method.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_MoveOrCopy = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_FileSystem_MoveOrCopy, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_MoveOrCopy = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_FileSystem_MoveOrCopy, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_GetUpdateBehavior Method.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_GetUpdateBehavior = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_GetUpdateBehavior, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_GetUpdateBehavior = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_GetUpdateBehavior, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_ValidateFiles Method.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_ValidateFiles = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_ValidateFiles, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_ValidateFiles = new ExpandedNodeId(Opc.Ua.Di.Methods.FileSystemLoadingType_ValidateFiles, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Prepare Method.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Prepare = new ExpandedNodeId(Opc.Ua.Di.Methods.PrepareForUpdateStateMachineType_Prepare, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Prepare = new ExpandedNodeId(Opc.Ua.Di.Methods.PrepareForUpdateStateMachineType_Prepare, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Abort Method.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Abort = new ExpandedNodeId(Opc.Ua.Di.Methods.PrepareForUpdateStateMachineType_Abort, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Abort = new ExpandedNodeId(Opc.Ua.Di.Methods.PrepareForUpdateStateMachineType_Abort, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Resume Method.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Resume = new ExpandedNodeId(Opc.Ua.Di.Methods.PrepareForUpdateStateMachineType_Resume, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Resume = new ExpandedNodeId(Opc.Ua.Di.Methods.PrepareForUpdateStateMachineType_Resume, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallSoftwarePackage Method.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallSoftwarePackage = new ExpandedNodeId(Opc.Ua.Di.Methods.InstallationStateMachineType_InstallSoftwarePackage, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallSoftwarePackage = new ExpandedNodeId(Opc.Ua.Di.Methods.InstallationStateMachineType_InstallSoftwarePackage, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallFiles Method.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallFiles = new ExpandedNodeId(Opc.Ua.Di.Methods.InstallationStateMachineType_InstallFiles, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallFiles = new ExpandedNodeId(Opc.Ua.Di.Methods.InstallationStateMachineType_InstallFiles, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_Resume Method.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_Resume = new ExpandedNodeId(Opc.Ua.Di.Methods.InstallationStateMachineType_Resume, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_Resume = new ExpandedNodeId(Opc.Ua.Di.Methods.InstallationStateMachineType_Resume, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_Confirm Method.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_Confirm = new ExpandedNodeId(Opc.Ua.Di.Methods.ConfirmationStateMachineType_Confirm, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_Confirm = new ExpandedNodeId(Opc.Ua.Di.Methods.ConfirmationStateMachineType_Confirm, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OPCUAROBOTICSNamespaceMetadata_NamespaceFile_Open Method.
@@ -31719,339 +31719,339 @@ namespace Opc.Ua.Ff
     public static partial class ObjectIds
     {
         /// <summary>
-        /// The identifier for the DINamespaceMetadata Object.
+        /// The identifier for the OPCUADINamespaceMetadata Object.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata = new ExpandedNodeId(Opc.Ua.Di.Objects.DINamespaceMetadata, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata = new ExpandedNodeId(Opc.Ua.Di.Objects.OPCUADINamespaceMetadata, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceSet Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceSet = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceSet, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceSet = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceSet, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceFeatures Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceFeatures = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceFeatures, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceFeatures = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceFeatures, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkSet Object.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkSet = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkSet, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkSet = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkSet, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceTopology Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceTopology = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceTopology, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceTopology = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceTopology, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_ParameterSet Object.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_ParameterSet = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_ParameterSet, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_ParameterSet = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_ParameterSet, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_MethodSet Object.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_MethodSet = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_MethodSet, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_MethodSet = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_MethodSet, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_GroupIdentifier Object.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_GroupIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_GroupIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_GroupIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_GroupIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Identification Object.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Identification = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_Identification, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Identification = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_Identification, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock Object.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_Lock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock = new ExpandedNodeId(Opc.Ua.Di.Objects.TopologyElementType_Lock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IDeviceHealthType_DeviceHealthAlarms Object.
         /// </summary>
-        public static readonly ExpandedNodeId IDeviceHealthType_DeviceHealthAlarms = new ExpandedNodeId(Opc.Ua.Di.Objects.IDeviceHealthType_DeviceHealthAlarms, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IDeviceHealthType_DeviceHealthAlarms = new ExpandedNodeId(Opc.Ua.Di.Objects.IDeviceHealthType_DeviceHealthAlarms, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType_DeviceTypeImage Object.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType_DeviceTypeImage = new ExpandedNodeId(Opc.Ua.Di.Objects.ISupportInfoType_DeviceTypeImage, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType_DeviceTypeImage = new ExpandedNodeId(Opc.Ua.Di.Objects.ISupportInfoType_DeviceTypeImage, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType_Documentation Object.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType_Documentation = new ExpandedNodeId(Opc.Ua.Di.Objects.ISupportInfoType_Documentation, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType_Documentation = new ExpandedNodeId(Opc.Ua.Di.Objects.ISupportInfoType_Documentation, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType_ProtocolSupport Object.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType_ProtocolSupport = new ExpandedNodeId(Opc.Ua.Di.Objects.ISupportInfoType_ProtocolSupport, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType_ProtocolSupport = new ExpandedNodeId(Opc.Ua.Di.Objects.ISupportInfoType_ProtocolSupport, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType_ImageSet Object.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType_ImageSet = new ExpandedNodeId(Opc.Ua.Di.Objects.ISupportInfoType_ImageSet, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType_ImageSet = new ExpandedNodeId(Opc.Ua.Di.Objects.ISupportInfoType_ImageSet, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_CPIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_CPIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_NetworkAddress Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_NetworkAddress = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_CPIdentifier_NetworkAddress, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_NetworkAddress = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_CPIdentifier_NetworkAddress, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_DeviceHealthAlarms Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_DeviceHealthAlarms = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_DeviceHealthAlarms, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_DeviceHealthAlarms = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_DeviceHealthAlarms, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_DeviceTypeImage Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_DeviceTypeImage = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_DeviceTypeImage, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_DeviceTypeImage = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_DeviceTypeImage, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Documentation Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Documentation = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_Documentation, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Documentation = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_Documentation, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_ProtocolSupport Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_ProtocolSupport = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_ProtocolSupport, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_ProtocolSupport = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_ProtocolSupport, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_ImageSet Object.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_ImageSet = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_ImageSet, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_ImageSet = new ExpandedNodeId(Opc.Ua.Di.Objects.DeviceType_ImageSet, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfigurableObjectType_SupportedTypes Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConfigurableObjectType_SupportedTypes = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfigurableObjectType_SupportedTypes, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfigurableObjectType_SupportedTypes = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfigurableObjectType_SupportedTypes, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfigurableObjectType_ObjectIdentifier Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConfigurableObjectType_ObjectIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfigurableObjectType_ObjectIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfigurableObjectType_ObjectIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfigurableObjectType_ObjectIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FunctionalGroupType_GroupIdentifier Object.
         /// </summary>
-        public static readonly ExpandedNodeId FunctionalGroupType_GroupIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.FunctionalGroupType_GroupIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FunctionalGroupType_GroupIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.FunctionalGroupType_GroupIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_ProfileIdentifier Object.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_ProfileIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkType_ProfileIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_ProfileIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkType_ProfileIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier Object.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkType_CPIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkType_CPIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_NetworkAddress Object.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_NetworkAddress = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkType_CPIdentifier_NetworkAddress, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_NetworkAddress = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkType_CPIdentifier_NetworkAddress, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock Object.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkType_Lock, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock = new ExpandedNodeId(Opc.Ua.Di.Objects.NetworkType_Lock, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkAddress Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkAddress = new ExpandedNodeId(Opc.Ua.Di.Objects.ConnectionPointType_NetworkAddress, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkAddress = new ExpandedNodeId(Opc.Ua.Di.Objects.ConnectionPointType_NetworkAddress, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_ProfileIdentifier Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_ProfileIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.ConnectionPointType_ProfileIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_ProfileIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.ConnectionPointType_ProfileIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.ConnectionPointType_NetworkIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier = new ExpandedNodeId(Opc.Ua.Di.Objects.ConnectionPointType_NetworkIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Loading Object.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Loading = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_Loading, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Loading = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_Loading, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PrepareForUpdate Object.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_PrepareForUpdate, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_PrepareForUpdate, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Installation Object.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Installation = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_Installation, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Installation = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_Installation, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PowerCycle Object.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_PowerCycle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_PowerCycle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Confirmation Object.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_Confirmation, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_Confirmation, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters Object.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_Parameters, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters = new ExpandedNodeId(Opc.Ua.Di.Objects.SoftwareUpdateType_Parameters, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_CurrentVersion Object.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_CurrentVersion = new ExpandedNodeId(Opc.Ua.Di.Objects.PackageLoadingType_CurrentVersion, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_CurrentVersion = new ExpandedNodeId(Opc.Ua.Di.Objects.PackageLoadingType_CurrentVersion, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer Object.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer = new ExpandedNodeId(Opc.Ua.Di.Objects.PackageLoadingType_FileTransfer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer = new ExpandedNodeId(Opc.Ua.Di.Objects.PackageLoadingType_FileTransfer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_PendingVersion Object.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_PendingVersion = new ExpandedNodeId(Opc.Ua.Di.Objects.CachedLoadingType_PendingVersion, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_PendingVersion = new ExpandedNodeId(Opc.Ua.Di.Objects.CachedLoadingType_PendingVersion, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FallbackVersion Object.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FallbackVersion = new ExpandedNodeId(Opc.Ua.Di.Objects.CachedLoadingType_FallbackVersion, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FallbackVersion = new ExpandedNodeId(Opc.Ua.Di.Objects.CachedLoadingType_FallbackVersion, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem Object.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem = new ExpandedNodeId(Opc.Ua.Di.Objects.FileSystemLoadingType_FileSystem, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem = new ExpandedNodeId(Opc.Ua.Di.Objects.FileSystemLoadingType_FileSystem, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Idle Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Idle = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_Idle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Idle = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_Idle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Preparing Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Preparing = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_Preparing, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Preparing = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_Preparing, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PreparedForUpdate Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparedForUpdate = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_PreparedForUpdate, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparedForUpdate = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_PreparedForUpdate, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Resuming Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Resuming = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_Resuming, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Resuming = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_Resuming, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_IdleToPreparing Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_IdleToPreparing = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_IdleToPreparing, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_IdleToPreparing = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_IdleToPreparing, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PreparingToIdle Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparingToIdle = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_PreparingToIdle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparingToIdle = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_PreparingToIdle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PreparedForUpdateToResuming Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparedForUpdateToResuming = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_PreparedForUpdateToResuming, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparedForUpdateToResuming = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_PreparedForUpdateToResuming, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_ResumingToIdle Object.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_ResumingToIdle = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_ResumingToIdle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_ResumingToIdle = new ExpandedNodeId(Opc.Ua.Di.Objects.PrepareForUpdateStateMachineType_ResumingToIdle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_Idle Object.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_Idle = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_Idle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_Idle = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_Idle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_Installing Object.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_Installing = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_Installing, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_Installing = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_Installing, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_Error Object.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_Error = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_Error, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_Error = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_Error, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_IdleToInstalling Object.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_IdleToInstalling = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_IdleToInstalling, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_IdleToInstalling = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_IdleToInstalling, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallingToIdle Object.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallingToIdle = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_InstallingToIdle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallingToIdle = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_InstallingToIdle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallingToError Object.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallingToError = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_InstallingToError, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallingToError = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_InstallingToError, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_ErrorToIdle Object.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_ErrorToIdle = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_ErrorToIdle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_ErrorToIdle = new ExpandedNodeId(Opc.Ua.Di.Objects.InstallationStateMachineType_ErrorToIdle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_NotWaitingForPowerCycle Object.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_NotWaitingForPowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.PowerCycleStateMachineType_NotWaitingForPowerCycle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_NotWaitingForPowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.PowerCycleStateMachineType_NotWaitingForPowerCycle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_WaitingForPowerCycle Object.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_WaitingForPowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.PowerCycleStateMachineType_WaitingForPowerCycle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_WaitingForPowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.PowerCycleStateMachineType_WaitingForPowerCycle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle Object.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle Object.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle = new ExpandedNodeId(Opc.Ua.Di.Objects.PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_NotWaitingForConfirm Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_NotWaitingForConfirm = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfirmationStateMachineType_NotWaitingForConfirm, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_NotWaitingForConfirm = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfirmationStateMachineType_NotWaitingForConfirm, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_WaitingForConfirm Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_WaitingForConfirm = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfirmationStateMachineType_WaitingForConfirm, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_WaitingForConfirm = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfirmationStateMachineType_WaitingForConfirm, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm Object.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm = new ExpandedNodeId(Opc.Ua.Di.Objects.ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OPCUAROBOTICSNamespaceMetadata Object.
@@ -33466,62 +33466,62 @@ namespace Opc.Ua.Ff
         /// <summary>
         /// The identifier for the FetchResultDataType_Encoding_DefaultBinary Object.
         /// </summary>
-        public static readonly ExpandedNodeId FetchResultDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.FetchResultDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FetchResultDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.FetchResultDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferResultErrorDataType_Encoding_DefaultBinary Object.
         /// </summary>
-        public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultBinary Object.
         /// </summary>
-        public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ParameterResultDataType_Encoding_DefaultBinary Object.
         /// </summary>
-        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultBinary = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultBinary, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FetchResultDataType_Encoding_DefaultXml Object.
         /// </summary>
-        public static readonly ExpandedNodeId FetchResultDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.FetchResultDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FetchResultDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.FetchResultDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferResultErrorDataType_Encoding_DefaultXml Object.
         /// </summary>
-        public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultXml Object.
         /// </summary>
-        public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ParameterResultDataType_Encoding_DefaultXml Object.
         /// </summary>
-        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultXml = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultXml, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FetchResultDataType_Encoding_DefaultJson Object.
         /// </summary>
-        public static readonly ExpandedNodeId FetchResultDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.FetchResultDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FetchResultDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.FetchResultDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferResultErrorDataType_Encoding_DefaultJson Object.
         /// </summary>
-        public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferResultErrorDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultErrorDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferResultDataDataType_Encoding_DefaultJson Object.
         /// </summary>
-        public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferResultDataDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.TransferResultDataDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ParameterResultDataType_Encoding_DefaultJson Object.
         /// </summary>
-        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ParameterResultDataType_Encoding_DefaultJson = new ExpandedNodeId(Opc.Ua.Di.Objects.ParameterResultDataType_Encoding_DefaultJson, Opc.Ua.Di.Namespaces.OpcUaDi);
     }
     #endregion
 
@@ -33536,162 +33536,162 @@ namespace Opc.Ua.Ff
         /// <summary>
         /// The identifier for the TopologyElementType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.TopologyElementType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.TopologyElementType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.IVendorNameplateType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.IVendorNameplateType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ITagNameplateType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId ITagNameplateType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ITagNameplateType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ITagNameplateType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ITagNameplateType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IDeviceHealthType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId IDeviceHealthType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.IDeviceHealthType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IDeviceHealthType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.IDeviceHealthType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ISupportInfoType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ISupportInfoType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ComponentType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ComponentType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.DeviceType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.DeviceType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.SoftwareType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.SoftwareType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.BlockType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.BlockType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.DeviceHealthDiagnosticAlarmType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.DeviceHealthDiagnosticAlarmType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.FailureAlarmType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.FailureAlarmType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.CheckFunctionAlarmType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.CheckFunctionAlarmType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.OffSpecAlarmType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.OffSpecAlarmType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.MaintenanceRequiredAlarmType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.MaintenanceRequiredAlarmType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfigurableObjectType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId ConfigurableObjectType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ConfigurableObjectType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfigurableObjectType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ConfigurableObjectType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FunctionalGroupType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId FunctionalGroupType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.FunctionalGroupType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FunctionalGroupType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.FunctionalGroupType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ProtocolType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId ProtocolType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ProtocolType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ProtocolType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ProtocolType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.NetworkType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.NetworkType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ConnectionPointType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ConnectionPointType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferServicesType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId TransferServicesType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.TransferServicesType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferServicesType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.TransferServicesType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.LockingServicesType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.LockingServicesType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.SoftwareUpdateType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.SoftwareUpdateType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareLoadingType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.SoftwareLoadingType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.SoftwareLoadingType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.PackageLoadingType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.PackageLoadingType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.DirectLoadingType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.DirectLoadingType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.CachedLoadingType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.CachedLoadingType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.FileSystemLoadingType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.FileSystemLoadingType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.SoftwareVersionType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.SoftwareVersionType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.PrepareForUpdateStateMachineType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.PrepareForUpdateStateMachineType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.InstallationStateMachineType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.InstallationStateMachineType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.PowerCycleStateMachineType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.PowerCycleStateMachineType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType ObjectType.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ConfirmationStateMachineType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType = new ExpandedNodeId(Opc.Ua.Di.ObjectTypes.ConfirmationStateMachineType, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MotionDeviceSystemType ObjectType.
@@ -33841,17 +33841,17 @@ namespace Opc.Ua.Ff
         /// <summary>
         /// The identifier for the ConnectsTo ReferenceType.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectsTo = new ExpandedNodeId(Opc.Ua.Di.ReferenceTypes.ConnectsTo, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectsTo = new ExpandedNodeId(Opc.Ua.Di.ReferenceTypes.ConnectsTo, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectsToParent ReferenceType.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectsToParent = new ExpandedNodeId(Opc.Ua.Di.ReferenceTypes.ConnectsToParent, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectsToParent = new ExpandedNodeId(Opc.Ua.Di.ReferenceTypes.ConnectsToParent, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IsOnline ReferenceType.
         /// </summary>
-        public static readonly ExpandedNodeId IsOnline = new ExpandedNodeId(Opc.Ua.Di.ReferenceTypes.IsOnline, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IsOnline = new ExpandedNodeId(Opc.Ua.Di.ReferenceTypes.IsOnline, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the Controls ReferenceType.
@@ -33929,2119 +33929,2119 @@ namespace Opc.Ua.Ff
     public static partial class VariableIds
     {
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceUri Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceUri = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceUri = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceVersion Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceVersion Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceVersion = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceVersion, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceVersion = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceVersion, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespacePublicationDate Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespacePublicationDate Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespacePublicationDate = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespacePublicationDate, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespacePublicationDate = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespacePublicationDate, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_IsNamespaceSubset Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_IsNamespaceSubset Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_IsNamespaceSubset = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_IsNamespaceSubset, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_IsNamespaceSubset = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_IsNamespaceSubset, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_StaticNodeIdTypes Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_StaticNodeIdTypes Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_StaticNodeIdTypes = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_StaticNodeIdTypes, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_StaticNodeIdTypes = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_StaticNodeIdTypes, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_StaticNumericNodeIdRange Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_StaticNumericNodeIdRange Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_StaticNumericNodeIdRange = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_StaticNumericNodeIdRange, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_StaticNumericNodeIdRange = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_StaticNumericNodeIdRange, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_StaticStringNodeIdPattern Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_StaticStringNodeIdPattern Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_StaticStringNodeIdPattern = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_StaticStringNodeIdPattern, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_StaticStringNodeIdPattern = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_StaticStringNodeIdPattern, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Size Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Size Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Size = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_Size, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Size = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_Size, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Writable Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Writable Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Writable = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_Writable, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Writable = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_Writable, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_UserWritable Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_UserWritable Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_UserWritable = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_UserWritable, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_UserWritable = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_UserWritable, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_OpenCount Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_OpenCount Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_OpenCount = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_OpenCount, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_OpenCount = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_OpenCount, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Open_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Open_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Open_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_Open_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Open_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_Open_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Open_OutputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Open_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Open_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_Open_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Open_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_Open_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Close_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Close_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Close_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_Close_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Close_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_Close_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Read_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Read_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Read_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_Read_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Read_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_Read_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Read_OutputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Read_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Read_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_Read_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Read_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_Read_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_Write_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_Write_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_Write_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_Write_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_Write_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_Write_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_GetPosition_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_GetPosition_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_GetPosition_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_GetPosition_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_GetPosition_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_GetPosition_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_GetPosition_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_NamespaceFile_SetPosition_InputArguments Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_NamespaceFile_SetPosition_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_NamespaceFile_SetPosition_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_NamespaceFile_SetPosition_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_NamespaceFile_SetPosition_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_NamespaceFile_SetPosition_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_DefaultRolePermissions Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_DefaultRolePermissions Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_DefaultRolePermissions = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_DefaultRolePermissions, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_DefaultRolePermissions = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_DefaultRolePermissions, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_DefaultUserRolePermissions Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_DefaultUserRolePermissions Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_DefaultUserRolePermissions = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_DefaultUserRolePermissions, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_DefaultUserRolePermissions = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_DefaultUserRolePermissions, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
-        /// The identifier for the DINamespaceMetadata_DefaultAccessRestrictions Variable.
+        /// The identifier for the OPCUADINamespaceMetadata_DefaultAccessRestrictions Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DINamespaceMetadata_DefaultAccessRestrictions = new ExpandedNodeId(Opc.Ua.Di.Variables.DINamespaceMetadata_DefaultAccessRestrictions, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OPCUADINamespaceMetadata_DefaultAccessRestrictions = new ExpandedNodeId(Opc.Ua.Di.Variables.OPCUADINamespaceMetadata_DefaultAccessRestrictions, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceTopology_OnlineAccess Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceTopology_OnlineAccess = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceTopology_OnlineAccess, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceTopology_OnlineAccess = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceTopology_OnlineAccess, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_ParameterSet_ParameterIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_ParameterSet_ParameterIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_ParameterSet_ParameterIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_ParameterSet_ParameterIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_ParameterSet_ParameterIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TopologyElementType_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TopologyElementType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TopologyElementType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TopologyElementType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_Model Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_Model = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_Model, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_Model = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_Model, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_HardwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_HardwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_HardwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_HardwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_HardwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_DeviceRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_DeviceRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_DeviceRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_DeviceRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_DeviceRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_ProductCode Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_ProductCode = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_ProductCode, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_ProductCode = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_ProductCode, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_DeviceManual Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_DeviceManual = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_DeviceManual, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_DeviceManual = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_DeviceManual, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_DeviceClass Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_DeviceClass = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_DeviceClass, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_DeviceClass = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_DeviceClass, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_SerialNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_SerialNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_SerialNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_SerialNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_SerialNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_ProductInstanceUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_ProductInstanceUri = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_ProductInstanceUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_ProductInstanceUri = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_ProductInstanceUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IVendorNameplateType_RevisionCounter Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IVendorNameplateType_RevisionCounter = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_RevisionCounter, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IVendorNameplateType_RevisionCounter = new ExpandedNodeId(Opc.Ua.Di.Variables.IVendorNameplateType_RevisionCounter, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ITagNameplateType_AssetId Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ITagNameplateType_AssetId = new ExpandedNodeId(Opc.Ua.Di.Variables.ITagNameplateType_AssetId, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ITagNameplateType_AssetId = new ExpandedNodeId(Opc.Ua.Di.Variables.ITagNameplateType_AssetId, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ITagNameplateType_ComponentName Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ITagNameplateType_ComponentName = new ExpandedNodeId(Opc.Ua.Di.Variables.ITagNameplateType_ComponentName, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ITagNameplateType_ComponentName = new ExpandedNodeId(Opc.Ua.Di.Variables.ITagNameplateType_ComponentName, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the IDeviceHealthType_DeviceHealth Variable.
         /// </summary>
-        public static readonly ExpandedNodeId IDeviceHealthType_DeviceHealth = new ExpandedNodeId(Opc.Ua.Di.Variables.IDeviceHealthType_DeviceHealth, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId IDeviceHealthType_DeviceHealth = new ExpandedNodeId(Opc.Ua.Di.Variables.IDeviceHealthType_DeviceHealth, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType_DeviceTypeImage_ImageIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType_DeviceTypeImage_ImageIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.ISupportInfoType_DeviceTypeImage_ImageIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType_DeviceTypeImage_ImageIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.ISupportInfoType_DeviceTypeImage_ImageIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType_Documentation_DocumentIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType_Documentation_DocumentIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.ISupportInfoType_Documentation_DocumentIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType_Documentation_DocumentIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.ISupportInfoType_Documentation_DocumentIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType_ProtocolSupport_ProtocolSupportIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType_ProtocolSupport_ProtocolSupportIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.ISupportInfoType_ProtocolSupport_ProtocolSupportIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType_ProtocolSupport_ProtocolSupportIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.ISupportInfoType_ProtocolSupport_ProtocolSupportIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ISupportInfoType_ImageSet_ImageIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ISupportInfoType_ImageSet_ImageIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.ISupportInfoType_ImageSet_ImageIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ISupportInfoType_ImageSet_ImageIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.ISupportInfoType_ImageSet_ImageIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_Model Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_Model = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Model, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_Model = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_Model, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_HardwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_HardwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_HardwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_HardwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_HardwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_DeviceRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_DeviceRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_DeviceRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_DeviceRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_DeviceRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_ProductCode Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_ProductCode = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_ProductCode, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_ProductCode = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_ProductCode, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_DeviceManual Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_DeviceManual = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_DeviceManual, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_DeviceManual = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_DeviceManual, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_DeviceClass Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_DeviceClass = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_DeviceClass, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_DeviceClass = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_DeviceClass, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_SerialNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_SerialNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_SerialNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_SerialNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_SerialNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_ProductInstanceUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_ProductInstanceUri = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_ProductInstanceUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_ProductInstanceUri = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_ProductInstanceUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_RevisionCounter Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_RevisionCounter = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_RevisionCounter, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_RevisionCounter = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_RevisionCounter, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_AssetId Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_AssetId = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_AssetId, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_AssetId = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_AssetId, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ComponentType_ComponentName Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ComponentType_ComponentName = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_ComponentName, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ComponentType_ComponentName = new ExpandedNodeId(Opc.Ua.Di.Variables.ComponentType_ComponentName, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Model Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Model = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Model, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Model = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Model, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_HardwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_HardwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_HardwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_HardwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_HardwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_DeviceRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_DeviceRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_DeviceRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_ProductCode Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_ProductCode = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ProductCode, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_ProductCode = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ProductCode, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_DeviceManual Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_DeviceManual = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceManual, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_DeviceManual = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceManual, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_DeviceClass Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_DeviceClass = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceClass, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_DeviceClass = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceClass, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_SerialNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_SerialNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_SerialNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_SerialNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_SerialNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_ProductInstanceUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_ProductInstanceUri = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ProductInstanceUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_ProductInstanceUri = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ProductInstanceUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_RevisionCounter Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_RevisionCounter = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_RevisionCounter, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_RevisionCounter = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_RevisionCounter, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_CPIdentifier_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_CPIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_CPIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_DeviceHealth Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_DeviceHealth = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceHealth, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_DeviceHealth = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceHealth, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_DeviceTypeImage_ImageIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_DeviceTypeImage_ImageIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceTypeImage_ImageIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_DeviceTypeImage_ImageIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_DeviceTypeImage_ImageIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_Documentation_DocumentIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_Documentation_DocumentIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Documentation_DocumentIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_Documentation_DocumentIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_Documentation_DocumentIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_ProtocolSupport_ProtocolSupportIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_ProtocolSupport_ProtocolSupportIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ProtocolSupport_ProtocolSupportIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_ProtocolSupport_ProtocolSupportIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ProtocolSupport_ProtocolSupportIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceType_ImageSet_ImageIdentifier Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceType_ImageSet_ImageIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ImageSet_ImageIdentifier, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceType_ImageSet_ImageIdentifier = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceType_ImageSet_ImageIdentifier, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_Model Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_Model = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Model, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_Model = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_Model, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareType_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareType_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_RevisionCounter Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_RevisionCounter = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_RevisionCounter, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_RevisionCounter = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_RevisionCounter, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_ActualMode Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_ActualMode = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_ActualMode, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_ActualMode = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_ActualMode, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_PermittedMode Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_PermittedMode = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_PermittedMode, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_PermittedMode = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_PermittedMode, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_NormalMode Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_NormalMode = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_NormalMode, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_NormalMode = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_NormalMode, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the BlockType_TargetMode Variable.
         /// </summary>
-        public static readonly ExpandedNodeId BlockType_TargetMode = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_TargetMode, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId BlockType_TargetMode = new ExpandedNodeId(Opc.Ua.Di.Variables.BlockType_TargetMode, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_EnabledState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_Quality_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_LastSeverity_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_Comment_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_AddComment_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ConditionRefresh_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ConditionRefresh2_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_AckedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ConfirmedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_Acknowledge_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_Confirm_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ActiveState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_SuppressedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_OutOfServiceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ShelvingState_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ShelvingState_UnshelveTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_SilenceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthDiagnosticAlarmType_LatchedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthDiagnosticAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthDiagnosticAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_EnabledState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_Quality_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_LastSeverity_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_Comment_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_AddComment_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ConditionRefresh_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ConditionRefresh2_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_AckedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ConfirmedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_Acknowledge_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_Confirm_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ActiveState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_SuppressedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_OutOfServiceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ShelvingState_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ShelvingState_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ShelvingState_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ShelvingState_UnshelveTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_ShelvingState_TimedShelve_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_SilenceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FailureAlarmType_LatchedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FailureAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FailureAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.FailureAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_EnabledState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_Quality_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_LastSeverity_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_Comment_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_AddComment_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ConditionRefresh_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ConditionRefresh2_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_AckedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ConfirmedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_Acknowledge_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_Confirm_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ActiveState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_SuppressedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_OutOfServiceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ShelvingState_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ShelvingState_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ShelvingState_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ShelvingState_UnshelveTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_ShelvingState_TimedShelve_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_SilenceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CheckFunctionAlarmType_LatchedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CheckFunctionAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CheckFunctionAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.CheckFunctionAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_EnabledState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_Quality_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_LastSeverity_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_Comment_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_AddComment_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ConditionRefresh_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ConditionRefresh2_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_AckedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ConfirmedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_Acknowledge_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_Confirm_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ActiveState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_SuppressedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_OutOfServiceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ShelvingState_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ShelvingState_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ShelvingState_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ShelvingState_UnshelveTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_ShelvingState_TimedShelve_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_SilenceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OffSpecAlarmType_LatchedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId OffSpecAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId OffSpecAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.OffSpecAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_EnabledState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_EnabledState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_EnabledState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_Quality_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_Quality_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_Quality_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_LastSeverity_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_LastSeverity_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_LastSeverity_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_Comment_SourceTimestamp Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_Comment_SourceTimestamp = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_Comment_SourceTimestamp, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_AddComment_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_AddComment_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_AddComment_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ConditionRefresh_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ConditionRefresh_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ConditionRefresh_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ConditionRefresh2_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ConditionRefresh2_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ConditionRefresh2_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_AckedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_AckedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_AckedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ConfirmedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ConfirmedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ConfirmedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_Acknowledge_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_Acknowledge_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_Acknowledge_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_Confirm_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_Confirm_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_Confirm_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ActiveState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ActiveState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ActiveState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_SuppressedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_SuppressedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_SuppressedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_OutOfServiceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_OutOfServiceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_OutOfServiceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ShelvingState_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ShelvingState_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ShelvingState_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ShelvingState_UnshelveTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_UnshelveTime = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_UnshelveTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_ShelvingState_TimedShelve_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_ShelvingState_TimedShelve_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_ShelvingState_TimedShelve_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_SilenceState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_SilenceState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_SilenceState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaintenanceRequiredAlarmType_LatchedState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaintenanceRequiredAlarmType_LatchedState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.MaintenanceRequiredAlarmType_LatchedState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FunctionalGroupType_GroupIdentifier_UIElement Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FunctionalGroupType_GroupIdentifier_UIElement = new ExpandedNodeId(Opc.Ua.Di.Variables.FunctionalGroupType_GroupIdentifier_UIElement, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FunctionalGroupType_GroupIdentifier_UIElement = new ExpandedNodeId(Opc.Ua.Di.Variables.FunctionalGroupType_GroupIdentifier_UIElement, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FunctionalGroupType_UIElement Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FunctionalGroupType_UIElement = new ExpandedNodeId(Opc.Ua.Di.Variables.FunctionalGroupType_UIElement, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FunctionalGroupType_UIElement = new ExpandedNodeId(Opc.Ua.Di.Variables.FunctionalGroupType_UIElement, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DeviceHealthEnumeration_EnumStrings Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DeviceHealthEnumeration_EnumStrings = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthEnumeration_EnumStrings, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DeviceHealthEnumeration_EnumStrings = new ExpandedNodeId(Opc.Ua.Di.Variables.DeviceHealthEnumeration_EnumStrings, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_CPIdentifier_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_CPIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_CPIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the NetworkType_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId NetworkType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId NetworkType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.NetworkType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConnectionPointType_NetworkIdentifier_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConnectionPointType_NetworkIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.ConnectionPointType_NetworkIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferServicesType_TransferToDevice_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TransferServicesType_TransferToDevice_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TransferServicesType_TransferToDevice_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferServicesType_TransferToDevice_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TransferServicesType_TransferToDevice_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferServicesType_TransferFromDevice_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TransferServicesType_TransferFromDevice_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TransferServicesType_TransferFromDevice_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferServicesType_TransferFromDevice_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TransferServicesType_TransferFromDevice_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferServicesType_FetchTransferResultData_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TransferServicesType_FetchTransferResultData_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TransferServicesType_FetchTransferResultData_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferServicesType_FetchTransferResultData_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TransferServicesType_FetchTransferResultData_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the TransferServicesType_FetchTransferResultData_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId TransferServicesType_FetchTransferResultData_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TransferServicesType_FetchTransferResultData_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId TransferServicesType_FetchTransferResultData_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.TransferServicesType_FetchTransferResultData_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the MaxInactiveLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId MaxInactiveLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.MaxInactiveLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId MaxInactiveLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.MaxInactiveLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_DefaultInstanceBrowseName Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_DefaultInstanceBrowseName = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_DefaultInstanceBrowseName, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_DefaultInstanceBrowseName = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_DefaultInstanceBrowseName, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_Locked Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_Locked, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_Locked = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_Locked, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_LockingClient Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_LockingClient, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_LockingClient = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_LockingClient, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_LockingUser Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_LockingUser, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_LockingUser = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_LockingUser, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_RemainingLockTime Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_RemainingLockTime, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_RemainingLockTime = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_RemainingLockTime, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_InitLock_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_InitLock_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_InitLock_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_InitLock_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_InitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_InitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_InitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_RenewLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_RenewLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_RenewLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_ExitLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_ExitLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_ExitLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the LockingServicesType_BreakLock_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId LockingServicesType_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId LockingServicesType_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.LockingServicesType_BreakLock_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PrepareForUpdate_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PrepareForUpdate_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PrepareForUpdate_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PrepareForUpdate_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PrepareForUpdate_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PrepareForUpdate_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PrepareForUpdate_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PrepareForUpdate_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PrepareForUpdate_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PrepareForUpdate_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Installation_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Installation_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Installation_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Installation_InstallSoftwarePackage_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_InstallSoftwarePackage_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_InstallSoftwarePackage_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_InstallSoftwarePackage_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_InstallSoftwarePackage_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Installation_InstallFiles_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_InstallFiles_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_InstallFiles_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Installation_InstallFiles_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Installation_InstallFiles_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PowerCycle_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PowerCycle_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PowerCycle_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PowerCycle_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PowerCycle_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PowerCycle_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PowerCycle_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PowerCycle_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PowerCycle_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PowerCycle_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_PowerCycle_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_PowerCycle_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PowerCycle_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_PowerCycle_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_PowerCycle_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Confirmation_CurrentState Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Confirmation_CurrentState, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_CurrentState = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Confirmation_CurrentState, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Confirmation_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Confirmation_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Confirmation_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Confirmation_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Confirmation_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Confirmation_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Confirmation_ConfirmationTimeout Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_ConfirmationTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Confirmation_ConfirmationTimeout, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Confirmation_ConfirmationTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Confirmation_ConfirmationTimeout, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_ClientProcessingTimeout Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_ClientProcessingTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_ClientProcessingTimeout, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_ClientProcessingTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_ClientProcessingTimeout, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_GenerateFileForRead_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForRead_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_GenerateFileForRead_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForRead_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_GenerateFileForRead_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_GenerateFileForRead_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForRead_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_GenerateFileForRead_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForRead_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_GenerateFileForRead_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_GenerateFileForWrite_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForWrite_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_GenerateFileForWrite_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForWrite_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_GenerateFileForWrite_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_GenerateFileForWrite_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForWrite_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_GenerateFileForWrite_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_GenerateFileForWrite_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_GenerateFileForWrite_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_CloseAndCommit_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_CloseAndCommit_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_CloseAndCommit_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_CloseAndCommit_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_CloseAndCommit_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_Parameters_CloseAndCommit_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_CloseAndCommit_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_CloseAndCommit_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_Parameters_CloseAndCommit_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_Parameters_CloseAndCommit_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_UpdateStatus Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_UpdateStatus = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_UpdateStatus, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_UpdateStatus = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_UpdateStatus, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_VendorErrorCode Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_VendorErrorCode = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_VendorErrorCode, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_VendorErrorCode = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_VendorErrorCode, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareUpdateType_DefaultInstanceBrowseName Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareUpdateType_DefaultInstanceBrowseName = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_DefaultInstanceBrowseName, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareUpdateType_DefaultInstanceBrowseName = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareUpdateType_DefaultInstanceBrowseName, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareLoadingType_UpdateKey Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareLoadingType_UpdateKey = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareLoadingType_UpdateKey, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareLoadingType_UpdateKey = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareLoadingType_UpdateKey, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_CurrentVersion_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_CurrentVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_CurrentVersion_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_CurrentVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_CurrentVersion_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_CurrentVersion_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_CurrentVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_CurrentVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_CurrentVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_CurrentVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_CurrentVersion_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_CurrentVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_CurrentVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_CurrentVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_CurrentVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_ClientProcessingTimeout Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_ClientProcessingTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_ClientProcessingTimeout, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_ClientProcessingTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_ClientProcessingTimeout, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_GenerateFileForRead_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForRead_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_GenerateFileForRead_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForRead_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_GenerateFileForRead_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_GenerateFileForRead_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForRead_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_GenerateFileForRead_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForRead_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_GenerateFileForRead_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_GenerateFileForWrite_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForWrite_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_GenerateFileForWrite_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForWrite_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_GenerateFileForWrite_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_CloseAndCommit_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_CloseAndCommit_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_CloseAndCommit_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_CloseAndCommit_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_CloseAndCommit_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_FileTransfer_CloseAndCommit_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_CloseAndCommit_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_CloseAndCommit_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_FileTransfer_CloseAndCommit_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_FileTransfer_CloseAndCommit_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_ErrorMessage Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_ErrorMessage = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_ErrorMessage, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_ErrorMessage = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_ErrorMessage, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PackageLoadingType_WriteBlockSize Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PackageLoadingType_WriteBlockSize = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_WriteBlockSize, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PackageLoadingType_WriteBlockSize = new ExpandedNodeId(Opc.Ua.Di.Variables.PackageLoadingType_WriteBlockSize, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_CurrentVersion_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_CurrentVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_CurrentVersion_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_CurrentVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_CurrentVersion_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_CurrentVersion_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_CurrentVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_CurrentVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_CurrentVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_CurrentVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_CurrentVersion_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_CurrentVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_CurrentVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_CurrentVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_CurrentVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_ClientProcessingTimeout Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_ClientProcessingTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_ClientProcessingTimeout, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_ClientProcessingTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_ClientProcessingTimeout, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_GenerateFileForRead_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForRead_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_GenerateFileForRead_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForRead_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_GenerateFileForRead_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_GenerateFileForRead_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForRead_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_GenerateFileForRead_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForRead_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_GenerateFileForRead_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_GenerateFileForWrite_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForWrite_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_GenerateFileForWrite_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForWrite_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_GenerateFileForWrite_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_CloseAndCommit_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_CloseAndCommit_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_CloseAndCommit_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_CloseAndCommit_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_CloseAndCommit_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_FileTransfer_CloseAndCommit_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_CloseAndCommit_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_CloseAndCommit_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_FileTransfer_CloseAndCommit_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_FileTransfer_CloseAndCommit_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_UpdateBehavior Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_UpdateBehavior = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_UpdateBehavior, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_UpdateBehavior = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_UpdateBehavior, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the DirectLoadingType_WriteTimeout Variable.
         /// </summary>
-        public static readonly ExpandedNodeId DirectLoadingType_WriteTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_WriteTimeout, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId DirectLoadingType_WriteTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.DirectLoadingType_WriteTimeout, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_CurrentVersion_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_CurrentVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_CurrentVersion_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_CurrentVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_CurrentVersion_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_CurrentVersion_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_CurrentVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_CurrentVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_CurrentVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_CurrentVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_CurrentVersion_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_CurrentVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_CurrentVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_CurrentVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_CurrentVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_ClientProcessingTimeout Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_ClientProcessingTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_ClientProcessingTimeout, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_ClientProcessingTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_ClientProcessingTimeout, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_GenerateFileForRead_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForRead_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_GenerateFileForRead_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForRead_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_GenerateFileForRead_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_GenerateFileForRead_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForRead_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_GenerateFileForRead_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForRead_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_GenerateFileForRead_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_GenerateFileForWrite_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForWrite_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_GenerateFileForWrite_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForWrite_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_GenerateFileForWrite_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_GenerateFileForWrite_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_CloseAndCommit_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_CloseAndCommit_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_CloseAndCommit_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_CloseAndCommit_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_CloseAndCommit_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FileTransfer_CloseAndCommit_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_CloseAndCommit_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_CloseAndCommit_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FileTransfer_CloseAndCommit_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FileTransfer_CloseAndCommit_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_PendingVersion_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_PendingVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_PendingVersion_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_PendingVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_PendingVersion_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_PendingVersion_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_PendingVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_PendingVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_PendingVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_PendingVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_PendingVersion_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_PendingVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_PendingVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_PendingVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_PendingVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FallbackVersion_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FallbackVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FallbackVersion_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FallbackVersion_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FallbackVersion_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FallbackVersion_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FallbackVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FallbackVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FallbackVersion_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FallbackVersion_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_FallbackVersion_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_FallbackVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FallbackVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_FallbackVersion_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_FallbackVersion_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_GetUpdateBehavior_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_GetUpdateBehavior_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_GetUpdateBehavior_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_GetUpdateBehavior_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_GetUpdateBehavior_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the CachedLoadingType_GetUpdateBehavior_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId CachedLoadingType_GetUpdateBehavior_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_GetUpdateBehavior_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId CachedLoadingType_GetUpdateBehavior_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.CachedLoadingType_GetUpdateBehavior_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_CreateDirectory_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateDirectory_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_CreateDirectory_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateDirectory_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_CreateDirectory_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_CreateDirectory_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateDirectory_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_CreateDirectory_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateDirectory_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_CreateDirectory_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_CreateFile_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateFile_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_CreateFile_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateFile_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_CreateFile_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_CreateFile_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateFile_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_CreateFile_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_CreateFile_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_CreateFile_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_DeleteFileSystemObject_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_DeleteFileSystemObject_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_DeleteFileSystemObject_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_DeleteFileSystemObject_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_DeleteFileSystemObject_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_MoveOrCopy_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_MoveOrCopy_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_MoveOrCopy_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_MoveOrCopy_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_MoveOrCopy_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_FileSystem_MoveOrCopy_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_MoveOrCopy_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_MoveOrCopy_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_FileSystem_MoveOrCopy_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_FileSystem_MoveOrCopy_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_GetUpdateBehavior_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_GetUpdateBehavior_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_GetUpdateBehavior_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_GetUpdateBehavior_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_GetUpdateBehavior_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_GetUpdateBehavior_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_GetUpdateBehavior_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_GetUpdateBehavior_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_GetUpdateBehavior_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_GetUpdateBehavior_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_ValidateFiles_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_ValidateFiles_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_ValidateFiles_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_ValidateFiles_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_ValidateFiles_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the FileSystemLoadingType_ValidateFiles_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId FileSystemLoadingType_ValidateFiles_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_ValidateFiles_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId FileSystemLoadingType_ValidateFiles_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.FileSystemLoadingType_ValidateFiles_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionType_Manufacturer Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_Manufacturer, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionType_Manufacturer = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_Manufacturer, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionType_ManufacturerUri Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionType_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_ManufacturerUri, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionType_ManufacturerUri = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_ManufacturerUri, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionType_SoftwareRevision Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_SoftwareRevision, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionType_SoftwareRevision = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_SoftwareRevision, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionType_PatchIdentifiers Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionType_PatchIdentifiers = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_PatchIdentifiers, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionType_PatchIdentifiers = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_PatchIdentifiers, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionType_ReleaseDate Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionType_ReleaseDate = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_ReleaseDate, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionType_ReleaseDate = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_ReleaseDate, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionType_ChangeLogReference Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionType_ChangeLogReference = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_ChangeLogReference, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionType_ChangeLogReference = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_ChangeLogReference, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionType_Hash Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionType_Hash = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_Hash, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionType_Hash = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionType_Hash, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PercentComplete Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PercentComplete = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PercentComplete, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PercentComplete = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PercentComplete, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Idle_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Idle_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_Idle_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Idle_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_Idle_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Preparing_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Preparing_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_Preparing_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Preparing_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_Preparing_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PreparedForUpdate_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparedForUpdate_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PreparedForUpdate_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparedForUpdate_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PreparedForUpdate_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_Resuming_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Resuming_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_Resuming_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_Resuming_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_Resuming_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_IdleToPreparing_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_IdleToPreparing_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_IdleToPreparing_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_IdleToPreparing_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_IdleToPreparing_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PreparingToIdle_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparingToIdle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PreparingToIdle_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparingToIdle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PreparingToIdle_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PreparingToPreparedForUpdate_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_PreparedForUpdateToResuming_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparedForUpdateToResuming_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PreparedForUpdateToResuming_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_PreparedForUpdateToResuming_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_PreparedForUpdateToResuming_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PrepareForUpdateStateMachineType_ResumingToIdle_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_ResumingToIdle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_ResumingToIdle_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PrepareForUpdateStateMachineType_ResumingToIdle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PrepareForUpdateStateMachineType_ResumingToIdle_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_PercentComplete Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_PercentComplete = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_PercentComplete, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_PercentComplete = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_PercentComplete, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallationDelay Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallationDelay = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallationDelay, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallationDelay = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallationDelay, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallSoftwarePackage_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallSoftwarePackage_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallSoftwarePackage_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallSoftwarePackage_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallSoftwarePackage_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallSoftwarePackage_OutputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallSoftwarePackage_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallSoftwarePackage_OutputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallSoftwarePackage_OutputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallSoftwarePackage_OutputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallFiles_InputArguments Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallFiles_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallFiles_InputArguments, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallFiles_InputArguments = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallFiles_InputArguments, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_Idle_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_Idle_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_Idle_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_Idle_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_Idle_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_Installing_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_Installing_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_Installing_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_Installing_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_Installing_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_Error_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_Error_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_Error_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_Error_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_Error_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_IdleToInstalling_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_IdleToInstalling_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_IdleToInstalling_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_IdleToInstalling_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_IdleToInstalling_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallingToIdle_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallingToIdle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallingToIdle_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallingToIdle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallingToIdle_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_InstallingToError_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_InstallingToError_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallingToError_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_InstallingToError_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_InstallingToError_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the InstallationStateMachineType_ErrorToIdle_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId InstallationStateMachineType_ErrorToIdle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_ErrorToIdle_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId InstallationStateMachineType_ErrorToIdle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.InstallationStateMachineType_ErrorToIdle_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_NotWaitingForPowerCycle_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_NotWaitingForPowerCycle_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_NotWaitingForPowerCycle_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_NotWaitingForPowerCycle_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_NotWaitingForPowerCycle_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_WaitingForPowerCycle_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_WaitingForPowerCycle_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_WaitingForPowerCycle_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_WaitingForPowerCycle_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_WaitingForPowerCycle_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_NotWaitingForPowerCycleToWaitingForPowerCycle_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.PowerCycleStateMachineType_WaitingForPowerCycleToNotWaitingForPowerCycle_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_CurrentState_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_CurrentState_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_CurrentState_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_CurrentState_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_LastTransition_Id Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_LastTransition_Id, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_LastTransition_Id = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_LastTransition_Id, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_ConfirmationTimeout Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_ConfirmationTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_ConfirmationTimeout, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_ConfirmationTimeout = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_ConfirmationTimeout, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_NotWaitingForConfirm_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_NotWaitingForConfirm_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_NotWaitingForConfirm_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_NotWaitingForConfirm_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_NotWaitingForConfirm_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_WaitingForConfirm_StateNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_WaitingForConfirm_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_WaitingForConfirm_StateNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_WaitingForConfirm_StateNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_WaitingForConfirm_StateNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_NotWaitingForConfirmToWaitingForConfirm_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm_TransitionNumber Variable.
         /// </summary>
-        public static readonly ExpandedNodeId ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm_TransitionNumber, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm_TransitionNumber = new ExpandedNodeId(Opc.Ua.Di.Variables.ConfirmationStateMachineType_WaitingForConfirmToNotWaitingForConfirm_TransitionNumber, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the SoftwareVersionFileType_EnumStrings Variable.
         /// </summary>
-        public static readonly ExpandedNodeId SoftwareVersionFileType_EnumStrings = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionFileType_EnumStrings, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId SoftwareVersionFileType_EnumStrings = new ExpandedNodeId(Opc.Ua.Di.Variables.SoftwareVersionFileType_EnumStrings, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the UpdateBehavior_OptionSetValues Variable.
         /// </summary>
-        public static readonly ExpandedNodeId UpdateBehavior_OptionSetValues = new ExpandedNodeId(Opc.Ua.Di.Variables.UpdateBehavior_OptionSetValues, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId UpdateBehavior_OptionSetValues = new ExpandedNodeId(Opc.Ua.Di.Variables.UpdateBehavior_OptionSetValues, Opc.Ua.Di.Namespaces.OpcUaDi);
 
         /// <summary>
         /// The identifier for the OPCUAROBOTICSNamespaceMetadata_NamespaceUri Variable.
@@ -53306,7 +53306,7 @@ namespace Opc.Ua.Ff
         /// <summary>
         /// The identifier for the UIElementType VariableType.
         /// </summary>
-        public static readonly ExpandedNodeId UIElementType = new ExpandedNodeId(Opc.Ua.Di.VariableTypes.UIElementType, Opc.Ua.Di.Namespaces.DI);
+        public static readonly ExpandedNodeId UIElementType = new ExpandedNodeId(Opc.Ua.Di.VariableTypes.UIElementType, Opc.Ua.Di.Namespaces.OpcUaDi);
     }
     #endregion
 
@@ -53512,14 +53512,14 @@ namespace Opc.Ua.Ff
         public const string OpcUaXsd = "http://opcfoundation.org/UA/2008/02/Types.xsd";
 
         /// <summary>
-        /// The URI for the DI namespace (.NET code namespace is 'Opc.Ua.Di').
+        /// The URI for the OpcUaDi namespace (.NET code namespace is 'Opc.Ua.Di').
         /// </summary>
-        public const string DI = "http://opcfoundation.org/UA/DI/";
+        public const string OpcUaDi = "http://opcfoundation.org/UA/DI/";
 
         /// <summary>
-        /// The URI for the DIXsd namespace (.NET code namespace is 'Opc.Ua.Di').
+        /// The URI for the OpcUaDiXsd namespace (.NET code namespace is 'Opc.Ua.Di').
         /// </summary>
-        public const string DIXsd = "http://opcfoundation.org/UA/DI/Types.xsd";
+        public const string OpcUaDiXsd = "http://opcfoundation.org/UA/DI/Types.xsd";
 
         /// <summary>
         /// The URI for the OpcUaRobotics namespace (.NET code namespace is 'Opc.Ua.Robotics').
