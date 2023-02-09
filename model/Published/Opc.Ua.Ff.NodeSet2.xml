@@ -523,6 +523,7 @@
       <Reference ReferenceType="HasComponent">ns=1;i=15308</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15310</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15312</Reference>
+      <Reference ReferenceType="Organizes" IsForward="false">ns=2;i=5001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=15013</Reference>
     </References>
   </UAObject>

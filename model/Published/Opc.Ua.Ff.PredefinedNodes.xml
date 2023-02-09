@@ -1160,6 +1160,17 @@
       <uax:Identifier>ns=3;i=15013</uax:Identifier>
     </uax:TypeDefinitionId>
     <uax:NumericId>27106</uax:NumericId>
+    <uax:References>
+      <uax:Reference>
+        <uax:ReferenceTypeId>
+          <uax:Identifier>i=35</uax:Identifier>
+        </uax:ReferenceTypeId>
+        <uax:IsInverse>true</uax:IsInverse>
+        <uax:TargetId>
+          <uax:Identifier>ns=1;i=5001</uax:Identifier>
+        </uax:TargetId>
+      </uax:Reference>
+    </uax:References>
     <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
       <uax:NodeClass>Variable_2</uax:NodeClass>
       <uax:NodeId>
