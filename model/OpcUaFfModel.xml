@@ -176,6 +176,12 @@
 	<Object SymbolicName="FF:MotionDeviceSystem_R01" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="FF:MotionDevice_R01" TypeDefinition="FF:HC10">
+				<References>
+					<Reference IsInverse="true">
+						<ReferenceType>ua:Organizes</ReferenceType>
+						<TargetId>FF:Controllers</TargetId>
+					</Reference>
+				</References>
 			</Object>
 			<Object SymbolicName="FF:Controller_R01" TypeDefinition="FF:YRC1000">
 				<BrowseName>Controller_R01</BrowseName>
