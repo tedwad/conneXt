@@ -15,8 +15,8 @@
 
 	<Namespaces>		
 		<Namespace Name="OpcUa" Version="1.03" PublicationDate="2013-12-02T00:00:00Z" Prefix="Opc.Ua" InternalPrefix="Opc.Ua.Server" XmlNamespace="http://opcfoundation.org/UA/2008/02/Types.xsd" XmlPrefix="ua">http://opcfoundation.org/UA/</Namespace>
-		<Namespace Name="OpcUaDi" Prefix="Opc.Ua.Di" XmlNamespace="http://opcfoundation.org/UA/DI/Types.xsd" XmlPrefix="DI" FilePath="ModelCompiler/Design.v104/OpcUaDiModel">http://opcfoundation.org/UA/DI/</Namespace>
-		<Namespace Name="OpcUaRobotics" Prefix="Opc.Ua.Robotics" XmlNamespace="http://opcfoundation.org/UA/Robotics/Types.xsd" XmlPrefix="ROB" FilePath="ModelCompiler/Design.v104/OpcUaRoboticsModel">http://opcfoundation.org/UA/Robotics/</Namespace>
+		<Namespace Name="OpcUaDi" Prefix="Opc.Ua.Di" XmlNamespace="http://opcfoundation.org/UA/DI/Types.xsd" XmlPrefix="DI" FilePath="../ModelCompiler/Design.v104/OpcUaDiModel">http://opcfoundation.org/UA/DI/</Namespace>
+		<Namespace Name="OpcUaRobotics" Prefix="Opc.Ua.Robotics" XmlNamespace="http://opcfoundation.org/UA/Robotics/Types.xsd" XmlPrefix="ROB" FilePath="../ModelCompiler/Design.v104/OpcUaRoboticsModel">http://opcfoundation.org/UA/Robotics/</Namespace>
 		<Namespace Name="FutureFactories" Prefix="Opc.Ua.Ff" XmlNamespace="https://nextusc.com/UA/FF/Types.xsd" XmlPrefix="FF">https://nextusc.com/UA/FF/</Namespace>  	
 	</Namespaces>
 
@@ -172,19 +172,36 @@
 	<Object SymbolicName="FF:USC_PLC" TypeDefinition="FF:CtrlConfigurationType">
 		<BrowseName>&lt;USC_PLC&gt;</BrowseName>
 	</Object>
+
+	
+	
+	
 	
 	<Object SymbolicName="FF:MotionDeviceSystem_R01" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
-			<Object SymbolicName="FF:MotionDevice_R01" TypeDefinition="FF:HC10">
-				<References>
-					<Reference IsInverse="true">
-						<ReferenceType>ua:Organizes</ReferenceType>
-						<TargetId>FF:Controllers</TargetId>
-					</Reference>
-				</References>
+			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:MotionDevice_R01" TypeDefinition="FF:HC10" ModellingRule="Mandatory">
+						<BrowseName>MotionDevice_R01</BrowseName>
+					</Object>
+				</Children>
 			</Object>
-			<Object SymbolicName="FF:Controller_R01" TypeDefinition="FF:YRC1000">
-				<BrowseName>Controller_R01</BrowseName>
+			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains the set of controllers in the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:Controller_R01" TypeDefinition="FF:YRC1000" ModellingRule="Mandatory">
+						<BrowseName>Controller_R01</BrowseName>
+					</Object>
+				</Children>
+			</Object>
+			<Object SymbolicName="ROB:SafetyStates" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains safety-related data from motion device system.</Description>
+				<Children>
+					<Object SymbolicName="ROB:SafetyStateIdentifier" TypeDefinition="ROB:SafetyStateType" ModellingRule="MandatoryPlaceholder">
+						<BrowseName>&lt;SafetyStateIdentifier&gt;</BrowseName>
+					</Object>
+				</Children>
 			</Object>
 		</Children>
 		<References>
@@ -197,10 +214,29 @@
 
 	<Object SymbolicName="FF:MotionDeviceSystem_R02" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
-			<Object SymbolicName="FF:MotionDevice_R02" TypeDefinition="FF:GP8">
+			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:MotionDevice_R02" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
+						<BrowseName>MotionDevice_R02</BrowseName>
+					</Object>
+				</Children>
 			</Object>
-			<Object SymbolicName="FF:Controller_R02" TypeDefinition="FF:YRC1000mini">
-				<BrowseName>Controller_R02</BrowseName>
+			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains the set of controllers in the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:Controller_R02" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
+						<BrowseName>Controller_R02</BrowseName>
+					</Object>
+				</Children>
+			</Object>
+			<Object SymbolicName="ROB:SafetyStates" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains safety-related data from motion device system.</Description>
+				<Children>
+					<Object SymbolicName="ROB:SafetyStateIdentifier" TypeDefinition="ROB:SafetyStateType" ModellingRule="MandatoryPlaceholder">
+						<BrowseName>&lt;SafetyStateIdentifier&gt;</BrowseName>
+					</Object>
+				</Children>
 			</Object>
 		</Children>
 		<References>
@@ -213,10 +249,29 @@
 
 	<Object SymbolicName="FF:MotionDeviceSystem_R03" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
-			<Object SymbolicName="FF:MotionDevice_R03" TypeDefinition="FF:GP8">
+			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:MotionDevice_R03" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
+						<BrowseName>MotionDevice_R03</BrowseName>
+					</Object>
+				</Children>
 			</Object>
-			<Object SymbolicName="FF:Controller_R03" TypeDefinition="FF:YRC1000mini">
-				<BrowseName>Controller_R03</BrowseName>
+			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains the set of controllers in the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:Controller_R03" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
+						<BrowseName>Controller_R03</BrowseName>
+					</Object>
+				</Children>
+			</Object>
+			<Object SymbolicName="ROB:SafetyStates" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains safety-related data from motion device system.</Description>
+				<Children>
+					<Object SymbolicName="ROB:SafetyStateIdentifier" TypeDefinition="ROB:SafetyStateType" ModellingRule="MandatoryPlaceholder">
+						<BrowseName>&lt;SafetyStateIdentifier&gt;</BrowseName>
+					</Object>
+				</Children>
 			</Object>
 		</Children>
 		<References>
@@ -229,10 +284,29 @@
 
 	<Object SymbolicName="FF:MotionDeviceSystem_R04" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
-			<Object SymbolicName="FF:MotionDevice_R04" TypeDefinition="FF:GP8">
+			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:MotionDevice_R04" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
+						<BrowseName>MotionDevice_R04</BrowseName>
+					</Object>
+				</Children>
 			</Object>
-			<Object SymbolicName="FF:Controller_R04" TypeDefinition="FF:YRC1000mini">
-				<BrowseName>Controller_R04</BrowseName>
+			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains the set of controllers in the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:Controller_R04" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
+						<BrowseName>Controller_R04</BrowseName>
+					</Object>
+				</Children>
+			</Object>
+			<Object SymbolicName="ROB:SafetyStates" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains safety-related data from motion device system.</Description>
+				<Children>
+					<Object SymbolicName="ROB:SafetyStateIdentifier" TypeDefinition="ROB:SafetyStateType" ModellingRule="MandatoryPlaceholder">
+						<BrowseName>&lt;SafetyStateIdentifier&gt;</BrowseName>
+					</Object>
+				</Children>
 			</Object>
 		</Children>
 		<References>
@@ -245,10 +319,29 @@
 
 	<Object SymbolicName="FF:MotionDeviceSystem_R05" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
-			<Object SymbolicName="FF:MotionDevice_R05" TypeDefinition="FF:HC10">
+			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:MotionDevice_R05" TypeDefinition="FF:HC10" ModellingRule="Mandatory">
+						<BrowseName>MotionDevice_R05</BrowseName>
+					</Object>
+				</Children>
 			</Object>
-			<Object SymbolicName="FF:Controller_R05" TypeDefinition="FF:YRC1000mini">
-				<BrowseName>Controller_R05</BrowseName>
+			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains the set of controllers in the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:Controller_R05" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
+						<BrowseName>Controller_R05</BrowseName>
+					</Object>
+				</Children>
+			</Object>
+			<Object SymbolicName="ROB:SafetyStates" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains safety-related data from motion device system.</Description>
+				<Children>
+					<Object SymbolicName="ROB:SafetyStateIdentifier" TypeDefinition="ROB:SafetyStateType" ModellingRule="MandatoryPlaceholder">
+						<BrowseName>&lt;SafetyStateIdentifier&gt;</BrowseName>
+					</Object>
+				</Children>
 			</Object>
 		</Children>
 		<References>
@@ -261,29 +354,47 @@
 
 	<Object SymbolicName="FF:MotionDeviceSystem_Conveyors" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
-			<Object SymbolicName="FF:Conveyor_1" TypeDefinition="ROB:MotionDeviceType">
-				<BrowseName>Conveyor_1</BrowseName>
+			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:Conveyor_1" TypeDefinition="ROB:MotionDeviceType">
+						<BrowseName>Conveyor_1</BrowseName>
+					</Object>
+					<Object SymbolicName="FF:Conveyor_2" TypeDefinition="ROB:MotionDeviceType">
+						<BrowseName>Conveyor_2</BrowseName>
+					</Object>
+					<Object SymbolicName="FF:Conveyor_3" TypeDefinition="ROB:MotionDeviceType">
+						<BrowseName>Conveyor_3</BrowseName>
+					</Object>
+					<Object SymbolicName="FF:Conveyor_4" TypeDefinition="ROB:MotionDeviceType">
+						<BrowseName>Conveyor_4</BrowseName>
+					</Object>
+				</Children>
 			</Object>
-			<Object SymbolicName="FF:Conveyor_2" TypeDefinition="ROB:MotionDeviceType">
-				<BrowseName>Conveyor_2</BrowseName>
+			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains the set of controllers in the motion device system.</Description>
+				<Children>
+					<Object SymbolicName="FF:VFD_1" TypeDefinition="FF:SINAMICS_G120C">
+						<BrowseName>VFD_1</BrowseName>
+					</Object>
+					<Object SymbolicName="FF:VFD_2" TypeDefinition="FF:SINAMICS_G120C">
+						<BrowseName>VFD_2</BrowseName>
+					</Object>
+					<Object SymbolicName="FF:VFD_3" TypeDefinition="FF:SINAMICS_G120C">
+						<BrowseName>VFD_3</BrowseName>
+					</Object>
+					<Object SymbolicName="FF:VFD_4" TypeDefinition="FF:SINAMICS_G120C">
+						<BrowseName>VFD_4</BrowseName>
+					</Object>
+				</Children>
 			</Object>
-			<Object SymbolicName="FF:Conveyor_3" TypeDefinition="ROB:MotionDeviceType">
-				<BrowseName>Conveyor_3</BrowseName>
-			</Object>
-			<Object SymbolicName="FF:Conveyor_4" TypeDefinition="ROB:MotionDeviceType">
-				<BrowseName>Conveyor_4</BrowseName>
-			</Object>
-			<Object SymbolicName="FF:VFD_1" TypeDefinition="FF:SINAMICS_G120C">
-				<BrowseName>VFD_1</BrowseName>
-			</Object>
-			<Object SymbolicName="FF:VFD_2" TypeDefinition="FF:SINAMICS_G120C">
-				<BrowseName>VFD_2</BrowseName>
-			</Object>
-			<Object SymbolicName="FF:VFD_3" TypeDefinition="FF:SINAMICS_G120C">
-				<BrowseName>VFD_3</BrowseName>
-			</Object>
-			<Object SymbolicName="FF:VFD_4" TypeDefinition="FF:SINAMICS_G120C">
-				<BrowseName>VFD_4</BrowseName>
+			<Object SymbolicName="ROB:SafetyStates" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Description>Contains safety-related data from motion device system.</Description>
+				<Children>
+					<Object SymbolicName="ROB:SafetyStateIdentifier" TypeDefinition="ROB:SafetyStateType" ModellingRule="MandatoryPlaceholder">
+						<BrowseName>&lt;SafetyStateIdentifier&gt;</BrowseName>
+					</Object>
+				</Children>
 			</Object>
 		</Children>
 		<References>
