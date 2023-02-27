@@ -2058,7 +2058,7 @@ namespace Opc.Ua.Ff
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class SINAMICS_G120CState : ControllerState
+    public partial class SINAMICS_G120CState : DriveState
     {
         #region Constructors
         /// <summary>
@@ -2106,19 +2106,29 @@ namespace Opc.Ua.Ff
         #region Initialization String
         private const string InitializationString =
            "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////hGCAAgEA" +
-           "AAADABYAAABTSU5BTUlDU19HMTIwQ0luc3RhbmNlAQPDTQEDw03DTQAAAf////8HAAAAFWCJCgIAAAAB" +
-           "AAwAAABNYW51ZmFjdHVyZXIBA9lNAC4ARNlNAAAAFf////8BAf////8AAAAAFWCJCgIAAAABAAUAAABN" +
-           "b2RlbAED200ALgBE200AAAAV/////wEB/////wAAAAAVYIkKAgAAAAEACwAAAFByb2R1Y3RDb2RlAQPf" +
-           "TQAuAETfTQAAAAz/////AQH/////AAAAABVgiQoCAAAAAQAMAAAAU2VyaWFsTnVtYmVyAQPiTQAuAETi" +
-           "TQAAAAz/////AQH/////AAAAACRggAoBAAAAAgALAAAAQ3VycmVudFVzZXIBA+dNAwAAAAAdAAAAVGhl" +
-           "IGdpdmVuIG5hbWUgb2YgdGhlIGRldmljZS4ALwEC/0bnTQAA/////wEAAAA1YIkKAgAAAAIABQAAAExl" +
-           "dmVsAQPoTQMAAAAANQAAAFRoZSB3ZWlnaHQgb2YgdGhlIGxvYWQgbW91bnRlZCBvbiBvbmUgbW91bnRp" +
-           "bmcgcG9pbnQuAC4AROhNAAAADP////8BAf////8AAAAAJGCACgEAAAACAAgAAABTb2Z0d2FyZQEDDU4D" +
-           "AAAAAFcAAABTb2Z0d2FyZSBpcyBhIGNvbnRhaW5lciBmb3Igb25lIG9yIG1vcmUgaW5zdGFuY2VzIG9m" +
-           "IFNvZnR3YXJlVHlwZSBkZWZpbmVkIGluIE9QQyBVQSBESS4ALwA9DU4AAP////8AAAAAJGCACgEAAAAC" +
-           "AAwAAABUYXNrQ29udHJvbHMBAzBOAwAAAABJAAAAVGFza0NvbnRyb2xzIGlzIGEgY29udGFpbmVyIGZv" +
-           "ciBvbmUgb3IgbW9yZSBpbnN0YW5jZXMgb2YgVGFza0NvbnRyb2xUeXBlLgAvAD0wTgAA/////wAAAAA=";
+           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
+           "AAADABYAAABTSU5BTUlDU19HMTIwQ0luc3RhbmNlAQPDTQEDw03DTQAA/////wkAAAA1YIkKAgAAAAEA" +
+           "DAAAAE1hbnVmYWN0dXJlcgED2U0DAAAAADAAAABOYW1lIG9mIHRoZSBjb21wYW55IHRoYXQgbWFudWZh" +
+           "Y3R1cmVkIHRoZSBkZXZpY2UALgBE2U0AAAAV/////wEB/////wAAAAA1YIkKAgAAAAEABQAAAE1vZGVs" +
+           "AQPbTQMAAAAAGAAAAE1vZGVsIG5hbWUgb2YgdGhlIGRldmljZQAuAETbTQAAABX/////AQH/////AAAA" +
+           "ADVgiQoCAAAAAQAQAAAASGFyZHdhcmVSZXZpc2lvbgED3E0DAAAAACwAAABSZXZpc2lvbiBsZXZlbCBv" +
+           "ZiB0aGUgaGFyZHdhcmUgb2YgdGhlIGRldmljZQAuAETcTQAAAAz/////AQH/////AAAAADVgiQoCAAAA" +
+           "AQAQAAAAU29mdHdhcmVSZXZpc2lvbgED3U0DAAAAADUAAABSZXZpc2lvbiBsZXZlbCBvZiB0aGUgc29m" +
+           "dHdhcmUvZmlybXdhcmUgb2YgdGhlIGRldmljZQAuAETdTQAAAAz/////AQH/////AAAAADVgiQoCAAAA" +
+           "AQAOAAAARGV2aWNlUmV2aXNpb24BA95NAwAAAAAkAAAAT3ZlcmFsbCByZXZpc2lvbiBsZXZlbCBvZiB0" +
+           "aGUgZGV2aWNlAC4ARN5NAAAADP////8BAf////8AAAAANWCJCgIAAAABAAsAAABQcm9kdWN0Q29kZQED" +
+           "300DAAAAALgAAABUaGUgUHJvZHVjdENvZGUgcHJvcGVydHkgcHJvdmlkZXMgYSB1bmlxdWUgY29tYmlu" +
+           "YXRpb24gb2YgbnVtYmVycyBhbmQgbGV0dGVycyB1c2VkIHRvIGlkZW50aWZ5IHRoZSBwcm9kdWN0LiBJ" +
+           "dCBtYXkgYmUgdGhlIG9yZGVyIGluZm9ybWF0aW9uIGRpc3BsYXllZCBvbiB0eXBlIHNoaWVsZHMgb3Ig" +
+           "aW4gRVJQIHN5c3RlbXMuAC4ARN9NAAAADP////8BAf////8AAAAANWCJCgIAAAABAAwAAABEZXZpY2VN" +
+           "YW51YWwBA+BNAwAAAABaAAAAQWRkcmVzcyAocGF0aG5hbWUgaW4gdGhlIGZpbGUgc3lzdGVtIG9yIGEg" +
+           "VVJMIHwgV2ViIGFkZHJlc3MpIG9mIHVzZXIgbWFudWFsIGZvciB0aGUgZGV2aWNlAC4AROBNAAAADP//" +
+           "//8BAf////8AAAAANWCJCgIAAAABAAwAAABTZXJpYWxOdW1iZXIBA+JNAwAAAABNAAAASWRlbnRpZmll" +
+           "ciB0aGF0IHVuaXF1ZWx5IGlkZW50aWZpZXMsIHdpdGhpbiBhIG1hbnVmYWN0dXJlciwgYSBkZXZpY2Ug" +
+           "aW5zdGFuY2UALgBE4k0AAAAM/////wEB/////wAAAAA1YIkKAgAAAAEADwAAAFJldmlzaW9uQ291bnRl" +
+           "cgED5E0DAAAAAGkAAABBbiBpbmNyZW1lbnRhbCBjb3VudGVyIGluZGljYXRpbmcgdGhlIG51bWJlciBv" +
+           "ZiB0aW1lcyB0aGUgc3RhdGljIGRhdGEgd2l0aGluIHRoZSBEZXZpY2UgaGFzIGJlZW4gbW9kaWZpZWQA" +
+           "LgBE5E0AAAAG/////wEB/////wAAAAA=";
         #endregion
         #endif
         #endregion

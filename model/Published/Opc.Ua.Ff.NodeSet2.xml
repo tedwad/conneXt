@@ -503,7 +503,7 @@
   <UAObjectType NodeId="ns=1;i=19907" BrowseName="1:&lt;SINAMICS_G120C&gt;" SymbolicName="SINAMICS_G120C">
     <DisplayName>&lt;SINAMICS_G120C&gt;</DisplayName>
     <References>
-      <Reference ReferenceType="HasSubtype" IsForward="false">ns=3;i=1003</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">ns=3;i=17793</Reference>
     </References>
   </UAObjectType>
   <UAObject NodeId="ns=1;i=27106" BrowseName="1:&lt;USC_PLC&gt;" SymbolicName="USC_PLC">
@@ -642,1657 +642,1777 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27106</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=20347" BrowseName="1:MotionDeviceSystem_R01" EventNotifier="1">
-    <DisplayName>MotionDeviceSystem_R01</DisplayName>
+  <UAObject NodeId="ns=1;i=20857" BrowseName="1:R01" EventNotifier="1">
+    <DisplayName>R01</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=20383</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=20598</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=20777</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=20894</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=21113</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=21773</Reference>
       <Reference ReferenceType="Organizes" IsForward="false">ns=2;i=5001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1002</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=20383" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=20347">
+  <UAObject NodeId="ns=1;i=20894" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=20857">
     <DisplayName>MotionDevices</DisplayName>
     <Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=21821</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20347</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20857</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15314" BrowseName="1:MotionDevice_R01" ParentNodeId="ns=1;i=20383">
+  <UAObject NodeId="ns=1;i=21821" BrowseName="1:MotionDevice_R01" ParentNodeId="ns=1;i=20894">
     <DisplayName>MotionDevice_R01</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=15315</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15335</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15337</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15341</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15344</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15349</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=15353</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=15434</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=21822</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=21842</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=21844</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=21848</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=21851</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=21856</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=21860</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=21941</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18595</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20383</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20894</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15315" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=15314">
+  <UAObject NodeId="ns=1;i=21822" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=21821">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=15352</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=21859</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21821</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=15352" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=15315" DataType="Double">
+  <UAVariable NodeId="ns=1;i=21859" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=21822" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15315</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21822</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15335" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=15314" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=21842" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=21821" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=21821</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15337" BrowseName="2:Model" ParentNodeId="ns=1;i=15314" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=21844" BrowseName="2:Model" ParentNodeId="ns=1;i=21821" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=21821</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15341" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=15314" DataType="String">
+  <UAVariable NodeId="ns=1;i=21848" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=21821" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=21821</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15344" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=15314" DataType="String">
+  <UAVariable NodeId="ns=1;i=21851" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=21821" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=21821</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15349" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=15314" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=21856" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=21821" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=21821</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=15353" BrowseName="3:Axes" ParentNodeId="ns=1;i=15314">
+  <UAObject NodeId="ns=1;i=21860" BrowseName="3:Axes" ParentNodeId="ns=1;i=21821">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21821</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15434" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=15314">
+  <UAObject NodeId="ns=1;i=21941" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=21821">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15314</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21821</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=20598" BrowseName="3:Controllers" ParentNodeId="ns=1;i=20347">
+  <UAObject NodeId="ns=1;i=21113" BrowseName="3:Controllers" ParentNodeId="ns=1;i=20857">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=15532</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=22039</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20347</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20857</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15532" BrowseName="1:Controller_R01" ParentNodeId="ns=1;i=20598">
+  <UAObject NodeId="ns=1;i=22039" BrowseName="1:Controller_R01" ParentNodeId="ns=1;i=21113">
     <DisplayName>Controller_R01</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=15553</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15555</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15559</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15562</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=15567</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=15606</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=15642</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=22060</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=22062</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=22066</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=22069</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=22074</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=22590</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=22626</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19027</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20598</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21113</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=15553" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=15532" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=22060" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=22039" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=22039</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15555" BrowseName="2:Model" ParentNodeId="ns=1;i=15532" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=22062" BrowseName="2:Model" ParentNodeId="ns=1;i=22039" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=22039</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15559" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=15532" DataType="String">
+  <UAVariable NodeId="ns=1;i=22066" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=22039" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=22039</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15562" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=15532" DataType="String">
+  <UAVariable NodeId="ns=1;i=22069" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=22039" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=22039</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=15567" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=15532">
+  <UAObject NodeId="ns=1;i=22074" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=22039">
     <DisplayName>CurrentUser</DisplayName>
     <Description>The given name of the device.</Description>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=15568</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=22075</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15532</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22039</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=15568" BrowseName="3:Level" ParentNodeId="ns=1;i=15567" DataType="String">
+  <UAVariable NodeId="ns=1;i=22075" BrowseName="3:Level" ParentNodeId="ns=1;i=22074" DataType="String">
     <DisplayName>Level</DisplayName>
     <Description>The weight of the load mounted on one mounting point.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15567</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=22074</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=15606" BrowseName="3:Software" ParentNodeId="ns=1;i=15532">
+  <UAObject NodeId="ns=1;i=22590" BrowseName="3:Software" ParentNodeId="ns=1;i=22039">
     <DisplayName>Software</DisplayName>
     <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15532</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22039</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15642" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=15532">
+  <UAObject NodeId="ns=1;i=22626" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=22039">
     <DisplayName>TaskControls</DisplayName>
     <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15532</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22039</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=20777" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=20347">
+  <UAObject NodeId="ns=1;i=21773" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=20857">
     <DisplayName>SafetyStates</DisplayName>
     <Description>Contains safety-related data from motion device system.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20347</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20857</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=21216" BrowseName="1:MotionDeviceSystem_R02" EventNotifier="1">
-    <DisplayName>MotionDeviceSystem_R02</DisplayName>
+  <UAObject NodeId="ns=1;i=22698" BrowseName="1:R02" EventNotifier="1">
+    <DisplayName>R02</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=21252</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=21467</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=21646</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=22735</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=23431</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=23614</Reference>
       <Reference ReferenceType="Organizes" IsForward="false">ns=2;i=5001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1002</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=21252" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=21216">
+  <UAObject NodeId="ns=1;i=22735" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=22698">
     <DisplayName>MotionDevices</DisplayName>
     <Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=23662</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21216</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22698</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15714" BrowseName="1:MotionDevice_R02" ParentNodeId="ns=1;i=21252">
+  <UAObject NodeId="ns=1;i=23662" BrowseName="1:MotionDevice_R02" ParentNodeId="ns=1;i=22735">
     <DisplayName>MotionDevice_R02</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=15715</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15735</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15737</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15741</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15744</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15749</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=15753</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=15834</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=23663</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=23683</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=23685</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=23689</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=23692</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=23697</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=23701</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=23782</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18811</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21252</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22735</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15715" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=15714">
+  <UAObject NodeId="ns=1;i=23663" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=23662">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=15752</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=23700</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23662</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=15752" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=15715" DataType="Double">
+  <UAVariable NodeId="ns=1;i=23700" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=23663" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15715</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23663</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15735" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=15714" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=23683" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=23662" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=23662</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15737" BrowseName="2:Model" ParentNodeId="ns=1;i=15714" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=23685" BrowseName="2:Model" ParentNodeId="ns=1;i=23662" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=23662</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15741" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=15714" DataType="String">
+  <UAVariable NodeId="ns=1;i=23689" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=23662" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=23662</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15744" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=15714" DataType="String">
+  <UAVariable NodeId="ns=1;i=23692" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=23662" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=23662</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15749" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=15714" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=23697" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=23662" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=23662</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=15753" BrowseName="3:Axes" ParentNodeId="ns=1;i=15714">
+  <UAObject NodeId="ns=1;i=23701" BrowseName="3:Axes" ParentNodeId="ns=1;i=23662">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23662</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15834" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=15714">
+  <UAObject NodeId="ns=1;i=23782" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=23662">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15714</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23662</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=21467" BrowseName="3:Controllers" ParentNodeId="ns=1;i=21216">
+  <UAObject NodeId="ns=1;i=23431" BrowseName="3:Controllers" ParentNodeId="ns=1;i=22698">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=15932</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=24357</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21216</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22698</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15932" BrowseName="1:Controller_R02" ParentNodeId="ns=1;i=21467">
+  <UAObject NodeId="ns=1;i=24357" BrowseName="1:Controller_R02" ParentNodeId="ns=1;i=23431">
     <DisplayName>Controller_R02</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=15953</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15955</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15959</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=15962</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=15967</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16006</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16042</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=24378</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=24380</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=24384</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=24387</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=24392</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=24431</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=24467</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19467</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21467</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23431</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=15953" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=15932" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=24378" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=24357" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15932</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=24357</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15955" BrowseName="2:Model" ParentNodeId="ns=1;i=15932" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=24380" BrowseName="2:Model" ParentNodeId="ns=1;i=24357" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15932</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=24357</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15959" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=15932" DataType="String">
+  <UAVariable NodeId="ns=1;i=24384" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=24357" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15932</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=24357</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15962" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=15932" DataType="String">
+  <UAVariable NodeId="ns=1;i=24387" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=24357" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15932</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=24357</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=15967" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=15932">
+  <UAObject NodeId="ns=1;i=24392" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=24357">
     <DisplayName>CurrentUser</DisplayName>
     <Description>The given name of the device.</Description>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=15968</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=24393</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15932</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24357</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=15968" BrowseName="3:Level" ParentNodeId="ns=1;i=15967" DataType="String">
+  <UAVariable NodeId="ns=1;i=24393" BrowseName="3:Level" ParentNodeId="ns=1;i=24392" DataType="String">
     <DisplayName>Level</DisplayName>
     <Description>The weight of the load mounted on one mounting point.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15967</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=24392</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=16006" BrowseName="3:Software" ParentNodeId="ns=1;i=15932">
+  <UAObject NodeId="ns=1;i=24431" BrowseName="3:Software" ParentNodeId="ns=1;i=24357">
     <DisplayName>Software</DisplayName>
     <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15932</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24357</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16042" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=15932">
+  <UAObject NodeId="ns=1;i=24467" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=24357">
     <DisplayName>TaskControls</DisplayName>
     <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15932</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24357</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=21646" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=21216">
+  <UAObject NodeId="ns=1;i=23614" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=22698">
     <DisplayName>SafetyStates</DisplayName>
     <Description>Contains safety-related data from motion device system.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21216</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22698</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=22085" BrowseName="1:MotionDeviceSystem_R03" EventNotifier="1">
-    <DisplayName>MotionDeviceSystem_R03</DisplayName>
+  <UAObject NodeId="ns=1;i=24539" BrowseName="1:R03" EventNotifier="1">
+    <DisplayName>R03</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=22121</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=22336</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=22515</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=24576</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25272</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25455</Reference>
       <Reference ReferenceType="Organizes" IsForward="false">ns=2;i=5001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1002</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=22121" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=22085">
+  <UAObject NodeId="ns=1;i=24576" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=24539">
     <DisplayName>MotionDevices</DisplayName>
     <Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25503</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22085</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24539</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16114" BrowseName="1:MotionDevice_R03" ParentNodeId="ns=1;i=22121">
+  <UAObject NodeId="ns=1;i=25503" BrowseName="1:MotionDevice_R03" ParentNodeId="ns=1;i=24576">
     <DisplayName>MotionDevice_R03</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16115</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16135</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16137</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16141</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16144</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16149</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16153</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16234</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25504</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25524</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25526</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25530</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25533</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25538</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25542</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25623</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18811</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22121</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24576</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16115" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=16114">
+  <UAObject NodeId="ns=1;i=25504" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=25503">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16152</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25541</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25503</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16152" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=16115" DataType="Double">
+  <UAVariable NodeId="ns=1;i=25541" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=25504" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16115</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25504</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16135" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=16114" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=25524" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=25503" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25503</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16137" BrowseName="2:Model" ParentNodeId="ns=1;i=16114" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=25526" BrowseName="2:Model" ParentNodeId="ns=1;i=25503" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25503</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16141" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=16114" DataType="String">
+  <UAVariable NodeId="ns=1;i=25530" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=25503" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25503</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16144" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=16114" DataType="String">
+  <UAVariable NodeId="ns=1;i=25533" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=25503" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25503</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16149" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=16114" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=25538" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=25503" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25503</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=16153" BrowseName="3:Axes" ParentNodeId="ns=1;i=16114">
+  <UAObject NodeId="ns=1;i=25542" BrowseName="3:Axes" ParentNodeId="ns=1;i=25503">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25503</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16234" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=16114">
+  <UAObject NodeId="ns=1;i=25623" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=25503">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16114</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25503</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=22336" BrowseName="3:Controllers" ParentNodeId="ns=1;i=22085">
+  <UAObject NodeId="ns=1;i=25272" BrowseName="3:Controllers" ParentNodeId="ns=1;i=24539">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16332</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25721</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22085</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24539</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16332" BrowseName="1:Controller_R03" ParentNodeId="ns=1;i=22336">
+  <UAObject NodeId="ns=1;i=25721" BrowseName="1:Controller_R03" ParentNodeId="ns=1;i=25272">
     <DisplayName>Controller_R03</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=16353</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16355</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16359</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16362</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16367</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16406</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16442</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25742</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25744</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25748</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25751</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25756</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25795</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25831</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19467</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22336</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25272</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16353" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=16332" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=25742" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=25721" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16332</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25721</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16355" BrowseName="2:Model" ParentNodeId="ns=1;i=16332" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=25744" BrowseName="2:Model" ParentNodeId="ns=1;i=25721" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16332</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25721</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16359" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=16332" DataType="String">
+  <UAVariable NodeId="ns=1;i=25748" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=25721" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16332</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25721</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16362" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=16332" DataType="String">
+  <UAVariable NodeId="ns=1;i=25751" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=25721" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16332</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25721</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=16367" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=16332">
+  <UAObject NodeId="ns=1;i=25756" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=25721">
     <DisplayName>CurrentUser</DisplayName>
     <Description>The given name of the device.</Description>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=16368</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=25757</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16332</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25721</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16368" BrowseName="3:Level" ParentNodeId="ns=1;i=16367" DataType="String">
+  <UAVariable NodeId="ns=1;i=25757" BrowseName="3:Level" ParentNodeId="ns=1;i=25756" DataType="String">
     <DisplayName>Level</DisplayName>
     <Description>The weight of the load mounted on one mounting point.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16367</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=25756</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=16406" BrowseName="3:Software" ParentNodeId="ns=1;i=16332">
+  <UAObject NodeId="ns=1;i=25795" BrowseName="3:Software" ParentNodeId="ns=1;i=25721">
     <DisplayName>Software</DisplayName>
     <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16332</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25721</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16442" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=16332">
+  <UAObject NodeId="ns=1;i=25831" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=25721">
     <DisplayName>TaskControls</DisplayName>
     <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16332</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25721</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=22515" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=22085">
+  <UAObject NodeId="ns=1;i=25455" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=24539">
     <DisplayName>SafetyStates</DisplayName>
     <Description>Contains safety-related data from motion device system.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22085</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24539</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=22954" BrowseName="1:MotionDeviceSystem_R04" EventNotifier="1">
-    <DisplayName>MotionDeviceSystem_R04</DisplayName>
+  <UAObject NodeId="ns=1;i=25903" BrowseName="1:R04" EventNotifier="1">
+    <DisplayName>R04</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=22990</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=23205</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=23384</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=25940</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26159</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26342</Reference>
       <Reference ReferenceType="Organizes" IsForward="false">ns=2;i=5001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1002</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=22990" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=22954">
+  <UAObject NodeId="ns=1;i=25940" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=25903">
     <DisplayName>MotionDevices</DisplayName>
     <Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26390</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22954</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25903</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16514" BrowseName="1:MotionDevice_R04" ParentNodeId="ns=1;i=22990">
+  <UAObject NodeId="ns=1;i=26390" BrowseName="1:MotionDevice_R04" ParentNodeId="ns=1;i=25940">
     <DisplayName>MotionDevice_R04</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16515</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16535</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16537</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16541</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16544</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16549</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16553</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16634</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26391</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26411</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26413</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26417</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26420</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26425</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26429</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26510</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18811</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22990</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25940</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16515" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=16514">
+  <UAObject NodeId="ns=1;i=26391" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=26390">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16552</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26428</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26390</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16552" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=16515" DataType="Double">
+  <UAVariable NodeId="ns=1;i=26428" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=26391" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16515</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26391</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16535" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=16514" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=26411" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=26390" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26390</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16537" BrowseName="2:Model" ParentNodeId="ns=1;i=16514" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=26413" BrowseName="2:Model" ParentNodeId="ns=1;i=26390" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26390</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16541" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=16514" DataType="String">
+  <UAVariable NodeId="ns=1;i=26417" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=26390" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26390</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16544" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=16514" DataType="String">
+  <UAVariable NodeId="ns=1;i=26420" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=26390" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26390</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16549" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=16514" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=26425" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=26390" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26390</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=16553" BrowseName="3:Axes" ParentNodeId="ns=1;i=16514">
+  <UAObject NodeId="ns=1;i=26429" BrowseName="3:Axes" ParentNodeId="ns=1;i=26390">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26390</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16634" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=16514">
+  <UAObject NodeId="ns=1;i=26510" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=26390">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16514</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26390</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=23205" BrowseName="3:Controllers" ParentNodeId="ns=1;i=22954">
+  <UAObject NodeId="ns=1;i=26159" BrowseName="3:Controllers" ParentNodeId="ns=1;i=25903">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16732</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26608</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22954</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25903</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16732" BrowseName="1:Controller_R04" ParentNodeId="ns=1;i=23205">
+  <UAObject NodeId="ns=1;i=26608" BrowseName="1:Controller_R04" ParentNodeId="ns=1;i=26159">
     <DisplayName>Controller_R04</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=16753</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16755</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16759</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16762</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16767</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16806</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16842</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26629</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26631</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26635</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26638</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26643</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26682</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=26718</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19467</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23205</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26159</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16753" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=16732" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=26629" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=26608" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16732</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26608</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16755" BrowseName="2:Model" ParentNodeId="ns=1;i=16732" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=26631" BrowseName="2:Model" ParentNodeId="ns=1;i=26608" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16732</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26608</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16759" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=16732" DataType="String">
+  <UAVariable NodeId="ns=1;i=26635" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=26608" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16732</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26608</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16762" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=16732" DataType="String">
+  <UAVariable NodeId="ns=1;i=26638" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=26608" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16732</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26608</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=16767" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=16732">
+  <UAObject NodeId="ns=1;i=26643" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=26608">
     <DisplayName>CurrentUser</DisplayName>
     <Description>The given name of the device.</Description>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=16768</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=26644</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16732</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26608</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16768" BrowseName="3:Level" ParentNodeId="ns=1;i=16767" DataType="String">
+  <UAVariable NodeId="ns=1;i=26644" BrowseName="3:Level" ParentNodeId="ns=1;i=26643" DataType="String">
     <DisplayName>Level</DisplayName>
     <Description>The weight of the load mounted on one mounting point.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16767</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26643</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=16806" BrowseName="3:Software" ParentNodeId="ns=1;i=16732">
+  <UAObject NodeId="ns=1;i=26682" BrowseName="3:Software" ParentNodeId="ns=1;i=26608">
     <DisplayName>Software</DisplayName>
     <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16732</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26608</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16842" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=16732">
+  <UAObject NodeId="ns=1;i=26718" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=26608">
     <DisplayName>TaskControls</DisplayName>
     <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16732</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26608</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=23384" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=22954">
+  <UAObject NodeId="ns=1;i=26342" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=25903">
     <DisplayName>SafetyStates</DisplayName>
     <Description>Contains safety-related data from motion device system.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22954</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25903</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=23823" BrowseName="1:MotionDeviceSystem_R05" EventNotifier="1">
-    <DisplayName>MotionDeviceSystem_R05</DisplayName>
+  <UAObject NodeId="ns=1;i=27214" BrowseName="1:R05" EventNotifier="1">
+    <DisplayName>R05</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=23859</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=24074</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=24253</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27251</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27470</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27713</Reference>
       <Reference ReferenceType="Organizes" IsForward="false">ns=2;i=5001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1002</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=23859" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=23823">
+  <UAObject NodeId="ns=1;i=27251" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=27214">
     <DisplayName>MotionDevices</DisplayName>
     <Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27761</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23823</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27214</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16914" BrowseName="1:MotionDevice_R05" ParentNodeId="ns=1;i=23859">
+  <UAObject NodeId="ns=1;i=27761" BrowseName="1:MotionDevice_R05" ParentNodeId="ns=1;i=27251">
     <DisplayName>MotionDevice_R05</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16915</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16935</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16937</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16941</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16944</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=16949</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=16953</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17034</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27762</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=27782</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=27784</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=27788</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=27791</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=27796</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27800</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27881</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18595</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23859</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27251</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16915" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=16914">
+  <UAObject NodeId="ns=1;i=27762" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=27761">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=16952</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27799</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27761</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16952" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=16915" DataType="Double">
+  <UAVariable NodeId="ns=1;i=27799" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=27762" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16915</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27762</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16935" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=16914" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=27782" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=27761" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27761</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16937" BrowseName="2:Model" ParentNodeId="ns=1;i=16914" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=27784" BrowseName="2:Model" ParentNodeId="ns=1;i=27761" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27761</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16941" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=16914" DataType="String">
+  <UAVariable NodeId="ns=1;i=27788" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=27761" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27761</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16944" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=16914" DataType="String">
+  <UAVariable NodeId="ns=1;i=27791" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=27761" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27761</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16949" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=16914" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=27796" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=27761" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27761</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=16953" BrowseName="3:Axes" ParentNodeId="ns=1;i=16914">
+  <UAObject NodeId="ns=1;i=27800" BrowseName="3:Axes" ParentNodeId="ns=1;i=27761">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27761</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17034" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=16914">
+  <UAObject NodeId="ns=1;i=27881" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=27761">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16914</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27761</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=24074" BrowseName="3:Controllers" ParentNodeId="ns=1;i=23823">
+  <UAObject NodeId="ns=1;i=27470" BrowseName="3:Controllers" ParentNodeId="ns=1;i=27214">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17132</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=27979</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23823</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27214</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17132" BrowseName="1:Controller_R05" ParentNodeId="ns=1;i=24074">
+  <UAObject NodeId="ns=1;i=27979" BrowseName="1:Controller_R05" ParentNodeId="ns=1;i=27470">
     <DisplayName>Controller_R05</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=17153</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17155</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17159</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17162</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17167</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17206</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17242</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28000</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28002</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28006</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28009</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28014</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28053</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28089</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19467</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24074</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27470</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=17153" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=17132" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=28000" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=27979" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17132</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27979</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17155" BrowseName="2:Model" ParentNodeId="ns=1;i=17132" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=28002" BrowseName="2:Model" ParentNodeId="ns=1;i=27979" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17132</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27979</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17159" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=17132" DataType="String">
+  <UAVariable NodeId="ns=1;i=28006" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=27979" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17132</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27979</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17162" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=17132" DataType="String">
+  <UAVariable NodeId="ns=1;i=28009" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=27979" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17132</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=27979</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=17167" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=17132">
+  <UAObject NodeId="ns=1;i=28014" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=27979">
     <DisplayName>CurrentUser</DisplayName>
     <Description>The given name of the device.</Description>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=17168</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28015</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17132</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27979</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=17168" BrowseName="3:Level" ParentNodeId="ns=1;i=17167" DataType="String">
+  <UAVariable NodeId="ns=1;i=28015" BrowseName="3:Level" ParentNodeId="ns=1;i=28014" DataType="String">
     <DisplayName>Level</DisplayName>
     <Description>The weight of the load mounted on one mounting point.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17167</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28014</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=17206" BrowseName="3:Software" ParentNodeId="ns=1;i=17132">
+  <UAObject NodeId="ns=1;i=28053" BrowseName="3:Software" ParentNodeId="ns=1;i=27979">
     <DisplayName>Software</DisplayName>
     <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17132</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27979</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17242" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=17132">
+  <UAObject NodeId="ns=1;i=28089" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=27979">
     <DisplayName>TaskControls</DisplayName>
     <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17132</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27979</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=24253" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=23823">
+  <UAObject NodeId="ns=1;i=27713" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=27214">
     <DisplayName>SafetyStates</DisplayName>
     <Description>Contains safety-related data from motion device system.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23823</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27214</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=24692" BrowseName="1:MotionDeviceSystem_Conveyors" EventNotifier="1">
-    <DisplayName>MotionDeviceSystem_Conveyors</DisplayName>
+  <UAObject NodeId="ns=1;i=28161" BrowseName="1:Conveyors" EventNotifier="1">
+    <DisplayName>Conveyors</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=24728</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=24943</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=25122</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28198</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28417</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28600</Reference>
       <Reference ReferenceType="Organizes" IsForward="false">ns=2;i=5001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1002</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=24728" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=24692">
+  <UAObject NodeId="ns=1;i=28198" BrowseName="3:MotionDevices" ParentNodeId="ns=1;i=28161">
     <DisplayName>MotionDevices</DisplayName>
     <Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17314</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17532</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17750</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28648</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28866</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29084</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29302</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24692</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28161</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17314" BrowseName="1:Conveyor_1" ParentNodeId="ns=1;i=24728">
+  <UAObject NodeId="ns=1;i=28648" BrowseName="1:Conveyor_1" ParentNodeId="ns=1;i=28198">
     <DisplayName>Conveyor_1</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17315</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17335</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17337</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17341</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17344</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17349</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17353</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17434</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28649</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28669</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28671</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28675</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28678</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28683</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28687</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28768</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1004</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24728</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28198</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17315" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=17314">
+  <UAObject NodeId="ns=1;i=28649" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=28648">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17352</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28686</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17314</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28648</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=17352" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=17315" DataType="Double">
+  <UAVariable NodeId="ns=1;i=28686" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=28649" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17315</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28649</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17335" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=17314" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=28669" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=28648" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28648</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17337" BrowseName="2:Model" ParentNodeId="ns=1;i=17314" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=28671" BrowseName="2:Model" ParentNodeId="ns=1;i=28648" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28648</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17341" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=17314" DataType="String">
+  <UAVariable NodeId="ns=1;i=28675" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=28648" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28648</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17344" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=17314" DataType="String">
+  <UAVariable NodeId="ns=1;i=28678" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=28648" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28648</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17349" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=17314" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=28683" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=28648" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17314</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28648</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=17353" BrowseName="3:Axes" ParentNodeId="ns=1;i=17314">
+  <UAObject NodeId="ns=1;i=28687" BrowseName="3:Axes" ParentNodeId="ns=1;i=28648">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17314</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28648</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17434" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=17314">
+  <UAObject NodeId="ns=1;i=28768" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=28648">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17314</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28648</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17532" BrowseName="1:Conveyor_2" ParentNodeId="ns=1;i=24728">
+  <UAObject NodeId="ns=1;i=28866" BrowseName="1:Conveyor_2" ParentNodeId="ns=1;i=28198">
     <DisplayName>Conveyor_2</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17533</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17553</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17555</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17559</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17562</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17567</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17571</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17652</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28867</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28887</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28889</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28893</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28896</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=28901</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28905</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28986</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1004</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24728</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28198</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17533" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=17532">
+  <UAObject NodeId="ns=1;i=28867" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=28866">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17570</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=28904</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17532</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28866</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=17570" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=17533" DataType="Double">
+  <UAVariable NodeId="ns=1;i=28904" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=28867" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17533</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28867</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17553" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=17532" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=28887" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=28866" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28866</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17555" BrowseName="2:Model" ParentNodeId="ns=1;i=17532" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=28889" BrowseName="2:Model" ParentNodeId="ns=1;i=28866" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28866</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17559" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=17532" DataType="String">
+  <UAVariable NodeId="ns=1;i=28893" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=28866" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28866</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17562" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=17532" DataType="String">
+  <UAVariable NodeId="ns=1;i=28896" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=28866" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28866</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17567" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=17532" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=28901" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=28866" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17532</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=28866</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=17571" BrowseName="3:Axes" ParentNodeId="ns=1;i=17532">
+  <UAObject NodeId="ns=1;i=28905" BrowseName="3:Axes" ParentNodeId="ns=1;i=28866">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17532</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28866</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17652" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=17532">
+  <UAObject NodeId="ns=1;i=28986" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=28866">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17532</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28866</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17750" BrowseName="1:Conveyor_3" ParentNodeId="ns=1;i=24728">
+  <UAObject NodeId="ns=1;i=29084" BrowseName="1:Conveyor_3" ParentNodeId="ns=1;i=28198">
     <DisplayName>Conveyor_3</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17751</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17771</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17773</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17777</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17780</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17785</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17789</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=17870</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29085</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29105</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29107</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29111</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29114</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29119</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29123</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29204</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1004</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24728</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28198</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17751" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=17750">
+  <UAObject NodeId="ns=1;i=29085" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=29084">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17788</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29122</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17750</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29084</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=17788" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=17751" DataType="Double">
+  <UAVariable NodeId="ns=1;i=29122" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=29085" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17751</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29085</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17771" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=17750" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29105" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29084" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17750</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29084</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17773" BrowseName="2:Model" ParentNodeId="ns=1;i=17750" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29107" BrowseName="2:Model" ParentNodeId="ns=1;i=29084" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17750</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29084</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17777" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=17750" DataType="String">
+  <UAVariable NodeId="ns=1;i=29111" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=29084" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17750</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29084</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17780" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=17750" DataType="String">
+  <UAVariable NodeId="ns=1;i=29114" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=29084" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17750</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29084</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17785" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=17750" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=29119" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=29084" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17750</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29084</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=17789" BrowseName="3:Axes" ParentNodeId="ns=1;i=17750">
+  <UAObject NodeId="ns=1;i=29123" BrowseName="3:Axes" ParentNodeId="ns=1;i=29084">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17750</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29084</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17870" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=17750">
+  <UAObject NodeId="ns=1;i=29204" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=29084">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17750</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29084</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17968" BrowseName="1:Conveyor_4" ParentNodeId="ns=1;i=24728">
+  <UAObject NodeId="ns=1;i=29302" BrowseName="1:Conveyor_4" ParentNodeId="ns=1;i=28198">
     <DisplayName>Conveyor_4</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=17969</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17989</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17991</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17995</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=17998</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=18003</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18007</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18088</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29303</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29323</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29325</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29329</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29332</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29337</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29341</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29422</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1004</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24728</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28198</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17969" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=17968">
+  <UAObject NodeId="ns=1;i=29303" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=29302">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18006</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29340</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29302</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=18006" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=17969" DataType="Double">
+  <UAVariable NodeId="ns=1;i=29340" BrowseName="3:SpeedOverride" ParentNodeId="ns=1;i=29303" DataType="Double">
     <DisplayName>SpeedOverride</DisplayName>
     <Description>SpeedOverride provides the current speed setting in percent of programmed speed (0 - 100%).</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17969</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29303</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17989" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=17968" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29323" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29302" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29302</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17991" BrowseName="2:Model" ParentNodeId="ns=1;i=17968" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29325" BrowseName="2:Model" ParentNodeId="ns=1;i=29302" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29302</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17995" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=17968" DataType="String">
+  <UAVariable NodeId="ns=1;i=29329" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=29302" DataType="String">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29302</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17998" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=17968" DataType="String">
+  <UAVariable NodeId="ns=1;i=29332" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=29302" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29302</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18003" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=17968" DataType="ns=3;i=18193">
+  <UAVariable NodeId="ns=1;i=29337" BrowseName="3:MotionDeviceCategory" ParentNodeId="ns=1;i=29302" DataType="ns=3;i=18193">
     <DisplayName>MotionDeviceCategory</DisplayName>
     <Description>The variable MotionDeviceCategory provides the kind of motion device defined by MotionDeviceCategoryEnumeration based on ISO 8373.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29302</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=18007" BrowseName="3:Axes" ParentNodeId="ns=1;i=17968">
+  <UAObject NodeId="ns=1;i=29341" BrowseName="3:Axes" ParentNodeId="ns=1;i=29302">
     <DisplayName>Axes</DisplayName>
     <Description>Axes is a container for one or more instances of the AxisType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29302</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=18088" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=17968">
+  <UAObject NodeId="ns=1;i=29422" BrowseName="3:PowerTrains" ParentNodeId="ns=1;i=29302">
     <DisplayName>PowerTrains</DisplayName>
     <Description>PowerTrains is a container for one or more instances of the PowerTrainType.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17968</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29302</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=24943" BrowseName="3:Controllers" ParentNodeId="ns=1;i=24692">
+  <UAObject NodeId="ns=1;i=28417" BrowseName="3:Controllers" ParentNodeId="ns=1;i=28161">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18186</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18368</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18550</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=26940</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29520</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29571</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29622</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29673</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24692</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28161</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=18186" BrowseName="1:VFD_1" ParentNodeId="ns=1;i=24943">
+  <UAObject NodeId="ns=1;i=29520" BrowseName="1:VFD_1" ParentNodeId="ns=1;i=28417">
     <DisplayName>VFD_1</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18207</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=18209</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=18213</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=18216</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18221</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18260</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18296</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29541</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29543</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29544</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29545</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29546</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29547</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29548</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29550</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29552</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29565</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19907</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24943</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28417</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=18207" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=18186" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29541" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29520" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
+    <Description>Name of the company that manufactured the device</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18186</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18209" BrowseName="2:Model" ParentNodeId="ns=1;i=18186" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29543" BrowseName="2:Model" ParentNodeId="ns=1;i=29520" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
+    <Description>Model name of the device</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18186</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18213" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=18186" DataType="String">
+  <UAVariable NodeId="ns=1;i=29544" BrowseName="2:HardwareRevision" ParentNodeId="ns=1;i=29520" DataType="String">
+    <DisplayName>HardwareRevision</DisplayName>
+    <Description>Revision level of the hardware of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29545" BrowseName="2:SoftwareRevision" ParentNodeId="ns=1;i=29520" DataType="String">
+    <DisplayName>SoftwareRevision</DisplayName>
+    <Description>Revision level of the software/firmware of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29546" BrowseName="2:DeviceRevision" ParentNodeId="ns=1;i=29520" DataType="String">
+    <DisplayName>DeviceRevision</DisplayName>
+    <Description>Overall revision level of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29547" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=29520" DataType="String">
     <DisplayName>ProductCode</DisplayName>
+    <Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18186</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18216" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=18186" DataType="String">
+  <UAVariable NodeId="ns=1;i=29548" BrowseName="2:DeviceManual" ParentNodeId="ns=1;i=29520" DataType="String">
+    <DisplayName>DeviceManual</DisplayName>
+    <Description>Address (pathname in the file system or a URL | Web address) of user manual for the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29550" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=29520" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
+    <Description>Identifier that uniquely identifies, within a manufacturer, a device instance</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18186</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=18221" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=18186">
-    <DisplayName>CurrentUser</DisplayName>
-    <Description>The given name of the device.</Description>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18222</Reference>
-      <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18186</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=18222" BrowseName="3:Level" ParentNodeId="ns=1;i=18221" DataType="String">
-    <DisplayName>Level</DisplayName>
-    <Description>The weight of the load mounted on one mounting point.</Description>
+  <UAVariable NodeId="ns=1;i=29552" BrowseName="2:RevisionCounter" ParentNodeId="ns=1;i=29520" DataType="Int32">
+    <DisplayName>RevisionCounter</DisplayName>
+    <Description>An incremental counter indicating the number of times the static data within the Device has been modified</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18221</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=18260" BrowseName="3:Software" ParentNodeId="ns=1;i=18186">
-    <DisplayName>Software</DisplayName>
-    <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
+  <UAVariable NodeId="ns=1;i=29565" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29520" DataType="Double">
+    <DisplayName>Temperature</DisplayName>
+    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
     <References>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18186</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29570</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29520</Reference>
     </References>
-  </UAObject>
-  <UAObject NodeId="ns=1;i=18296" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=18186">
-    <DisplayName>TaskControls</DisplayName>
-    <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29570" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=29565" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
     <References>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18186</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29565</Reference>
     </References>
-  </UAObject>
-  <UAObject NodeId="ns=1;i=18368" BrowseName="1:VFD_2" ParentNodeId="ns=1;i=24943">
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=29571" BrowseName="1:VFD_2" ParentNodeId="ns=1;i=28417">
     <DisplayName>VFD_2</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18389</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=18391</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=18395</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=18398</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18403</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18442</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18478</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29592</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29594</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29595</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29596</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29597</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29598</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29599</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29601</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29603</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29616</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19907</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24943</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28417</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=18389" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=18368" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29592" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29571" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
+    <Description>Name of the company that manufactured the device</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18368</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18391" BrowseName="2:Model" ParentNodeId="ns=1;i=18368" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29594" BrowseName="2:Model" ParentNodeId="ns=1;i=29571" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
+    <Description>Model name of the device</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18368</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18395" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=18368" DataType="String">
+  <UAVariable NodeId="ns=1;i=29595" BrowseName="2:HardwareRevision" ParentNodeId="ns=1;i=29571" DataType="String">
+    <DisplayName>HardwareRevision</DisplayName>
+    <Description>Revision level of the hardware of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29596" BrowseName="2:SoftwareRevision" ParentNodeId="ns=1;i=29571" DataType="String">
+    <DisplayName>SoftwareRevision</DisplayName>
+    <Description>Revision level of the software/firmware of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29597" BrowseName="2:DeviceRevision" ParentNodeId="ns=1;i=29571" DataType="String">
+    <DisplayName>DeviceRevision</DisplayName>
+    <Description>Overall revision level of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29598" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=29571" DataType="String">
     <DisplayName>ProductCode</DisplayName>
+    <Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18368</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18398" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=18368" DataType="String">
+  <UAVariable NodeId="ns=1;i=29599" BrowseName="2:DeviceManual" ParentNodeId="ns=1;i=29571" DataType="String">
+    <DisplayName>DeviceManual</DisplayName>
+    <Description>Address (pathname in the file system or a URL | Web address) of user manual for the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29601" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=29571" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
+    <Description>Identifier that uniquely identifies, within a manufacturer, a device instance</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18368</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=18403" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=18368">
-    <DisplayName>CurrentUser</DisplayName>
-    <Description>The given name of the device.</Description>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18404</Reference>
-      <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18368</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=18404" BrowseName="3:Level" ParentNodeId="ns=1;i=18403" DataType="String">
-    <DisplayName>Level</DisplayName>
-    <Description>The weight of the load mounted on one mounting point.</Description>
+  <UAVariable NodeId="ns=1;i=29603" BrowseName="2:RevisionCounter" ParentNodeId="ns=1;i=29571" DataType="Int32">
+    <DisplayName>RevisionCounter</DisplayName>
+    <Description>An incremental counter indicating the number of times the static data within the Device has been modified</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18403</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=18442" BrowseName="3:Software" ParentNodeId="ns=1;i=18368">
-    <DisplayName>Software</DisplayName>
-    <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
+  <UAVariable NodeId="ns=1;i=29616" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29571" DataType="Double">
+    <DisplayName>Temperature</DisplayName>
+    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
     <References>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18368</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29621</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29571</Reference>
     </References>
-  </UAObject>
-  <UAObject NodeId="ns=1;i=18478" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=18368">
-    <DisplayName>TaskControls</DisplayName>
-    <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29621" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=29616" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
     <References>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18368</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29616</Reference>
     </References>
-  </UAObject>
-  <UAObject NodeId="ns=1;i=18550" BrowseName="1:VFD_3" ParentNodeId="ns=1;i=24943">
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=29622" BrowseName="1:VFD_3" ParentNodeId="ns=1;i=28417">
     <DisplayName>VFD_3</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=26746</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=26748</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=26752</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=26755</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=26760</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=26832</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=26868</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29643</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29645</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29646</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29647</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29648</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29649</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29650</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29652</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29654</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29667</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19907</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24943</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28417</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=26746" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=18550" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29643" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29622" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
+    <Description>Name of the company that manufactured the device</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18550</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=26748" BrowseName="2:Model" ParentNodeId="ns=1;i=18550" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29645" BrowseName="2:Model" ParentNodeId="ns=1;i=29622" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
+    <Description>Model name of the device</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18550</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=26752" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=18550" DataType="String">
+  <UAVariable NodeId="ns=1;i=29646" BrowseName="2:HardwareRevision" ParentNodeId="ns=1;i=29622" DataType="String">
+    <DisplayName>HardwareRevision</DisplayName>
+    <Description>Revision level of the hardware of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29647" BrowseName="2:SoftwareRevision" ParentNodeId="ns=1;i=29622" DataType="String">
+    <DisplayName>SoftwareRevision</DisplayName>
+    <Description>Revision level of the software/firmware of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29648" BrowseName="2:DeviceRevision" ParentNodeId="ns=1;i=29622" DataType="String">
+    <DisplayName>DeviceRevision</DisplayName>
+    <Description>Overall revision level of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29649" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=29622" DataType="String">
     <DisplayName>ProductCode</DisplayName>
+    <Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18550</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=26755" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=18550" DataType="String">
+  <UAVariable NodeId="ns=1;i=29650" BrowseName="2:DeviceManual" ParentNodeId="ns=1;i=29622" DataType="String">
+    <DisplayName>DeviceManual</DisplayName>
+    <Description>Address (pathname in the file system or a URL | Web address) of user manual for the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29652" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=29622" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
+    <Description>Identifier that uniquely identifies, within a manufacturer, a device instance</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18550</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=26760" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=18550">
-    <DisplayName>CurrentUser</DisplayName>
-    <Description>The given name of the device.</Description>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=26761</Reference>
-      <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18550</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=26761" BrowseName="3:Level" ParentNodeId="ns=1;i=26760" DataType="String">
-    <DisplayName>Level</DisplayName>
-    <Description>The weight of the load mounted on one mounting point.</Description>
+  <UAVariable NodeId="ns=1;i=29654" BrowseName="2:RevisionCounter" ParentNodeId="ns=1;i=29622" DataType="Int32">
+    <DisplayName>RevisionCounter</DisplayName>
+    <Description>An incremental counter indicating the number of times the static data within the Device has been modified</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26760</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=26832" BrowseName="3:Software" ParentNodeId="ns=1;i=18550">
-    <DisplayName>Software</DisplayName>
-    <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
+  <UAVariable NodeId="ns=1;i=29667" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29622" DataType="Double">
+    <DisplayName>Temperature</DisplayName>
+    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
     <References>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18550</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29672</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29622</Reference>
     </References>
-  </UAObject>
-  <UAObject NodeId="ns=1;i=26868" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=18550">
-    <DisplayName>TaskControls</DisplayName>
-    <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29672" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=29667" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
     <References>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18550</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29667</Reference>
     </References>
-  </UAObject>
-  <UAObject NodeId="ns=1;i=26940" BrowseName="1:VFD_4" ParentNodeId="ns=1;i=24943">
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=29673" BrowseName="1:VFD_4" ParentNodeId="ns=1;i=28417">
     <DisplayName>VFD_4</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=26961</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=26963</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=26967</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=26970</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=26975</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=27014</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=27050</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29694</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29696</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29697</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29698</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29699</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29700</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29701</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29703</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29705</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=29718</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19907</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24943</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28417</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=26961" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=26940" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29694" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29673" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
+    <Description>Name of the company that manufactured the device</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26940</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=26963" BrowseName="2:Model" ParentNodeId="ns=1;i=26940" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=29696" BrowseName="2:Model" ParentNodeId="ns=1;i=29673" DataType="LocalizedText">
     <DisplayName>Model</DisplayName>
+    <Description>Model name of the device</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26940</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=26967" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=26940" DataType="String">
+  <UAVariable NodeId="ns=1;i=29697" BrowseName="2:HardwareRevision" ParentNodeId="ns=1;i=29673" DataType="String">
+    <DisplayName>HardwareRevision</DisplayName>
+    <Description>Revision level of the hardware of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29698" BrowseName="2:SoftwareRevision" ParentNodeId="ns=1;i=29673" DataType="String">
+    <DisplayName>SoftwareRevision</DisplayName>
+    <Description>Revision level of the software/firmware of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29699" BrowseName="2:DeviceRevision" ParentNodeId="ns=1;i=29673" DataType="String">
+    <DisplayName>DeviceRevision</DisplayName>
+    <Description>Overall revision level of the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29700" BrowseName="2:ProductCode" ParentNodeId="ns=1;i=29673" DataType="String">
     <DisplayName>ProductCode</DisplayName>
+    <Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26940</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=26970" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=26940" DataType="String">
+  <UAVariable NodeId="ns=1;i=29701" BrowseName="2:DeviceManual" ParentNodeId="ns=1;i=29673" DataType="String">
+    <DisplayName>DeviceManual</DisplayName>
+    <Description>Address (pathname in the file system or a URL | Web address) of user manual for the device</Description>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29703" BrowseName="2:SerialNumber" ParentNodeId="ns=1;i=29673" DataType="String">
     <DisplayName>SerialNumber</DisplayName>
+    <Description>Identifier that uniquely identifies, within a manufacturer, a device instance</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26940</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=26975" BrowseName="3:CurrentUser" ParentNodeId="ns=1;i=26940">
-    <DisplayName>CurrentUser</DisplayName>
-    <Description>The given name of the device.</Description>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=26976</Reference>
-      <Reference ReferenceType="HasTypeDefinition">ns=3;i=18175</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26940</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=26976" BrowseName="3:Level" ParentNodeId="ns=1;i=26975" DataType="String">
-    <DisplayName>Level</DisplayName>
-    <Description>The weight of the load mounted on one mounting point.</Description>
+  <UAVariable NodeId="ns=1;i=29705" BrowseName="2:RevisionCounter" ParentNodeId="ns=1;i=29673" DataType="Int32">
+    <DisplayName>RevisionCounter</DisplayName>
+    <Description>An incremental counter indicating the number of times the static data within the Device has been modified</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=26975</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
     </References>
   </UAVariable>
-  <UAObject NodeId="ns=1;i=27014" BrowseName="3:Software" ParentNodeId="ns=1;i=26940">
-    <DisplayName>Software</DisplayName>
-    <Description>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</Description>
+  <UAVariable NodeId="ns=1;i=29718" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29673" DataType="Double">
+    <DisplayName>Temperature</DisplayName>
+    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
     <References>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26940</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=29723</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29673</Reference>
     </References>
-  </UAObject>
-  <UAObject NodeId="ns=1;i=27050" BrowseName="3:TaskControls" ParentNodeId="ns=1;i=26940">
-    <DisplayName>TaskControls</DisplayName>
-    <Description>TaskControls is a container for one or more instances of TaskControlType.</Description>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=29723" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=29718" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
     <References>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26940</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29718</Reference>
     </References>
-  </UAObject>
-  <UAObject NodeId="ns=1;i=25122" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=24692">
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=28600" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=28161">
     <DisplayName>SafetyStates</DisplayName>
     <Description>Contains safety-related data from motion device system.</Description>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24692</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28161</Reference>
     </References>
   </UAObject>
 </UANodeSet>

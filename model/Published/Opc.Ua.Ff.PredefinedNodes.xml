@@ -1141,7 +1141,7 @@
       <uax:Name>&lt;SINAMICS_G120C&gt;</uax:Name>
     </uax:BrowseName>
     <uax:SuperTypeId>
-      <uax:Identifier>ns=2;i=1003</uax:Identifier>
+      <uax:Identifier>ns=2;i=17793</uax:Identifier>
     </uax:SuperTypeId>
   </SINAMICS_G120C>
   <USC_PLC xmlns="https://nextusc.com/UA/FF/">
@@ -1511,14 +1511,14 @@
       <uax:NumericId>15312</uax:NumericId>
     </Diagnostic>
   </USC_PLC>
-  <MotionDeviceSystem_R01 xmlns="https://nextusc.com/UA/FF/">
+  <R01 xmlns="https://nextusc.com/UA/FF/">
     <uax:NodeClass>Object_1</uax:NodeClass>
     <uax:NodeId>
-      <uax:Identifier>ns=3;i=20347</uax:Identifier>
+      <uax:Identifier>ns=3;i=20857</uax:Identifier>
     </uax:NodeId>
     <uax:BrowseName>
       <uax:NamespaceIndex>3</uax:NamespaceIndex>
-      <uax:Name>MotionDeviceSystem_R01</uax:Name>
+      <uax:Name>R01</uax:Name>
     </uax:BrowseName>
     <uax:ReferenceTypeId>
       <uax:Identifier>i=47</uax:Identifier>
@@ -1526,7 +1526,7 @@
     <uax:TypeDefinitionId>
       <uax:Identifier>ns=2;i=1002</uax:Identifier>
     </uax:TypeDefinitionId>
-    <uax:NumericId>20347</uax:NumericId>
+    <uax:NumericId>20857</uax:NumericId>
     <uax:EventNotifier>1</uax:EventNotifier>
     <uax:References>
       <uax:Reference>
@@ -1542,7 +1542,7 @@
     <MotionDevices xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=20383</uax:Identifier>
+        <uax:Identifier>ns=3;i=20894</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1558,11 +1558,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>20383</uax:NumericId>
+      <uax:NumericId>20894</uax:NumericId>
       <MotionDevice_R01 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=15314</uax:Identifier>
+          <uax:Identifier>ns=3;i=21821</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -1574,11 +1574,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=18595</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>15314</uax:NumericId>
+        <uax:NumericId>21821</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15315</uax:Identifier>
+            <uax:Identifier>ns=3;i=21822</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1594,11 +1594,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15315</uax:NumericId>
+          <uax:NumericId>21822</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=15352</uax:Identifier>
+              <uax:Identifier>ns=3;i=21859</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1614,7 +1614,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>15352</uax:NumericId>
+            <uax:NumericId>21859</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -1626,7 +1626,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15335</uax:Identifier>
+            <uax:Identifier>ns=3;i=21842</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1638,7 +1638,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15335</uax:NumericId>
+          <uax:NumericId>21842</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -1649,7 +1649,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15337</uax:Identifier>
+            <uax:Identifier>ns=3;i=21844</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1661,7 +1661,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15337</uax:NumericId>
+          <uax:NumericId>21844</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -1672,7 +1672,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15341</uax:Identifier>
+            <uax:Identifier>ns=3;i=21848</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1684,7 +1684,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15341</uax:NumericId>
+          <uax:NumericId>21848</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -1695,7 +1695,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15344</uax:Identifier>
+            <uax:Identifier>ns=3;i=21851</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1707,7 +1707,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15344</uax:NumericId>
+          <uax:NumericId>21851</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -1718,7 +1718,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15349</uax:Identifier>
+            <uax:Identifier>ns=3;i=21856</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1734,7 +1734,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15349</uax:NumericId>
+          <uax:NumericId>21856</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -1745,7 +1745,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15353</uax:Identifier>
+            <uax:Identifier>ns=3;i=21860</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1761,12 +1761,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15353</uax:NumericId>
+          <uax:NumericId>21860</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15434</uax:Identifier>
+            <uax:Identifier>ns=3;i=21941</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1782,14 +1782,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15434</uax:NumericId>
+          <uax:NumericId>21941</uax:NumericId>
         </PowerTrains>
       </MotionDevice_R01>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=20598</uax:Identifier>
+        <uax:Identifier>ns=3;i=21113</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1805,11 +1805,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>20598</uax:NumericId>
+      <uax:NumericId>21113</uax:NumericId>
       <Controller_R01 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=15532</uax:Identifier>
+          <uax:Identifier>ns=3;i=22039</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -1821,11 +1821,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19027</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>15532</uax:NumericId>
+        <uax:NumericId>22039</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15553</uax:Identifier>
+            <uax:Identifier>ns=3;i=22060</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1837,7 +1837,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15553</uax:NumericId>
+          <uax:NumericId>22060</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -1848,7 +1848,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15555</uax:Identifier>
+            <uax:Identifier>ns=3;i=22062</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1860,7 +1860,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15555</uax:NumericId>
+          <uax:NumericId>22062</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -1871,7 +1871,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15559</uax:Identifier>
+            <uax:Identifier>ns=3;i=22066</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1883,7 +1883,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15559</uax:NumericId>
+          <uax:NumericId>22066</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -1894,7 +1894,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15562</uax:Identifier>
+            <uax:Identifier>ns=3;i=22069</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -1906,7 +1906,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15562</uax:NumericId>
+          <uax:NumericId>22069</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -1917,7 +1917,7 @@
         <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15567</uax:Identifier>
+            <uax:Identifier>ns=3;i=22074</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1933,11 +1933,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>ns=2;i=18175</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15567</uax:NumericId>
+          <uax:NumericId>22074</uax:NumericId>
           <Level>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=15568</uax:Identifier>
+              <uax:Identifier>ns=3;i=22075</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1953,7 +1953,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>15568</uax:NumericId>
+            <uax:NumericId>22075</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=12</uax:Identifier>
             </uax:DataType>
@@ -1965,7 +1965,7 @@
         <Software xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15606</uax:Identifier>
+            <uax:Identifier>ns=3;i=22590</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -1981,12 +1981,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15606</uax:NumericId>
+          <uax:NumericId>22590</uax:NumericId>
         </Software>
         <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15642</uax:Identifier>
+            <uax:Identifier>ns=3;i=22626</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2002,14 +2002,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15642</uax:NumericId>
+          <uax:NumericId>22626</uax:NumericId>
         </TaskControls>
       </Controller_R01>
     </Controllers>
     <SafetyStates xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=20777</uax:Identifier>
+        <uax:Identifier>ns=3;i=21773</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2025,17 +2025,17 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>20777</uax:NumericId>
+      <uax:NumericId>21773</uax:NumericId>
     </SafetyStates>
-  </MotionDeviceSystem_R01>
-  <MotionDeviceSystem_R02 xmlns="https://nextusc.com/UA/FF/">
+  </R01>
+  <R02 xmlns="https://nextusc.com/UA/FF/">
     <uax:NodeClass>Object_1</uax:NodeClass>
     <uax:NodeId>
-      <uax:Identifier>ns=3;i=21216</uax:Identifier>
+      <uax:Identifier>ns=3;i=22698</uax:Identifier>
     </uax:NodeId>
     <uax:BrowseName>
       <uax:NamespaceIndex>3</uax:NamespaceIndex>
-      <uax:Name>MotionDeviceSystem_R02</uax:Name>
+      <uax:Name>R02</uax:Name>
     </uax:BrowseName>
     <uax:ReferenceTypeId>
       <uax:Identifier>i=47</uax:Identifier>
@@ -2043,7 +2043,7 @@
     <uax:TypeDefinitionId>
       <uax:Identifier>ns=2;i=1002</uax:Identifier>
     </uax:TypeDefinitionId>
-    <uax:NumericId>21216</uax:NumericId>
+    <uax:NumericId>22698</uax:NumericId>
     <uax:EventNotifier>1</uax:EventNotifier>
     <uax:References>
       <uax:Reference>
@@ -2059,7 +2059,7 @@
     <MotionDevices xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=21252</uax:Identifier>
+        <uax:Identifier>ns=3;i=22735</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2075,11 +2075,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>21252</uax:NumericId>
+      <uax:NumericId>22735</uax:NumericId>
       <MotionDevice_R02 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=15714</uax:Identifier>
+          <uax:Identifier>ns=3;i=23662</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -2091,11 +2091,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>15714</uax:NumericId>
+        <uax:NumericId>23662</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15715</uax:Identifier>
+            <uax:Identifier>ns=3;i=23663</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2111,11 +2111,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15715</uax:NumericId>
+          <uax:NumericId>23663</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=15752</uax:Identifier>
+              <uax:Identifier>ns=3;i=23700</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2131,7 +2131,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>15752</uax:NumericId>
+            <uax:NumericId>23700</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -2143,7 +2143,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15735</uax:Identifier>
+            <uax:Identifier>ns=3;i=23683</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2155,7 +2155,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15735</uax:NumericId>
+          <uax:NumericId>23683</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -2166,7 +2166,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15737</uax:Identifier>
+            <uax:Identifier>ns=3;i=23685</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2178,7 +2178,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15737</uax:NumericId>
+          <uax:NumericId>23685</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -2189,7 +2189,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15741</uax:Identifier>
+            <uax:Identifier>ns=3;i=23689</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2201,7 +2201,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15741</uax:NumericId>
+          <uax:NumericId>23689</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -2212,7 +2212,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15744</uax:Identifier>
+            <uax:Identifier>ns=3;i=23692</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2224,7 +2224,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15744</uax:NumericId>
+          <uax:NumericId>23692</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -2235,7 +2235,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15749</uax:Identifier>
+            <uax:Identifier>ns=3;i=23697</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2251,7 +2251,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15749</uax:NumericId>
+          <uax:NumericId>23697</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -2262,7 +2262,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15753</uax:Identifier>
+            <uax:Identifier>ns=3;i=23701</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2278,12 +2278,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15753</uax:NumericId>
+          <uax:NumericId>23701</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15834</uax:Identifier>
+            <uax:Identifier>ns=3;i=23782</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2299,14 +2299,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15834</uax:NumericId>
+          <uax:NumericId>23782</uax:NumericId>
         </PowerTrains>
       </MotionDevice_R02>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=21467</uax:Identifier>
+        <uax:Identifier>ns=3;i=23431</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2322,11 +2322,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>21467</uax:NumericId>
+      <uax:NumericId>23431</uax:NumericId>
       <Controller_R02 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=15932</uax:Identifier>
+          <uax:Identifier>ns=3;i=24357</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -2338,11 +2338,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19467</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>15932</uax:NumericId>
+        <uax:NumericId>24357</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15953</uax:Identifier>
+            <uax:Identifier>ns=3;i=24378</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2354,7 +2354,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15953</uax:NumericId>
+          <uax:NumericId>24378</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -2365,7 +2365,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15955</uax:Identifier>
+            <uax:Identifier>ns=3;i=24380</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2377,7 +2377,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15955</uax:NumericId>
+          <uax:NumericId>24380</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -2388,7 +2388,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15959</uax:Identifier>
+            <uax:Identifier>ns=3;i=24384</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2400,7 +2400,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15959</uax:NumericId>
+          <uax:NumericId>24384</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -2411,7 +2411,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15962</uax:Identifier>
+            <uax:Identifier>ns=3;i=24387</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2423,7 +2423,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15962</uax:NumericId>
+          <uax:NumericId>24387</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -2434,7 +2434,7 @@
         <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=15967</uax:Identifier>
+            <uax:Identifier>ns=3;i=24392</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2450,11 +2450,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>ns=2;i=18175</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>15967</uax:NumericId>
+          <uax:NumericId>24392</uax:NumericId>
           <Level>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=15968</uax:Identifier>
+              <uax:Identifier>ns=3;i=24393</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2470,7 +2470,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>15968</uax:NumericId>
+            <uax:NumericId>24393</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=12</uax:Identifier>
             </uax:DataType>
@@ -2482,7 +2482,7 @@
         <Software xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16006</uax:Identifier>
+            <uax:Identifier>ns=3;i=24431</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2498,12 +2498,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16006</uax:NumericId>
+          <uax:NumericId>24431</uax:NumericId>
         </Software>
         <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16042</uax:Identifier>
+            <uax:Identifier>ns=3;i=24467</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2519,14 +2519,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16042</uax:NumericId>
+          <uax:NumericId>24467</uax:NumericId>
         </TaskControls>
       </Controller_R02>
     </Controllers>
     <SafetyStates xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=21646</uax:Identifier>
+        <uax:Identifier>ns=3;i=23614</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2542,17 +2542,17 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>21646</uax:NumericId>
+      <uax:NumericId>23614</uax:NumericId>
     </SafetyStates>
-  </MotionDeviceSystem_R02>
-  <MotionDeviceSystem_R03 xmlns="https://nextusc.com/UA/FF/">
+  </R02>
+  <R03 xmlns="https://nextusc.com/UA/FF/">
     <uax:NodeClass>Object_1</uax:NodeClass>
     <uax:NodeId>
-      <uax:Identifier>ns=3;i=22085</uax:Identifier>
+      <uax:Identifier>ns=3;i=24539</uax:Identifier>
     </uax:NodeId>
     <uax:BrowseName>
       <uax:NamespaceIndex>3</uax:NamespaceIndex>
-      <uax:Name>MotionDeviceSystem_R03</uax:Name>
+      <uax:Name>R03</uax:Name>
     </uax:BrowseName>
     <uax:ReferenceTypeId>
       <uax:Identifier>i=47</uax:Identifier>
@@ -2560,7 +2560,7 @@
     <uax:TypeDefinitionId>
       <uax:Identifier>ns=2;i=1002</uax:Identifier>
     </uax:TypeDefinitionId>
-    <uax:NumericId>22085</uax:NumericId>
+    <uax:NumericId>24539</uax:NumericId>
     <uax:EventNotifier>1</uax:EventNotifier>
     <uax:References>
       <uax:Reference>
@@ -2576,7 +2576,7 @@
     <MotionDevices xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=22121</uax:Identifier>
+        <uax:Identifier>ns=3;i=24576</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2592,11 +2592,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>22121</uax:NumericId>
+      <uax:NumericId>24576</uax:NumericId>
       <MotionDevice_R03 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=16114</uax:Identifier>
+          <uax:Identifier>ns=3;i=25503</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -2608,11 +2608,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>16114</uax:NumericId>
+        <uax:NumericId>25503</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16115</uax:Identifier>
+            <uax:Identifier>ns=3;i=25504</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2628,11 +2628,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16115</uax:NumericId>
+          <uax:NumericId>25504</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=16152</uax:Identifier>
+              <uax:Identifier>ns=3;i=25541</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2648,7 +2648,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>16152</uax:NumericId>
+            <uax:NumericId>25541</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -2660,7 +2660,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16135</uax:Identifier>
+            <uax:Identifier>ns=3;i=25524</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2672,7 +2672,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16135</uax:NumericId>
+          <uax:NumericId>25524</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -2683,7 +2683,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16137</uax:Identifier>
+            <uax:Identifier>ns=3;i=25526</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2695,7 +2695,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16137</uax:NumericId>
+          <uax:NumericId>25526</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -2706,7 +2706,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16141</uax:Identifier>
+            <uax:Identifier>ns=3;i=25530</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2718,7 +2718,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16141</uax:NumericId>
+          <uax:NumericId>25530</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -2729,7 +2729,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16144</uax:Identifier>
+            <uax:Identifier>ns=3;i=25533</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2741,7 +2741,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16144</uax:NumericId>
+          <uax:NumericId>25533</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -2752,7 +2752,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16149</uax:Identifier>
+            <uax:Identifier>ns=3;i=25538</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2768,7 +2768,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16149</uax:NumericId>
+          <uax:NumericId>25538</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -2779,7 +2779,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16153</uax:Identifier>
+            <uax:Identifier>ns=3;i=25542</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2795,12 +2795,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16153</uax:NumericId>
+          <uax:NumericId>25542</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16234</uax:Identifier>
+            <uax:Identifier>ns=3;i=25623</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2816,14 +2816,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16234</uax:NumericId>
+          <uax:NumericId>25623</uax:NumericId>
         </PowerTrains>
       </MotionDevice_R03>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=22336</uax:Identifier>
+        <uax:Identifier>ns=3;i=25272</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2839,11 +2839,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>22336</uax:NumericId>
+      <uax:NumericId>25272</uax:NumericId>
       <Controller_R03 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=16332</uax:Identifier>
+          <uax:Identifier>ns=3;i=25721</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -2855,11 +2855,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19467</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>16332</uax:NumericId>
+        <uax:NumericId>25721</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16353</uax:Identifier>
+            <uax:Identifier>ns=3;i=25742</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2871,7 +2871,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16353</uax:NumericId>
+          <uax:NumericId>25742</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -2882,7 +2882,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16355</uax:Identifier>
+            <uax:Identifier>ns=3;i=25744</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2894,7 +2894,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16355</uax:NumericId>
+          <uax:NumericId>25744</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -2905,7 +2905,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16359</uax:Identifier>
+            <uax:Identifier>ns=3;i=25748</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2917,7 +2917,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16359</uax:NumericId>
+          <uax:NumericId>25748</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -2928,7 +2928,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16362</uax:Identifier>
+            <uax:Identifier>ns=3;i=25751</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -2940,7 +2940,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16362</uax:NumericId>
+          <uax:NumericId>25751</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -2951,7 +2951,7 @@
         <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16367</uax:Identifier>
+            <uax:Identifier>ns=3;i=25756</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2967,11 +2967,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>ns=2;i=18175</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16367</uax:NumericId>
+          <uax:NumericId>25756</uax:NumericId>
           <Level>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=16368</uax:Identifier>
+              <uax:Identifier>ns=3;i=25757</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -2987,7 +2987,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>16368</uax:NumericId>
+            <uax:NumericId>25757</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=12</uax:Identifier>
             </uax:DataType>
@@ -2999,7 +2999,7 @@
         <Software xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16406</uax:Identifier>
+            <uax:Identifier>ns=3;i=25795</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3015,12 +3015,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16406</uax:NumericId>
+          <uax:NumericId>25795</uax:NumericId>
         </Software>
         <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16442</uax:Identifier>
+            <uax:Identifier>ns=3;i=25831</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3036,14 +3036,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16442</uax:NumericId>
+          <uax:NumericId>25831</uax:NumericId>
         </TaskControls>
       </Controller_R03>
     </Controllers>
     <SafetyStates xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=22515</uax:Identifier>
+        <uax:Identifier>ns=3;i=25455</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3059,17 +3059,17 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>22515</uax:NumericId>
+      <uax:NumericId>25455</uax:NumericId>
     </SafetyStates>
-  </MotionDeviceSystem_R03>
-  <MotionDeviceSystem_R04 xmlns="https://nextusc.com/UA/FF/">
+  </R03>
+  <R04 xmlns="https://nextusc.com/UA/FF/">
     <uax:NodeClass>Object_1</uax:NodeClass>
     <uax:NodeId>
-      <uax:Identifier>ns=3;i=22954</uax:Identifier>
+      <uax:Identifier>ns=3;i=25903</uax:Identifier>
     </uax:NodeId>
     <uax:BrowseName>
       <uax:NamespaceIndex>3</uax:NamespaceIndex>
-      <uax:Name>MotionDeviceSystem_R04</uax:Name>
+      <uax:Name>R04</uax:Name>
     </uax:BrowseName>
     <uax:ReferenceTypeId>
       <uax:Identifier>i=47</uax:Identifier>
@@ -3077,7 +3077,7 @@
     <uax:TypeDefinitionId>
       <uax:Identifier>ns=2;i=1002</uax:Identifier>
     </uax:TypeDefinitionId>
-    <uax:NumericId>22954</uax:NumericId>
+    <uax:NumericId>25903</uax:NumericId>
     <uax:EventNotifier>1</uax:EventNotifier>
     <uax:References>
       <uax:Reference>
@@ -3093,7 +3093,7 @@
     <MotionDevices xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=22990</uax:Identifier>
+        <uax:Identifier>ns=3;i=25940</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3109,11 +3109,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>22990</uax:NumericId>
+      <uax:NumericId>25940</uax:NumericId>
       <MotionDevice_R04 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=16514</uax:Identifier>
+          <uax:Identifier>ns=3;i=26390</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -3125,11 +3125,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>16514</uax:NumericId>
+        <uax:NumericId>26390</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16515</uax:Identifier>
+            <uax:Identifier>ns=3;i=26391</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3145,11 +3145,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16515</uax:NumericId>
+          <uax:NumericId>26391</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=16552</uax:Identifier>
+              <uax:Identifier>ns=3;i=26428</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3165,7 +3165,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>16552</uax:NumericId>
+            <uax:NumericId>26428</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -3177,7 +3177,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16535</uax:Identifier>
+            <uax:Identifier>ns=3;i=26411</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3189,7 +3189,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16535</uax:NumericId>
+          <uax:NumericId>26411</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -3200,7 +3200,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16537</uax:Identifier>
+            <uax:Identifier>ns=3;i=26413</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3212,7 +3212,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16537</uax:NumericId>
+          <uax:NumericId>26413</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -3223,7 +3223,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16541</uax:Identifier>
+            <uax:Identifier>ns=3;i=26417</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3235,7 +3235,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16541</uax:NumericId>
+          <uax:NumericId>26417</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -3246,7 +3246,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16544</uax:Identifier>
+            <uax:Identifier>ns=3;i=26420</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3258,7 +3258,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16544</uax:NumericId>
+          <uax:NumericId>26420</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -3269,7 +3269,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16549</uax:Identifier>
+            <uax:Identifier>ns=3;i=26425</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3285,7 +3285,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16549</uax:NumericId>
+          <uax:NumericId>26425</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -3296,7 +3296,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16553</uax:Identifier>
+            <uax:Identifier>ns=3;i=26429</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3312,12 +3312,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16553</uax:NumericId>
+          <uax:NumericId>26429</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16634</uax:Identifier>
+            <uax:Identifier>ns=3;i=26510</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3333,14 +3333,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16634</uax:NumericId>
+          <uax:NumericId>26510</uax:NumericId>
         </PowerTrains>
       </MotionDevice_R04>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=23205</uax:Identifier>
+        <uax:Identifier>ns=3;i=26159</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3356,11 +3356,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>23205</uax:NumericId>
+      <uax:NumericId>26159</uax:NumericId>
       <Controller_R04 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=16732</uax:Identifier>
+          <uax:Identifier>ns=3;i=26608</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -3372,11 +3372,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19467</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>16732</uax:NumericId>
+        <uax:NumericId>26608</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16753</uax:Identifier>
+            <uax:Identifier>ns=3;i=26629</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3388,7 +3388,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16753</uax:NumericId>
+          <uax:NumericId>26629</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -3399,7 +3399,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16755</uax:Identifier>
+            <uax:Identifier>ns=3;i=26631</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3411,7 +3411,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16755</uax:NumericId>
+          <uax:NumericId>26631</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -3422,7 +3422,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16759</uax:Identifier>
+            <uax:Identifier>ns=3;i=26635</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3434,7 +3434,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16759</uax:NumericId>
+          <uax:NumericId>26635</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -3445,7 +3445,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16762</uax:Identifier>
+            <uax:Identifier>ns=3;i=26638</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3457,7 +3457,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16762</uax:NumericId>
+          <uax:NumericId>26638</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -3468,7 +3468,7 @@
         <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16767</uax:Identifier>
+            <uax:Identifier>ns=3;i=26643</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3484,11 +3484,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>ns=2;i=18175</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16767</uax:NumericId>
+          <uax:NumericId>26643</uax:NumericId>
           <Level>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=16768</uax:Identifier>
+              <uax:Identifier>ns=3;i=26644</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3504,7 +3504,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>16768</uax:NumericId>
+            <uax:NumericId>26644</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=12</uax:Identifier>
             </uax:DataType>
@@ -3516,7 +3516,7 @@
         <Software xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16806</uax:Identifier>
+            <uax:Identifier>ns=3;i=26682</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3532,12 +3532,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16806</uax:NumericId>
+          <uax:NumericId>26682</uax:NumericId>
         </Software>
         <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16842</uax:Identifier>
+            <uax:Identifier>ns=3;i=26718</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3553,14 +3553,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16842</uax:NumericId>
+          <uax:NumericId>26718</uax:NumericId>
         </TaskControls>
       </Controller_R04>
     </Controllers>
     <SafetyStates xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=23384</uax:Identifier>
+        <uax:Identifier>ns=3;i=26342</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3576,17 +3576,17 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>23384</uax:NumericId>
+      <uax:NumericId>26342</uax:NumericId>
     </SafetyStates>
-  </MotionDeviceSystem_R04>
-  <MotionDeviceSystem_R05 xmlns="https://nextusc.com/UA/FF/">
+  </R04>
+  <R05 xmlns="https://nextusc.com/UA/FF/">
     <uax:NodeClass>Object_1</uax:NodeClass>
     <uax:NodeId>
-      <uax:Identifier>ns=3;i=23823</uax:Identifier>
+      <uax:Identifier>ns=3;i=27214</uax:Identifier>
     </uax:NodeId>
     <uax:BrowseName>
       <uax:NamespaceIndex>3</uax:NamespaceIndex>
-      <uax:Name>MotionDeviceSystem_R05</uax:Name>
+      <uax:Name>R05</uax:Name>
     </uax:BrowseName>
     <uax:ReferenceTypeId>
       <uax:Identifier>i=47</uax:Identifier>
@@ -3594,7 +3594,7 @@
     <uax:TypeDefinitionId>
       <uax:Identifier>ns=2;i=1002</uax:Identifier>
     </uax:TypeDefinitionId>
-    <uax:NumericId>23823</uax:NumericId>
+    <uax:NumericId>27214</uax:NumericId>
     <uax:EventNotifier>1</uax:EventNotifier>
     <uax:References>
       <uax:Reference>
@@ -3610,7 +3610,7 @@
     <MotionDevices xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=23859</uax:Identifier>
+        <uax:Identifier>ns=3;i=27251</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3626,11 +3626,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>23859</uax:NumericId>
+      <uax:NumericId>27251</uax:NumericId>
       <MotionDevice_R05 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=16914</uax:Identifier>
+          <uax:Identifier>ns=3;i=27761</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -3642,11 +3642,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=18595</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>16914</uax:NumericId>
+        <uax:NumericId>27761</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16915</uax:Identifier>
+            <uax:Identifier>ns=3;i=27762</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3662,11 +3662,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16915</uax:NumericId>
+          <uax:NumericId>27762</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=16952</uax:Identifier>
+              <uax:Identifier>ns=3;i=27799</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3682,7 +3682,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>16952</uax:NumericId>
+            <uax:NumericId>27799</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -3694,7 +3694,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16935</uax:Identifier>
+            <uax:Identifier>ns=3;i=27782</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3706,7 +3706,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16935</uax:NumericId>
+          <uax:NumericId>27782</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -3717,7 +3717,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16937</uax:Identifier>
+            <uax:Identifier>ns=3;i=27784</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3729,7 +3729,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16937</uax:NumericId>
+          <uax:NumericId>27784</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -3740,7 +3740,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16941</uax:Identifier>
+            <uax:Identifier>ns=3;i=27788</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3752,7 +3752,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16941</uax:NumericId>
+          <uax:NumericId>27788</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -3763,7 +3763,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16944</uax:Identifier>
+            <uax:Identifier>ns=3;i=27791</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3775,7 +3775,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16944</uax:NumericId>
+          <uax:NumericId>27791</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -3786,7 +3786,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16949</uax:Identifier>
+            <uax:Identifier>ns=3;i=27796</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3802,7 +3802,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16949</uax:NumericId>
+          <uax:NumericId>27796</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -3813,7 +3813,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=16953</uax:Identifier>
+            <uax:Identifier>ns=3;i=27800</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3829,12 +3829,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>16953</uax:NumericId>
+          <uax:NumericId>27800</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17034</uax:Identifier>
+            <uax:Identifier>ns=3;i=27881</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3850,14 +3850,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17034</uax:NumericId>
+          <uax:NumericId>27881</uax:NumericId>
         </PowerTrains>
       </MotionDevice_R05>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=24074</uax:Identifier>
+        <uax:Identifier>ns=3;i=27470</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -3873,11 +3873,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>24074</uax:NumericId>
+      <uax:NumericId>27470</uax:NumericId>
       <Controller_R05 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=17132</uax:Identifier>
+          <uax:Identifier>ns=3;i=27979</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -3889,11 +3889,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19467</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>17132</uax:NumericId>
+        <uax:NumericId>27979</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17153</uax:Identifier>
+            <uax:Identifier>ns=3;i=28000</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3905,7 +3905,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17153</uax:NumericId>
+          <uax:NumericId>28000</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -3916,7 +3916,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17155</uax:Identifier>
+            <uax:Identifier>ns=3;i=28002</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3928,7 +3928,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17155</uax:NumericId>
+          <uax:NumericId>28002</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -3939,7 +3939,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17159</uax:Identifier>
+            <uax:Identifier>ns=3;i=28006</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3951,7 +3951,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17159</uax:NumericId>
+          <uax:NumericId>28006</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -3962,7 +3962,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17162</uax:Identifier>
+            <uax:Identifier>ns=3;i=28009</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -3974,7 +3974,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17162</uax:NumericId>
+          <uax:NumericId>28009</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -3985,7 +3985,7 @@
         <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17167</uax:Identifier>
+            <uax:Identifier>ns=3;i=28014</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4001,11 +4001,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>ns=2;i=18175</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17167</uax:NumericId>
+          <uax:NumericId>28014</uax:NumericId>
           <Level>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=17168</uax:Identifier>
+              <uax:Identifier>ns=3;i=28015</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4021,7 +4021,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>17168</uax:NumericId>
+            <uax:NumericId>28015</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=12</uax:Identifier>
             </uax:DataType>
@@ -4033,7 +4033,7 @@
         <Software xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17206</uax:Identifier>
+            <uax:Identifier>ns=3;i=28053</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4049,12 +4049,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17206</uax:NumericId>
+          <uax:NumericId>28053</uax:NumericId>
         </Software>
         <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17242</uax:Identifier>
+            <uax:Identifier>ns=3;i=28089</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4070,14 +4070,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17242</uax:NumericId>
+          <uax:NumericId>28089</uax:NumericId>
         </TaskControls>
       </Controller_R05>
     </Controllers>
     <SafetyStates xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=24253</uax:Identifier>
+        <uax:Identifier>ns=3;i=27713</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4093,17 +4093,17 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>24253</uax:NumericId>
+      <uax:NumericId>27713</uax:NumericId>
     </SafetyStates>
-  </MotionDeviceSystem_R05>
-  <MotionDeviceSystem_Conveyors xmlns="https://nextusc.com/UA/FF/">
+  </R05>
+  <Conveyors xmlns="https://nextusc.com/UA/FF/">
     <uax:NodeClass>Object_1</uax:NodeClass>
     <uax:NodeId>
-      <uax:Identifier>ns=3;i=24692</uax:Identifier>
+      <uax:Identifier>ns=3;i=28161</uax:Identifier>
     </uax:NodeId>
     <uax:BrowseName>
       <uax:NamespaceIndex>3</uax:NamespaceIndex>
-      <uax:Name>MotionDeviceSystem_Conveyors</uax:Name>
+      <uax:Name>Conveyors</uax:Name>
     </uax:BrowseName>
     <uax:ReferenceTypeId>
       <uax:Identifier>i=47</uax:Identifier>
@@ -4111,7 +4111,7 @@
     <uax:TypeDefinitionId>
       <uax:Identifier>ns=2;i=1002</uax:Identifier>
     </uax:TypeDefinitionId>
-    <uax:NumericId>24692</uax:NumericId>
+    <uax:NumericId>28161</uax:NumericId>
     <uax:EventNotifier>1</uax:EventNotifier>
     <uax:References>
       <uax:Reference>
@@ -4127,7 +4127,7 @@
     <MotionDevices xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=24728</uax:Identifier>
+        <uax:Identifier>ns=3;i=28198</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4143,11 +4143,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>24728</uax:NumericId>
+      <uax:NumericId>28198</uax:NumericId>
       <Conveyor_1 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=17314</uax:Identifier>
+          <uax:Identifier>ns=3;i=28648</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -4159,11 +4159,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=2;i=1004</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>17314</uax:NumericId>
+        <uax:NumericId>28648</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17315</uax:Identifier>
+            <uax:Identifier>ns=3;i=28649</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4179,11 +4179,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17315</uax:NumericId>
+          <uax:NumericId>28649</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=17352</uax:Identifier>
+              <uax:Identifier>ns=3;i=28686</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4199,7 +4199,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>17352</uax:NumericId>
+            <uax:NumericId>28686</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -4211,7 +4211,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17335</uax:Identifier>
+            <uax:Identifier>ns=3;i=28669</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4223,7 +4223,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17335</uax:NumericId>
+          <uax:NumericId>28669</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -4234,7 +4234,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17337</uax:Identifier>
+            <uax:Identifier>ns=3;i=28671</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4246,7 +4246,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17337</uax:NumericId>
+          <uax:NumericId>28671</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -4257,7 +4257,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17341</uax:Identifier>
+            <uax:Identifier>ns=3;i=28675</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4269,7 +4269,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17341</uax:NumericId>
+          <uax:NumericId>28675</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -4280,7 +4280,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17344</uax:Identifier>
+            <uax:Identifier>ns=3;i=28678</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4292,7 +4292,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17344</uax:NumericId>
+          <uax:NumericId>28678</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -4303,7 +4303,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17349</uax:Identifier>
+            <uax:Identifier>ns=3;i=28683</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4319,7 +4319,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17349</uax:NumericId>
+          <uax:NumericId>28683</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -4330,7 +4330,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17353</uax:Identifier>
+            <uax:Identifier>ns=3;i=28687</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4346,12 +4346,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17353</uax:NumericId>
+          <uax:NumericId>28687</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17434</uax:Identifier>
+            <uax:Identifier>ns=3;i=28768</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4367,13 +4367,13 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17434</uax:NumericId>
+          <uax:NumericId>28768</uax:NumericId>
         </PowerTrains>
       </Conveyor_1>
       <Conveyor_2 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=17532</uax:Identifier>
+          <uax:Identifier>ns=3;i=28866</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -4385,11 +4385,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=2;i=1004</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>17532</uax:NumericId>
+        <uax:NumericId>28866</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17533</uax:Identifier>
+            <uax:Identifier>ns=3;i=28867</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4405,11 +4405,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17533</uax:NumericId>
+          <uax:NumericId>28867</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=17570</uax:Identifier>
+              <uax:Identifier>ns=3;i=28904</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4425,7 +4425,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>17570</uax:NumericId>
+            <uax:NumericId>28904</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -4437,7 +4437,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17553</uax:Identifier>
+            <uax:Identifier>ns=3;i=28887</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4449,7 +4449,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17553</uax:NumericId>
+          <uax:NumericId>28887</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -4460,7 +4460,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17555</uax:Identifier>
+            <uax:Identifier>ns=3;i=28889</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4472,7 +4472,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17555</uax:NumericId>
+          <uax:NumericId>28889</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -4483,7 +4483,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17559</uax:Identifier>
+            <uax:Identifier>ns=3;i=28893</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4495,7 +4495,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17559</uax:NumericId>
+          <uax:NumericId>28893</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -4506,7 +4506,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17562</uax:Identifier>
+            <uax:Identifier>ns=3;i=28896</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4518,7 +4518,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17562</uax:NumericId>
+          <uax:NumericId>28896</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -4529,7 +4529,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17567</uax:Identifier>
+            <uax:Identifier>ns=3;i=28901</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4545,7 +4545,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17567</uax:NumericId>
+          <uax:NumericId>28901</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -4556,7 +4556,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17571</uax:Identifier>
+            <uax:Identifier>ns=3;i=28905</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4572,12 +4572,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17571</uax:NumericId>
+          <uax:NumericId>28905</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17652</uax:Identifier>
+            <uax:Identifier>ns=3;i=28986</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4593,13 +4593,13 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17652</uax:NumericId>
+          <uax:NumericId>28986</uax:NumericId>
         </PowerTrains>
       </Conveyor_2>
       <Conveyor_3 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=17750</uax:Identifier>
+          <uax:Identifier>ns=3;i=29084</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -4611,11 +4611,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=2;i=1004</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>17750</uax:NumericId>
+        <uax:NumericId>29084</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17751</uax:Identifier>
+            <uax:Identifier>ns=3;i=29085</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4631,11 +4631,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17751</uax:NumericId>
+          <uax:NumericId>29085</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=17788</uax:Identifier>
+              <uax:Identifier>ns=3;i=29122</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4651,7 +4651,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>17788</uax:NumericId>
+            <uax:NumericId>29122</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -4663,7 +4663,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17771</uax:Identifier>
+            <uax:Identifier>ns=3;i=29105</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4675,7 +4675,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17771</uax:NumericId>
+          <uax:NumericId>29105</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -4686,7 +4686,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17773</uax:Identifier>
+            <uax:Identifier>ns=3;i=29107</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4698,7 +4698,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17773</uax:NumericId>
+          <uax:NumericId>29107</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -4709,7 +4709,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17777</uax:Identifier>
+            <uax:Identifier>ns=3;i=29111</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4721,7 +4721,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17777</uax:NumericId>
+          <uax:NumericId>29111</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -4732,7 +4732,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17780</uax:Identifier>
+            <uax:Identifier>ns=3;i=29114</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4744,7 +4744,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17780</uax:NumericId>
+          <uax:NumericId>29114</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -4755,7 +4755,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17785</uax:Identifier>
+            <uax:Identifier>ns=3;i=29119</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4771,7 +4771,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17785</uax:NumericId>
+          <uax:NumericId>29119</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -4782,7 +4782,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17789</uax:Identifier>
+            <uax:Identifier>ns=3;i=29123</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4798,12 +4798,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17789</uax:NumericId>
+          <uax:NumericId>29123</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17870</uax:Identifier>
+            <uax:Identifier>ns=3;i=29204</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4819,13 +4819,13 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17870</uax:NumericId>
+          <uax:NumericId>29204</uax:NumericId>
         </PowerTrains>
       </Conveyor_3>
       <Conveyor_4 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=17968</uax:Identifier>
+          <uax:Identifier>ns=3;i=29302</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -4837,11 +4837,11 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=2;i=1004</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>17968</uax:NumericId>
+        <uax:NumericId>29302</uax:NumericId>
         <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17969</uax:Identifier>
+            <uax:Identifier>ns=3;i=29303</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4857,11 +4857,11 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17969</uax:NumericId>
+          <uax:NumericId>29303</uax:NumericId>
           <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=18006</uax:Identifier>
+              <uax:Identifier>ns=3;i=29340</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
               <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4877,7 +4877,7 @@
             <uax:TypeDefinitionId>
               <uax:Identifier>i=63</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>18006</uax:NumericId>
+            <uax:NumericId>29340</uax:NumericId>
             <uax:DataType>
               <uax:Identifier>i=11</uax:Identifier>
             </uax:DataType>
@@ -4889,7 +4889,7 @@
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17989</uax:Identifier>
+            <uax:Identifier>ns=3;i=29323</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4901,7 +4901,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17989</uax:NumericId>
+          <uax:NumericId>29323</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -4912,7 +4912,7 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17991</uax:Identifier>
+            <uax:Identifier>ns=3;i=29325</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4924,7 +4924,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17991</uax:NumericId>
+          <uax:NumericId>29325</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -4935,7 +4935,7 @@
         <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17995</uax:Identifier>
+            <uax:Identifier>ns=3;i=29329</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4947,7 +4947,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17995</uax:NumericId>
+          <uax:NumericId>29329</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -4958,7 +4958,7 @@
         <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=17998</uax:Identifier>
+            <uax:Identifier>ns=3;i=29332</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
@@ -4970,7 +4970,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>17998</uax:NumericId>
+          <uax:NumericId>29332</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -4981,7 +4981,7 @@
         <MotionDeviceCategory xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18003</uax:Identifier>
+            <uax:Identifier>ns=3;i=29337</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -4997,7 +4997,7 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18003</uax:NumericId>
+          <uax:NumericId>29337</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>ns=2;i=18193</uax:Identifier>
           </uax:DataType>
@@ -5008,7 +5008,7 @@
         <Axes xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18007</uax:Identifier>
+            <uax:Identifier>ns=3;i=29341</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -5024,12 +5024,12 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18007</uax:NumericId>
+          <uax:NumericId>29341</uax:NumericId>
         </Axes>
         <PowerTrains xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18088</uax:Identifier>
+            <uax:Identifier>ns=3;i=29422</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -5045,14 +5045,14 @@
           <uax:TypeDefinitionId>
             <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18088</uax:NumericId>
+          <uax:NumericId>29422</uax:NumericId>
         </PowerTrains>
       </Conveyor_4>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=24943</uax:Identifier>
+        <uax:Identifier>ns=3;i=28417</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -5068,11 +5068,11 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>24943</uax:NumericId>
+      <uax:NumericId>28417</uax:NumericId>
       <VFD_1 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18186</uax:Identifier>
+          <uax:Identifier>ns=3;i=29520</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -5084,23 +5084,27 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19907</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>18186</uax:NumericId>
+        <uax:NumericId>29520</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18207</uax:Identifier>
+            <uax:Identifier>ns=3;i=29541</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>Manufacturer</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Name of the company that manufactured the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18207</uax:NumericId>
+          <uax:NumericId>29541</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -5111,19 +5115,23 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18209</uax:Identifier>
+            <uax:Identifier>ns=3;i=29543</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>Model</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Model name of the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18209</uax:NumericId>
+          <uax:NumericId>29543</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -5131,22 +5139,107 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </Model>
-        <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
+        <HardwareRevision xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18213</uax:Identifier>
+            <uax:Identifier>ns=3;i=29544</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
-            <uax:Name>ProductCode</uax:Name>
+            <uax:Name>HardwareRevision</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Revision level of the hardware of the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18213</uax:NumericId>
+          <uax:NumericId>29544</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </HardwareRevision>
+        <SoftwareRevision xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29545</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>SoftwareRevision</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Revision level of the software/firmware of the device</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29545</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </SoftwareRevision>
+        <DeviceRevision xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29546</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>DeviceRevision</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Overall revision level of the device</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29546</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </DeviceRevision>
+        <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29547</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>ProductCode</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29547</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -5154,22 +5247,53 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </ProductCode>
-        <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
+        <DeviceManual xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18216</uax:Identifier>
+            <uax:Identifier>ns=3;i=29548</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
-            <uax:Name>SerialNumber</uax:Name>
+            <uax:Name>DeviceManual</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Address (pathname in the file system or a URL | Web address) of user manual for the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18216</uax:NumericId>
+          <uax:NumericId>29548</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </DeviceManual>
+        <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29550</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>SerialNumber</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Identifier that uniquely identifies, within a manufacturer, a device instance</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29550</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -5177,101 +5301,88 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </SerialNumber>
-        <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
+        <RevisionCounter xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18221</uax:Identifier>
+            <uax:Identifier>ns=3;i=29552</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>CurrentUser</uax:Name>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>RevisionCounter</uax:Name>
           </uax:BrowseName>
           <uax:Description>
             <uax:Locale></uax:Locale>
-            <uax:Text>The given name of the device.</uax:Text>
+            <uax:Text>An incremental counter indicating the number of times the static data within the Device has been modified</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29552</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=6</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </RevisionCounter>
+        <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29565</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:Name>Temperature</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
           </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>ns=2;i=18175</uax:Identifier>
+            <uax:Identifier>i=17497</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18221</uax:NumericId>
-          <Level>
+          <uax:NumericId>29565</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=11</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+          <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=18222</uax:Identifier>
+              <uax:Identifier>ns=3;i=29570</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
-              <uax:NamespaceIndex>2</uax:NamespaceIndex>
-              <uax:Name>Level</uax:Name>
+              <uax:NamespaceIndex>0</uax:NamespaceIndex>
+              <uax:Name>EngineeringUnits</uax:Name>
             </uax:BrowseName>
-            <uax:Description>
-              <uax:Locale></uax:Locale>
-              <uax:Text>The weight of the load mounted on one mounting point.</uax:Text>
-            </uax:Description>
             <uax:ReferenceTypeId>
               <uax:Identifier>i=46</uax:Identifier>
             </uax:ReferenceTypeId>
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>18222</uax:NumericId>
+            <uax:NumericId>29570</uax:NumericId>
             <uax:DataType>
-              <uax:Identifier>i=12</uax:Identifier>
+              <uax:Identifier>i=887</uax:Identifier>
             </uax:DataType>
             <uax:ValueRank>-1</uax:ValueRank>
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          </Level>
-        </CurrentUser>
-        <Software xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18260</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>Software</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18260</uax:NumericId>
-        </Software>
-        <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18296</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>TaskControls</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>TaskControls is a container for one or more instances of TaskControlType.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18296</uax:NumericId>
-        </TaskControls>
+          </EngineeringUnits>
+        </Temperature>
       </VFD_1>
       <VFD_2 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18368</uax:Identifier>
+          <uax:Identifier>ns=3;i=29571</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -5283,23 +5394,27 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19907</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>18368</uax:NumericId>
+        <uax:NumericId>29571</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18389</uax:Identifier>
+            <uax:Identifier>ns=3;i=29592</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>Manufacturer</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Name of the company that manufactured the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18389</uax:NumericId>
+          <uax:NumericId>29592</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -5310,19 +5425,23 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18391</uax:Identifier>
+            <uax:Identifier>ns=3;i=29594</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>Model</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Model name of the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18391</uax:NumericId>
+          <uax:NumericId>29594</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -5330,22 +5449,107 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </Model>
-        <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
+        <HardwareRevision xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18395</uax:Identifier>
+            <uax:Identifier>ns=3;i=29595</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
-            <uax:Name>ProductCode</uax:Name>
+            <uax:Name>HardwareRevision</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Revision level of the hardware of the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18395</uax:NumericId>
+          <uax:NumericId>29595</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </HardwareRevision>
+        <SoftwareRevision xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29596</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>SoftwareRevision</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Revision level of the software/firmware of the device</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29596</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </SoftwareRevision>
+        <DeviceRevision xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29597</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>DeviceRevision</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Overall revision level of the device</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29597</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </DeviceRevision>
+        <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29598</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>ProductCode</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29598</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -5353,22 +5557,53 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </ProductCode>
-        <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
+        <DeviceManual xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18398</uax:Identifier>
+            <uax:Identifier>ns=3;i=29599</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
-            <uax:Name>SerialNumber</uax:Name>
+            <uax:Name>DeviceManual</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Address (pathname in the file system or a URL | Web address) of user manual for the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18398</uax:NumericId>
+          <uax:NumericId>29599</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </DeviceManual>
+        <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29601</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>SerialNumber</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Identifier that uniquely identifies, within a manufacturer, a device instance</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29601</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -5376,101 +5611,88 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </SerialNumber>
-        <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
+        <RevisionCounter xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18403</uax:Identifier>
+            <uax:Identifier>ns=3;i=29603</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>CurrentUser</uax:Name>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>RevisionCounter</uax:Name>
           </uax:BrowseName>
           <uax:Description>
             <uax:Locale></uax:Locale>
-            <uax:Text>The given name of the device.</uax:Text>
+            <uax:Text>An incremental counter indicating the number of times the static data within the Device has been modified</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29603</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=6</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </RevisionCounter>
+        <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29616</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:Name>Temperature</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
           </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>ns=2;i=18175</uax:Identifier>
+            <uax:Identifier>i=17497</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>18403</uax:NumericId>
-          <Level>
+          <uax:NumericId>29616</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=11</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+          <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=18404</uax:Identifier>
+              <uax:Identifier>ns=3;i=29621</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
-              <uax:NamespaceIndex>2</uax:NamespaceIndex>
-              <uax:Name>Level</uax:Name>
+              <uax:NamespaceIndex>0</uax:NamespaceIndex>
+              <uax:Name>EngineeringUnits</uax:Name>
             </uax:BrowseName>
-            <uax:Description>
-              <uax:Locale></uax:Locale>
-              <uax:Text>The weight of the load mounted on one mounting point.</uax:Text>
-            </uax:Description>
             <uax:ReferenceTypeId>
               <uax:Identifier>i=46</uax:Identifier>
             </uax:ReferenceTypeId>
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>18404</uax:NumericId>
+            <uax:NumericId>29621</uax:NumericId>
             <uax:DataType>
-              <uax:Identifier>i=12</uax:Identifier>
+              <uax:Identifier>i=887</uax:Identifier>
             </uax:DataType>
             <uax:ValueRank>-1</uax:ValueRank>
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          </Level>
-        </CurrentUser>
-        <Software xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18442</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>Software</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18442</uax:NumericId>
-        </Software>
-        <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18478</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>TaskControls</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>TaskControls is a container for one or more instances of TaskControlType.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18478</uax:NumericId>
-        </TaskControls>
+          </EngineeringUnits>
+        </Temperature>
       </VFD_2>
       <VFD_3 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18550</uax:Identifier>
+          <uax:Identifier>ns=3;i=29622</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -5482,23 +5704,27 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19907</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>18550</uax:NumericId>
+        <uax:NumericId>29622</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26746</uax:Identifier>
+            <uax:Identifier>ns=3;i=29643</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>Manufacturer</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Name of the company that manufactured the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26746</uax:NumericId>
+          <uax:NumericId>29643</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -5509,19 +5735,23 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26748</uax:Identifier>
+            <uax:Identifier>ns=3;i=29645</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>Model</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Model name of the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26748</uax:NumericId>
+          <uax:NumericId>29645</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -5529,22 +5759,107 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </Model>
-        <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
+        <HardwareRevision xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26752</uax:Identifier>
+            <uax:Identifier>ns=3;i=29646</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
-            <uax:Name>ProductCode</uax:Name>
+            <uax:Name>HardwareRevision</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Revision level of the hardware of the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26752</uax:NumericId>
+          <uax:NumericId>29646</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </HardwareRevision>
+        <SoftwareRevision xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29647</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>SoftwareRevision</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Revision level of the software/firmware of the device</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29647</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </SoftwareRevision>
+        <DeviceRevision xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29648</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>DeviceRevision</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Overall revision level of the device</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29648</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </DeviceRevision>
+        <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29649</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>ProductCode</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29649</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -5552,22 +5867,53 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </ProductCode>
-        <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
+        <DeviceManual xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26755</uax:Identifier>
+            <uax:Identifier>ns=3;i=29650</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
-            <uax:Name>SerialNumber</uax:Name>
+            <uax:Name>DeviceManual</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Address (pathname in the file system or a URL | Web address) of user manual for the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26755</uax:NumericId>
+          <uax:NumericId>29650</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </DeviceManual>
+        <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29652</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>SerialNumber</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Identifier that uniquely identifies, within a manufacturer, a device instance</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29652</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -5575,101 +5921,88 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </SerialNumber>
-        <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
+        <RevisionCounter xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26760</uax:Identifier>
+            <uax:Identifier>ns=3;i=29654</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>CurrentUser</uax:Name>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>RevisionCounter</uax:Name>
           </uax:BrowseName>
           <uax:Description>
             <uax:Locale></uax:Locale>
-            <uax:Text>The given name of the device.</uax:Text>
+            <uax:Text>An incremental counter indicating the number of times the static data within the Device has been modified</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29654</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=6</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </RevisionCounter>
+        <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29667</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:Name>Temperature</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
           </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>ns=2;i=18175</uax:Identifier>
+            <uax:Identifier>i=17497</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26760</uax:NumericId>
-          <Level>
+          <uax:NumericId>29667</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=11</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+          <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=26761</uax:Identifier>
+              <uax:Identifier>ns=3;i=29672</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
-              <uax:NamespaceIndex>2</uax:NamespaceIndex>
-              <uax:Name>Level</uax:Name>
+              <uax:NamespaceIndex>0</uax:NamespaceIndex>
+              <uax:Name>EngineeringUnits</uax:Name>
             </uax:BrowseName>
-            <uax:Description>
-              <uax:Locale></uax:Locale>
-              <uax:Text>The weight of the load mounted on one mounting point.</uax:Text>
-            </uax:Description>
             <uax:ReferenceTypeId>
               <uax:Identifier>i=46</uax:Identifier>
             </uax:ReferenceTypeId>
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>26761</uax:NumericId>
+            <uax:NumericId>29672</uax:NumericId>
             <uax:DataType>
-              <uax:Identifier>i=12</uax:Identifier>
+              <uax:Identifier>i=887</uax:Identifier>
             </uax:DataType>
             <uax:ValueRank>-1</uax:ValueRank>
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          </Level>
-        </CurrentUser>
-        <Software xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=26832</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>Software</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>26832</uax:NumericId>
-        </Software>
-        <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=26868</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>TaskControls</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>TaskControls is a container for one or more instances of TaskControlType.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>26868</uax:NumericId>
-        </TaskControls>
+          </EngineeringUnits>
+        </Temperature>
       </VFD_3>
       <VFD_4 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=26940</uax:Identifier>
+          <uax:Identifier>ns=3;i=29673</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -5681,23 +6014,27 @@
         <uax:TypeDefinitionId>
           <uax:Identifier>ns=3;i=19907</uax:Identifier>
         </uax:TypeDefinitionId>
-        <uax:NumericId>26940</uax:NumericId>
+        <uax:NumericId>29673</uax:NumericId>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26961</uax:Identifier>
+            <uax:Identifier>ns=3;i=29694</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>Manufacturer</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Name of the company that manufactured the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26961</uax:NumericId>
+          <uax:NumericId>29694</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -5708,19 +6045,23 @@
         <Model xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26963</uax:Identifier>
+            <uax:Identifier>ns=3;i=29696</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>Model</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Model name of the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26963</uax:NumericId>
+          <uax:NumericId>29696</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=21</uax:Identifier>
           </uax:DataType>
@@ -5728,22 +6069,107 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </Model>
-        <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
+        <HardwareRevision xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26967</uax:Identifier>
+            <uax:Identifier>ns=3;i=29697</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
-            <uax:Name>ProductCode</uax:Name>
+            <uax:Name>HardwareRevision</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Revision level of the hardware of the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26967</uax:NumericId>
+          <uax:NumericId>29697</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </HardwareRevision>
+        <SoftwareRevision xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29698</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>SoftwareRevision</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Revision level of the software/firmware of the device</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29698</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </SoftwareRevision>
+        <DeviceRevision xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29699</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>DeviceRevision</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Overall revision level of the device</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29699</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </DeviceRevision>
+        <ProductCode xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29700</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>ProductCode</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29700</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -5751,22 +6177,53 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </ProductCode>
-        <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
+        <DeviceManual xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26970</uax:Identifier>
+            <uax:Identifier>ns=3;i=29701</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>1</uax:NamespaceIndex>
-            <uax:Name>SerialNumber</uax:Name>
+            <uax:Name>DeviceManual</uax:Name>
           </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Address (pathname in the file system or a URL | Web address) of user manual for the device</uax:Text>
+          </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=46</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
             <uax:Identifier>i=68</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26970</uax:NumericId>
+          <uax:NumericId>29701</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=12</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </DeviceManual>
+        <SerialNumber xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29703</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>SerialNumber</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Identifier that uniquely identifies, within a manufacturer, a device instance</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29703</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=12</uax:Identifier>
           </uax:DataType>
@@ -5774,102 +6231,89 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </SerialNumber>
-        <CurrentUser xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
+        <RevisionCounter xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=26975</uax:Identifier>
+            <uax:Identifier>ns=3;i=29705</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>CurrentUser</uax:Name>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>RevisionCounter</uax:Name>
           </uax:BrowseName>
           <uax:Description>
             <uax:Locale></uax:Locale>
-            <uax:Text>The given name of the device.</uax:Text>
+            <uax:Text>An incremental counter indicating the number of times the static data within the Device has been modified</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=46</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=68</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29705</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=6</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+        </RevisionCounter>
+        <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
+          <uax:NodeClass>Variable_2</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29718</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:Name>Temperature</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
           </uax:Description>
           <uax:ReferenceTypeId>
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>ns=2;i=18175</uax:Identifier>
+            <uax:Identifier>i=17497</uax:Identifier>
           </uax:TypeDefinitionId>
-          <uax:NumericId>26975</uax:NumericId>
-          <Level>
+          <uax:NumericId>29718</uax:NumericId>
+          <uax:DataType>
+            <uax:Identifier>i=11</uax:Identifier>
+          </uax:DataType>
+          <uax:ValueRank>-1</uax:ValueRank>
+          <uax:AccessLevel>1</uax:AccessLevel>
+          <uax:UserAccessLevel>1</uax:UserAccessLevel>
+          <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
-              <uax:Identifier>ns=3;i=26976</uax:Identifier>
+              <uax:Identifier>ns=3;i=29723</uax:Identifier>
             </uax:NodeId>
             <uax:BrowseName>
-              <uax:NamespaceIndex>2</uax:NamespaceIndex>
-              <uax:Name>Level</uax:Name>
+              <uax:NamespaceIndex>0</uax:NamespaceIndex>
+              <uax:Name>EngineeringUnits</uax:Name>
             </uax:BrowseName>
-            <uax:Description>
-              <uax:Locale></uax:Locale>
-              <uax:Text>The weight of the load mounted on one mounting point.</uax:Text>
-            </uax:Description>
             <uax:ReferenceTypeId>
               <uax:Identifier>i=46</uax:Identifier>
             </uax:ReferenceTypeId>
             <uax:TypeDefinitionId>
               <uax:Identifier>i=68</uax:Identifier>
             </uax:TypeDefinitionId>
-            <uax:NumericId>26976</uax:NumericId>
+            <uax:NumericId>29723</uax:NumericId>
             <uax:DataType>
-              <uax:Identifier>i=12</uax:Identifier>
+              <uax:Identifier>i=887</uax:Identifier>
             </uax:DataType>
             <uax:ValueRank>-1</uax:ValueRank>
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          </Level>
-        </CurrentUser>
-        <Software xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=27014</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>Software</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>Software is a container for one or more instances of SoftwareType defined in OPC UA DI.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>27014</uax:NumericId>
-        </Software>
-        <TaskControls xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=27050</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>TaskControls</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>TaskControls is a container for one or more instances of TaskControlType.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>27050</uax:NumericId>
-        </TaskControls>
+          </EngineeringUnits>
+        </Temperature>
       </VFD_4>
     </Controllers>
     <SafetyStates xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=25122</uax:Identifier>
+        <uax:Identifier>ns=3;i=28600</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
         <uax:NamespaceIndex>2</uax:NamespaceIndex>
@@ -5885,7 +6329,7 @@
       <uax:TypeDefinitionId>
         <uax:Identifier>i=61</uax:Identifier>
       </uax:TypeDefinitionId>
-      <uax:NumericId>25122</uax:NumericId>
+      <uax:NumericId>28600</uax:NumericId>
     </SafetyStates>
-  </MotionDeviceSystem_Conveyors>
+  </Conveyors>
 </uax:ListOfNodeState>

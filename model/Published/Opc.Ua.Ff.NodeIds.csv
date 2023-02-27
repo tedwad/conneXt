@@ -1,3 +1,4 @@
+Conveyors,28161,Object
 CtrlConfigurationType,15013,ObjectType
 CtrlFunctionBlockType,15265,ObjectType
 CtrlProgramOrganizationUnitType,15206,ObjectType
@@ -11,13 +12,12 @@ HasInputVars,15007,ReferenceType
 HasLocalVars,15010,ReferenceType
 HasOutputVars,15008,ReferenceType
 HC10,18595,ObjectType
-MotionDeviceSystem_Conveyors,24692,Object
-MotionDeviceSystem_R01,20347,Object
-MotionDeviceSystem_R02,21216,Object
-MotionDeviceSystem_R03,22085,Object
-MotionDeviceSystem_R04,22954,Object
-MotionDeviceSystem_R05,23823,Object
 OPCUAConneXtNamespaceMetadata,18562,Object
+R01,20857,Object
+R02,22698,Object
+R03,24539,Object
+R04,25903,Object
+R05,27214,Object
 SFCType,15299,ObjectType
 SINAMICS_G120C,19907,ObjectType
 USC_PLC,27106,Object

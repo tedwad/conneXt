@@ -162,7 +162,7 @@
 		<BrowseName>&lt;YRC1000mini&gt;</BrowseName>
 	</ObjectType>
 
-	<ObjectType SymbolicName="FF:SINAMICS_G120C" BaseType="ROB:ControllerType">
+	<ObjectType SymbolicName="FF:SINAMICS_G120C" BaseType="ROB:DriveType">
 		<BrowseName>&lt;SINAMICS_G120C&gt;</BrowseName>
 	</ObjectType>	
 	
@@ -179,7 +179,7 @@
 		</References>
 	</Object>
 
-	<Object SymbolicName="FF:MotionDeviceSystem_R01" TypeDefinition="ROB:MotionDeviceSystemType">
+	<Object SymbolicName="FF:R01" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
@@ -214,7 +214,7 @@
 		</References>
 	</Object>
 
-	<Object SymbolicName="FF:MotionDeviceSystem_R02" TypeDefinition="ROB:MotionDeviceSystemType">
+	<Object SymbolicName="FF:R02" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
@@ -249,7 +249,7 @@
 		</References>
 	</Object>
 
-	<Object SymbolicName="FF:MotionDeviceSystem_R03" TypeDefinition="ROB:MotionDeviceSystemType">
+	<Object SymbolicName="FF:R03" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
@@ -284,7 +284,7 @@
 		</References>
 	</Object>
 
-	<Object SymbolicName="FF:MotionDeviceSystem_R04" TypeDefinition="ROB:MotionDeviceSystemType">
+	<Object SymbolicName="FF:R04" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
@@ -319,7 +319,7 @@
 		</References>
 	</Object>
 
-	<Object SymbolicName="FF:MotionDeviceSystem_R05" TypeDefinition="ROB:MotionDeviceSystemType">
+	<Object SymbolicName="FF:R05" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
@@ -354,7 +354,7 @@
 		</References>
 	</Object>
 
-	<Object SymbolicName="FF:MotionDeviceSystem_Conveyors" TypeDefinition="ROB:MotionDeviceSystemType">
+	<Object SymbolicName="FF:Conveyors" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
@@ -378,15 +378,35 @@
 				<Children>
 					<Object SymbolicName="FF:VFD_1" TypeDefinition="FF:SINAMICS_G120C">
 						<BrowseName>VFD_1</BrowseName>
+						<Children>
+							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+							</Variable>
+						</Children>
 					</Object>
 					<Object SymbolicName="FF:VFD_2" TypeDefinition="FF:SINAMICS_G120C">
 						<BrowseName>VFD_2</BrowseName>
+						<Children>
+							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+							</Variable>
+						</Children>
 					</Object>
 					<Object SymbolicName="FF:VFD_3" TypeDefinition="FF:SINAMICS_G120C">
 						<BrowseName>VFD_3</BrowseName>
+						<Children>
+							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+							</Variable>
+						</Children>
 					</Object>
 					<Object SymbolicName="FF:VFD_4" TypeDefinition="FF:SINAMICS_G120C">
 						<BrowseName>VFD_4</BrowseName>
+						<Children>
+							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+							</Variable>
+						</Children>
 					</Object>
 				</Children>
 			</Object>
