@@ -458,6 +458,13 @@
 	<!-- 7.10 DriveType ObjectType Definition -->
 	<ObjectType SymbolicName="ROB:DriveType" BaseType="DI:DeviceType" IsAbstract="false">
 		<Description>Drives (multi-slot or single-slot axis amplifier) mounted in a controller cabinet or a motion device.</Description>
+		<Object SymbolicName="DI:ParameterSet" ModellingRule="Mandatory">
+			<Children>				
+				<Variable SymbolicName="ROB:Temperature" TypeDefinition="OpcUa:AnalogUnitType" DataType="OpcUa:Double" ModellingRule="Mandatory">
+					<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+				</Variable>
+			</Children>
+		</Object>
 		<Children>
 			<Property SymbolicName="DI:ProductCode" DataType="OpcUa:String" ValueRank="Scalar" ModellingRule="Mandatory">
 				<Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
