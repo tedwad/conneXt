@@ -11655,7 +11655,7 @@
       </References>
       <Value>
         <Value>
-          <String xmlns="http://opcfoundation.org/UA/2008/02/Types.xsd">http://opcfoundation.org/UA/DI/</String>
+          <String xmlns="http://opcfoundation.org/UA/2008/02/Types.xsd">https://nextusc.com/UA/FF/</String>
         </Value>
       </Value>
       <DataType>

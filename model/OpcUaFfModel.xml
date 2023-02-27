@@ -26,7 +26,7 @@
 		<Children>
 			<Property SymbolicName="ua:NamespaceUri" DataType="ua:String">
 				<DefaultValue>
-					<uax:String>http://opcfoundation.org/UA/DI/</uax:String>
+					<uax:String>https://nextusc.com/UA/FF/</uax:String>
 				</DefaultValue>
 			</Property>
 			<Property SymbolicName="ua:NamespaceVersion" DataType="ua:String">
