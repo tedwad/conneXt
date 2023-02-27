@@ -36759,7 +36759,7 @@ namespace Opc.Ua.Ff
         /// <summary>
         /// The BrowseName for the OPCUAConneXtNamespaceMetadata component.
         /// </summary>
-        public const string OPCUAConneXtNamespaceMetadata = "http://opcfoundation.org/UA/DI/";
+        public const string OPCUAConneXtNamespaceMetadata = "https://nextusc.com/UA/FF/";
 
         /// <summary>
         /// The BrowseName for the Priority component.

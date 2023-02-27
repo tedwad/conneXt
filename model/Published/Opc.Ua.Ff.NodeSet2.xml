@@ -49,8 +49,8 @@
     <Alias Alias="HasEncoding">i=38</Alias>
     <Alias Alias="HasDescription">i=39</Alias>
   </Aliases>
-  <UAObject NodeId="ns=1;i=18562" BrowseName="1:http://opcfoundation.org/UA/DI/" SymbolicName="OPCUAConneXtNamespaceMetadata">
-    <DisplayName>http://opcfoundation.org/UA/DI/</DisplayName>
+  <UAObject NodeId="ns=1;i=18562" BrowseName="1:https://nextusc.com/UA/FF/" SymbolicName="OPCUAConneXtNamespaceMetadata">
+    <DisplayName>https://nextusc.com/UA/FF/</DisplayName>
     <References>
       <Reference ReferenceType="HasProperty">ns=1;i=18563</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=18564</Reference>
@@ -523,6 +523,7 @@
       <Reference ReferenceType="HasComponent">ns=1;i=15308</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15310</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15312</Reference>
+      <Reference ReferenceType="Organizes" IsForward="false">ns=2;i=5001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=15013</Reference>
     </References>
   </UAObject>

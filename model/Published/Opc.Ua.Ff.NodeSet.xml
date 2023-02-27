@@ -11490,11 +11490,11 @@
       <NodeClass>Object_1</NodeClass>
       <BrowseName>
         <NamespaceIndex>1</NamespaceIndex>
-        <Name>http://opcfoundation.org/UA/DI/</Name>
+        <Name>https://nextusc.com/UA/FF/</Name>
       </BrowseName>
       <DisplayName>
         <Locale></Locale>
-        <Text>http://opcfoundation.org/UA/DI/</Text>
+        <Text>https://nextusc.com/UA/FF/</Text>
       </DisplayName>
       <Description i:nil="true" />
       <WriteMask>0</WriteMask>
@@ -14665,6 +14665,15 @@
           <IsInverse>false</IsInverse>
           <TargetId>
             <Identifier>ns=1;i=15013</Identifier>
+          </TargetId>
+        </ReferenceNode>
+        <ReferenceNode>
+          <ReferenceTypeId>
+            <Identifier>i=35</Identifier>
+          </ReferenceTypeId>
+          <IsInverse>true</IsInverse>
+          <TargetId>
+            <Identifier>ns=2;i=5001</Identifier>
           </TargetId>
         </ReferenceNode>
         <ReferenceNode>

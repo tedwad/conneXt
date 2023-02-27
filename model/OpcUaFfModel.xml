@@ -22,7 +22,7 @@
 
 	<!-- Custom Information Model OpcUaFfModel Definition-->
 	<Object SymbolicName="FF:OPCUAConneXtNamespaceMetadata" TypeDefinition="ua:NamespaceMetadataType">
-		<BrowseName>http://opcfoundation.org/UA/DI/</BrowseName>
+		<BrowseName>https://nextusc.com/UA/FF/</BrowseName>
 		<Children>
 			<Property SymbolicName="ua:NamespaceUri" DataType="ua:String">
 				<DefaultValue>
@@ -169,14 +169,16 @@
 	<!-- ### Variable Types ###-->
 	<!-- ### Data Types ###-->
 	<!-- ### Objects ###-->
-	<Object SymbolicName="FF:USC_PLC" TypeDefinition="FF:CtrlConfigurationType">
+	<Object SymbolicName="FF:USC_PLC" TypeDefinition="FF:CtrlConfigurationType" ModellingRule="Mandatory">
 		<BrowseName>&lt;USC_PLC&gt;</BrowseName>
+		<References>
+			<Reference IsInverse="true">
+				<ReferenceType>ua:Organizes</ReferenceType>
+				<TargetId>DI:DeviceSet</TargetId>
+			</Reference>
+		</References>
 	</Object>
 
-	
-	
-	
-	
 	<Object SymbolicName="FF:MotionDeviceSystem_R01" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
@@ -403,6 +405,5 @@
 				<TargetId>DI:DeviceSet</TargetId>
 			</Reference>
 		</References>
-	</Object>
-	
+	</Object>	
 </ModelDesign>
