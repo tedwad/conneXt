@@ -5085,6 +5085,77 @@
           <uax:Identifier>ns=3;i=19907</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>29520</uax:NumericId>
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Object_1</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29521</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>ParameterSet</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Flat list of Parameters</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=47</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=58</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29521</uax:NumericId>
+          <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15320</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>2</uax:NamespaceIndex>
+              <uax:Name>Temperature</uax:Name>
+            </uax:BrowseName>
+            <uax:Description>
+              <uax:Locale></uax:Locale>
+              <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
+            </uax:Description>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15320</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15325</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15325</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </Temperature>
+        </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
@@ -5328,56 +5399,6 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </RevisionCounter>
-        <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Variable_2</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=29565</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>Temperature</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=17497</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>29565</uax:NumericId>
-          <uax:DataType>
-            <uax:Identifier>i=11</uax:Identifier>
-          </uax:DataType>
-          <uax:ValueRank>-1</uax:ValueRank>
-          <uax:AccessLevel>1</uax:AccessLevel>
-          <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=29570</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>0</uax:NamespaceIndex>
-              <uax:Name>EngineeringUnits</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=46</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=68</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>29570</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=887</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          </EngineeringUnits>
-        </Temperature>
       </VFD_1>
       <VFD_2 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
@@ -5395,6 +5416,77 @@
           <uax:Identifier>ns=3;i=19907</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>29571</uax:NumericId>
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Object_1</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29572</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>ParameterSet</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Flat list of Parameters</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=47</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=58</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29572</uax:NumericId>
+          <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15326</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>2</uax:NamespaceIndex>
+              <uax:Name>Temperature</uax:Name>
+            </uax:BrowseName>
+            <uax:Description>
+              <uax:Locale></uax:Locale>
+              <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
+            </uax:Description>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15326</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15331</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15331</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </Temperature>
+        </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
@@ -5638,56 +5730,6 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </RevisionCounter>
-        <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Variable_2</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=29616</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>Temperature</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=17497</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>29616</uax:NumericId>
-          <uax:DataType>
-            <uax:Identifier>i=11</uax:Identifier>
-          </uax:DataType>
-          <uax:ValueRank>-1</uax:ValueRank>
-          <uax:AccessLevel>1</uax:AccessLevel>
-          <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=29621</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>0</uax:NamespaceIndex>
-              <uax:Name>EngineeringUnits</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=46</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=68</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>29621</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=887</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          </EngineeringUnits>
-        </Temperature>
       </VFD_2>
       <VFD_3 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
@@ -5705,6 +5747,77 @@
           <uax:Identifier>ns=3;i=19907</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>29622</uax:NumericId>
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Object_1</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29623</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>ParameterSet</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Flat list of Parameters</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=47</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=58</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29623</uax:NumericId>
+          <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15332</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>2</uax:NamespaceIndex>
+              <uax:Name>Temperature</uax:Name>
+            </uax:BrowseName>
+            <uax:Description>
+              <uax:Locale></uax:Locale>
+              <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
+            </uax:Description>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15332</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15337</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15337</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </Temperature>
+        </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
@@ -5948,56 +6061,6 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </RevisionCounter>
-        <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Variable_2</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=29667</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>Temperature</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=17497</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>29667</uax:NumericId>
-          <uax:DataType>
-            <uax:Identifier>i=11</uax:Identifier>
-          </uax:DataType>
-          <uax:ValueRank>-1</uax:ValueRank>
-          <uax:AccessLevel>1</uax:AccessLevel>
-          <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=29672</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>0</uax:NamespaceIndex>
-              <uax:Name>EngineeringUnits</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=46</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=68</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>29672</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=887</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          </EngineeringUnits>
-        </Temperature>
       </VFD_3>
       <VFD_4 xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Object_1</uax:NodeClass>
@@ -6015,6 +6078,77 @@
           <uax:Identifier>ns=3;i=19907</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>29673</uax:NumericId>
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+          <uax:NodeClass>Object_1</uax:NodeClass>
+          <uax:NodeId>
+            <uax:Identifier>ns=3;i=29674</uax:Identifier>
+          </uax:NodeId>
+          <uax:BrowseName>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:Name>ParameterSet</uax:Name>
+          </uax:BrowseName>
+          <uax:Description>
+            <uax:Locale></uax:Locale>
+            <uax:Text>Flat list of Parameters</uax:Text>
+          </uax:Description>
+          <uax:ReferenceTypeId>
+            <uax:Identifier>i=47</uax:Identifier>
+          </uax:ReferenceTypeId>
+          <uax:TypeDefinitionId>
+            <uax:Identifier>i=58</uax:Identifier>
+          </uax:TypeDefinitionId>
+          <uax:NumericId>29674</uax:NumericId>
+          <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15338</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>2</uax:NamespaceIndex>
+              <uax:Name>Temperature</uax:Name>
+            </uax:BrowseName>
+            <uax:Description>
+              <uax:Locale></uax:Locale>
+              <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
+            </uax:Description>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15338</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15343</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15343</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </Temperature>
+        </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
@@ -6258,56 +6392,6 @@
           <uax:AccessLevel>1</uax:AccessLevel>
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </RevisionCounter>
-        <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
-          <uax:NodeClass>Variable_2</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=29718</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
-            <uax:Name>Temperature</uax:Name>
-          </uax:BrowseName>
-          <uax:Description>
-            <uax:Locale></uax:Locale>
-            <uax:Text>The Drive temperature given by a temperature sensor inside of the Drive.</uax:Text>
-          </uax:Description>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=17497</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>29718</uax:NumericId>
-          <uax:DataType>
-            <uax:Identifier>i=11</uax:Identifier>
-          </uax:DataType>
-          <uax:ValueRank>-1</uax:ValueRank>
-          <uax:AccessLevel>1</uax:AccessLevel>
-          <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=29723</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>0</uax:NamespaceIndex>
-              <uax:Name>EngineeringUnits</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=46</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=68</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>29723</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=887</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-          </EngineeringUnits>
-        </Temperature>
       </VFD_4>
     </Controllers>
     <SafetyStates xmlns="http://opcfoundation.org/UA/Robotics/">

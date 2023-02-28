@@ -379,33 +379,49 @@
 					<Object SymbolicName="FF:VFD_1" TypeDefinition="FF:SINAMICS_G120C">
 						<BrowseName>VFD_1</BrowseName>
 						<Children>
-							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
-								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-							</Variable>
+							<Object SymbolicName="DI:ParameterSet" ModellingRule="Mandatory">
+								<Children>
+									<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+										<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+									</Variable>
+								</Children>
+							</Object>
 						</Children>
 					</Object>
 					<Object SymbolicName="FF:VFD_2" TypeDefinition="FF:SINAMICS_G120C">
 						<BrowseName>VFD_2</BrowseName>
 						<Children>
-							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
-								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-							</Variable>
+							<Object SymbolicName="DI:ParameterSet" ModellingRule="Mandatory">
+								<Children>
+									<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+										<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+									</Variable>
+								</Children>
+							</Object>
 						</Children>
 					</Object>
 					<Object SymbolicName="FF:VFD_3" TypeDefinition="FF:SINAMICS_G120C">
 						<BrowseName>VFD_3</BrowseName>
 						<Children>
-							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
-								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-							</Variable>
+							<Object SymbolicName="DI:ParameterSet" ModellingRule="Mandatory">
+								<Children>
+									<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+										<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+									</Variable>
+								</Children>
+							</Object>
 						</Children>
 					</Object>
 					<Object SymbolicName="FF:VFD_4" TypeDefinition="FF:SINAMICS_G120C">
 						<BrowseName>VFD_4</BrowseName>
 						<Children>
-							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
-								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-							</Variable>
+							<Object SymbolicName="DI:ParameterSet" ModellingRule="Mandatory">
+								<Children>
+									<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+										<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+									</Variable>
+								</Children>
+							</Object>
 						</Children>
 					</Object>
 				</Children>

@@ -1990,6 +1990,7 @@
   <UAObject NodeId="ns=1;i=29520" BrowseName="1:VFD_1" ParentNodeId="ns=1;i=28417">
     <DisplayName>VFD_1</DisplayName>
     <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=29521</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29541</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29543</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29544</Reference>
@@ -1999,11 +2000,35 @@
       <Reference ReferenceType="HasProperty">ns=1;i=29548</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29550</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29552</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=29565</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19907</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28417</Reference>
     </References>
   </UAObject>
+  <UAObject NodeId="ns=1;i=29521" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=29520">
+    <DisplayName>ParameterSet</DisplayName>
+    <Description>Flat list of Parameters</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15320</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29520</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15320" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29521" DataType="Double">
+    <DisplayName>Temperature</DisplayName>
+    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15325</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29521</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15325" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15320" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15320</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=29541" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29520" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <Description>Name of the company that manufactured the device</Description>
@@ -2076,25 +2101,10 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29520</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=29565" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29520" DataType="Double">
-    <DisplayName>Temperature</DisplayName>
-    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=29570</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29520</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=29570" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=29565" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29565</Reference>
-    </References>
-  </UAVariable>
   <UAObject NodeId="ns=1;i=29571" BrowseName="1:VFD_2" ParentNodeId="ns=1;i=28417">
     <DisplayName>VFD_2</DisplayName>
     <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=29572</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29592</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29594</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29595</Reference>
@@ -2104,11 +2114,35 @@
       <Reference ReferenceType="HasProperty">ns=1;i=29599</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29601</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29603</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=29616</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19907</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28417</Reference>
     </References>
   </UAObject>
+  <UAObject NodeId="ns=1;i=29572" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=29571">
+    <DisplayName>ParameterSet</DisplayName>
+    <Description>Flat list of Parameters</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15326</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29571</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15326" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29572" DataType="Double">
+    <DisplayName>Temperature</DisplayName>
+    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15331</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29572</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15331" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15326" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15326</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=29592" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29571" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <Description>Name of the company that manufactured the device</Description>
@@ -2181,25 +2215,10 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29571</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=29616" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29571" DataType="Double">
-    <DisplayName>Temperature</DisplayName>
-    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=29621</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29571</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=29621" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=29616" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29616</Reference>
-    </References>
-  </UAVariable>
   <UAObject NodeId="ns=1;i=29622" BrowseName="1:VFD_3" ParentNodeId="ns=1;i=28417">
     <DisplayName>VFD_3</DisplayName>
     <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=29623</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29643</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29645</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29646</Reference>
@@ -2209,11 +2228,35 @@
       <Reference ReferenceType="HasProperty">ns=1;i=29650</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29652</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29654</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=29667</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19907</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28417</Reference>
     </References>
   </UAObject>
+  <UAObject NodeId="ns=1;i=29623" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=29622">
+    <DisplayName>ParameterSet</DisplayName>
+    <Description>Flat list of Parameters</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15332</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29622</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15332" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29623" DataType="Double">
+    <DisplayName>Temperature</DisplayName>
+    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15337</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29623</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15337" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15332" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15332</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=29643" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29622" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <Description>Name of the company that manufactured the device</Description>
@@ -2286,25 +2329,10 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29622</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=29667" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29622" DataType="Double">
-    <DisplayName>Temperature</DisplayName>
-    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=29672</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29622</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=29672" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=29667" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29667</Reference>
-    </References>
-  </UAVariable>
   <UAObject NodeId="ns=1;i=29673" BrowseName="1:VFD_4" ParentNodeId="ns=1;i=28417">
     <DisplayName>VFD_4</DisplayName>
     <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=29674</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29694</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29696</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29697</Reference>
@@ -2314,11 +2342,35 @@
       <Reference ReferenceType="HasProperty">ns=1;i=29701</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29703</Reference>
       <Reference ReferenceType="HasProperty">ns=1;i=29705</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=29718</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=19907</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=28417</Reference>
     </References>
   </UAObject>
+  <UAObject NodeId="ns=1;i=29674" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=29673">
+    <DisplayName>ParameterSet</DisplayName>
+    <Description>Flat list of Parameters</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15338</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29673</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15338" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29674" DataType="Double">
+    <DisplayName>Temperature</DisplayName>
+    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15343</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29674</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15343" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15338" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15338</Reference>
+    </References>
+  </UAVariable>
   <UAVariable NodeId="ns=1;i=29694" BrowseName="2:Manufacturer" ParentNodeId="ns=1;i=29673" DataType="LocalizedText">
     <DisplayName>Manufacturer</DisplayName>
     <Description>Name of the company that manufactured the device</Description>
@@ -2389,22 +2441,6 @@
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29673</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=29718" BrowseName="3:Temperature" ParentNodeId="ns=1;i=29673" DataType="Double">
-    <DisplayName>Temperature</DisplayName>
-    <Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=29723</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=29673</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=29723" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=29718" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=29718</Reference>
     </References>
   </UAVariable>
   <UAObject NodeId="ns=1;i=28600" BrowseName="3:SafetyStates" ParentNodeId="ns=1;i=28161">

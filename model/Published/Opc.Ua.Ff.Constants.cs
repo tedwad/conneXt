@@ -4208,9 +4208,19 @@ namespace Opc.Ua.Ff
         public const uint Conveyors_Controllers_VFD_1 = 29520;
 
         /// <summary>
+        /// The identifier for the Conveyors_Controllers_VFD_1_ParameterSet Object.
+        /// </summary>
+        public const uint Conveyors_Controllers_VFD_1_ParameterSet = 29521;
+
+        /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_2 Object.
         /// </summary>
         public const uint Conveyors_Controllers_VFD_2 = 29571;
+
+        /// <summary>
+        /// The identifier for the Conveyors_Controllers_VFD_2_ParameterSet Object.
+        /// </summary>
+        public const uint Conveyors_Controllers_VFD_2_ParameterSet = 29572;
 
         /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_3 Object.
@@ -4218,9 +4228,19 @@ namespace Opc.Ua.Ff
         public const uint Conveyors_Controllers_VFD_3 = 29622;
 
         /// <summary>
+        /// The identifier for the Conveyors_Controllers_VFD_3_ParameterSet Object.
+        /// </summary>
+        public const uint Conveyors_Controllers_VFD_3_ParameterSet = 29623;
+
+        /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_4 Object.
         /// </summary>
         public const uint Conveyors_Controllers_VFD_4 = 29673;
+
+        /// <summary>
+        /// The identifier for the Conveyors_Controllers_VFD_4_ParameterSet Object.
+        /// </summary>
+        public const uint Conveyors_Controllers_VFD_4_ParameterSet = 29674;
     }
     #endregion
 
@@ -6951,6 +6971,16 @@ namespace Opc.Ua.Ff
         /// The identifier for the SINAMICS_G120C_CPIdentifier_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
         public const uint SINAMICS_G120C_CPIdentifier_Lock_BreakLock_OutputArguments = 20844;
+
+        /// <summary>
+        /// The identifier for the SINAMICS_G120C_ParameterSet_Temperature Variable.
+        /// </summary>
+        public const uint SINAMICS_G120C_ParameterSet_Temperature = 15314;
+
+        /// <summary>
+        /// The identifier for the SINAMICS_G120C_ParameterSet_Temperature_EngineeringUnits Variable.
+        /// </summary>
+        public const uint SINAMICS_G120C_ParameterSet_Temperature_EngineeringUnits = 15319;
 
         /// <summary>
         /// The identifier for the USC_PLC_Lock_Locked Variable.
@@ -16288,14 +16318,14 @@ namespace Opc.Ua.Ff
         public const uint Conveyors_Controllers_VFD_1_RevisionCounter = 29552;
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_1_Temperature Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_1_ParameterSet_Temperature Variable.
         /// </summary>
-        public const uint Conveyors_Controllers_VFD_1_Temperature = 29565;
+        public const uint Conveyors_Controllers_VFD_1_ParameterSet_Temperature = 15320;
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_1_Temperature_EngineeringUnits Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_1_ParameterSet_Temperature_EngineeringUnits Variable.
         /// </summary>
-        public const uint Conveyors_Controllers_VFD_1_Temperature_EngineeringUnits = 29570;
+        public const uint Conveyors_Controllers_VFD_1_ParameterSet_Temperature_EngineeringUnits = 15325;
 
         /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_2_Lock_Locked Variable.
@@ -16388,14 +16418,14 @@ namespace Opc.Ua.Ff
         public const uint Conveyors_Controllers_VFD_2_RevisionCounter = 29603;
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_2_Temperature Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_2_ParameterSet_Temperature Variable.
         /// </summary>
-        public const uint Conveyors_Controllers_VFD_2_Temperature = 29616;
+        public const uint Conveyors_Controllers_VFD_2_ParameterSet_Temperature = 15326;
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_2_Temperature_EngineeringUnits Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_2_ParameterSet_Temperature_EngineeringUnits Variable.
         /// </summary>
-        public const uint Conveyors_Controllers_VFD_2_Temperature_EngineeringUnits = 29621;
+        public const uint Conveyors_Controllers_VFD_2_ParameterSet_Temperature_EngineeringUnits = 15331;
 
         /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_3_Lock_Locked Variable.
@@ -16488,14 +16518,14 @@ namespace Opc.Ua.Ff
         public const uint Conveyors_Controllers_VFD_3_RevisionCounter = 29654;
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_3_Temperature Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_3_ParameterSet_Temperature Variable.
         /// </summary>
-        public const uint Conveyors_Controllers_VFD_3_Temperature = 29667;
+        public const uint Conveyors_Controllers_VFD_3_ParameterSet_Temperature = 15332;
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_3_Temperature_EngineeringUnits Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_3_ParameterSet_Temperature_EngineeringUnits Variable.
         /// </summary>
-        public const uint Conveyors_Controllers_VFD_3_Temperature_EngineeringUnits = 29672;
+        public const uint Conveyors_Controllers_VFD_3_ParameterSet_Temperature_EngineeringUnits = 15337;
 
         /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_4_Lock_Locked Variable.
@@ -16588,14 +16618,14 @@ namespace Opc.Ua.Ff
         public const uint Conveyors_Controllers_VFD_4_RevisionCounter = 29705;
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_4_Temperature Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_4_ParameterSet_Temperature Variable.
         /// </summary>
-        public const uint Conveyors_Controllers_VFD_4_Temperature = 29718;
+        public const uint Conveyors_Controllers_VFD_4_ParameterSet_Temperature = 15338;
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_4_Temperature_EngineeringUnits Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_4_ParameterSet_Temperature_EngineeringUnits Variable.
         /// </summary>
-        public const uint Conveyors_Controllers_VFD_4_Temperature_EngineeringUnits = 29723;
+        public const uint Conveyors_Controllers_VFD_4_ParameterSet_Temperature_EngineeringUnits = 15343;
     }
     #endregion
 
@@ -20768,9 +20798,19 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId Conveyors_Controllers_VFD_1 = new ExpandedNodeId(Opc.Ua.Ff.Objects.Conveyors_Controllers_VFD_1, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
+        /// The identifier for the Conveyors_Controllers_VFD_1_ParameterSet Object.
+        /// </summary>
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_1_ParameterSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.Conveyors_Controllers_VFD_1_ParameterSet, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_2 Object.
         /// </summary>
         public static readonly ExpandedNodeId Conveyors_Controllers_VFD_2 = new ExpandedNodeId(Opc.Ua.Ff.Objects.Conveyors_Controllers_VFD_2, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
+        /// The identifier for the Conveyors_Controllers_VFD_2_ParameterSet Object.
+        /// </summary>
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_2_ParameterSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.Conveyors_Controllers_VFD_2_ParameterSet, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_3 Object.
@@ -20778,9 +20818,19 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId Conveyors_Controllers_VFD_3 = new ExpandedNodeId(Opc.Ua.Ff.Objects.Conveyors_Controllers_VFD_3, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
+        /// The identifier for the Conveyors_Controllers_VFD_3_ParameterSet Object.
+        /// </summary>
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_3_ParameterSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.Conveyors_Controllers_VFD_3_ParameterSet, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_4 Object.
         /// </summary>
         public static readonly ExpandedNodeId Conveyors_Controllers_VFD_4 = new ExpandedNodeId(Opc.Ua.Ff.Objects.Conveyors_Controllers_VFD_4, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
+        /// The identifier for the Conveyors_Controllers_VFD_4_ParameterSet Object.
+        /// </summary>
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_4_ParameterSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.Conveyors_Controllers_VFD_4_ParameterSet, Opc.Ua.Ff.Namespaces.FutureFactories);
     }
     #endregion
 
@@ -23511,6 +23561,16 @@ namespace Opc.Ua.Ff
         /// The identifier for the SINAMICS_G120C_CPIdentifier_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
         public static readonly ExpandedNodeId SINAMICS_G120C_CPIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.SINAMICS_G120C_CPIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
+        /// The identifier for the SINAMICS_G120C_ParameterSet_Temperature Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId SINAMICS_G120C_ParameterSet_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.SINAMICS_G120C_ParameterSet_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
+        /// The identifier for the SINAMICS_G120C_ParameterSet_Temperature_EngineeringUnits Variable.
+        /// </summary>
+        public static readonly ExpandedNodeId SINAMICS_G120C_ParameterSet_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.SINAMICS_G120C_ParameterSet_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the USC_PLC_Lock_Locked Variable.
@@ -32848,14 +32908,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId Conveyors_Controllers_VFD_1_RevisionCounter = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_1_RevisionCounter, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_1_Temperature Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_1_ParameterSet_Temperature Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_1_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_1_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_1_ParameterSet_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_1_ParameterSet_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_1_Temperature_EngineeringUnits Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_1_ParameterSet_Temperature_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_1_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_1_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_1_ParameterSet_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_1_ParameterSet_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_2_Lock_Locked Variable.
@@ -32948,14 +33008,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId Conveyors_Controllers_VFD_2_RevisionCounter = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_2_RevisionCounter, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_2_Temperature Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_2_ParameterSet_Temperature Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_2_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_2_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_2_ParameterSet_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_2_ParameterSet_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_2_Temperature_EngineeringUnits Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_2_ParameterSet_Temperature_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_2_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_2_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_2_ParameterSet_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_2_ParameterSet_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_3_Lock_Locked Variable.
@@ -33048,14 +33108,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId Conveyors_Controllers_VFD_3_RevisionCounter = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_3_RevisionCounter, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_3_Temperature Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_3_ParameterSet_Temperature Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_3_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_3_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_3_ParameterSet_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_3_ParameterSet_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_3_Temperature_EngineeringUnits Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_3_ParameterSet_Temperature_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_3_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_3_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_3_ParameterSet_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_3_ParameterSet_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the Conveyors_Controllers_VFD_4_Lock_Locked Variable.
@@ -33148,14 +33208,14 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId Conveyors_Controllers_VFD_4_RevisionCounter = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_4_RevisionCounter, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_4_Temperature Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_4_ParameterSet_Temperature Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_4_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_4_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_4_ParameterSet_Temperature = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_4_ParameterSet_Temperature, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the Conveyors_Controllers_VFD_4_Temperature_EngineeringUnits Variable.
+        /// The identifier for the Conveyors_Controllers_VFD_4_ParameterSet_Temperature_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_4_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_4_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId Conveyors_Controllers_VFD_4_ParameterSet_Temperature_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.Conveyors_Controllers_VFD_4_ParameterSet_Temperature_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
     }
     #endregion
 
