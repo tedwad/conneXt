@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this 
@@ -14,7 +14,7 @@ parser.add_argument('outfile', help='outfile w/o extension')
 args = parser.parse_args()
 
 rows = []
-with open(args.statuscodes, mode="rt") as f:
+with open(args.statuscodes, mode="rt", encoding='utf8') as f:
     lines = f.readlines()
     for l in lines:
         rows.append(tuple(l.strip().split(',')))

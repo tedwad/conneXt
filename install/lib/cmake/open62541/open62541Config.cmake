@@ -27,10 +27,10 @@ endmacro()
 include("${CMAKE_CURRENT_LIST_DIR}/open62541Targets.cmake")
 
 set (open62541_TOOLS_DIR ${PACKAGE_PREFIX_DIR}/share/open62541/tools CACHE PATH "Path to the directory that contains the tooling of the stack")
-set (UA_NODESET_DIR ${PACKAGE_PREFIX_DIR}/share/open62541/tools/ua-nodeset CACHE PATH "Path to the directory that contains the OPC UA schema repository")
+set (open62541_NODESET_DIR ${PACKAGE_PREFIX_DIR}/share/open62541/tools/ua-nodeset CACHE PATH "Path to the directory that contains the OPC UA schema repository")
 
 include(CMakeFindDependencyMacro)
-find_dependency(PythonInterp 3 REQUIRED)
+find_dependency(PythonInterp REQUIRED)
 
 include("${CMAKE_CURRENT_LIST_DIR}/open62541Macros.cmake")
 

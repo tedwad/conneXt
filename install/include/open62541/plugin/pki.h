@@ -10,7 +10,6 @@
 
 #include <open62541/types.h>
 #include <open62541/types_generated.h>
-#include <open62541/plugin/log.h>
 
 _UA_BEGIN_DECLS
 
@@ -45,14 +44,8 @@ struct UA_CertificateVerification {
                                           const UA_ByteString *certificate,
                                           const UA_String *applicationURI);
 
-    /* Get the expire date from certificate */
-    UA_StatusCode (*getExpirationDate)(UA_DateTime *expiryDateTime, 
-                                       UA_ByteString *certificate);
-
     /* Delete the certificate verification context */
     void (*clear)(UA_CertificateVerification *cv);
-
-    const UA_Logger *logger;
 };
 
 _UA_END_DECLS

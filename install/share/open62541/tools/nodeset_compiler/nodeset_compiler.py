@@ -129,6 +129,7 @@ def getTypesArray(nsIdx):
 for xmlfile in args.existing:
     if xmlfile.name in loadedFiles:
         logger.info("Skipping Nodeset since it is already loaded: {} ".format(xmlfile.name))
+        nsCount +=1
         continue
     loadedFiles.append(xmlfile.name)
     logger.info("Preprocessing (existing) " + str(xmlfile.name))
@@ -137,6 +138,7 @@ for xmlfile in args.existing:
 for xmlfile in args.infiles:
     if xmlfile.name in loadedFiles:
         logger.info("Skipping Nodeset since it is already loaded: {} ".format(xmlfile.name))
+        nsCount +=1
         continue
     loadedFiles.append(xmlfile.name)
     logger.info("Preprocessing " + str(xmlfile.name))
