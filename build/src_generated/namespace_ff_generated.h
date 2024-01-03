@@ -39,8 +39,8 @@ UA_findDataTypeByBinary(const UA_NodeId *typeId);
 #endif
 
 #include "types_di_generated.h"
-#include "types_rob_generated.h"
 #include "types_ff_generated.h"
+#include "types_rob_generated.h"
 
 
 

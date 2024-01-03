@@ -7546,16 +7546,16 @@ static UA_DataTypeArray customUA_TYPES_DI = {
     UA_TYPES_DI
 };
 
-static UA_DataTypeArray customUA_TYPES_ROB = {
-    NULL,
-    UA_TYPES_ROB_COUNT,
-    UA_TYPES_ROB
-};
-
 static UA_DataTypeArray customUA_TYPES_FF = {
     NULL,
     UA_TYPES_FF_COUNT,
     UA_TYPES_FF
+};
+
+static UA_DataTypeArray customUA_TYPES_ROB = {
+    NULL,
+    UA_TYPES_ROB_COUNT,
+    UA_TYPES_ROB
 };
 
 UA_StatusCode namespace_ff_generated(UA_Server *server) {
@@ -7573,14 +7573,14 @@ customUA_TYPES_DI.next = UA_Server_getConfig(server)->customDataTypes;
 UA_Server_getConfig(server)->customDataTypes = &customUA_TYPES_DI;
 
 }
-if(UA_TYPES_ROB_COUNT > 0) {
-customUA_TYPES_ROB.next = UA_Server_getConfig(server)->customDataTypes;
-UA_Server_getConfig(server)->customDataTypes = &customUA_TYPES_ROB;
-
-}
 if(UA_TYPES_FF_COUNT > 0) {
 customUA_TYPES_FF.next = UA_Server_getConfig(server)->customDataTypes;
 UA_Server_getConfig(server)->customDataTypes = &customUA_TYPES_FF;
+
+}
+if(UA_TYPES_ROB_COUNT > 0) {
+customUA_TYPES_ROB.next = UA_Server_getConfig(server)->customDataTypes;
+UA_Server_getConfig(server)->customDataTypes = &customUA_TYPES_ROB;
 
 }
 if((retVal = function_namespace_ff_generated_0_begin(server, ns)) != UA_STATUSCODE_GOOD) return retVal;

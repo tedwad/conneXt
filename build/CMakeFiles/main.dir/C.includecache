@@ -261,10 +261,10 @@ open62541/server.h
 -
 types_di_generated.h
 /home/ubuntu/conneXt/build/src_generated/types_di_generated.h
-types_rob_generated.h
-/home/ubuntu/conneXt/build/src_generated/types_rob_generated.h
 types_ff_generated.h
 /home/ubuntu/conneXt/build/src_generated/types_ff_generated.h
+types_rob_generated.h
+/home/ubuntu/conneXt/build/src_generated/types_rob_generated.h
 
 /home/ubuntu/conneXt/build/src_generated/namespace_rob_generated.c
 namespace_rob_generated.h

@@ -1652,8 +1652,8 @@ UA_NODEID_NUMERIC(ns[0], 47LU),
 UA_QUALIFIEDNAME(ns[1], "NotWaitingForPowerCycle"),
 UA_NODEID_NUMERIC(ns[0], 2309LU),
 (const UA_NodeAttributes*)&attr, &UA_TYPES[UA_TYPES_OBJECTATTRIBUTES],NULL, NULL);
-retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 299LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 303LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 299LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 305LU), false);
+retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 299LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 303LU), false);
 return retVal;
 }
 
@@ -1965,8 +1965,8 @@ UA_NODEID_NUMERIC(ns[0], 47LU),
 UA_QUALIFIEDNAME(ns[1], "Error"),
 UA_NODEID_NUMERIC(ns[0], 2307LU),
 (const UA_NodeAttributes*)&attr, &UA_TYPES[UA_TYPES_OBJECTATTRIBUTES],NULL, NULL);
-retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 275LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 281LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 275LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 283LU), false);
+retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 275LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 281LU), false);
 return retVal;
 }
 
@@ -2025,8 +2025,8 @@ UA_QUALIFIEDNAME(ns[1], "Installing"),
 UA_NODEID_NUMERIC(ns[0], 2307LU),
 (const UA_NodeAttributes*)&attr, &UA_TYPES[UA_TYPES_OBJECTATTRIBUTES],NULL, NULL);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 273LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 281LU), false);
-retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 273LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 279LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 273LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 277LU), false);
+retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 273LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 279LU), false);
 return retVal;
 }
 
@@ -2084,9 +2084,9 @@ UA_NODEID_NUMERIC(ns[0], 47LU),
 UA_QUALIFIEDNAME(ns[1], "Idle"),
 UA_NODEID_NUMERIC(ns[0], 2309LU),
 (const UA_NodeAttributes*)&attr, &UA_TYPES[UA_TYPES_OBJECTATTRIBUTES],NULL, NULL);
-retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 271LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 279LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 271LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 283LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 271LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 277LU), false);
+retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 271LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 279LU), false);
 return retVal;
 }
 
@@ -2737,8 +2737,8 @@ UA_NODEID_NUMERIC(ns[0], 47LU),
 UA_QUALIFIEDNAME(ns[1], "Resuming"),
 UA_NODEID_NUMERIC(ns[0], 2307LU),
 (const UA_NodeAttributes*)&attr, &UA_TYPES[UA_TYPES_OBJECTATTRIBUTES],NULL, NULL);
-retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 237LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 247LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 237LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 245LU), false);
+retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 237LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 247LU), false);
 return retVal;
 }
 
@@ -2796,8 +2796,8 @@ UA_NODEID_NUMERIC(ns[0], 47LU),
 UA_QUALIFIEDNAME(ns[1], "PreparedForUpdate"),
 UA_NODEID_NUMERIC(ns[0], 2307LU),
 (const UA_NodeAttributes*)&attr, &UA_TYPES[UA_TYPES_OBJECTATTRIBUTES],NULL, NULL);
-retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 235LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 245LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 235LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 243LU), false);
+retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 235LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 245LU), false);
 return retVal;
 }
 
@@ -2855,8 +2855,8 @@ UA_NODEID_NUMERIC(ns[0], 47LU),
 UA_QUALIFIEDNAME(ns[1], "Preparing"),
 UA_NODEID_NUMERIC(ns[0], 2307LU),
 (const UA_NodeAttributes*)&attr, &UA_TYPES[UA_TYPES_OBJECTATTRIBUTES],NULL, NULL);
-retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 233LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 243LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 233LU), UA_NODEID_NUMERIC(ns[0], 52LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 239LU), false);
+retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 233LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 243LU), false);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[1], 233LU), UA_NODEID_NUMERIC(ns[0], 51LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 241LU), false);
 return retVal;
 }

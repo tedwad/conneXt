@@ -3,7 +3,7 @@ project(myServer)
 # open62541 must be installed.
 # If in custom path, then use -DCMAKE_PREFIX_PATH=/home/ubuntu/conneXt/install
 # To force cmake to use python3, use -DPYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3.8 
-find_package(open62541 REQUIRED COMPONENTS FullNamespace)
+find_package(open62541 1.3.9 REQUIRED COMPONENTS FullNamespace)
 # Output directory for Nodeset Compiler
 set(GENERATE_OUTPUT_DIR "${CMAKE_BINARY_DIR}/src_generated/")
 file(MAKE_DIRECTORY "${GENERATE_OUTPUT_DIR}")

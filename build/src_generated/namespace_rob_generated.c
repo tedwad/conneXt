@@ -5699,9 +5699,9 @@ UA_NODEID_NUMERIC(ns[0], 47LU),
 UA_QUALIFIEDNAME(ns[2], "<AdditionalComponentIdentifier>"),
 UA_NODEID_NUMERIC(ns[1], 15063LU),
 (const UA_NodeAttributes*)&attr, &UA_TYPES[UA_TYPES_OBJECTATTRIBUTES],NULL, NULL);
+retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[2], 18310LU), UA_NODEID_NUMERIC(ns[0], 17603LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 15048LU), true);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[2], 18310LU), UA_NODEID_NUMERIC(ns[0], 17603LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 15035LU), true);
 retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[2], 18310LU), UA_NODEID_NUMERIC(ns[0], 37LU), UA_EXPANDEDNODEID_NUMERIC(ns[0], 11510LU), true);
-retVal |= UA_Server_addReference(server, UA_NODEID_NUMERIC(ns[2], 18310LU), UA_NODEID_NUMERIC(ns[0], 17603LU), UA_EXPANDEDNODEID_NUMERIC(ns[1], 15048LU), true);
 return retVal;
 }
 
