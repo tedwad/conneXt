@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/conneXt/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/myServer.dir/all
+all: CMakeFiles/main.dir/all
 
 .PHONY : all
 
@@ -63,293 +63,296 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/myServer.dir/clean
-clean: CMakeFiles/myServer-ns-OpcUaFf.dir/clean
-clean: CMakeFiles/myServer-ids-OpcUaFf.dir/clean
-clean: CMakeFiles/myServer-ns-ROB.dir/clean
-clean: CMakeFiles/myServer-ids-ROB.dir/clean
-clean: CMakeFiles/myServer-ns-DI.dir/clean
-clean: CMakeFiles/myServer-types-OpcUaFf.dir/clean
-clean: CMakeFiles/myServer-ids-DI.dir/clean
-clean: CMakeFiles/myServer-types-ROB.dir/clean
-clean: CMakeFiles/myServer-types-DI.dir/clean
+clean: CMakeFiles/myServer-ns-ff.dir/clean
+clean: CMakeFiles/myServer-ids-ff.dir/clean
+clean: CMakeFiles/myServer-types-ff.dir/clean
+clean: CMakeFiles/myServer-ns-rob.dir/clean
+clean: CMakeFiles/myServer-ids-rob.dir/clean
+clean: CMakeFiles/myServer-types-rob.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/myServer-ns-di.dir/clean
+clean: CMakeFiles/myServer-ids-di.dir/clean
+clean: CMakeFiles/myServer-types-di.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/myServer.dir
+# Target rules for target CMakeFiles/myServer-ns-ff.dir
 
 # All Build rule for target.
-CMakeFiles/myServer.dir/all: CMakeFiles/myServer-ns-OpcUaFf.dir/all
-CMakeFiles/myServer.dir/all: CMakeFiles/myServer-ns-ROB.dir/all
-CMakeFiles/myServer.dir/all: CMakeFiles/myServer-ns-DI.dir/all
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/depend
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target myServer"
-.PHONY : CMakeFiles/myServer.dir/all
+CMakeFiles/myServer-ns-ff.dir/all: CMakeFiles/myServer-ns-rob.dir/all
+CMakeFiles/myServer-ns-ff.dir/all: CMakeFiles/myServer-ns-di.dir/all
+CMakeFiles/myServer-ns-ff.dir/all: CMakeFiles/myServer-ids-ff.dir/all
+CMakeFiles/myServer-ns-ff.dir/all: CMakeFiles/myServer-types-ff.dir/all
+	$(MAKE) -f CMakeFiles/myServer-ns-ff.dir/build.make CMakeFiles/myServer-ns-ff.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-ns-ff.dir/build.make CMakeFiles/myServer-ns-ff.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=19 "Built target myServer-ns-ff"
+.PHONY : CMakeFiles/myServer-ns-ff.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/myServer.dir/rule: cmake_check_build_system
+CMakeFiles/myServer-ns-ff.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ns-ff.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
+.PHONY : CMakeFiles/myServer-ns-ff.dir/rule
+
+# Convenience name for target.
+myServer-ns-ff: CMakeFiles/myServer-ns-ff.dir/rule
+
+.PHONY : myServer-ns-ff
+
+# clean rule for target.
+CMakeFiles/myServer-ns-ff.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-ns-ff.dir/build.make CMakeFiles/myServer-ns-ff.dir/clean
+.PHONY : CMakeFiles/myServer-ns-ff.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myServer-ids-ff.dir
+
+# All Build rule for target.
+CMakeFiles/myServer-ids-ff.dir/all:
+	$(MAKE) -f CMakeFiles/myServer-ids-ff.dir/build.make CMakeFiles/myServer-ids-ff.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-ids-ff.dir/build.make CMakeFiles/myServer-ids-ff.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=16 "Built target myServer-ids-ff"
+.PHONY : CMakeFiles/myServer-ids-ff.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myServer-ids-ff.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ids-ff.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
+.PHONY : CMakeFiles/myServer-ids-ff.dir/rule
+
+# Convenience name for target.
+myServer-ids-ff: CMakeFiles/myServer-ids-ff.dir/rule
+
+.PHONY : myServer-ids-ff
+
+# clean rule for target.
+CMakeFiles/myServer-ids-ff.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-ids-ff.dir/build.make CMakeFiles/myServer-ids-ff.dir/clean
+.PHONY : CMakeFiles/myServer-ids-ff.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myServer-types-ff.dir
+
+# All Build rule for target.
+CMakeFiles/myServer-types-ff.dir/all:
+	$(MAKE) -f CMakeFiles/myServer-types-ff.dir/build.make CMakeFiles/myServer-types-ff.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-types-ff.dir/build.make CMakeFiles/myServer-types-ff.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=22 "Built target myServer-types-ff"
+.PHONY : CMakeFiles/myServer-types-ff.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myServer-types-ff.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-types-ff.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
+.PHONY : CMakeFiles/myServer-types-ff.dir/rule
+
+# Convenience name for target.
+myServer-types-ff: CMakeFiles/myServer-types-ff.dir/rule
+
+.PHONY : myServer-types-ff
+
+# clean rule for target.
+CMakeFiles/myServer-types-ff.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-types-ff.dir/build.make CMakeFiles/myServer-types-ff.dir/clean
+.PHONY : CMakeFiles/myServer-types-ff.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myServer-ns-rob.dir
+
+# All Build rule for target.
+CMakeFiles/myServer-ns-rob.dir/all: CMakeFiles/myServer-ids-rob.dir/all
+CMakeFiles/myServer-ns-rob.dir/all: CMakeFiles/myServer-types-rob.dir/all
+CMakeFiles/myServer-ns-rob.dir/all: CMakeFiles/myServer-ns-di.dir/all
+	$(MAKE) -f CMakeFiles/myServer-ns-rob.dir/build.make CMakeFiles/myServer-ns-rob.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-ns-rob.dir/build.make CMakeFiles/myServer-ns-rob.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=20 "Built target myServer-ns-rob"
+.PHONY : CMakeFiles/myServer-ns-rob.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myServer-ns-rob.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ns-rob.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
+.PHONY : CMakeFiles/myServer-ns-rob.dir/rule
+
+# Convenience name for target.
+myServer-ns-rob: CMakeFiles/myServer-ns-rob.dir/rule
+
+.PHONY : myServer-ns-rob
+
+# clean rule for target.
+CMakeFiles/myServer-ns-rob.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-ns-rob.dir/build.make CMakeFiles/myServer-ns-rob.dir/clean
+.PHONY : CMakeFiles/myServer-ns-rob.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myServer-ids-rob.dir
+
+# All Build rule for target.
+CMakeFiles/myServer-ids-rob.dir/all:
+	$(MAKE) -f CMakeFiles/myServer-ids-rob.dir/build.make CMakeFiles/myServer-ids-rob.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-ids-rob.dir/build.make CMakeFiles/myServer-ids-rob.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=17 "Built target myServer-ids-rob"
+.PHONY : CMakeFiles/myServer-ids-rob.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myServer-ids-rob.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ids-rob.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
+.PHONY : CMakeFiles/myServer-ids-rob.dir/rule
+
+# Convenience name for target.
+myServer-ids-rob: CMakeFiles/myServer-ids-rob.dir/rule
+
+.PHONY : myServer-ids-rob
+
+# clean rule for target.
+CMakeFiles/myServer-ids-rob.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-ids-rob.dir/build.make CMakeFiles/myServer-ids-rob.dir/clean
+.PHONY : CMakeFiles/myServer-ids-rob.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myServer-types-rob.dir
+
+# All Build rule for target.
+CMakeFiles/myServer-types-rob.dir/all:
+	$(MAKE) -f CMakeFiles/myServer-types-rob.dir/build.make CMakeFiles/myServer-types-rob.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-types-rob.dir/build.make CMakeFiles/myServer-types-rob.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=23 "Built target myServer-types-rob"
+.PHONY : CMakeFiles/myServer-types-rob.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myServer-types-rob.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-types-rob.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
+.PHONY : CMakeFiles/myServer-types-rob.dir/rule
+
+# Convenience name for target.
+myServer-types-rob: CMakeFiles/myServer-types-rob.dir/rule
+
+.PHONY : myServer-types-rob
+
+# clean rule for target.
+CMakeFiles/myServer-types-rob.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-types-rob.dir/build.make CMakeFiles/myServer-types-rob.dir/clean
+.PHONY : CMakeFiles/myServer-types-rob.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all: CMakeFiles/myServer-ns-rob.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/myServer-ns-di.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/myServer-ns-ff.dir/all
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 23
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer.dir/rule
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-myServer: CMakeFiles/myServer.dir/rule
+main: CMakeFiles/main.dir/rule
 
-.PHONY : myServer
+.PHONY : main
 
 # clean rule for target.
-CMakeFiles/myServer.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/clean
-.PHONY : CMakeFiles/myServer.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/myServer-ns-OpcUaFf.dir
+# Target rules for target CMakeFiles/myServer-ns-di.dir
 
 # All Build rule for target.
-CMakeFiles/myServer-ns-OpcUaFf.dir/all: CMakeFiles/myServer-ids-OpcUaFf.dir/all
-CMakeFiles/myServer-ns-OpcUaFf.dir/all: CMakeFiles/myServer-types-OpcUaFf.dir/all
-	$(MAKE) -f CMakeFiles/myServer-ns-OpcUaFf.dir/build.make CMakeFiles/myServer-ns-OpcUaFf.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-ns-OpcUaFf.dir/build.make CMakeFiles/myServer-ns-OpcUaFf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=19 "Built target myServer-ns-OpcUaFf"
-.PHONY : CMakeFiles/myServer-ns-OpcUaFf.dir/all
+CMakeFiles/myServer-ns-di.dir/all: CMakeFiles/myServer-ids-di.dir/all
+CMakeFiles/myServer-ns-di.dir/all: CMakeFiles/myServer-types-di.dir/all
+	$(MAKE) -f CMakeFiles/myServer-ns-di.dir/build.make CMakeFiles/myServer-ns-di.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-ns-di.dir/build.make CMakeFiles/myServer-ns-di.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=18 "Built target myServer-ns-di"
+.PHONY : CMakeFiles/myServer-ns-di.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/myServer-ns-OpcUaFf.dir/rule: cmake_check_build_system
+CMakeFiles/myServer-ns-di.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ns-OpcUaFf.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ns-di.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-ns-OpcUaFf.dir/rule
+.PHONY : CMakeFiles/myServer-ns-di.dir/rule
 
 # Convenience name for target.
-myServer-ns-OpcUaFf: CMakeFiles/myServer-ns-OpcUaFf.dir/rule
+myServer-ns-di: CMakeFiles/myServer-ns-di.dir/rule
 
-.PHONY : myServer-ns-OpcUaFf
+.PHONY : myServer-ns-di
 
 # clean rule for target.
-CMakeFiles/myServer-ns-OpcUaFf.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-ns-OpcUaFf.dir/build.make CMakeFiles/myServer-ns-OpcUaFf.dir/clean
-.PHONY : CMakeFiles/myServer-ns-OpcUaFf.dir/clean
+CMakeFiles/myServer-ns-di.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-ns-di.dir/build.make CMakeFiles/myServer-ns-di.dir/clean
+.PHONY : CMakeFiles/myServer-ns-di.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/myServer-ids-OpcUaFf.dir
+# Target rules for target CMakeFiles/myServer-ids-di.dir
 
 # All Build rule for target.
-CMakeFiles/myServer-ids-OpcUaFf.dir/all:
-	$(MAKE) -f CMakeFiles/myServer-ids-OpcUaFf.dir/build.make CMakeFiles/myServer-ids-OpcUaFf.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-ids-OpcUaFf.dir/build.make CMakeFiles/myServer-ids-OpcUaFf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=16 "Built target myServer-ids-OpcUaFf"
-.PHONY : CMakeFiles/myServer-ids-OpcUaFf.dir/all
+CMakeFiles/myServer-ids-di.dir/all:
+	$(MAKE) -f CMakeFiles/myServer-ids-di.dir/build.make CMakeFiles/myServer-ids-di.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-ids-di.dir/build.make CMakeFiles/myServer-ids-di.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=15 "Built target myServer-ids-di"
+.PHONY : CMakeFiles/myServer-ids-di.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/myServer-ids-OpcUaFf.dir/rule: cmake_check_build_system
+CMakeFiles/myServer-ids-di.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ids-OpcUaFf.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ids-di.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-ids-OpcUaFf.dir/rule
+.PHONY : CMakeFiles/myServer-ids-di.dir/rule
 
 # Convenience name for target.
-myServer-ids-OpcUaFf: CMakeFiles/myServer-ids-OpcUaFf.dir/rule
+myServer-ids-di: CMakeFiles/myServer-ids-di.dir/rule
 
-.PHONY : myServer-ids-OpcUaFf
-
-# clean rule for target.
-CMakeFiles/myServer-ids-OpcUaFf.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-ids-OpcUaFf.dir/build.make CMakeFiles/myServer-ids-OpcUaFf.dir/clean
-.PHONY : CMakeFiles/myServer-ids-OpcUaFf.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/myServer-ns-ROB.dir
-
-# All Build rule for target.
-CMakeFiles/myServer-ns-ROB.dir/all: CMakeFiles/myServer-ids-ROB.dir/all
-CMakeFiles/myServer-ns-ROB.dir/all: CMakeFiles/myServer-types-ROB.dir/all
-	$(MAKE) -f CMakeFiles/myServer-ns-ROB.dir/build.make CMakeFiles/myServer-ns-ROB.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-ns-ROB.dir/build.make CMakeFiles/myServer-ns-ROB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=20 "Built target myServer-ns-ROB"
-.PHONY : CMakeFiles/myServer-ns-ROB.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/myServer-ns-ROB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ns-ROB.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-ns-ROB.dir/rule
-
-# Convenience name for target.
-myServer-ns-ROB: CMakeFiles/myServer-ns-ROB.dir/rule
-
-.PHONY : myServer-ns-ROB
+.PHONY : myServer-ids-di
 
 # clean rule for target.
-CMakeFiles/myServer-ns-ROB.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-ns-ROB.dir/build.make CMakeFiles/myServer-ns-ROB.dir/clean
-.PHONY : CMakeFiles/myServer-ns-ROB.dir/clean
+CMakeFiles/myServer-ids-di.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-ids-di.dir/build.make CMakeFiles/myServer-ids-di.dir/clean
+.PHONY : CMakeFiles/myServer-ids-di.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/myServer-ids-ROB.dir
+# Target rules for target CMakeFiles/myServer-types-di.dir
 
 # All Build rule for target.
-CMakeFiles/myServer-ids-ROB.dir/all:
-	$(MAKE) -f CMakeFiles/myServer-ids-ROB.dir/build.make CMakeFiles/myServer-ids-ROB.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-ids-ROB.dir/build.make CMakeFiles/myServer-ids-ROB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=17 "Built target myServer-ids-ROB"
-.PHONY : CMakeFiles/myServer-ids-ROB.dir/all
+CMakeFiles/myServer-types-di.dir/all:
+	$(MAKE) -f CMakeFiles/myServer-types-di.dir/build.make CMakeFiles/myServer-types-di.dir/depend
+	$(MAKE) -f CMakeFiles/myServer-types-di.dir/build.make CMakeFiles/myServer-types-di.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=21 "Built target myServer-types-di"
+.PHONY : CMakeFiles/myServer-types-di.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/myServer-ids-ROB.dir/rule: cmake_check_build_system
+CMakeFiles/myServer-types-di.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ids-ROB.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-types-di.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-ids-ROB.dir/rule
+.PHONY : CMakeFiles/myServer-types-di.dir/rule
 
 # Convenience name for target.
-myServer-ids-ROB: CMakeFiles/myServer-ids-ROB.dir/rule
+myServer-types-di: CMakeFiles/myServer-types-di.dir/rule
 
-.PHONY : myServer-ids-ROB
-
-# clean rule for target.
-CMakeFiles/myServer-ids-ROB.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-ids-ROB.dir/build.make CMakeFiles/myServer-ids-ROB.dir/clean
-.PHONY : CMakeFiles/myServer-ids-ROB.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/myServer-ns-DI.dir
-
-# All Build rule for target.
-CMakeFiles/myServer-ns-DI.dir/all: CMakeFiles/myServer-ids-DI.dir/all
-CMakeFiles/myServer-ns-DI.dir/all: CMakeFiles/myServer-types-DI.dir/all
-	$(MAKE) -f CMakeFiles/myServer-ns-DI.dir/build.make CMakeFiles/myServer-ns-DI.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-ns-DI.dir/build.make CMakeFiles/myServer-ns-DI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=18 "Built target myServer-ns-DI"
-.PHONY : CMakeFiles/myServer-ns-DI.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/myServer-ns-DI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ns-DI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-ns-DI.dir/rule
-
-# Convenience name for target.
-myServer-ns-DI: CMakeFiles/myServer-ns-DI.dir/rule
-
-.PHONY : myServer-ns-DI
+.PHONY : myServer-types-di
 
 # clean rule for target.
-CMakeFiles/myServer-ns-DI.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-ns-DI.dir/build.make CMakeFiles/myServer-ns-DI.dir/clean
-.PHONY : CMakeFiles/myServer-ns-DI.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/myServer-types-OpcUaFf.dir
-
-# All Build rule for target.
-CMakeFiles/myServer-types-OpcUaFf.dir/all:
-	$(MAKE) -f CMakeFiles/myServer-types-OpcUaFf.dir/build.make CMakeFiles/myServer-types-OpcUaFf.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-types-OpcUaFf.dir/build.make CMakeFiles/myServer-types-OpcUaFf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=22 "Built target myServer-types-OpcUaFf"
-.PHONY : CMakeFiles/myServer-types-OpcUaFf.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/myServer-types-OpcUaFf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-types-OpcUaFf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-types-OpcUaFf.dir/rule
-
-# Convenience name for target.
-myServer-types-OpcUaFf: CMakeFiles/myServer-types-OpcUaFf.dir/rule
-
-.PHONY : myServer-types-OpcUaFf
-
-# clean rule for target.
-CMakeFiles/myServer-types-OpcUaFf.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-types-OpcUaFf.dir/build.make CMakeFiles/myServer-types-OpcUaFf.dir/clean
-.PHONY : CMakeFiles/myServer-types-OpcUaFf.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/myServer-ids-DI.dir
-
-# All Build rule for target.
-CMakeFiles/myServer-ids-DI.dir/all:
-	$(MAKE) -f CMakeFiles/myServer-ids-DI.dir/build.make CMakeFiles/myServer-ids-DI.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-ids-DI.dir/build.make CMakeFiles/myServer-ids-DI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=15 "Built target myServer-ids-DI"
-.PHONY : CMakeFiles/myServer-ids-DI.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/myServer-ids-DI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-ids-DI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-ids-DI.dir/rule
-
-# Convenience name for target.
-myServer-ids-DI: CMakeFiles/myServer-ids-DI.dir/rule
-
-.PHONY : myServer-ids-DI
-
-# clean rule for target.
-CMakeFiles/myServer-ids-DI.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-ids-DI.dir/build.make CMakeFiles/myServer-ids-DI.dir/clean
-.PHONY : CMakeFiles/myServer-ids-DI.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/myServer-types-ROB.dir
-
-# All Build rule for target.
-CMakeFiles/myServer-types-ROB.dir/all:
-	$(MAKE) -f CMakeFiles/myServer-types-ROB.dir/build.make CMakeFiles/myServer-types-ROB.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-types-ROB.dir/build.make CMakeFiles/myServer-types-ROB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=23 "Built target myServer-types-ROB"
-.PHONY : CMakeFiles/myServer-types-ROB.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/myServer-types-ROB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-types-ROB.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-types-ROB.dir/rule
-
-# Convenience name for target.
-myServer-types-ROB: CMakeFiles/myServer-types-ROB.dir/rule
-
-.PHONY : myServer-types-ROB
-
-# clean rule for target.
-CMakeFiles/myServer-types-ROB.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-types-ROB.dir/build.make CMakeFiles/myServer-types-ROB.dir/clean
-.PHONY : CMakeFiles/myServer-types-ROB.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/myServer-types-DI.dir
-
-# All Build rule for target.
-CMakeFiles/myServer-types-DI.dir/all:
-	$(MAKE) -f CMakeFiles/myServer-types-DI.dir/build.make CMakeFiles/myServer-types-DI.dir/depend
-	$(MAKE) -f CMakeFiles/myServer-types-DI.dir/build.make CMakeFiles/myServer-types-DI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=21 "Built target myServer-types-DI"
-.PHONY : CMakeFiles/myServer-types-DI.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/myServer-types-DI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myServer-types-DI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/conneXt/build/CMakeFiles 0
-.PHONY : CMakeFiles/myServer-types-DI.dir/rule
-
-# Convenience name for target.
-myServer-types-DI: CMakeFiles/myServer-types-DI.dir/rule
-
-.PHONY : myServer-types-DI
-
-# clean rule for target.
-CMakeFiles/myServer-types-DI.dir/clean:
-	$(MAKE) -f CMakeFiles/myServer-types-DI.dir/build.make CMakeFiles/myServer-types-DI.dir/clean
-.PHONY : CMakeFiles/myServer-types-DI.dir/clean
+CMakeFiles/myServer-types-di.dir/clean:
+	$(MAKE) -f CMakeFiles/myServer-types-di.dir/build.make CMakeFiles/myServer-types-di.dir/clean
+.PHONY : CMakeFiles/myServer-types-di.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

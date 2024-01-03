@@ -212,20 +212,8 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to a library.
-MBEDCRYPTO_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libmbedcrypto.so
-
-//Path to a file.
-MBEDTLS_INCLUDE_DIRS:PATH=/usr/include
-
-//Path to a library.
-MBEDTLS_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libmbedtls.so
-
-//Path to a library.
-MBEDX509_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libmbedx509.so
-
-//Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
+//No help, variable specified on the command line.
+PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3.8
 
 //Value Computed by CMake
 myServer_BINARY_DIR:STATIC=/home/ubuntu/conneXt/build
@@ -234,13 +222,13 @@ myServer_BINARY_DIR:STATIC=/home/ubuntu/conneXt/build
 myServer_SOURCE_DIR:STATIC=/home/ubuntu/conneXt
 
 //The directory containing a CMake configuration file for open62541.
-open62541_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/open62541
+open62541_DIR:PATH=/home/ubuntu/conneXt/install/lib/cmake/open62541
 
 //Path to the directory that contains the OPC UA schema repository
-open62541_NODESET_DIR:PATH=/usr/share/open62541/tools/ua-nodeset
+open62541_NODESET_DIR:PATH=/home/ubuntu/conneXt/install/share/open62541/tools/ua-nodeset
 
 //Path to the directory that contains the tooling of the stack
-open62541_TOOLS_DIR:PATH=/usr/share/open62541/tools
+open62541_TOOLS_DIR:PATH=/home/ubuntu/conneXt/install/share/open62541/tools
 
 
 ########################
@@ -392,48 +380,38 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding MbedTLS
-FIND_PACKAGE_MESSAGE_DETAILS_MbedTLS:INTERNAL=[/usr/include][/usr/lib/aarch64-linux-gnu/libmbedtls.so][/usr/lib/aarch64-linux-gnu/libmbedx509.so][/usr/lib/aarch64-linux-gnu/libmbedcrypto.so][v()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.18()]
-//ADVANCED property for variable: MBEDCRYPTO_LIBRARY
-MBEDCRYPTO_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MBEDTLS_INCLUDE_DIRS
-MBEDTLS_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MBEDTLS_LIBRARY
-MBEDTLS_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MBEDX509_LIBRARY
-MBEDX509_LIBRARY-ADVANCED:INTERNAL=1
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3.8][v3.8.10()]
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //UA_NODESET_DI header files
-UA_NODESET_DI_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_DI_generated.h
+UA_NODESET_DI_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_di_generated.h
 //UA_NODESET_DI source files
-UA_NODESET_DI_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_DI_generated.c
+UA_NODESET_DI_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_di_generated.c
 //UA_NODESET_DI target
-UA_NODESET_DI_TARGET:INTERNAL=myServer-ns-DI
-//UA_NODESET_OPCUAFF header files
-UA_NODESET_OPCUAFF_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_OpcUaFf_generated.h
-//UA_NODESET_OPCUAFF source files
-UA_NODESET_OPCUAFF_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_OpcUaFf_generated.c
-//UA_NODESET_OPCUAFF target
-UA_NODESET_OPCUAFF_TARGET:INTERNAL=myServer-ns-OpcUaFf
+UA_NODESET_DI_TARGET:INTERNAL=myServer-ns-di
+//UA_NODESET_FF header files
+UA_NODESET_FF_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_ff_generated.h
+//UA_NODESET_FF source files
+UA_NODESET_FF_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_ff_generated.c
+//UA_NODESET_FF target
+UA_NODESET_FF_TARGET:INTERNAL=myServer-ns-ff
 //UA_NODESET_ROB header files
-UA_NODESET_ROB_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_ROB_generated.h
+UA_NODESET_ROB_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_rob_generated.h
 //UA_NODESET_ROB source files
-UA_NODESET_ROB_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_ROB_generated.c
+UA_NODESET_ROB_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//namespace_rob_generated.c
 //UA_NODESET_ROB target
-UA_NODESET_ROB_TARGET:INTERNAL=myServer-ns-ROB
-//types_DI header files
-UA_TYPES_DI_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_DI_generated.h;/home/ubuntu/conneXt/build/src_generated//types_DI_generated_handling.h;/home/ubuntu/conneXt/build/src_generated//types_DI_generated_encoding_binary.h
-//types_DI source files
-UA_TYPES_DI_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_DI_generated.c
-//types_OpcUaFf header files
-UA_TYPES_OPCUAFF_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_OpcUaFf_generated.h;/home/ubuntu/conneXt/build/src_generated//types_OpcUaFf_generated_handling.h;/home/ubuntu/conneXt/build/src_generated//types_OpcUaFf_generated_encoding_binary.h
-//types_OpcUaFf source files
-UA_TYPES_OPCUAFF_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_OpcUaFf_generated.c
-//types_ROB header files
-UA_TYPES_ROB_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_ROB_generated.h;/home/ubuntu/conneXt/build/src_generated//types_ROB_generated_handling.h;/home/ubuntu/conneXt/build/src_generated//types_ROB_generated_encoding_binary.h
-//types_ROB source files
-UA_TYPES_ROB_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_ROB_generated.c
+UA_NODESET_ROB_TARGET:INTERNAL=myServer-ns-rob
+//types_di header files
+UA_TYPES_DI_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_di_generated.h;/home/ubuntu/conneXt/build/src_generated//types_di_generated_handling.h
+//types_di source files
+UA_TYPES_DI_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_di_generated.c
+//types_ff header files
+UA_TYPES_FF_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_ff_generated.h;/home/ubuntu/conneXt/build/src_generated//types_ff_generated_handling.h
+//types_ff source files
+UA_TYPES_FF_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_ff_generated.c
+//types_rob header files
+UA_TYPES_ROB_HEADERS:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_rob_generated.h;/home/ubuntu/conneXt/build/src_generated//types_rob_generated_handling.h
+//types_rob source files
+UA_TYPES_ROB_SOURCES:INTERNAL=/home/ubuntu/conneXt/build/src_generated//types_rob_generated.c
 

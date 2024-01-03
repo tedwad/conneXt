@@ -10,6 +10,9 @@
 #else
 # include <open62541/server.h>
 #endif
+#include "types_ff_generated.h"
+#include "types_di_generated.h"
+#include "types_rob_generated.h"
 
 
 

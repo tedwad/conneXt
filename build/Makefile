@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/ubuntu/conneXt/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,323 +111,323 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named myServer
+# Target rules for targets named myServer-ns-ff
 
 # Build rule for target.
-myServer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer
-.PHONY : myServer
+myServer-ns-ff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-ns-ff
+.PHONY : myServer-ns-ff
 
 # fast build rule for target.
-myServer/fast:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/build
-.PHONY : myServer/fast
+myServer-ns-ff/fast:
+	$(MAKE) -f CMakeFiles/myServer-ns-ff.dir/build.make CMakeFiles/myServer-ns-ff.dir/build
+.PHONY : myServer-ns-ff/fast
 
 #=============================================================================
-# Target rules for targets named myServer-ns-OpcUaFf
+# Target rules for targets named myServer-ids-ff
 
 # Build rule for target.
-myServer-ns-OpcUaFf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-ns-OpcUaFf
-.PHONY : myServer-ns-OpcUaFf
+myServer-ids-ff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-ids-ff
+.PHONY : myServer-ids-ff
 
 # fast build rule for target.
-myServer-ns-OpcUaFf/fast:
-	$(MAKE) -f CMakeFiles/myServer-ns-OpcUaFf.dir/build.make CMakeFiles/myServer-ns-OpcUaFf.dir/build
-.PHONY : myServer-ns-OpcUaFf/fast
+myServer-ids-ff/fast:
+	$(MAKE) -f CMakeFiles/myServer-ids-ff.dir/build.make CMakeFiles/myServer-ids-ff.dir/build
+.PHONY : myServer-ids-ff/fast
 
 #=============================================================================
-# Target rules for targets named myServer-ids-OpcUaFf
+# Target rules for targets named myServer-types-ff
 
 # Build rule for target.
-myServer-ids-OpcUaFf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-ids-OpcUaFf
-.PHONY : myServer-ids-OpcUaFf
+myServer-types-ff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-types-ff
+.PHONY : myServer-types-ff
 
 # fast build rule for target.
-myServer-ids-OpcUaFf/fast:
-	$(MAKE) -f CMakeFiles/myServer-ids-OpcUaFf.dir/build.make CMakeFiles/myServer-ids-OpcUaFf.dir/build
-.PHONY : myServer-ids-OpcUaFf/fast
+myServer-types-ff/fast:
+	$(MAKE) -f CMakeFiles/myServer-types-ff.dir/build.make CMakeFiles/myServer-types-ff.dir/build
+.PHONY : myServer-types-ff/fast
 
 #=============================================================================
-# Target rules for targets named myServer-ns-ROB
+# Target rules for targets named myServer-ns-rob
 
 # Build rule for target.
-myServer-ns-ROB: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-ns-ROB
-.PHONY : myServer-ns-ROB
+myServer-ns-rob: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-ns-rob
+.PHONY : myServer-ns-rob
 
 # fast build rule for target.
-myServer-ns-ROB/fast:
-	$(MAKE) -f CMakeFiles/myServer-ns-ROB.dir/build.make CMakeFiles/myServer-ns-ROB.dir/build
-.PHONY : myServer-ns-ROB/fast
+myServer-ns-rob/fast:
+	$(MAKE) -f CMakeFiles/myServer-ns-rob.dir/build.make CMakeFiles/myServer-ns-rob.dir/build
+.PHONY : myServer-ns-rob/fast
 
 #=============================================================================
-# Target rules for targets named myServer-ids-ROB
+# Target rules for targets named myServer-ids-rob
 
 # Build rule for target.
-myServer-ids-ROB: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-ids-ROB
-.PHONY : myServer-ids-ROB
+myServer-ids-rob: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-ids-rob
+.PHONY : myServer-ids-rob
 
 # fast build rule for target.
-myServer-ids-ROB/fast:
-	$(MAKE) -f CMakeFiles/myServer-ids-ROB.dir/build.make CMakeFiles/myServer-ids-ROB.dir/build
-.PHONY : myServer-ids-ROB/fast
+myServer-ids-rob/fast:
+	$(MAKE) -f CMakeFiles/myServer-ids-rob.dir/build.make CMakeFiles/myServer-ids-rob.dir/build
+.PHONY : myServer-ids-rob/fast
 
 #=============================================================================
-# Target rules for targets named myServer-ns-DI
+# Target rules for targets named myServer-types-rob
 
 # Build rule for target.
-myServer-ns-DI: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-ns-DI
-.PHONY : myServer-ns-DI
+myServer-types-rob: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-types-rob
+.PHONY : myServer-types-rob
 
 # fast build rule for target.
-myServer-ns-DI/fast:
-	$(MAKE) -f CMakeFiles/myServer-ns-DI.dir/build.make CMakeFiles/myServer-ns-DI.dir/build
-.PHONY : myServer-ns-DI/fast
+myServer-types-rob/fast:
+	$(MAKE) -f CMakeFiles/myServer-types-rob.dir/build.make CMakeFiles/myServer-types-rob.dir/build
+.PHONY : myServer-types-rob/fast
 
 #=============================================================================
-# Target rules for targets named myServer-types-OpcUaFf
+# Target rules for targets named main
 
 # Build rule for target.
-myServer-types-OpcUaFf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-types-OpcUaFf
-.PHONY : myServer-types-OpcUaFf
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-myServer-types-OpcUaFf/fast:
-	$(MAKE) -f CMakeFiles/myServer-types-OpcUaFf.dir/build.make CMakeFiles/myServer-types-OpcUaFf.dir/build
-.PHONY : myServer-types-OpcUaFf/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named myServer-ids-DI
+# Target rules for targets named myServer-ns-di
 
 # Build rule for target.
-myServer-ids-DI: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-ids-DI
-.PHONY : myServer-ids-DI
+myServer-ns-di: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-ns-di
+.PHONY : myServer-ns-di
 
 # fast build rule for target.
-myServer-ids-DI/fast:
-	$(MAKE) -f CMakeFiles/myServer-ids-DI.dir/build.make CMakeFiles/myServer-ids-DI.dir/build
-.PHONY : myServer-ids-DI/fast
+myServer-ns-di/fast:
+	$(MAKE) -f CMakeFiles/myServer-ns-di.dir/build.make CMakeFiles/myServer-ns-di.dir/build
+.PHONY : myServer-ns-di/fast
 
 #=============================================================================
-# Target rules for targets named myServer-types-ROB
+# Target rules for targets named myServer-ids-di
 
 # Build rule for target.
-myServer-types-ROB: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-types-ROB
-.PHONY : myServer-types-ROB
+myServer-ids-di: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-ids-di
+.PHONY : myServer-ids-di
 
 # fast build rule for target.
-myServer-types-ROB/fast:
-	$(MAKE) -f CMakeFiles/myServer-types-ROB.dir/build.make CMakeFiles/myServer-types-ROB.dir/build
-.PHONY : myServer-types-ROB/fast
+myServer-ids-di/fast:
+	$(MAKE) -f CMakeFiles/myServer-ids-di.dir/build.make CMakeFiles/myServer-ids-di.dir/build
+.PHONY : myServer-ids-di/fast
 
 #=============================================================================
-# Target rules for targets named myServer-types-DI
+# Target rules for targets named myServer-types-di
 
 # Build rule for target.
-myServer-types-DI: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myServer-types-DI
-.PHONY : myServer-types-DI
+myServer-types-di: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myServer-types-di
+.PHONY : myServer-types-di
 
 # fast build rule for target.
-myServer-types-DI/fast:
-	$(MAKE) -f CMakeFiles/myServer-types-DI.dir/build.make CMakeFiles/myServer-types-DI.dir/build
-.PHONY : myServer-types-DI/fast
+myServer-types-di/fast:
+	$(MAKE) -f CMakeFiles/myServer-types-di.dir/build.make CMakeFiles/myServer-types-di.dir/build
+.PHONY : myServer-types-di/fast
 
-myServer.o: myServer.c.o
+main.o: main.c.o
 
-.PHONY : myServer.o
+.PHONY : main.o
 
 # target to build an object file
-myServer.c.o:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/myServer.c.o
-.PHONY : myServer.c.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
+.PHONY : main.c.o
 
-myServer.i: myServer.c.i
+main.i: main.c.i
 
-.PHONY : myServer.i
+.PHONY : main.i
 
 # target to preprocess a source file
-myServer.c.i:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/myServer.c.i
-.PHONY : myServer.c.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
+.PHONY : main.c.i
 
-myServer.s: myServer.c.s
+main.s: main.c.s
 
-.PHONY : myServer.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-myServer.c.s:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/myServer.c.s
-.PHONY : myServer.c.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
+.PHONY : main.c.s
 
-src_generated/namespace_DI_generated.o: src_generated/namespace_DI_generated.c.o
+src_generated/namespace_di_generated.o: src_generated/namespace_di_generated.c.o
 
-.PHONY : src_generated/namespace_DI_generated.o
+.PHONY : src_generated/namespace_di_generated.o
 
 # target to build an object file
-src_generated/namespace_DI_generated.c.o:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_DI_generated.c.o
-.PHONY : src_generated/namespace_DI_generated.c.o
+src_generated/namespace_di_generated.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_di_generated.c.o
+.PHONY : src_generated/namespace_di_generated.c.o
 
-src_generated/namespace_DI_generated.i: src_generated/namespace_DI_generated.c.i
+src_generated/namespace_di_generated.i: src_generated/namespace_di_generated.c.i
 
-.PHONY : src_generated/namespace_DI_generated.i
+.PHONY : src_generated/namespace_di_generated.i
 
 # target to preprocess a source file
-src_generated/namespace_DI_generated.c.i:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_DI_generated.c.i
-.PHONY : src_generated/namespace_DI_generated.c.i
+src_generated/namespace_di_generated.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_di_generated.c.i
+.PHONY : src_generated/namespace_di_generated.c.i
 
-src_generated/namespace_DI_generated.s: src_generated/namespace_DI_generated.c.s
+src_generated/namespace_di_generated.s: src_generated/namespace_di_generated.c.s
 
-.PHONY : src_generated/namespace_DI_generated.s
+.PHONY : src_generated/namespace_di_generated.s
 
 # target to generate assembly for a file
-src_generated/namespace_DI_generated.c.s:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_DI_generated.c.s
-.PHONY : src_generated/namespace_DI_generated.c.s
+src_generated/namespace_di_generated.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_di_generated.c.s
+.PHONY : src_generated/namespace_di_generated.c.s
 
-src_generated/namespace_OpcUaFf_generated.o: src_generated/namespace_OpcUaFf_generated.c.o
+src_generated/namespace_ff_generated.o: src_generated/namespace_ff_generated.c.o
 
-.PHONY : src_generated/namespace_OpcUaFf_generated.o
+.PHONY : src_generated/namespace_ff_generated.o
 
 # target to build an object file
-src_generated/namespace_OpcUaFf_generated.c.o:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_OpcUaFf_generated.c.o
-.PHONY : src_generated/namespace_OpcUaFf_generated.c.o
+src_generated/namespace_ff_generated.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.o
+.PHONY : src_generated/namespace_ff_generated.c.o
 
-src_generated/namespace_OpcUaFf_generated.i: src_generated/namespace_OpcUaFf_generated.c.i
+src_generated/namespace_ff_generated.i: src_generated/namespace_ff_generated.c.i
 
-.PHONY : src_generated/namespace_OpcUaFf_generated.i
+.PHONY : src_generated/namespace_ff_generated.i
 
 # target to preprocess a source file
-src_generated/namespace_OpcUaFf_generated.c.i:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_OpcUaFf_generated.c.i
-.PHONY : src_generated/namespace_OpcUaFf_generated.c.i
+src_generated/namespace_ff_generated.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.i
+.PHONY : src_generated/namespace_ff_generated.c.i
 
-src_generated/namespace_OpcUaFf_generated.s: src_generated/namespace_OpcUaFf_generated.c.s
+src_generated/namespace_ff_generated.s: src_generated/namespace_ff_generated.c.s
 
-.PHONY : src_generated/namespace_OpcUaFf_generated.s
+.PHONY : src_generated/namespace_ff_generated.s
 
 # target to generate assembly for a file
-src_generated/namespace_OpcUaFf_generated.c.s:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_OpcUaFf_generated.c.s
-.PHONY : src_generated/namespace_OpcUaFf_generated.c.s
+src_generated/namespace_ff_generated.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.s
+.PHONY : src_generated/namespace_ff_generated.c.s
 
-src_generated/namespace_ROB_generated.o: src_generated/namespace_ROB_generated.c.o
+src_generated/namespace_rob_generated.o: src_generated/namespace_rob_generated.c.o
 
-.PHONY : src_generated/namespace_ROB_generated.o
+.PHONY : src_generated/namespace_rob_generated.o
 
 # target to build an object file
-src_generated/namespace_ROB_generated.c.o:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_ROB_generated.c.o
-.PHONY : src_generated/namespace_ROB_generated.c.o
+src_generated/namespace_rob_generated.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.o
+.PHONY : src_generated/namespace_rob_generated.c.o
 
-src_generated/namespace_ROB_generated.i: src_generated/namespace_ROB_generated.c.i
+src_generated/namespace_rob_generated.i: src_generated/namespace_rob_generated.c.i
 
-.PHONY : src_generated/namespace_ROB_generated.i
+.PHONY : src_generated/namespace_rob_generated.i
 
 # target to preprocess a source file
-src_generated/namespace_ROB_generated.c.i:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_ROB_generated.c.i
-.PHONY : src_generated/namespace_ROB_generated.c.i
+src_generated/namespace_rob_generated.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.i
+.PHONY : src_generated/namespace_rob_generated.c.i
 
-src_generated/namespace_ROB_generated.s: src_generated/namespace_ROB_generated.c.s
+src_generated/namespace_rob_generated.s: src_generated/namespace_rob_generated.c.s
 
-.PHONY : src_generated/namespace_ROB_generated.s
+.PHONY : src_generated/namespace_rob_generated.s
 
 # target to generate assembly for a file
-src_generated/namespace_ROB_generated.c.s:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/namespace_ROB_generated.c.s
-.PHONY : src_generated/namespace_ROB_generated.c.s
+src_generated/namespace_rob_generated.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.s
+.PHONY : src_generated/namespace_rob_generated.c.s
 
-src_generated/types_DI_generated.o: src_generated/types_DI_generated.c.o
+src_generated/types_di_generated.o: src_generated/types_di_generated.c.o
 
-.PHONY : src_generated/types_DI_generated.o
+.PHONY : src_generated/types_di_generated.o
 
 # target to build an object file
-src_generated/types_DI_generated.c.o:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_DI_generated.c.o
-.PHONY : src_generated/types_DI_generated.c.o
+src_generated/types_di_generated.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_di_generated.c.o
+.PHONY : src_generated/types_di_generated.c.o
 
-src_generated/types_DI_generated.i: src_generated/types_DI_generated.c.i
+src_generated/types_di_generated.i: src_generated/types_di_generated.c.i
 
-.PHONY : src_generated/types_DI_generated.i
+.PHONY : src_generated/types_di_generated.i
 
 # target to preprocess a source file
-src_generated/types_DI_generated.c.i:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_DI_generated.c.i
-.PHONY : src_generated/types_DI_generated.c.i
+src_generated/types_di_generated.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_di_generated.c.i
+.PHONY : src_generated/types_di_generated.c.i
 
-src_generated/types_DI_generated.s: src_generated/types_DI_generated.c.s
+src_generated/types_di_generated.s: src_generated/types_di_generated.c.s
 
-.PHONY : src_generated/types_DI_generated.s
+.PHONY : src_generated/types_di_generated.s
 
 # target to generate assembly for a file
-src_generated/types_DI_generated.c.s:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_DI_generated.c.s
-.PHONY : src_generated/types_DI_generated.c.s
+src_generated/types_di_generated.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_di_generated.c.s
+.PHONY : src_generated/types_di_generated.c.s
 
-src_generated/types_OpcUaFf_generated.o: src_generated/types_OpcUaFf_generated.c.o
+src_generated/types_ff_generated.o: src_generated/types_ff_generated.c.o
 
-.PHONY : src_generated/types_OpcUaFf_generated.o
+.PHONY : src_generated/types_ff_generated.o
 
 # target to build an object file
-src_generated/types_OpcUaFf_generated.c.o:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_OpcUaFf_generated.c.o
-.PHONY : src_generated/types_OpcUaFf_generated.c.o
+src_generated/types_ff_generated.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_ff_generated.c.o
+.PHONY : src_generated/types_ff_generated.c.o
 
-src_generated/types_OpcUaFf_generated.i: src_generated/types_OpcUaFf_generated.c.i
+src_generated/types_ff_generated.i: src_generated/types_ff_generated.c.i
 
-.PHONY : src_generated/types_OpcUaFf_generated.i
+.PHONY : src_generated/types_ff_generated.i
 
 # target to preprocess a source file
-src_generated/types_OpcUaFf_generated.c.i:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_OpcUaFf_generated.c.i
-.PHONY : src_generated/types_OpcUaFf_generated.c.i
+src_generated/types_ff_generated.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_ff_generated.c.i
+.PHONY : src_generated/types_ff_generated.c.i
 
-src_generated/types_OpcUaFf_generated.s: src_generated/types_OpcUaFf_generated.c.s
+src_generated/types_ff_generated.s: src_generated/types_ff_generated.c.s
 
-.PHONY : src_generated/types_OpcUaFf_generated.s
+.PHONY : src_generated/types_ff_generated.s
 
 # target to generate assembly for a file
-src_generated/types_OpcUaFf_generated.c.s:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_OpcUaFf_generated.c.s
-.PHONY : src_generated/types_OpcUaFf_generated.c.s
+src_generated/types_ff_generated.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_ff_generated.c.s
+.PHONY : src_generated/types_ff_generated.c.s
 
-src_generated/types_ROB_generated.o: src_generated/types_ROB_generated.c.o
+src_generated/types_rob_generated.o: src_generated/types_rob_generated.c.o
 
-.PHONY : src_generated/types_ROB_generated.o
+.PHONY : src_generated/types_rob_generated.o
 
 # target to build an object file
-src_generated/types_ROB_generated.c.o:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_ROB_generated.c.o
-.PHONY : src_generated/types_ROB_generated.c.o
+src_generated/types_rob_generated.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_rob_generated.c.o
+.PHONY : src_generated/types_rob_generated.c.o
 
-src_generated/types_ROB_generated.i: src_generated/types_ROB_generated.c.i
+src_generated/types_rob_generated.i: src_generated/types_rob_generated.c.i
 
-.PHONY : src_generated/types_ROB_generated.i
+.PHONY : src_generated/types_rob_generated.i
 
 # target to preprocess a source file
-src_generated/types_ROB_generated.c.i:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_ROB_generated.c.i
-.PHONY : src_generated/types_ROB_generated.c.i
+src_generated/types_rob_generated.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_rob_generated.c.i
+.PHONY : src_generated/types_rob_generated.c.i
 
-src_generated/types_ROB_generated.s: src_generated/types_ROB_generated.c.s
+src_generated/types_rob_generated.s: src_generated/types_rob_generated.c.s
 
-.PHONY : src_generated/types_ROB_generated.s
+.PHONY : src_generated/types_rob_generated.s
 
 # target to generate assembly for a file
-src_generated/types_ROB_generated.c.s:
-	$(MAKE) -f CMakeFiles/myServer.dir/build.make CMakeFiles/myServer.dir/src_generated/types_ROB_generated.c.s
-.PHONY : src_generated/types_ROB_generated.c.s
+src_generated/types_rob_generated.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src_generated/types_rob_generated.c.s
+.PHONY : src_generated/types_rob_generated.c.s
 
 # Help Target
 help:
@@ -435,39 +435,39 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... myServer"
-	@echo "... myServer-ns-OpcUaFf"
-	@echo "... myServer-ids-OpcUaFf"
-	@echo "... myServer-ns-ROB"
-	@echo "... myServer-ids-ROB"
-	@echo "... myServer-ns-DI"
-	@echo "... myServer-types-OpcUaFf"
-	@echo "... myServer-ids-DI"
-	@echo "... myServer-types-ROB"
-	@echo "... myServer-types-DI"
-	@echo "... myServer.o"
-	@echo "... myServer.i"
-	@echo "... myServer.s"
-	@echo "... src_generated/namespace_DI_generated.o"
-	@echo "... src_generated/namespace_DI_generated.i"
-	@echo "... src_generated/namespace_DI_generated.s"
-	@echo "... src_generated/namespace_OpcUaFf_generated.o"
-	@echo "... src_generated/namespace_OpcUaFf_generated.i"
-	@echo "... src_generated/namespace_OpcUaFf_generated.s"
-	@echo "... src_generated/namespace_ROB_generated.o"
-	@echo "... src_generated/namespace_ROB_generated.i"
-	@echo "... src_generated/namespace_ROB_generated.s"
-	@echo "... src_generated/types_DI_generated.o"
-	@echo "... src_generated/types_DI_generated.i"
-	@echo "... src_generated/types_DI_generated.s"
-	@echo "... src_generated/types_OpcUaFf_generated.o"
-	@echo "... src_generated/types_OpcUaFf_generated.i"
-	@echo "... src_generated/types_OpcUaFf_generated.s"
-	@echo "... src_generated/types_ROB_generated.o"
-	@echo "... src_generated/types_ROB_generated.i"
-	@echo "... src_generated/types_ROB_generated.s"
+	@echo "... myServer-ns-ff"
+	@echo "... myServer-ids-ff"
+	@echo "... rebuild_cache"
+	@echo "... myServer-types-ff"
+	@echo "... myServer-ns-rob"
+	@echo "... myServer-ids-rob"
+	@echo "... myServer-types-rob"
+	@echo "... main"
+	@echo "... myServer-ns-di"
+	@echo "... myServer-ids-di"
+	@echo "... myServer-types-di"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... src_generated/namespace_di_generated.o"
+	@echo "... src_generated/namespace_di_generated.i"
+	@echo "... src_generated/namespace_di_generated.s"
+	@echo "... src_generated/namespace_ff_generated.o"
+	@echo "... src_generated/namespace_ff_generated.i"
+	@echo "... src_generated/namespace_ff_generated.s"
+	@echo "... src_generated/namespace_rob_generated.o"
+	@echo "... src_generated/namespace_rob_generated.i"
+	@echo "... src_generated/namespace_rob_generated.s"
+	@echo "... src_generated/types_di_generated.o"
+	@echo "... src_generated/types_di_generated.i"
+	@echo "... src_generated/types_di_generated.s"
+	@echo "... src_generated/types_ff_generated.o"
+	@echo "... src_generated/types_ff_generated.i"
+	@echo "... src_generated/types_ff_generated.s"
+	@echo "... src_generated/types_rob_generated.o"
+	@echo "... src_generated/types_rob_generated.i"
+	@echo "... src_generated/types_rob_generated.s"
 .PHONY : help
 
 
