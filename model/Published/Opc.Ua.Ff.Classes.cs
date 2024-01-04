@@ -38,1675 +38,6 @@ using Opc.Ua.Robotics;
 
 namespace Opc.Ua.Ff
 {
-    #region CtrlConfigurationState Class
-    #if (!OPCUA_EXCLUDE_CtrlConfigurationState)
-    /// <summary>
-    /// Stores an instance of the CtrlConfigurationType ObjectType.
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class CtrlConfigurationState : DeviceState
-    {
-        #region Constructors
-        /// <summary>
-        /// Initializes the type with its default attribute values.
-        /// </summary>
-        public CtrlConfigurationState(NodeState parent) : base(parent)
-        {
-        }
-
-        /// <summary>
-        /// Returns the id of the default type definition node for the instance.
-        /// </summary>
-        protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
-        {
-            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.CtrlConfigurationType, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
-        }
-
-        #if (!OPCUA_EXCLUDE_InitializationStrings)
-        /// <summary>
-        /// Initializes the instance.
-        /// </summary>
-        protected override void Initialize(ISystemContext context)
-        {
-            Initialize(context, InitializationString);
-            InitializeOptionalChildren(context);
-        }
-
-        /// <summary>
-        /// Initializes the instance with a node.
-        /// </summary>
-        protected override void Initialize(ISystemContext context, NodeState source)
-        {
-            InitializeOptionalChildren(context);
-            base.Initialize(context, source);
-        }
-
-        /// <summary>
-        /// Initializes the any option children defined for the instance.
-        /// </summary>
-        protected override void InitializeOptionalChildren(ISystemContext context)
-        {
-            base.InitializeOptionalChildren(context);
-        }
-
-        #region Initialization String
-        private const string InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADAB0AAABDdHJsQ29uZmlndXJhdGlvblR5cGVJbnN0YW5jZQEDpToBA6U6pToAAP////8PAAAAJGCA" +
-           "CgEAAAADAAkAAABNZXRob2RTZXQBA6g6AwAAAAAUAAAARmxhdCBsaXN0IG9mIE1ldGhvZHMALwA6qDoA" +
-           "AP////8CAAAABGGCCgQAAAADAAUAAABTdGFydAEDBjsALwEDBjsGOwAAAQH/////AAAAAARhggoEAAAA" +
-           "AwAEAAAAU3RvcAEDBzsALwEDBzsHOwAAAQH/////AAAAADVgiQoCAAAAAQAMAAAATWFudWZhY3R1cmVy" +
-           "AQO8OgMAAAAAMAAAAE5hbWUgb2YgdGhlIGNvbXBhbnkgdGhhdCBtYW51ZmFjdHVyZWQgdGhlIGRldmlj" +
-           "ZQAuAES8OgAAABX/////AQH/////AAAAADVgiQoCAAAAAQAFAAAATW9kZWwBA746AwAAAAAYAAAATW9k" +
-           "ZWwgbmFtZSBvZiB0aGUgZGV2aWNlAC4ARL46AAAAFf////8BAf////8AAAAANWCJCgIAAAABABAAAABI" +
-           "YXJkd2FyZVJldmlzaW9uAQO/OgMAAAAALAAAAFJldmlzaW9uIGxldmVsIG9mIHRoZSBoYXJkd2FyZSBv" +
-           "ZiB0aGUgZGV2aWNlAC4ARL86AAAADP////8BAf////8AAAAANWCJCgIAAAABABAAAABTb2Z0d2FyZVJl" +
-           "dmlzaW9uAQPbOgMAAAAANQAAAFJldmlzaW9uIGxldmVsIG9mIHRoZSBzb2Z0d2FyZS9maXJtd2FyZSBv" +
-           "ZiB0aGUgZGV2aWNlAC4ARNs6AAAADP////8BAf////8AAAAANWCJCgIAAAABAA4AAABEZXZpY2VSZXZp" +
-           "c2lvbgED3DoDAAAAACQAAABPdmVyYWxsIHJldmlzaW9uIGxldmVsIG9mIHRoZSBkZXZpY2UALgBE3DoA" +
-           "AAAM/////wEB/////wAAAAA1YIkKAgAAAAEADAAAAERldmljZU1hbnVhbAED3joDAAAAAFoAAABBZGRy" +
-           "ZXNzIChwYXRobmFtZSBpbiB0aGUgZmlsZSBzeXN0ZW0gb3IgYSBVUkwgfCBXZWIgYWRkcmVzcykgb2Yg" +
-           "dXNlciBtYW51YWwgZm9yIHRoZSBkZXZpY2UALgBE3joAAAAM/////wEB/////wAAAAA1YIkKAgAAAAEA" +
-           "DAAAAFNlcmlhbE51bWJlcgED4DoDAAAAAE0AAABJZGVudGlmaWVyIHRoYXQgdW5pcXVlbHkgaWRlbnRp" +
-           "Zmllcywgd2l0aGluIGEgbWFudWZhY3R1cmVyLCBhIGRldmljZSBpbnN0YW5jZQAuAETgOgAAAAz/////" +
-           "AQH/////AAAAADVgiQoCAAAAAQAPAAAAUmV2aXNpb25Db3VudGVyAQPiOgMAAAAAaQAAAEFuIGluY3Jl" +
-           "bWVudGFsIGNvdW50ZXIgaW5kaWNhdGluZyB0aGUgbnVtYmVyIG9mIHRpbWVzIHRoZSBzdGF0aWMgZGF0" +
-           "YSB3aXRoaW4gdGhlIERldmljZSBoYXMgYmVlbiBtb2RpZmllZAAuAETiOgAAAAb/////AQH/////AAAA" +
-           "AARggAoBAAAAAwAJAAAAUmVzb3VyY2VzAQMIOwAvAQHsAwg7AAD/////AQAAACRggAoBAAAAAQAOAAAA" +
-           "U3VwcG9ydGVkVHlwZXMBAwk7AwAAAAByAAAARm9sZGVyIG1haW50YWluaW5nIHRoZSBzZXQgb2YgKHN1" +
-           "Yi10eXBlcyBvZikgQmFzZU9iamVjdFR5cGVzIHRoYXQgY2FuIGJlIGluc3RhbnRpYXRlZCBpbiB0aGUg" +
-           "Q29uZmlndXJhYmxlQ29tcG9uZW50AC8APQk7AAD/////AAAAAARggAoBAAAAAwAKAAAAR2xvYmFsVmFy" +
-           "cwEDCjsALwEB7QMKOwAA/////wAAAAAEYIAKAQAAAAMACgAAAEFjY2Vzc1ZhcnMBAww7AC8BAe0DDDsA" +
-           "AP////8AAAAABGCACgEAAAADAAoAAABDb25maWdWYXJzAQMOOwAvAQHtAw47AAD/////AAAAAARggAoB" +
-           "AAAAAwANAAAAQ29uZmlndXJhdGlvbgEDEDsALwEB7QMQOwAA/////wAAAAAEYIAKAQAAAAMACgAAAERp" +
-           "YWdub3N0aWMBAxI7AC8BAe0DEjsAAP////8AAAAA";
-        #endregion
-        #endif
-        #endregion
-
-        #region Public Properties
-        /// <remarks />
-        public ConfigurableObjectState Resources
-        {
-            get
-            {
-                return m_resources;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_resources, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_resources = value;
-            }
-        }
-
-        /// <remarks />
-        public FunctionalGroupState GlobalVars
-        {
-            get
-            {
-                return m_globalVars;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_globalVars, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_globalVars = value;
-            }
-        }
-
-        /// <remarks />
-        public FunctionalGroupState AccessVars
-        {
-            get
-            {
-                return m_accessVars;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_accessVars, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_accessVars = value;
-            }
-        }
-
-        /// <remarks />
-        public FunctionalGroupState ConfigVars
-        {
-            get
-            {
-                return m_configVars;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_configVars, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_configVars = value;
-            }
-        }
-
-        /// <remarks />
-        public FunctionalGroupState Configuration
-        {
-            get
-            {
-                return m_configuration;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_configuration, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_configuration = value;
-            }
-        }
-
-        /// <remarks />
-        public FunctionalGroupState Diagnostic
-        {
-            get
-            {
-                return m_diagnostic;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_diagnostic, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_diagnostic = value;
-            }
-        }
-        #endregion
-
-        #region Overridden Methods
-        /// <summary>
-        /// Populates a list with the children that belong to the node.
-        /// </summary>
-        /// <param name="context">The context for the system being accessed.</param>
-        /// <param name="children">The list of children to populate.</param>
-        public override void GetChildren(
-            ISystemContext context,
-            IList<BaseInstanceState> children)
-        {
-            if (m_resources != null)
-            {
-                children.Add(m_resources);
-            }
-
-            if (m_globalVars != null)
-            {
-                children.Add(m_globalVars);
-            }
-
-            if (m_accessVars != null)
-            {
-                children.Add(m_accessVars);
-            }
-
-            if (m_configVars != null)
-            {
-                children.Add(m_configVars);
-            }
-
-            if (m_configuration != null)
-            {
-                children.Add(m_configuration);
-            }
-
-            if (m_diagnostic != null)
-            {
-                children.Add(m_diagnostic);
-            }
-
-            base.GetChildren(context, children);
-        }
-
-        /// <summary>
-        /// Finds the child with the specified browse name.
-        /// </summary>
-        protected override BaseInstanceState FindChild(
-            ISystemContext context,
-            QualifiedName browseName,
-            bool createOrReplace,
-            BaseInstanceState replacement)
-        {
-            if (QualifiedName.IsNull(browseName))
-            {
-                return null;
-            }
-
-            BaseInstanceState instance = null;
-
-            switch (browseName.Name)
-            {
-                case Opc.Ua.Ff.BrowseNames.Resources:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Resources == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Resources = new ConfigurableObjectState(this);
-                            }
-                            else
-                            {
-                                Resources = (ConfigurableObjectState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Resources;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.GlobalVars:
-                {
-                    if (createOrReplace)
-                    {
-                        if (GlobalVars == null)
-                        {
-                            if (replacement == null)
-                            {
-                                GlobalVars = new FunctionalGroupState(this);
-                            }
-                            else
-                            {
-                                GlobalVars = (FunctionalGroupState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = GlobalVars;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.AccessVars:
-                {
-                    if (createOrReplace)
-                    {
-                        if (AccessVars == null)
-                        {
-                            if (replacement == null)
-                            {
-                                AccessVars = new FunctionalGroupState(this);
-                            }
-                            else
-                            {
-                                AccessVars = (FunctionalGroupState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = AccessVars;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.ConfigVars:
-                {
-                    if (createOrReplace)
-                    {
-                        if (ConfigVars == null)
-                        {
-                            if (replacement == null)
-                            {
-                                ConfigVars = new FunctionalGroupState(this);
-                            }
-                            else
-                            {
-                                ConfigVars = (FunctionalGroupState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = ConfigVars;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.Configuration:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Configuration == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Configuration = new FunctionalGroupState(this);
-                            }
-                            else
-                            {
-                                Configuration = (FunctionalGroupState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Configuration;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.Diagnostic:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Diagnostic == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Diagnostic = new FunctionalGroupState(this);
-                            }
-                            else
-                            {
-                                Diagnostic = (FunctionalGroupState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Diagnostic;
-                    break;
-                }
-            }
-
-            if (instance != null)
-            {
-                return instance;
-            }
-
-            return base.FindChild(context, browseName, createOrReplace, replacement);
-        }
-        #endregion
-
-        #region Private Fields
-        private ConfigurableObjectState m_resources;
-        private FunctionalGroupState m_globalVars;
-        private FunctionalGroupState m_accessVars;
-        private FunctionalGroupState m_configVars;
-        private FunctionalGroupState m_configuration;
-        private FunctionalGroupState m_diagnostic;
-        #endregion
-    }
-    #endif
-    #endregion
-
-    #region CtrlResourceState Class
-    #if (!OPCUA_EXCLUDE_CtrlResourceState)
-    /// <summary>
-    /// Stores an instance of the CtrlResourceType ObjectType.
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class CtrlResourceState : DeviceState
-    {
-        #region Constructors
-        /// <summary>
-        /// Initializes the type with its default attribute values.
-        /// </summary>
-        public CtrlResourceState(NodeState parent) : base(parent)
-        {
-        }
-
-        /// <summary>
-        /// Returns the id of the default type definition node for the instance.
-        /// </summary>
-        protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
-        {
-            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.CtrlResourceType, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
-        }
-
-        #if (!OPCUA_EXCLUDE_InitializationStrings)
-        /// <summary>
-        /// Initializes the instance.
-        /// </summary>
-        protected override void Initialize(ISystemContext context)
-        {
-            Initialize(context, InitializationString);
-            InitializeOptionalChildren(context);
-        }
-
-        /// <summary>
-        /// Initializes the instance with a node.
-        /// </summary>
-        protected override void Initialize(ISystemContext context, NodeState source)
-        {
-            InitializeOptionalChildren(context);
-            base.Initialize(context, source);
-        }
-
-        /// <summary>
-        /// Initializes the any option children defined for the instance.
-        /// </summary>
-        protected override void InitializeOptionalChildren(ISystemContext context)
-        {
-            base.InitializeOptionalChildren(context);
-
-            if (MethodSet != null)
-            {
-                MethodSet.Initialize(context, MethodSet_InitializationString);
-            }
-
-            if (GlobalVars != null)
-            {
-                GlobalVars.Initialize(context, GlobalVars_InitializationString);
-            }
-
-            if (Configuration != null)
-            {
-                Configuration.Initialize(context, Configuration_InitializationString);
-            }
-
-            if (Diagnostic != null)
-            {
-                Diagnostic.Initialize(context, Diagnostic_InitializationString);
-            }
-        }
-
-        #region Initialization String
-        private const string MethodSet_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////JGCACgEA" +
-           "AAADAAkAAABNZXRob2RTZXQBAxc7AwAAAAAUAAAARmxhdCBsaXN0IG9mIE1ldGhvZHMALwA6FzsAAP//" +
-           "//8CAAAABGGCCgQAAAADAAUAAABTdGFydAEDWjsALwEDWjtaOwAAAQH/////AAAAAARhggoEAAAAAwAE" +
-           "AAAAU3RvcAEDWzsALwEDWztbOwAAAQH/////AAAAAA==";
-
-        private const string GlobalVars_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCACgEA" +
-           "AAADAAoAAABHbG9iYWxWYXJzAQNgOwAvAQHtA2A7AAD/////AAAAAA==";
-
-        private const string Configuration_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCACgEA" +
-           "AAADAA0AAABDb25maWd1cmF0aW9uAQNiOwAvAQHtA2I7AAD/////AAAAAA==";
-
-        private const string Diagnostic_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCACgEA" +
-           "AAADAAoAAABEaWFnbm9zdGljAQNkOwAvAQHtA2Q7AAD/////AAAAAA==";
-
-        private const string InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADABgAAABDdHJsUmVzb3VyY2VUeXBlSW5zdGFuY2UBAxQ7AQMUOxQ7AAD/////DgAAACRggAoBAAAA" +
-           "AwAJAAAATWV0aG9kU2V0AQMXOwMAAAAAFAAAAEZsYXQgbGlzdCBvZiBNZXRob2RzAC8AOhc7AAD/////" +
-           "AgAAAARhggoEAAAAAwAFAAAAU3RhcnQBA1o7AC8BA1o7WjsAAAEB/////wAAAAAEYYIKBAAAAAMABAAA" +
-           "AFN0b3ABA1s7AC8BA1s7WzsAAAEB/////wAAAAA1YIkKAgAAAAEADAAAAE1hbnVmYWN0dXJlcgEDKzsD" +
-           "AAAAADAAAABOYW1lIG9mIHRoZSBjb21wYW55IHRoYXQgbWFudWZhY3R1cmVkIHRoZSBkZXZpY2UALgBE" +
-           "KzsAAAAV/////wEB/////wAAAAA1YIkKAgAAAAEABQAAAE1vZGVsAQMtOwMAAAAAGAAAAE1vZGVsIG5h" +
-           "bWUgb2YgdGhlIGRldmljZQAuAEQtOwAAABX/////AQH/////AAAAADVgiQoCAAAAAQAQAAAASGFyZHdh" +
-           "cmVSZXZpc2lvbgEDLjsDAAAAACwAAABSZXZpc2lvbiBsZXZlbCBvZiB0aGUgaGFyZHdhcmUgb2YgdGhl" +
-           "IGRldmljZQAuAEQuOwAAAAz/////AQH/////AAAAADVgiQoCAAAAAQAQAAAAU29mdHdhcmVSZXZpc2lv" +
-           "bgEDLzsDAAAAADUAAABSZXZpc2lvbiBsZXZlbCBvZiB0aGUgc29mdHdhcmUvZmlybXdhcmUgb2YgdGhl" +
-           "IGRldmljZQAuAEQvOwAAAAz/////AQH/////AAAAADVgiQoCAAAAAQAOAAAARGV2aWNlUmV2aXNpb24B" +
-           "AzA7AwAAAAAkAAAAT3ZlcmFsbCByZXZpc2lvbiBsZXZlbCBvZiB0aGUgZGV2aWNlAC4ARDA7AAAADP//" +
-           "//8BAf////8AAAAANWCJCgIAAAABAAwAAABEZXZpY2VNYW51YWwBAzI7AwAAAABaAAAAQWRkcmVzcyAo" +
-           "cGF0aG5hbWUgaW4gdGhlIGZpbGUgc3lzdGVtIG9yIGEgVVJMIHwgV2ViIGFkZHJlc3MpIG9mIHVzZXIg" +
-           "bWFudWFsIGZvciB0aGUgZGV2aWNlAC4ARDI7AAAADP////8BAf////8AAAAANWCJCgIAAAABAAwAAABT" +
-           "ZXJpYWxOdW1iZXIBAzQ7AwAAAABNAAAASWRlbnRpZmllciB0aGF0IHVuaXF1ZWx5IGlkZW50aWZpZXMs" +
-           "IHdpdGhpbiBhIG1hbnVmYWN0dXJlciwgYSBkZXZpY2UgaW5zdGFuY2UALgBENDsAAAAM/////wEB////" +
-           "/wAAAAA1YIkKAgAAAAEADwAAAFJldmlzaW9uQ291bnRlcgEDNjsDAAAAAGkAAABBbiBpbmNyZW1lbnRh" +
-           "bCBjb3VudGVyIGluZGljYXRpbmcgdGhlIG51bWJlciBvZiB0aW1lcyB0aGUgc3RhdGljIGRhdGEgd2l0" +
-           "aGluIHRoZSBEZXZpY2UgaGFzIGJlZW4gbW9kaWZpZWQALgBENjsAAAAG/////wEB/////wAAAAAEYIAK" +
-           "AQAAAAMABQAAAFRhc2tzAQNcOwAvAQHsA1w7AAD/////AQAAACRggAoBAAAAAQAOAAAAU3VwcG9ydGVk" +
-           "VHlwZXMBA107AwAAAAByAAAARm9sZGVyIG1haW50YWluaW5nIHRoZSBzZXQgb2YgKHN1Yi10eXBlcyBv" +
-           "ZikgQmFzZU9iamVjdFR5cGVzIHRoYXQgY2FuIGJlIGluc3RhbnRpYXRlZCBpbiB0aGUgQ29uZmlndXJh" +
-           "YmxlQ29tcG9uZW50AC8APV07AAD/////AAAAAARggAoBAAAAAwAIAAAAUHJvZ3JhbXMBA147AC8BAewD" +
-           "XjsAAP////8BAAAAJGCACgEAAAABAA4AAABTdXBwb3J0ZWRUeXBlcwEDXzsDAAAAAHIAAABGb2xkZXIg" +
-           "bWFpbnRhaW5pbmcgdGhlIHNldCBvZiAoc3ViLXR5cGVzIG9mKSBCYXNlT2JqZWN0VHlwZXMgdGhhdCBj" +
-           "YW4gYmUgaW5zdGFudGlhdGVkIGluIHRoZSBDb25maWd1cmFibGVDb21wb25lbnQALwA9XzsAAP////8A" +
-           "AAAABGCACgEAAAADAAoAAABHbG9iYWxWYXJzAQNgOwAvAQHtA2A7AAD/////AAAAAARggAoBAAAAAwAN" +
-           "AAAAQ29uZmlndXJhdGlvbgEDYjsALwEB7QNiOwAA/////wAAAAAEYIAKAQAAAAMACgAAAERpYWdub3N0" +
-           "aWMBA2Q7AC8BAe0DZDsAAP////8AAAAA";
-        #endregion
-        #endif
-        #endregion
-
-        #region Public Properties
-        /// <remarks />
-        public ConfigurableObjectState Tasks
-        {
-            get
-            {
-                return m_tasks;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_tasks, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_tasks = value;
-            }
-        }
-
-        /// <remarks />
-        public ConfigurableObjectState Programs
-        {
-            get
-            {
-                return m_programs;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_programs, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_programs = value;
-            }
-        }
-
-        /// <remarks />
-        public FunctionalGroupState GlobalVars
-        {
-            get
-            {
-                return m_globalVars;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_globalVars, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_globalVars = value;
-            }
-        }
-
-        /// <remarks />
-        public FunctionalGroupState Configuration
-        {
-            get
-            {
-                return m_configuration;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_configuration, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_configuration = value;
-            }
-        }
-
-        /// <remarks />
-        public FunctionalGroupState Diagnostic
-        {
-            get
-            {
-                return m_diagnostic;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_diagnostic, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_diagnostic = value;
-            }
-        }
-        #endregion
-
-        #region Overridden Methods
-        /// <summary>
-        /// Populates a list with the children that belong to the node.
-        /// </summary>
-        /// <param name="context">The context for the system being accessed.</param>
-        /// <param name="children">The list of children to populate.</param>
-        public override void GetChildren(
-            ISystemContext context,
-            IList<BaseInstanceState> children)
-        {
-            if (m_tasks != null)
-            {
-                children.Add(m_tasks);
-            }
-
-            if (m_programs != null)
-            {
-                children.Add(m_programs);
-            }
-
-            if (m_globalVars != null)
-            {
-                children.Add(m_globalVars);
-            }
-
-            if (m_configuration != null)
-            {
-                children.Add(m_configuration);
-            }
-
-            if (m_diagnostic != null)
-            {
-                children.Add(m_diagnostic);
-            }
-
-            base.GetChildren(context, children);
-        }
-
-        /// <summary>
-        /// Finds the child with the specified browse name.
-        /// </summary>
-        protected override BaseInstanceState FindChild(
-            ISystemContext context,
-            QualifiedName browseName,
-            bool createOrReplace,
-            BaseInstanceState replacement)
-        {
-            if (QualifiedName.IsNull(browseName))
-            {
-                return null;
-            }
-
-            BaseInstanceState instance = null;
-
-            switch (browseName.Name)
-            {
-                case Opc.Ua.Ff.BrowseNames.Tasks:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Tasks == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Tasks = new ConfigurableObjectState(this);
-                            }
-                            else
-                            {
-                                Tasks = (ConfigurableObjectState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Tasks;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.Programs:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Programs == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Programs = new ConfigurableObjectState(this);
-                            }
-                            else
-                            {
-                                Programs = (ConfigurableObjectState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Programs;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.GlobalVars:
-                {
-                    if (createOrReplace)
-                    {
-                        if (GlobalVars == null)
-                        {
-                            if (replacement == null)
-                            {
-                                GlobalVars = new FunctionalGroupState(this);
-                            }
-                            else
-                            {
-                                GlobalVars = (FunctionalGroupState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = GlobalVars;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.Configuration:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Configuration == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Configuration = new FunctionalGroupState(this);
-                            }
-                            else
-                            {
-                                Configuration = (FunctionalGroupState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Configuration;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.Diagnostic:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Diagnostic == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Diagnostic = new FunctionalGroupState(this);
-                            }
-                            else
-                            {
-                                Diagnostic = (FunctionalGroupState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Diagnostic;
-                    break;
-                }
-            }
-
-            if (instance != null)
-            {
-                return instance;
-            }
-
-            return base.FindChild(context, browseName, createOrReplace, replacement);
-        }
-        #endregion
-
-        #region Private Fields
-        private ConfigurableObjectState m_tasks;
-        private ConfigurableObjectState m_programs;
-        private FunctionalGroupState m_globalVars;
-        private FunctionalGroupState m_configuration;
-        private FunctionalGroupState m_diagnostic;
-        #endregion
-    }
-    #endif
-    #endregion
-
-    #region CtrlProgramOrganizationUnitState Class
-    #if (!OPCUA_EXCLUDE_CtrlProgramOrganizationUnitState)
-    /// <summary>
-    /// Stores an instance of the CtrlProgramOrganizationUnitType ObjectType.
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class CtrlProgramOrganizationUnitState : BlockState
-    {
-        #region Constructors
-        /// <summary>
-        /// Initializes the type with its default attribute values.
-        /// </summary>
-        public CtrlProgramOrganizationUnitState(NodeState parent) : base(parent)
-        {
-        }
-
-        /// <summary>
-        /// Returns the id of the default type definition node for the instance.
-        /// </summary>
-        protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
-        {
-            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.CtrlProgramOrganizationUnitType, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
-        }
-
-        #if (!OPCUA_EXCLUDE_InitializationStrings)
-        /// <summary>
-        /// Initializes the instance.
-        /// </summary>
-        protected override void Initialize(ISystemContext context)
-        {
-            Initialize(context, InitializationString);
-            InitializeOptionalChildren(context);
-        }
-
-        /// <summary>
-        /// Initializes the instance with a node.
-        /// </summary>
-        protected override void Initialize(ISystemContext context, NodeState source)
-        {
-            InitializeOptionalChildren(context);
-            base.Initialize(context, source);
-        }
-
-        /// <summary>
-        /// Initializes the any option children defined for the instance.
-        /// </summary>
-        protected override void InitializeOptionalChildren(ISystemContext context)
-        {
-            base.InitializeOptionalChildren(context);
-
-            if (Body != null)
-            {
-                Body.Initialize(context, Body_InitializationString);
-            }
-        }
-
-        #region Initialization String
-        private const string Body_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////FWCJCgIA" +
-           "AAADAAQAAABCb2R5AQOCOwAvAD+COwAAABD/////AQH/////AAAAAA==";
-
-        private const string InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADACcAAABDdHJsUHJvZ3JhbU9yZ2FuaXphdGlvblVuaXRUeXBlSW5zdGFuY2UBA2Y7AQNmO2Y7AAD/" +
-           "////AQAAABVgiQoCAAAAAwAEAAAAQm9keQEDgjsALwA/gjsAAAAQ/////wEB/////wAAAAA=";
-        #endregion
-        #endif
-        #endregion
-
-        #region Public Properties
-        /// <remarks />
-        public BaseDataVariableState<XmlElement> Body
-        {
-            get
-            {
-                return m_body;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_body, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_body = value;
-            }
-        }
-        #endregion
-
-        #region Overridden Methods
-        /// <summary>
-        /// Populates a list with the children that belong to the node.
-        /// </summary>
-        /// <param name="context">The context for the system being accessed.</param>
-        /// <param name="children">The list of children to populate.</param>
-        public override void GetChildren(
-            ISystemContext context,
-            IList<BaseInstanceState> children)
-        {
-            if (m_body != null)
-            {
-                children.Add(m_body);
-            }
-
-            base.GetChildren(context, children);
-        }
-
-        /// <summary>
-        /// Finds the child with the specified browse name.
-        /// </summary>
-        protected override BaseInstanceState FindChild(
-            ISystemContext context,
-            QualifiedName browseName,
-            bool createOrReplace,
-            BaseInstanceState replacement)
-        {
-            if (QualifiedName.IsNull(browseName))
-            {
-                return null;
-            }
-
-            BaseInstanceState instance = null;
-
-            switch (browseName.Name)
-            {
-                case Opc.Ua.Ff.BrowseNames.Body:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Body == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Body = new BaseDataVariableState<XmlElement>(this);
-                            }
-                            else
-                            {
-                                Body = (BaseDataVariableState<XmlElement>)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Body;
-                    break;
-                }
-            }
-
-            if (instance != null)
-            {
-                return instance;
-            }
-
-            return base.FindChild(context, browseName, createOrReplace, replacement);
-        }
-        #endregion
-
-        #region Private Fields
-        private BaseDataVariableState<XmlElement> m_body;
-        #endregion
-    }
-    #endif
-    #endregion
-
-    #region CtrlProgramState Class
-    #if (!OPCUA_EXCLUDE_CtrlProgramState)
-    /// <summary>
-    /// Stores an instance of the CtrlProgramType ObjectType.
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class CtrlProgramState : CtrlProgramOrganizationUnitState
-    {
-        #region Constructors
-        /// <summary>
-        /// Initializes the type with its default attribute values.
-        /// </summary>
-        public CtrlProgramState(NodeState parent) : base(parent)
-        {
-        }
-
-        /// <summary>
-        /// Returns the id of the default type definition node for the instance.
-        /// </summary>
-        protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
-        {
-            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.CtrlProgramType, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
-        }
-
-        #if (!OPCUA_EXCLUDE_InitializationStrings)
-        /// <summary>
-        /// Initializes the instance.
-        /// </summary>
-        protected override void Initialize(ISystemContext context)
-        {
-            Initialize(context, InitializationString);
-            InitializeOptionalChildren(context);
-        }
-
-        /// <summary>
-        /// Initializes the instance with a node.
-        /// </summary>
-        protected override void Initialize(ISystemContext context, NodeState source)
-        {
-            InitializeOptionalChildren(context);
-            base.Initialize(context, source);
-        }
-
-        /// <summary>
-        /// Initializes the any option children defined for the instance.
-        /// </summary>
-        protected override void InitializeOptionalChildren(ISystemContext context)
-        {
-            base.InitializeOptionalChildren(context);
-
-            if (Program != null)
-            {
-                Program.Initialize(context, Program_InitializationString);
-            }
-        }
-
-        #region Initialization String
-        private const string Program_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////FWCJCgIA" +
-           "AAADAAcAAABQcm9ncmFtAQOgOwAvAD+gOwAAABb/////AQH/////AAAAAA==";
-
-        private const string InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADABcAAABDdHJsUHJvZ3JhbVR5cGVJbnN0YW5jZQEDgzsBA4M7gzsAAP////8BAAAAFWCJCgIAAAAD" +
-           "AAcAAABQcm9ncmFtAQOgOwAvAD+gOwAAABb/////AQH/////AAAAAA==";
-        #endregion
-        #endif
-        #endregion
-
-        #region Public Properties
-        /// <remarks />
-        public BaseDataVariableState<ExtensionObject> Program
-        {
-            get
-            {
-                return m_program;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_program, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_program = value;
-            }
-        }
-        #endregion
-
-        #region Overridden Methods
-        /// <summary>
-        /// Populates a list with the children that belong to the node.
-        /// </summary>
-        /// <param name="context">The context for the system being accessed.</param>
-        /// <param name="children">The list of children to populate.</param>
-        public override void GetChildren(
-            ISystemContext context,
-            IList<BaseInstanceState> children)
-        {
-            if (m_program != null)
-            {
-                children.Add(m_program);
-            }
-
-            base.GetChildren(context, children);
-        }
-
-        /// <summary>
-        /// Finds the child with the specified browse name.
-        /// </summary>
-        protected override BaseInstanceState FindChild(
-            ISystemContext context,
-            QualifiedName browseName,
-            bool createOrReplace,
-            BaseInstanceState replacement)
-        {
-            if (QualifiedName.IsNull(browseName))
-            {
-                return null;
-            }
-
-            BaseInstanceState instance = null;
-
-            switch (browseName.Name)
-            {
-                case Opc.Ua.Ff.BrowseNames.Program:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Program == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Program = new BaseDataVariableState<ExtensionObject>(this);
-                            }
-                            else
-                            {
-                                Program = (BaseDataVariableState<ExtensionObject>)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Program;
-                    break;
-                }
-            }
-
-            if (instance != null)
-            {
-                return instance;
-            }
-
-            return base.FindChild(context, browseName, createOrReplace, replacement);
-        }
-        #endregion
-
-        #region Private Fields
-        private BaseDataVariableState<ExtensionObject> m_program;
-        #endregion
-    }
-    #endif
-    #endregion
-
-    #region CtrlFunctionBlockState Class
-    #if (!OPCUA_EXCLUDE_CtrlFunctionBlockState)
-    /// <summary>
-    /// Stores an instance of the CtrlFunctionBlockType ObjectType.
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class CtrlFunctionBlockState : CtrlProgramOrganizationUnitState
-    {
-        #region Constructors
-        /// <summary>
-        /// Initializes the type with its default attribute values.
-        /// </summary>
-        public CtrlFunctionBlockState(NodeState parent) : base(parent)
-        {
-        }
-
-        /// <summary>
-        /// Returns the id of the default type definition node for the instance.
-        /// </summary>
-        protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
-        {
-            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.CtrlFunctionBlockType, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
-        }
-
-        #if (!OPCUA_EXCLUDE_InitializationStrings)
-        /// <summary>
-        /// Initializes the instance.
-        /// </summary>
-        protected override void Initialize(ISystemContext context)
-        {
-            Initialize(context, InitializationString);
-            InitializeOptionalChildren(context);
-        }
-
-        /// <summary>
-        /// Initializes the instance with a node.
-        /// </summary>
-        protected override void Initialize(ISystemContext context, NodeState source)
-        {
-            InitializeOptionalChildren(context);
-            base.Initialize(context, source);
-        }
-
-        /// <summary>
-        /// Initializes the any option children defined for the instance.
-        /// </summary>
-        protected override void InitializeOptionalChildren(ISystemContext context)
-        {
-            base.InitializeOptionalChildren(context);
-
-            if (FunctionBlock != null)
-            {
-                FunctionBlock.Initialize(context, FunctionBlock_InitializationString);
-            }
-        }
-
-        #region Initialization String
-        private const string FunctionBlock_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////FWCJCgIA" +
-           "AAADAA0AAABGdW5jdGlvbkJsb2NrAQO+OwAvAD++OwAAABj/////AQH/////AAAAAA==";
-
-        private const string InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADAB0AAABDdHJsRnVuY3Rpb25CbG9ja1R5cGVJbnN0YW5jZQEDoTsBA6E7oTsAAP////8BAAAAFWCJ" +
-           "CgIAAAADAA0AAABGdW5jdGlvbkJsb2NrAQO+OwAvAD++OwAAABj/////AQH/////AAAAAA==";
-        #endregion
-        #endif
-        #endregion
-
-        #region Public Properties
-        /// <remarks />
-        public BaseDataVariableState FunctionBlock
-        {
-            get
-            {
-                return m_functionBlock;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_functionBlock, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_functionBlock = value;
-            }
-        }
-        #endregion
-
-        #region Overridden Methods
-        /// <summary>
-        /// Populates a list with the children that belong to the node.
-        /// </summary>
-        /// <param name="context">The context for the system being accessed.</param>
-        /// <param name="children">The list of children to populate.</param>
-        public override void GetChildren(
-            ISystemContext context,
-            IList<BaseInstanceState> children)
-        {
-            if (m_functionBlock != null)
-            {
-                children.Add(m_functionBlock);
-            }
-
-            base.GetChildren(context, children);
-        }
-
-        /// <summary>
-        /// Finds the child with the specified browse name.
-        /// </summary>
-        protected override BaseInstanceState FindChild(
-            ISystemContext context,
-            QualifiedName browseName,
-            bool createOrReplace,
-            BaseInstanceState replacement)
-        {
-            if (QualifiedName.IsNull(browseName))
-            {
-                return null;
-            }
-
-            BaseInstanceState instance = null;
-
-            switch (browseName.Name)
-            {
-                case Opc.Ua.Ff.BrowseNames.FunctionBlock:
-                {
-                    if (createOrReplace)
-                    {
-                        if (FunctionBlock == null)
-                        {
-                            if (replacement == null)
-                            {
-                                FunctionBlock = new BaseDataVariableState(this);
-                            }
-                            else
-                            {
-                                FunctionBlock = (BaseDataVariableState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = FunctionBlock;
-                    break;
-                }
-            }
-
-            if (instance != null)
-            {
-                return instance;
-            }
-
-            return base.FindChild(context, browseName, createOrReplace, replacement);
-        }
-        #endregion
-
-        #region Private Fields
-        private BaseDataVariableState m_functionBlock;
-        #endregion
-    }
-    #endif
-    #endregion
-
-    #region CtrlTaskState Class
-    #if (!OPCUA_EXCLUDE_CtrlTaskState)
-    /// <summary>
-    /// Stores an instance of the CtrlTaskType ObjectType.
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class CtrlTaskState : BaseObjectState
-    {
-        #region Constructors
-        /// <summary>
-        /// Initializes the type with its default attribute values.
-        /// </summary>
-        public CtrlTaskState(NodeState parent) : base(parent)
-        {
-        }
-
-        /// <summary>
-        /// Returns the id of the default type definition node for the instance.
-        /// </summary>
-        protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
-        {
-            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.CtrlTaskType, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
-        }
-
-        #if (!OPCUA_EXCLUDE_InitializationStrings)
-        /// <summary>
-        /// Initializes the instance.
-        /// </summary>
-        protected override void Initialize(ISystemContext context)
-        {
-            Initialize(context, InitializationString);
-            InitializeOptionalChildren(context);
-        }
-
-        /// <summary>
-        /// Initializes the instance with a node.
-        /// </summary>
-        protected override void Initialize(ISystemContext context, NodeState source)
-        {
-            InitializeOptionalChildren(context);
-            base.Initialize(context, source);
-        }
-
-        /// <summary>
-        /// Initializes the any option children defined for the instance.
-        /// </summary>
-        protected override void InitializeOptionalChildren(ISystemContext context)
-        {
-            base.InitializeOptionalChildren(context);
-
-            if (Interval != null)
-            {
-                Interval.Initialize(context, Interval_InitializationString);
-            }
-
-            if (Single != null)
-            {
-                Single.Initialize(context, Single_InitializationString);
-            }
-        }
-
-        #region Initialization String
-        private const string Interval_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////FWCJCgIA" +
-           "AAADAAgAAABJbnRlcnZhbAEDwTsALgBEwTsAAAAM/////wEB/////wAAAAA=";
-
-        private const string Single_InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////FWCJCgIA" +
-           "AAADAAYAAABTaW5nbGUBA8I7AC4ARMI7AAAADP////8BAf////8AAAAA";
-
-        private const string InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADABQAAABDdHJsVGFza1R5cGVJbnN0YW5jZQEDvzsBA787vzsAAP////8DAAAAFWCJCgIAAAADAAgA" +
-           "AABQcmlvcml0eQEDwDsALgBEwDsAAAAH/////wEB/////wAAAAAVYIkKAgAAAAMACAAAAEludGVydmFs" +
-           "AQPBOwAuAETBOwAAAAz/////AQH/////AAAAABVgiQoCAAAAAwAGAAAAU2luZ2xlAQPCOwAuAETCOwAA" +
-           "AAz/////AQH/////AAAAAA==";
-        #endregion
-        #endif
-        #endregion
-
-        #region Public Properties
-        /// <remarks />
-        public PropertyState<uint> Priority
-        {
-            get
-            {
-                return m_priority;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_priority, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_priority = value;
-            }
-        }
-
-        /// <remarks />
-        public PropertyState<string> Interval
-        {
-            get
-            {
-                return m_interval;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_interval, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_interval = value;
-            }
-        }
-
-        /// <remarks />
-        public PropertyState<string> Single
-        {
-            get
-            {
-                return m_single;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_single, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_single = value;
-            }
-        }
-        #endregion
-
-        #region Overridden Methods
-        /// <summary>
-        /// Populates a list with the children that belong to the node.
-        /// </summary>
-        /// <param name="context">The context for the system being accessed.</param>
-        /// <param name="children">The list of children to populate.</param>
-        public override void GetChildren(
-            ISystemContext context,
-            IList<BaseInstanceState> children)
-        {
-            if (m_priority != null)
-            {
-                children.Add(m_priority);
-            }
-
-            if (m_interval != null)
-            {
-                children.Add(m_interval);
-            }
-
-            if (m_single != null)
-            {
-                children.Add(m_single);
-            }
-
-            base.GetChildren(context, children);
-        }
-
-        /// <summary>
-        /// Finds the child with the specified browse name.
-        /// </summary>
-        protected override BaseInstanceState FindChild(
-            ISystemContext context,
-            QualifiedName browseName,
-            bool createOrReplace,
-            BaseInstanceState replacement)
-        {
-            if (QualifiedName.IsNull(browseName))
-            {
-                return null;
-            }
-
-            BaseInstanceState instance = null;
-
-            switch (browseName.Name)
-            {
-                case Opc.Ua.Ff.BrowseNames.Priority:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Priority == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Priority = new PropertyState<uint>(this);
-                            }
-                            else
-                            {
-                                Priority = (PropertyState<uint>)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Priority;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.Interval:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Interval == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Interval = new PropertyState<string>(this);
-                            }
-                            else
-                            {
-                                Interval = (PropertyState<string>)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Interval;
-                    break;
-                }
-
-                case Opc.Ua.Ff.BrowseNames.Single:
-                {
-                    if (createOrReplace)
-                    {
-                        if (Single == null)
-                        {
-                            if (replacement == null)
-                            {
-                                Single = new PropertyState<string>(this);
-                            }
-                            else
-                            {
-                                Single = (PropertyState<string>)replacement;
-                            }
-                        }
-                    }
-
-                    instance = Single;
-                    break;
-                }
-            }
-
-            if (instance != null)
-            {
-                return instance;
-            }
-
-            return base.FindChild(context, browseName, createOrReplace, replacement);
-        }
-        #endregion
-
-        #region Private Fields
-        private PropertyState<uint> m_priority;
-        private PropertyState<string> m_interval;
-        private PropertyState<string> m_single;
-        #endregion
-    }
-    #endif
-    #endregion
-
-    #region SFCState Class
-    #if (!OPCUA_EXCLUDE_SFCState)
-    /// <summary>
-    /// Stores an instance of the SFCType ObjectType.
-    /// </summary>
-    /// <exclude />
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class SFCState : BaseObjectState
-    {
-        #region Constructors
-        /// <summary>
-        /// Initializes the type with its default attribute values.
-        /// </summary>
-        public SFCState(NodeState parent) : base(parent)
-        {
-        }
-
-        /// <summary>
-        /// Returns the id of the default type definition node for the instance.
-        /// </summary>
-        protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
-        {
-            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.SFCType, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
-        }
-
-        #if (!OPCUA_EXCLUDE_InitializationStrings)
-        /// <summary>
-        /// Initializes the instance.
-        /// </summary>
-        protected override void Initialize(ISystemContext context)
-        {
-            Initialize(context, InitializationString);
-            InitializeOptionalChildren(context);
-        }
-
-        /// <summary>
-        /// Initializes the instance with a node.
-        /// </summary>
-        protected override void Initialize(ISystemContext context, NodeState source)
-        {
-            InitializeOptionalChildren(context);
-            base.Initialize(context, source);
-        }
-
-        /// <summary>
-        /// Initializes the any option children defined for the instance.
-        /// </summary>
-        protected override void InitializeOptionalChildren(ISystemContext context)
-        {
-            base.InitializeOptionalChildren(context);
-        }
-
-        #region Initialization String
-        private const string InitializationString =
-           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
-           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADAA8AAABTRkNUeXBlSW5zdGFuY2UBA8M7AQPDO8M7AAD/////AAAAAA==";
-        #endregion
-        #endif
-        #endregion
-
-        #region Public Properties
-        #endregion
-
-        #region Overridden Methods
-        #endregion
-
-        #region Private Fields
-        #endregion
-    }
-    #endif
-    #endregion
-
     #region HC10State Class
     #if (!OPCUA_EXCLUDE_HC10State)
     /// <summary>
@@ -1763,7 +94,7 @@ namespace Opc.Ua.Ff
         private const string InitializationString =
            "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
            "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADAAwAAABIQzEwSW5zdGFuY2UBA6NIAQOjSKNIAAD/////CAAAACRggAoBAAAAAQAMAAAAUGFyYW1l" +
+           "AAADAAwAAABIQzEwSW5zdGFuY2UBA6NIAQOjSKNIAAD/////CQAAACRggAoBAAAAAQAMAAAAUGFyYW1l" +
            "dGVyU2V0AQOkSAMAAAAAFwAAAEZsYXQgbGlzdCBvZiBQYXJhbWV0ZXJzAC8AOqRIAAD/////AQAAADVg" +
            "iQoCAAAAAgANAAAAU3BlZWRPdmVycmlkZQEDykgDAAAAAFsAAABTcGVlZE92ZXJyaWRlIHByb3ZpZGVz" +
            "IHRoZSBjdXJyZW50IHNwZWVkIHNldHRpbmcgaW4gcGVyY2VudCBvZiBwcm9ncmFtbWVkIHNwZWVkICgw" +
@@ -1778,18 +109,113 @@ namespace Opc.Ua.Ff
            "aXMgYSBjb250YWluZXIgZm9yIG9uZSBvciBtb3JlIGluc3RhbmNlcyBvZiB0aGUgQXhpc1R5cGUuAC8A" +
            "PctIAAD/////AAAAACRggAoBAAAAAgALAAAAUG93ZXJUcmFpbnMBAxtJAwAAAABLAAAAUG93ZXJUcmFp" +
            "bnMgaXMgYSBjb250YWluZXIgZm9yIG9uZSBvciBtb3JlIGluc3RhbmNlcyBvZiB0aGUgUG93ZXJUcmFp" +
-           "blR5cGUuAC8APRtJAAD/////AAAAAA==";
+           "blR5cGUuAC8APRtJAAD/////AAAAAARggAoBAAAAAwANAAAASm9pbnRBbmdsZVNldAEDX0YALwA9X0YA" +
+           "AP////8GAAAAFWCJCgIAAAADAAsAAABKb2ludEFuZ2xlUwEDYEYALwEAWURgRgAAAAv/////AQH/////" +
+           "AQAAABVgiQoCAAAAAAAQAAAARW5naW5lZXJpbmdVbml0cwEDZUYALgBEZUYAAAEAdwP/////AQH/////" +
+           "AAAAABVgiQoCAAAAAwALAAAASm9pbnRBbmdsZUwBA2ZGAC8BAFlEZkYAAAAL/////wEB/////wEAAAAV" +
+           "YIkKAgAAAAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBA2tGAC4ARGtGAAABAHcD/////wEB/////wAAAAAV" +
+           "YIkKAgAAAAMACwAAAEpvaW50QW5nbGVSAQNsRgAvAQBZRGxGAAAAC/////8BAf////8BAAAAFWCJCgIA" +
+           "AAAAABAAAABFbmdpbmVlcmluZ1VuaXRzAQNxRgAuAERxRgAAAQB3A/////8BAf////8AAAAAFWCJCgIA" +
+           "AAADAAsAAABKb2ludEFuZ2xlVQEDckYALwEAWURyRgAAAAv/////AQH/////AQAAABVgiQoCAAAAAAAQ" +
+           "AAAARW5naW5lZXJpbmdVbml0cwEDd0YALgBEd0YAAAEAdwP/////AQH/////AAAAABVgiQoCAAAAAwAL" +
+           "AAAASm9pbnRBbmdsZUIBA3hGAC8BAFlEeEYAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAAEAAAAEVu" +
+           "Z2luZWVyaW5nVW5pdHMBA31GAC4ARH1GAAABAHcD/////wEB/////wAAAAAVYIkKAgAAAAMACwAAAEpv" +
+           "aW50QW5nbGVUAQN+RgAvAQBZRH5GAAAAC/////8BAf////8BAAAAFWCJCgIAAAAAABAAAABFbmdpbmVl" +
+           "cmluZ1VuaXRzAQODRgAuAESDRgAAAQB3A/////8BAf////8AAAAA";
         #endregion
         #endif
         #endregion
 
         #region Public Properties
+        /// <remarks />
+        public FolderState JointAngleSet
+        {
+            get
+            {
+                return m_jointAngleSet;
+            }
+
+            set
+            {
+                if (!Object.ReferenceEquals(m_jointAngleSet, value))
+                {
+                    ChangeMasks |= NodeStateChangeMasks.Children;
+                }
+
+                m_jointAngleSet = value;
+            }
+        }
         #endregion
 
         #region Overridden Methods
+        /// <summary>
+        /// Populates a list with the children that belong to the node.
+        /// </summary>
+        /// <param name="context">The context for the system being accessed.</param>
+        /// <param name="children">The list of children to populate.</param>
+        public override void GetChildren(
+            ISystemContext context,
+            IList<BaseInstanceState> children)
+        {
+            if (m_jointAngleSet != null)
+            {
+                children.Add(m_jointAngleSet);
+            }
+
+            base.GetChildren(context, children);
+        }
+
+        /// <summary>
+        /// Finds the child with the specified browse name.
+        /// </summary>
+        protected override BaseInstanceState FindChild(
+            ISystemContext context,
+            QualifiedName browseName,
+            bool createOrReplace,
+            BaseInstanceState replacement)
+        {
+            if (QualifiedName.IsNull(browseName))
+            {
+                return null;
+            }
+
+            BaseInstanceState instance = null;
+
+            switch (browseName.Name)
+            {
+                case Opc.Ua.Ff.BrowseNames.JointAngleSet:
+                {
+                    if (createOrReplace)
+                    {
+                        if (JointAngleSet == null)
+                        {
+                            if (replacement == null)
+                            {
+                                JointAngleSet = new FolderState(this);
+                            }
+                            else
+                            {
+                                JointAngleSet = (FolderState)replacement;
+                            }
+                        }
+                    }
+
+                    instance = JointAngleSet;
+                    break;
+                }
+            }
+
+            if (instance != null)
+            {
+                return instance;
+            }
+
+            return base.FindChild(context, browseName, createOrReplace, replacement);
+        }
         #endregion
 
         #region Private Fields
+        private FolderState m_jointAngleSet;
         #endregion
     }
     #endif
@@ -1851,7 +277,7 @@ namespace Opc.Ua.Ff
         private const string InitializationString =
            "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
            "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADAAsAAABHUDhJbnN0YW5jZQEDe0kBA3tJe0kAAP////8IAAAAJGCACgEAAAABAAwAAABQYXJhbWV0" +
+           "AAADAAsAAABHUDhJbnN0YW5jZQEDe0kBA3tJe0kAAP////8JAAAAJGCACgEAAAABAAwAAABQYXJhbWV0" +
            "ZXJTZXQBA3xJAwAAAAAXAAAARmxhdCBsaXN0IG9mIFBhcmFtZXRlcnMALwA6fEkAAP////8BAAAANWCJ" +
            "CgIAAAACAA0AAABTcGVlZE92ZXJyaWRlAQOiSQMAAAAAWwAAAFNwZWVkT3ZlcnJpZGUgcHJvdmlkZXMg" +
            "dGhlIGN1cnJlbnQgc3BlZWQgc2V0dGluZyBpbiBwZXJjZW50IG9mIHByb2dyYW1tZWQgc3BlZWQgKDAg" +
@@ -1866,18 +292,113 @@ namespace Opc.Ua.Ff
            "cyBhIGNvbnRhaW5lciBmb3Igb25lIG9yIG1vcmUgaW5zdGFuY2VzIG9mIHRoZSBBeGlzVHlwZS4ALwA9" +
            "o0kAAP////8AAAAAJGCACgEAAAACAAsAAABQb3dlclRyYWlucwED80kDAAAAAEsAAABQb3dlclRyYWlu" +
            "cyBpcyBhIGNvbnRhaW5lciBmb3Igb25lIG9yIG1vcmUgaW5zdGFuY2VzIG9mIHRoZSBQb3dlclRyYWlu" +
-           "VHlwZS4ALwA980kAAP////8AAAAA";
+           "VHlwZS4ALwA980kAAP////8AAAAABGCACgEAAAADAA0AAABKb2ludEFuZ2xlU2V0AQPORgAvAD3ORgAA" +
+           "/////wYAAAAVYIkKAgAAAAMACwAAAEpvaW50QW5nbGVTAQPPRgAvAQBZRM9GAAAAC/////8BAf////8B" +
+           "AAAAFWCJCgIAAAAAABAAAABFbmdpbmVlcmluZ1VuaXRzAQPURgAuAETURgAAAQB3A/////8BAf////8A" +
+           "AAAAFWCJCgIAAAADAAsAAABKb2ludEFuZ2xlTAED1UYALwEAWUTVRgAAAAv/////AQH/////AQAAABVg" +
+           "iQoCAAAAAAAQAAAARW5naW5lZXJpbmdVbml0cwED2kYALgBE2kYAAAEAdwP/////AQH/////AAAAABVg" +
+           "iQoCAAAAAwALAAAASm9pbnRBbmdsZVIBA9tGAC8BAFlE20YAAAAL/////wEB/////wEAAAAVYIkKAgAA" +
+           "AAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBA+BGAC4AROBGAAABAHcD/////wEB/////wAAAAAVYIkKAgAA" +
+           "AAMACwAAAEpvaW50QW5nbGVVAQPhRgAvAQBZROFGAAAAC/////8BAf////8BAAAAFWCJCgIAAAAAABAA" +
+           "AABFbmdpbmVlcmluZ1VuaXRzAQPmRgAuAETmRgAAAQB3A/////8BAf////8AAAAAFWCJCgIAAAADAAsA" +
+           "AABKb2ludEFuZ2xlQgED50YALwEAWUTnRgAAAAv/////AQH/////AQAAABVgiQoCAAAAAAAQAAAARW5n" +
+           "aW5lZXJpbmdVbml0cwED7EYALgBE7EYAAAEAdwP/////AQH/////AAAAABVgiQoCAAAAAwALAAAASm9p" +
+           "bnRBbmdsZVQBA+1GAC8BAFlE7UYAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAAEAAAAEVuZ2luZWVy" +
+           "aW5nVW5pdHMBA/JGAC4ARPJGAAABAHcD/////wEB/////wAAAAA=";
         #endregion
         #endif
         #endregion
 
         #region Public Properties
+        /// <remarks />
+        public FolderState JointAngleSet
+        {
+            get
+            {
+                return m_jointAngleSet;
+            }
+
+            set
+            {
+                if (!Object.ReferenceEquals(m_jointAngleSet, value))
+                {
+                    ChangeMasks |= NodeStateChangeMasks.Children;
+                }
+
+                m_jointAngleSet = value;
+            }
+        }
         #endregion
 
         #region Overridden Methods
+        /// <summary>
+        /// Populates a list with the children that belong to the node.
+        /// </summary>
+        /// <param name="context">The context for the system being accessed.</param>
+        /// <param name="children">The list of children to populate.</param>
+        public override void GetChildren(
+            ISystemContext context,
+            IList<BaseInstanceState> children)
+        {
+            if (m_jointAngleSet != null)
+            {
+                children.Add(m_jointAngleSet);
+            }
+
+            base.GetChildren(context, children);
+        }
+
+        /// <summary>
+        /// Finds the child with the specified browse name.
+        /// </summary>
+        protected override BaseInstanceState FindChild(
+            ISystemContext context,
+            QualifiedName browseName,
+            bool createOrReplace,
+            BaseInstanceState replacement)
+        {
+            if (QualifiedName.IsNull(browseName))
+            {
+                return null;
+            }
+
+            BaseInstanceState instance = null;
+
+            switch (browseName.Name)
+            {
+                case Opc.Ua.Ff.BrowseNames.JointAngleSet:
+                {
+                    if (createOrReplace)
+                    {
+                        if (JointAngleSet == null)
+                        {
+                            if (replacement == null)
+                            {
+                                JointAngleSet = new FolderState(this);
+                            }
+                            else
+                            {
+                                JointAngleSet = (FolderState)replacement;
+                            }
+                        }
+                    }
+
+                    instance = JointAngleSet;
+                    break;
+                }
+            }
+
+            if (instance != null)
+            {
+                return instance;
+            }
+
+            return base.FindChild(context, browseName, createOrReplace, replacement);
+        }
         #endregion
 
         #region Private Fields
+        private FolderState m_jointAngleSet;
         #endregion
     }
     #endif
@@ -2051,20 +572,20 @@ namespace Opc.Ua.Ff
     #endif
     #endregion
 
-    #region SINAMICS_G120CState Class
-    #if (!OPCUA_EXCLUDE_SINAMICS_G120CState)
+    #region ConveyorIBMState Class
+    #if (!OPCUA_EXCLUDE_ConveyorIBMState)
     /// <summary>
-    /// Stores an instance of the SINAMICS_G120C ObjectType.
+    /// Stores an instance of the ConveyorIBM ObjectType.
     /// </summary>
     /// <exclude />
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
-    public partial class SINAMICS_G120CState : DriveState
+    public partial class ConveyorIBMState : MotionDeviceState
     {
         #region Constructors
         /// <summary>
         /// Initializes the type with its default attribute values.
         /// </summary>
-        public SINAMICS_G120CState(NodeState parent) : base(parent)
+        public ConveyorIBMState(NodeState parent) : base(parent)
         {
         }
 
@@ -2073,7 +594,7 @@ namespace Opc.Ua.Ff
         /// </summary>
         protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
         {
-            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.SINAMICS_G120C, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
+            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.ConveyorIBM, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
         }
 
         #if (!OPCUA_EXCLUDE_InitializationStrings)
@@ -2107,28 +628,22 @@ namespace Opc.Ua.Ff
         private const string InitializationString =
            "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
            "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADABYAAABTSU5BTUlDU19HMTIwQ0luc3RhbmNlAQPDTQEDw03DTQAA/////wkAAAA1YIkKAgAAAAEA" +
-           "DAAAAE1hbnVmYWN0dXJlcgED2U0DAAAAADAAAABOYW1lIG9mIHRoZSBjb21wYW55IHRoYXQgbWFudWZh" +
-           "Y3R1cmVkIHRoZSBkZXZpY2UALgBE2U0AAAAV/////wEB/////wAAAAA1YIkKAgAAAAEABQAAAE1vZGVs" +
-           "AQPbTQMAAAAAGAAAAE1vZGVsIG5hbWUgb2YgdGhlIGRldmljZQAuAETbTQAAABX/////AQH/////AAAA" +
-           "ADVgiQoCAAAAAQAQAAAASGFyZHdhcmVSZXZpc2lvbgED3E0DAAAAACwAAABSZXZpc2lvbiBsZXZlbCBv" +
-           "ZiB0aGUgaGFyZHdhcmUgb2YgdGhlIGRldmljZQAuAETcTQAAAAz/////AQH/////AAAAADVgiQoCAAAA" +
-           "AQAQAAAAU29mdHdhcmVSZXZpc2lvbgED3U0DAAAAADUAAABSZXZpc2lvbiBsZXZlbCBvZiB0aGUgc29m" +
-           "dHdhcmUvZmlybXdhcmUgb2YgdGhlIGRldmljZQAuAETdTQAAAAz/////AQH/////AAAAADVgiQoCAAAA" +
-           "AQAOAAAARGV2aWNlUmV2aXNpb24BA95NAwAAAAAkAAAAT3ZlcmFsbCByZXZpc2lvbiBsZXZlbCBvZiB0" +
-           "aGUgZGV2aWNlAC4ARN5NAAAADP////8BAf////8AAAAANWCJCgIAAAABAAsAAABQcm9kdWN0Q29kZQED" +
-           "300DAAAAALgAAABUaGUgUHJvZHVjdENvZGUgcHJvcGVydHkgcHJvdmlkZXMgYSB1bmlxdWUgY29tYmlu" +
-           "YXRpb24gb2YgbnVtYmVycyBhbmQgbGV0dGVycyB1c2VkIHRvIGlkZW50aWZ5IHRoZSBwcm9kdWN0LiBJ" +
-           "dCBtYXkgYmUgdGhlIG9yZGVyIGluZm9ybWF0aW9uIGRpc3BsYXllZCBvbiB0eXBlIHNoaWVsZHMgb3Ig" +
-           "aW4gRVJQIHN5c3RlbXMuAC4ARN9NAAAADP////8BAf////8AAAAANWCJCgIAAAABAAwAAABEZXZpY2VN" +
-           "YW51YWwBA+BNAwAAAABaAAAAQWRkcmVzcyAocGF0aG5hbWUgaW4gdGhlIGZpbGUgc3lzdGVtIG9yIGEg" +
-           "VVJMIHwgV2ViIGFkZHJlc3MpIG9mIHVzZXIgbWFudWFsIGZvciB0aGUgZGV2aWNlAC4AROBNAAAADP//" +
-           "//8BAf////8AAAAANWCJCgIAAAABAAwAAABTZXJpYWxOdW1iZXIBA+JNAwAAAABNAAAASWRlbnRpZmll" +
-           "ciB0aGF0IHVuaXF1ZWx5IGlkZW50aWZpZXMsIHdpdGhpbiBhIG1hbnVmYWN0dXJlciwgYSBkZXZpY2Ug" +
-           "aW5zdGFuY2UALgBE4k0AAAAM/////wEB/////wAAAAA1YIkKAgAAAAEADwAAAFJldmlzaW9uQ291bnRl" +
-           "cgED5E0DAAAAAGkAAABBbiBpbmNyZW1lbnRhbCBjb3VudGVyIGluZGljYXRpbmcgdGhlIG51bWJlciBv" +
-           "ZiB0aW1lcyB0aGUgc3RhdGljIGRhdGEgd2l0aGluIHRoZSBEZXZpY2UgaGFzIGJlZW4gbW9kaWZpZWQA" +
-           "LgBE5E0AAAAG/////wEB/////wAAAAA=";
+           "AAADABMAAABDb252ZXlvcklCTUluc3RhbmNlAQODRQEDg0WDRQAA/////wgAAAAkYIAKAQAAAAEADAAA" +
+           "AFBhcmFtZXRlclNldAEDhEUDAAAAABcAAABGbGF0IGxpc3Qgb2YgUGFyYW1ldGVycwAvADqERQAA////" +
+           "/wEAAAA1YIkKAgAAAAIADQAAAFNwZWVkT3ZlcnJpZGUBA6tFAwAAAABbAAAAU3BlZWRPdmVycmlkZSBw" +
+           "cm92aWRlcyB0aGUgY3VycmVudCBzcGVlZCBzZXR0aW5nIGluIHBlcmNlbnQgb2YgcHJvZ3JhbW1lZCBz" +
+           "cGVlZCAoMCAtIDEwMCUpLgAvAD+rRQAAAAv/////AQH/////AAAAABVgiQoCAAAAAQAMAAAATWFudWZh" +
+           "Y3R1cmVyAQOaRQAuAESaRQAAABX/////AQH/////AAAAABVgiQoCAAAAAQAFAAAATW9kZWwBA5xFAC4A" +
+           "RJxFAAAAFf////8BAf////8AAAAAFWCJCgIAAAABAAsAAABQcm9kdWN0Q29kZQEDoEUALgBEoEUAAAAM" +
+           "/////wEB/////wAAAAAVYIkKAgAAAAEADAAAAFNlcmlhbE51bWJlcgEDo0UALgBEo0UAAAAM/////wEB" +
+           "/////wAAAAA1YIkKAgAAAAIAFAAAAE1vdGlvbkRldmljZUNhdGVnb3J5AQOoRQMAAAAAggAAAFRoZSB2" +
+           "YXJpYWJsZSBNb3Rpb25EZXZpY2VDYXRlZ29yeSBwcm92aWRlcyB0aGUga2luZCBvZiBtb3Rpb24gZGV2" +
+           "aWNlIGRlZmluZWQgYnkgTW90aW9uRGV2aWNlQ2F0ZWdvcnlFbnVtZXJhdGlvbiBiYXNlZCBvbiBJU08g" +
+           "ODM3My4ALgBEqEUAAAECEUf/////AQH/////AAAAACRggAoBAAAAAgAEAAAAQXhlcwEDrEUDAAAAAD4A" +
+           "AABBeGVzIGlzIGEgY29udGFpbmVyIGZvciBvbmUgb3IgbW9yZSBpbnN0YW5jZXMgb2YgdGhlIEF4aXNU" +
+           "eXBlLgAvAD2sRQAA/////wAAAAAkYIAKAQAAAAIACwAAAFBvd2VyVHJhaW5zAQP9RQMAAAAASwAAAFBv" +
+           "d2VyVHJhaW5zIGlzIGEgY29udGFpbmVyIGZvciBvbmUgb3IgbW9yZSBpbnN0YW5jZXMgb2YgdGhlIFBv" +
+           "d2VyVHJhaW5UeXBlLgAvAD39RQAA/////wAAAAA=";
         #endregion
         #endif
         #endregion
@@ -2137,6 +652,170 @@ namespace Opc.Ua.Ff
         #endregion
 
         #region Overridden Methods
+        #endregion
+
+        #region Private Fields
+        #endregion
+    }
+    #endif
+    #endregion
+
+    #region SINAMICSG120CState Class
+    #if (!OPCUA_EXCLUDE_SINAMICSG120CState)
+    /// <summary>
+    /// Stores an instance of the SINAMICSG120C ObjectType.
+    /// </summary>
+    /// <exclude />
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Opc.Ua.ModelCompiler", "1.0.0.0")]
+    public partial class SINAMICSG120CState : DriveState
+    {
+        #region Constructors
+        /// <summary>
+        /// Initializes the type with its default attribute values.
+        /// </summary>
+        public SINAMICSG120CState(NodeState parent) : base(parent)
+        {
+        }
+
+        /// <summary>
+        /// Returns the id of the default type definition node for the instance.
+        /// </summary>
+        protected override NodeId GetDefaultTypeDefinitionId(NamespaceTable namespaceUris)
+        {
+            return Opc.Ua.NodeId.Create(Opc.Ua.Ff.ObjectTypes.SINAMICSG120C, Opc.Ua.Ff.Namespaces.FutureFactories, namespaceUris);
+        }
+
+        #if (!OPCUA_EXCLUDE_InitializationStrings)
+        /// <summary>
+        /// Initializes the instance.
+        /// </summary>
+        protected override void Initialize(ISystemContext context)
+        {
+            Initialize(context, InitializationString);
+            InitializeOptionalChildren(context);
+        }
+
+        /// <summary>
+        /// Initializes the instance with a node.
+        /// </summary>
+        protected override void Initialize(ISystemContext context, NodeState source)
+        {
+            InitializeOptionalChildren(context);
+            base.Initialize(context, source);
+        }
+
+        /// <summary>
+        /// Initializes the any option children defined for the instance.
+        /// </summary>
+        protected override void InitializeOptionalChildren(ISystemContext context)
+        {
+            base.InitializeOptionalChildren(context);
+        }
+
+        #region Initialization String
+        private const string InitializationString =
+           "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
+           "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
+           "AAADABUAAABTSU5BTUlDU0cxMjBDSW5zdGFuY2UBA/E7AQPxO/E7AAD/////CgAAACRggAoBAAAAAQAM" +
+           "AAAAUGFyYW1ldGVyU2V0AQPyOwMAAAAAFwAAAEZsYXQgbGlzdCBvZiBQYXJhbWV0ZXJzAC8APfI7AAD/" +
+           "////AQAAADVgiQoCAAAAAgALAAAAVGVtcGVyYXR1cmUBAzc8AwAAAABIAAAAVGhlIERyaXZlIHRlbXBl" +
+           "cmF0dXJlIGdpdmVuIGJ5IGEgdGVtcGVyYXR1cmUgc2Vuc29yIGluc2lkZSBvZiB0aGUgRHJpdmUuAC8B" +
+           "AFlENzwAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBAzw8AC4A" +
+           "RDw8AAABAHcD/////wEB/////wAAAAA1YIkKAgAAAAEADAAAAE1hbnVmYWN0dXJlcgEDCDwDAAAAADAA" +
+           "AABOYW1lIG9mIHRoZSBjb21wYW55IHRoYXQgbWFudWZhY3R1cmVkIHRoZSBkZXZpY2UALgBECDwAAAAV" +
+           "/////wEB/////wAAAAA1YIkKAgAAAAEABQAAAE1vZGVsAQMKPAMAAAAAGAAAAE1vZGVsIG5hbWUgb2Yg" +
+           "dGhlIGRldmljZQAuAEQKPAAAABX/////AQH/////AAAAADVgiQoCAAAAAQAQAAAASGFyZHdhcmVSZXZp" +
+           "c2lvbgEDCzwDAAAAACwAAABSZXZpc2lvbiBsZXZlbCBvZiB0aGUgaGFyZHdhcmUgb2YgdGhlIGRldmlj" +
+           "ZQAuAEQLPAAAAAz/////AQH/////AAAAADVgiQoCAAAAAQAQAAAAU29mdHdhcmVSZXZpc2lvbgEDDDwD" +
+           "AAAAADUAAABSZXZpc2lvbiBsZXZlbCBvZiB0aGUgc29mdHdhcmUvZmlybXdhcmUgb2YgdGhlIGRldmlj" +
+           "ZQAuAEQMPAAAAAz/////AQH/////AAAAADVgiQoCAAAAAQAOAAAARGV2aWNlUmV2aXNpb24BAw08AwAA" +
+           "AAAkAAAAT3ZlcmFsbCByZXZpc2lvbiBsZXZlbCBvZiB0aGUgZGV2aWNlAC4ARA08AAAADP////8BAf//" +
+           "//8AAAAANWCJCgIAAAABAAsAAABQcm9kdWN0Q29kZQEDDjwDAAAAALgAAABUaGUgUHJvZHVjdENvZGUg" +
+           "cHJvcGVydHkgcHJvdmlkZXMgYSB1bmlxdWUgY29tYmluYXRpb24gb2YgbnVtYmVycyBhbmQgbGV0dGVy" +
+           "cyB1c2VkIHRvIGlkZW50aWZ5IHRoZSBwcm9kdWN0LiBJdCBtYXkgYmUgdGhlIG9yZGVyIGluZm9ybWF0" +
+           "aW9uIGRpc3BsYXllZCBvbiB0eXBlIHNoaWVsZHMgb3IgaW4gRVJQIHN5c3RlbXMuAC4ARA48AAAADP//" +
+           "//8BAf////8AAAAANWCJCgIAAAABAAwAAABEZXZpY2VNYW51YWwBAw88AwAAAABaAAAAQWRkcmVzcyAo" +
+           "cGF0aG5hbWUgaW4gdGhlIGZpbGUgc3lzdGVtIG9yIGEgVVJMIHwgV2ViIGFkZHJlc3MpIG9mIHVzZXIg" +
+           "bWFudWFsIGZvciB0aGUgZGV2aWNlAC4ARA88AAAADP////8BAf////8AAAAANWCJCgIAAAABAAwAAABT" +
+           "ZXJpYWxOdW1iZXIBAxE8AwAAAABNAAAASWRlbnRpZmllciB0aGF0IHVuaXF1ZWx5IGlkZW50aWZpZXMs" +
+           "IHdpdGhpbiBhIG1hbnVmYWN0dXJlciwgYSBkZXZpY2UgaW5zdGFuY2UALgBEETwAAAAM/////wEB////" +
+           "/wAAAAA1YIkKAgAAAAEADwAAAFJldmlzaW9uQ291bnRlcgEDEzwDAAAAAGkAAABBbiBpbmNyZW1lbnRh" +
+           "bCBjb3VudGVyIGluZGljYXRpbmcgdGhlIG51bWJlciBvZiB0aW1lcyB0aGUgc3RhdGljIGRhdGEgd2l0" +
+           "aGluIHRoZSBEZXZpY2UgaGFzIGJlZW4gbW9kaWZpZWQALgBEEzwAAAAG/////wEB/////wAAAAA=";
+        #endregion
+        #endif
+        #endregion
+
+        #region Public Properties
+        /// <remarks />
+        public new FolderState ParameterSet
+        {
+            get { return (FolderState)base.ParameterSet; }
+            set { base.ParameterSet = value; }
+        }
+        #endregion
+
+        #region Overridden Methods
+        /// <summary>
+        /// Populates a list with the children that belong to the node.
+        /// </summary>
+        /// <param name="context">The context for the system being accessed.</param>
+        /// <param name="children">The list of children to populate.</param>
+        public override void GetChildren(
+            ISystemContext context,
+            IList<BaseInstanceState> children)
+        {
+
+            base.GetChildren(context, children);
+        }
+
+        /// <summary>
+        /// Finds the child with the specified browse name.
+        /// </summary>
+        protected override BaseInstanceState FindChild(
+            ISystemContext context,
+            QualifiedName browseName,
+            bool createOrReplace,
+            BaseInstanceState replacement)
+        {
+            if (QualifiedName.IsNull(browseName))
+            {
+                return null;
+            }
+
+            BaseInstanceState instance = null;
+
+            switch (browseName.Name)
+            {
+                case Opc.Ua.Di.BrowseNames.ParameterSet:
+                {
+                    if (createOrReplace)
+                    {
+                        if (ParameterSet == null)
+                        {
+                            if (replacement == null)
+                            {
+                                ParameterSet = new FolderState(this);
+                            }
+                            else
+                            {
+                                ParameterSet = (FolderState)replacement;
+                            }
+                        }
+                    }
+
+                    instance = ParameterSet;
+                    break;
+                }
+            }
+
+            if (instance != null)
+            {
+                return instance;
+            }
+
+            return base.FindChild(context, browseName, createOrReplace, replacement);
+        }
         #endregion
 
         #region Private Fields

@@ -90,68 +90,37 @@
 	</ReferenceType>
 	
 	<!-- ### Object Types ###-->
-	<ObjectType SymbolicName="FF:CtrlConfigurationType" BaseType="DI:DeviceType">
-		<Children>
-			<Object SymbolicName="FF:MethodSet" TypeDefinition="ua:BaseObjectType">
-				<Children>
-					<Method SymbolicName="FF:Start" ModellingRule="Optional"></Method>
-					<Method SymbolicName="FF:Stop" ModellingRule="Optional"></Method>
-				</Children>
-			</Object>
-			<Object SymbolicName="FF:Resources" TypeDefinition="DI:ConfigurableObjectType"></Object>
-			<Object SymbolicName="FF:GlobalVars" TypeDefinition="DI:FunctionalGroupType"></Object>
-			<Object SymbolicName="FF:AccessVars" TypeDefinition="DI:FunctionalGroupType"></Object>
-			<Object SymbolicName="FF:ConfigVars" TypeDefinition="DI:FunctionalGroupType"></Object>
-			<Object SymbolicName="FF:Configuration" TypeDefinition="DI:FunctionalGroupType"></Object>
-			<Object SymbolicName="FF:Diagnostic" TypeDefinition="DI:FunctionalGroupType"></Object>
-		</Children>
-	</ObjectType>
-	<ObjectType SymbolicName="FF:CtrlResourceType" BaseType="DI:DeviceType">
-		<Children>
-			<Object SymbolicName="FF:MethodSet" TypeDefinition="ua:BaseObjectType" ModellingRule="Optional">
-				<Children>
-					<Method SymbolicName="FF:Start" ModellingRule="Optional"></Method>
-					<Method SymbolicName="FF:Stop" ModellingRule="Optional"></Method>
-				</Children>
-			</Object>
-			<Object SymbolicName="FF:Tasks" TypeDefinition="DI:ConfigurableObjectType" ModellingRule="Mandatory"></Object>
-			<Object SymbolicName="FF:Programs" TypeDefinition="DI:ConfigurableObjectType" ModellingRule="Mandatory"></Object>
-			<Object SymbolicName="FF:GlobalVars" TypeDefinition="DI:FunctionalGroupType" ModellingRule="Optional"></Object>
-			<Object SymbolicName="FF:Configuration" TypeDefinition="DI:FunctionalGroupType" ModellingRule="Optional"></Object>
-			<Object SymbolicName="FF:Diagnostic" TypeDefinition="DI:FunctionalGroupType" ModellingRule="Optional"></Object>
-		</Children>
-	</ObjectType>
-	<ObjectType SymbolicName="FF:CtrlProgramOrganizationUnitType" BaseType="DI:BlockType" IsAbstract="true">
-		<Children>
-			<Variable SymbolicName="FF:Body" TypeDefinition="ua:BaseDataVariableType" ModellingRule="Optional" DataType="ua:XmlElement"></Variable>
-		</Children>
-	</ObjectType>
-	<ObjectType SymbolicName="FF:CtrlProgramType" BaseType="FF:CtrlProgramOrganizationUnitType" IsAbstract="true">
-		<Children>
-			<Variable SymbolicName="FF:Program" TypeDefinition="ua:BaseDataVariableType" ModellingRule="Optional" DataType="ua:Structure"></Variable>
-		</Children>
-	</ObjectType>
-	<ObjectType SymbolicName="FF:CtrlFunctionBlockType" BaseType="FF:CtrlProgramOrganizationUnitType" IsAbstract="true">
-		<Children>
-			<Variable SymbolicName="FF:FunctionBlock" TypeDefinition="ua:BaseDataVariableType" ModellingRule="Optional"></Variable>
-		</Children>
-	</ObjectType>
-	<ObjectType SymbolicName="FF:CtrlTaskType" BaseType="ua:BaseObjectType">
-		<Children>
-			<Property SymbolicName="FF:Priority" TypeDefinition="ua:PropertyType" ModellingRule="Mandatory" DataType="ua:UInt32"></Property>
-			<Property SymbolicName="FF:Interval" TypeDefinition="ua:PropertyType" ModellingRule="Optional" DataType="ua:String"></Property>
-			<Property SymbolicName="FF:Single" TypeDefinition="ua:PropertyType" ModellingRule="Optional" DataType="ua:String"></Property>
-		</Children>
-	</ObjectType>
-	<ObjectType SymbolicName="FF:SFCType" BaseType="ua:BaseObjectType">
-	</ObjectType>
 	
 	<ObjectType SymbolicName="FF:HC10" BaseType="ROB:MotionDeviceType">
 		<BrowseName>&lt;HC10&gt;</BrowseName>
+		<Children>
+			<Object SymbolicName="FF:JointAngleSet" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Children>
+					<Variable SymbolicName="FF:JointAngleS" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleL" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleR" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleU" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleB" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleT" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+				</Children>
+			</Object>
+		</Children>
 	</ObjectType>
 
 	<ObjectType SymbolicName="FF:GP8" BaseType="ROB:MotionDeviceType">
 		<BrowseName>&lt;GP8&gt;</BrowseName>
+		<Children>
+			<Object SymbolicName="FF:JointAngleSet" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Children>
+					<Variable SymbolicName="FF:JointAngleS" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleL" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleR" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleU" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleB" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+					<Variable SymbolicName="FF:JointAngleT" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
+				</Children>
+			</Object>
+		</Children>
 	</ObjectType>
 
 	<ObjectType SymbolicName="FF:YRC1000" BaseType="ROB:ControllerType">
@@ -161,39 +130,44 @@
 	<ObjectType SymbolicName="FF:YRC1000mini" BaseType="ROB:ControllerType">
 		<BrowseName>&lt;YRC1000mini&gt;</BrowseName>
 	</ObjectType>
-
-	<ObjectType SymbolicName="FF:SINAMICS_G120C" BaseType="ROB:DriveType">
-		<BrowseName>&lt;SINAMICS_G120C&gt;</BrowseName>
+	
+	<ObjectType SymbolicName="FF:ConveyorIBM" BaseType="ROB:MotionDeviceType">
+		<BrowseName>&lt;ConveyorIBM&gt;</BrowseName>
+		
+	</ObjectType>	
+		
+	<ObjectType SymbolicName="FF:SINAMICSG120C" BaseType="ROB:DriveType">
+		<BrowseName>&lt;SINAMICSG120C&gt;</BrowseName>
+		<Children>
+			<Object SymbolicName="DI:ParameterSet" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+				<Children>
+					<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
+						<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
+					</Variable>
+				</Children>
+			</Object>
+		</Children>
 	</ObjectType>	
 	
 	<!-- ### Variable Types ###-->
 	<!-- ### Data Types ###-->
 	<!-- ### Objects ###-->
-	<Object SymbolicName="FF:USC_PLC" TypeDefinition="FF:CtrlConfigurationType" ModellingRule="Mandatory">
-		<BrowseName>&lt;USC_PLC&gt;</BrowseName>
-		<References>
-			<Reference IsInverse="true">
-				<ReferenceType>ua:Organizes</ReferenceType>
-				<TargetId>DI:DeviceSet</TargetId>
-			</Reference>
-		</References>
-	</Object>
 
 	<Object SymbolicName="FF:R01" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:MotionDevice_R01" TypeDefinition="FF:HC10" ModellingRule="Mandatory">
-						<BrowseName>MotionDevice_R01</BrowseName>
+					<Object SymbolicName="FF:MotionDeviceR01" TypeDefinition="FF:HC10" ModellingRule="Mandatory">
+						<BrowseName>MotionDeviceR01</BrowseName>
 					</Object>
 				</Children>
 			</Object>
 			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains the set of controllers in the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:Controller_R01" TypeDefinition="FF:YRC1000" ModellingRule="Mandatory">
-						<BrowseName>Controller_R01</BrowseName>
+					<Object SymbolicName="FF:ControllerR01" TypeDefinition="FF:YRC1000" ModellingRule="Mandatory">
+						<BrowseName>ControllerR01</BrowseName>
 					</Object>
 				</Children>
 			</Object>
@@ -219,16 +193,16 @@
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:MotionDevice_R02" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
-						<BrowseName>MotionDevice_R02</BrowseName>
+					<Object SymbolicName="FF:MotionDeviceR02" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
+						<BrowseName>MotionDeviceR02</BrowseName>
 					</Object>
 				</Children>
 			</Object>
 			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains the set of controllers in the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:Controller_R02" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
-						<BrowseName>Controller_R02</BrowseName>
+					<Object SymbolicName="FF:ControllerR02" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
+						<BrowseName>ControllerR02</BrowseName>
 					</Object>
 				</Children>
 			</Object>
@@ -254,16 +228,16 @@
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:MotionDevice_R03" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
-						<BrowseName>MotionDevice_R03</BrowseName>
+					<Object SymbolicName="FF:MotionDeviceR03" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
+						<BrowseName>MotionDeviceR03</BrowseName>
 					</Object>
 				</Children>
 			</Object>
 			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains the set of controllers in the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:Controller_R03" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
-						<BrowseName>Controller_R03</BrowseName>
+					<Object SymbolicName="FF:ControllerR03" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
+						<BrowseName>ControllerR03</BrowseName>
 					</Object>
 				</Children>
 			</Object>
@@ -281,7 +255,7 @@
 				<ReferenceType>ua:Organizes</ReferenceType>
 				<TargetId>DI:DeviceSet</TargetId>
 			</Reference>
-		</References>
+		</References>			
 	</Object>
 
 	<Object SymbolicName="FF:R04" TypeDefinition="ROB:MotionDeviceSystemType">
@@ -289,16 +263,16 @@
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:MotionDevice_R04" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
-						<BrowseName>MotionDevice_R04</BrowseName>
+					<Object SymbolicName="FF:MotionDeviceR04" TypeDefinition="FF:GP8" ModellingRule="Mandatory">
+						<BrowseName>MotionDeviceR04</BrowseName>
 					</Object>
 				</Children>
 			</Object>
 			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains the set of controllers in the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:Controller_R04" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
-						<BrowseName>Controller_R04</BrowseName>
+					<Object SymbolicName="FF:ControllerR04" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
+						<BrowseName>ControllerR04</BrowseName>
 					</Object>
 				</Children>
 			</Object>
@@ -324,16 +298,16 @@
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:MotionDevice_R05" TypeDefinition="FF:HC10" ModellingRule="Mandatory">
-						<BrowseName>MotionDevice_R05</BrowseName>
+					<Object SymbolicName="FF:MotionDeviceR05" TypeDefinition="FF:HC10" ModellingRule="Mandatory">
+						<BrowseName>MotionDeviceR05</BrowseName>
 					</Object>
 				</Children>
 			</Object>
 			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains the set of controllers in the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:Controller_R05" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
-						<BrowseName>Controller_R05</BrowseName>
+					<Object SymbolicName="FF:ControllerR05" TypeDefinition="FF:YRC1000mini" ModellingRule="Mandatory">
+						<BrowseName>ControllerR05</BrowseName>
 					</Object>
 				</Children>
 			</Object>
@@ -354,67 +328,39 @@
 		</References>
 	</Object>
 
-	<Object SymbolicName="FF:Conveyors" TypeDefinition="ROB:MotionDeviceSystemType">
+	<Object SymbolicName="FF:ConveyorBelt" TypeDefinition="ROB:MotionDeviceSystemType">
 		<Children>
 			<Object SymbolicName="ROB:MotionDevices" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains any kinematic or motion device which is part of the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:Conveyor_1" TypeDefinition="ROB:MotionDeviceType">
-						<BrowseName>Conveyor_1</BrowseName>
+					<Object SymbolicName="FF:Conveyor1" TypeDefinition="ROB:MotionDeviceType">
+						<BrowseName>Conveyor1</BrowseName>
 					</Object>
-					<Object SymbolicName="FF:Conveyor_2" TypeDefinition="ROB:MotionDeviceType">
-						<BrowseName>Conveyor_2</BrowseName>
+					<Object SymbolicName="FF:Conveyor2" TypeDefinition="ROB:MotionDeviceType">
+						<BrowseName>Conveyor2</BrowseName>
 					</Object>
-					<Object SymbolicName="FF:Conveyor_3" TypeDefinition="ROB:MotionDeviceType">
-						<BrowseName>Conveyor_3</BrowseName>
+					<Object SymbolicName="FF:Conveyor3" TypeDefinition="ROB:MotionDeviceType">
+						<BrowseName>Conveyor3</BrowseName>
 					</Object>
-					<Object SymbolicName="FF:Conveyor_4" TypeDefinition="ROB:MotionDeviceType">
-						<BrowseName>Conveyor_4</BrowseName>
+					<Object SymbolicName="FF:Conveyor4" TypeDefinition="ROB:MotionDeviceType">
+						<BrowseName>Conveyor4</BrowseName>
 					</Object>
 				</Children>
 			</Object>
-			<Object SymbolicName="ROB:Controllers" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+			<Object SymbolicName="ROB:Drives" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
 				<Description>Contains the set of controllers in the motion device system.</Description>
 				<Children>
-					<Object SymbolicName="FF:VFD_1" TypeDefinition="FF:SINAMICS_G120C">
-						<BrowseName>VFD_1</BrowseName>
-						<Children>
-							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
-								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-							</Variable>
-						</Children>
+					<Object SymbolicName="FF:VFD1" TypeDefinition="FF:SINAMICSG120C">
+						<BrowseName>VFD1</BrowseName>						
 					</Object>
-					<Object SymbolicName="FF:VFD_2" TypeDefinition="FF:SINAMICS_G120C">
-						<BrowseName>VFD_2</BrowseName>
-						<Children>
-							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
-								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-							</Variable>
-						</Children>
+					<Object SymbolicName="FF:VFD2" TypeDefinition="FF:SINAMICSG120C">
+						<BrowseName>VFD2</BrowseName>						
 					</Object>
-					<Object SymbolicName="FF:VFD_3" TypeDefinition="FF:SINAMICS_G120C">
-						<BrowseName>VFD_3</BrowseName>
-						<Children>
-							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
-								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-							</Variable>
-						</Children>
+					<Object SymbolicName="FF:VFD3" TypeDefinition="FF:SINAMICSG120C">
+						<BrowseName>VFD3</BrowseName>
 					</Object>
-					<Object SymbolicName="FF:VFD_4" TypeDefinition="FF:SINAMICS_G120C">
-						<BrowseName>VFD_4</BrowseName>
-						<Children>
-							<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
-								<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
-							</Variable>
-						</Children>
-					</Object>
-				</Children>
-			</Object>
-			<Object SymbolicName="ROB:SafetyStates" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
-				<Description>Contains safety-related data from motion device system.</Description>
-				<Children>
-					<Object SymbolicName="ROB:SafetyStateIdentifier" TypeDefinition="ROB:SafetyStateType" ModellingRule="MandatoryPlaceholder">
-						<BrowseName>&lt;SafetyStateIdentifier&gt;</BrowseName>
+					<Object SymbolicName="FF:VFD4" TypeDefinition="FF:SINAMICSG120C">
+						<BrowseName>VFD4</BrowseName>
 					</Object>
 				</Children>
 			</Object>
