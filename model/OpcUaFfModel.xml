@@ -94,7 +94,7 @@
 	<ObjectType SymbolicName="FF:HC10" BaseType="ROB:MotionDeviceType">
 		<BrowseName>&lt;HC10&gt;</BrowseName>
 		<Children>
-			<Object SymbolicName="ROB:ParameterSet" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+			<Object SymbolicName="DI:ParameterSet" TypeDefinition="ua:BaseObjectType" ModellingRule="Mandatory">
 				<Children>
 					<Variable SymbolicName="FF:JointAngleS" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
 					<Variable SymbolicName="FF:JointAngleL" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
@@ -110,7 +110,7 @@
 	<ObjectType SymbolicName="FF:GP8" BaseType="ROB:MotionDeviceType">
 		<BrowseName>&lt;GP8&gt;</BrowseName>
 		<Children>
-			<Object SymbolicName="ROB:ParameterSet" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+			<Object SymbolicName="DI:ParameterSet" TypeDefinition="ua:BaseObjectType" ModellingRule="Mandatory">
 				<Children>
 					<Variable SymbolicName="FF:JointAngleS" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>
 					<Variable SymbolicName="FF:JointAngleL" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory"></Variable>

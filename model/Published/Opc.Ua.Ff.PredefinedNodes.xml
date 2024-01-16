@@ -413,13 +413,13 @@
     <uax:SuperTypeId>
       <uax:Identifier>ns=2;i=1004</uax:Identifier>
     </uax:SuperTypeId>
-    <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
+    <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
         <uax:Identifier>ns=3;i=18596</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
-        <uax:NamespaceIndex>2</uax:NamespaceIndex>
+        <uax:NamespaceIndex>1</uax:NamespaceIndex>
         <uax:Name>ParameterSet</uax:Name>
       </uax:BrowseName>
       <uax:Description>
@@ -430,7 +430,7 @@
         <uax:Identifier>i=47</uax:Identifier>
       </uax:ReferenceTypeId>
       <uax:TypeDefinitionId>
-        <uax:Identifier>i=61</uax:Identifier>
+        <uax:Identifier>i=58</uax:Identifier>
       </uax:TypeDefinitionId>
       <uax:ModellingRuleId>
         <uax:Identifier>i=78</uax:Identifier>
@@ -762,13 +762,13 @@
     <uax:SuperTypeId>
       <uax:Identifier>ns=2;i=1004</uax:Identifier>
     </uax:SuperTypeId>
-    <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
+    <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
         <uax:Identifier>ns=3;i=18812</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
-        <uax:NamespaceIndex>2</uax:NamespaceIndex>
+        <uax:NamespaceIndex>1</uax:NamespaceIndex>
         <uax:Name>ParameterSet</uax:Name>
       </uax:BrowseName>
       <uax:Description>
@@ -779,7 +779,7 @@
         <uax:Identifier>i=47</uax:Identifier>
       </uax:ReferenceTypeId>
       <uax:TypeDefinitionId>
-        <uax:Identifier>i=61</uax:Identifier>
+        <uax:Identifier>i=58</uax:Identifier>
       </uax:TypeDefinitionId>
       <uax:ModellingRuleId>
         <uax:Identifier>i=78</uax:Identifier>
@@ -1295,13 +1295,13 @@
           <uax:Identifier>ns=3;i=18595</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>15505</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=15506</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -1312,10 +1312,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>15506</uax:NumericId>
-          <SpeedOverride>
+          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=15543</uax:Identifier>
@@ -2088,13 +2088,13 @@
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>15905</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=15906</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -2105,10 +2105,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>15906</uax:NumericId>
-          <SpeedOverride>
+          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=15943</uax:Identifier>
@@ -2881,13 +2881,13 @@
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>16305</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=16306</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -2898,10 +2898,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>16306</uax:NumericId>
-          <SpeedOverride>
+          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=16343</uax:Identifier>
@@ -3674,13 +3674,13 @@
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>16705</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=16706</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -3691,10 +3691,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>16706</uax:NumericId>
-          <SpeedOverride>
+          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=16743</uax:Identifier>
@@ -4467,13 +4467,13 @@
           <uax:Identifier>ns=3;i=18595</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>17105</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=17106</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>2</uax:NamespaceIndex>
+            <uax:NamespaceIndex>1</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -4484,10 +4484,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>17106</uax:NumericId>
-          <SpeedOverride>
+          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=17143</uax:Identifier>
