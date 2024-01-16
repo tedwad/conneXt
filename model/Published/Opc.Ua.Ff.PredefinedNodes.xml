@@ -413,15 +413,19 @@
     <uax:SuperTypeId>
       <uax:Identifier>ns=2;i=1004</uax:Identifier>
     </uax:SuperTypeId>
-    <JointAngleSet>
+    <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=18015</uax:Identifier>
+        <uax:Identifier>ns=3;i=18596</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
-        <uax:NamespaceIndex>3</uax:NamespaceIndex>
-        <uax:Name>JointAngleSet</uax:Name>
+        <uax:NamespaceIndex>2</uax:NamespaceIndex>
+        <uax:Name>ParameterSet</uax:Name>
       </uax:BrowseName>
+      <uax:Description>
+        <uax:Locale></uax:Locale>
+        <uax:Text>Flat list of Parameters</uax:Text>
+      </uax:Description>
       <uax:ReferenceTypeId>
         <uax:Identifier>i=47</uax:Identifier>
       </uax:ReferenceTypeId>
@@ -431,11 +435,11 @@
       <uax:ModellingRuleId>
         <uax:Identifier>i=78</uax:Identifier>
       </uax:ModellingRuleId>
-      <uax:NumericId>18015</uax:NumericId>
-      <JointAngleS>
+      <uax:NumericId>18596</uax:NumericId>
+      <JointAngleS xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18016</uax:Identifier>
+          <uax:Identifier>ns=3;i=15001</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -450,7 +454,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18016</uax:NumericId>
+        <uax:NumericId>15001</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -460,7 +464,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18021</uax:Identifier>
+            <uax:Identifier>ns=3;i=15017</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -475,7 +479,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18021</uax:NumericId>
+          <uax:NumericId>15017</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -484,10 +488,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleS>
-      <JointAngleL>
+      <JointAngleL xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18022</uax:Identifier>
+          <uax:Identifier>ns=3;i=15018</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -502,7 +506,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18022</uax:NumericId>
+        <uax:NumericId>15018</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -512,7 +516,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18027</uax:Identifier>
+            <uax:Identifier>ns=3;i=15023</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -527,7 +531,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18027</uax:NumericId>
+          <uax:NumericId>15023</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -536,10 +540,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleL>
-      <JointAngleR>
+      <JointAngleR xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18028</uax:Identifier>
+          <uax:Identifier>ns=3;i=15024</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -554,7 +558,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18028</uax:NumericId>
+        <uax:NumericId>15024</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -564,7 +568,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18033</uax:Identifier>
+            <uax:Identifier>ns=3;i=15029</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -579,7 +583,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18033</uax:NumericId>
+          <uax:NumericId>15029</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -588,10 +592,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleR>
-      <JointAngleU>
+      <JointAngleU xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18034</uax:Identifier>
+          <uax:Identifier>ns=3;i=15030</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -606,7 +610,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18034</uax:NumericId>
+        <uax:NumericId>15030</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -616,7 +620,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18039</uax:Identifier>
+            <uax:Identifier>ns=3;i=15035</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -631,7 +635,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18039</uax:NumericId>
+          <uax:NumericId>15035</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -640,10 +644,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleU>
-      <JointAngleB>
+      <JointAngleB xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18040</uax:Identifier>
+          <uax:Identifier>ns=3;i=15036</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -658,7 +662,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18040</uax:NumericId>
+        <uax:NumericId>15036</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -668,7 +672,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18045</uax:Identifier>
+            <uax:Identifier>ns=3;i=15068</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -683,7 +687,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18045</uax:NumericId>
+          <uax:NumericId>15068</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -692,10 +696,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleB>
-      <JointAngleT>
+      <JointAngleT xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18046</uax:Identifier>
+          <uax:Identifier>ns=3;i=15069</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -710,7 +714,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18046</uax:NumericId>
+        <uax:NumericId>15069</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -720,7 +724,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18051</uax:Identifier>
+            <uax:Identifier>ns=3;i=15074</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -735,7 +739,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18051</uax:NumericId>
+          <uax:NumericId>15074</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -744,7 +748,7 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleT>
-    </JointAngleSet>
+    </ParameterSet>
   </HC10>
   <GP8 xmlns="https://nextusc.com/UA/FF/">
     <uax:NodeClass>ObjectType_8</uax:NodeClass>
@@ -758,15 +762,19 @@
     <uax:SuperTypeId>
       <uax:Identifier>ns=2;i=1004</uax:Identifier>
     </uax:SuperTypeId>
-    <JointAngleSet>
+    <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
       <uax:NodeClass>Object_1</uax:NodeClass>
       <uax:NodeId>
-        <uax:Identifier>ns=3;i=18126</uax:Identifier>
+        <uax:Identifier>ns=3;i=18812</uax:Identifier>
       </uax:NodeId>
       <uax:BrowseName>
-        <uax:NamespaceIndex>3</uax:NamespaceIndex>
-        <uax:Name>JointAngleSet</uax:Name>
+        <uax:NamespaceIndex>2</uax:NamespaceIndex>
+        <uax:Name>ParameterSet</uax:Name>
       </uax:BrowseName>
+      <uax:Description>
+        <uax:Locale></uax:Locale>
+        <uax:Text>Flat list of Parameters</uax:Text>
+      </uax:Description>
       <uax:ReferenceTypeId>
         <uax:Identifier>i=47</uax:Identifier>
       </uax:ReferenceTypeId>
@@ -776,11 +784,11 @@
       <uax:ModellingRuleId>
         <uax:Identifier>i=78</uax:Identifier>
       </uax:ModellingRuleId>
-      <uax:NumericId>18126</uax:NumericId>
-      <JointAngleS>
+      <uax:NumericId>18812</uax:NumericId>
+      <JointAngleS xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18127</uax:Identifier>
+          <uax:Identifier>ns=3;i=15075</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -795,7 +803,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18127</uax:NumericId>
+        <uax:NumericId>15075</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -805,7 +813,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18132</uax:Identifier>
+            <uax:Identifier>ns=3;i=15080</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -820,7 +828,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18132</uax:NumericId>
+          <uax:NumericId>15080</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -829,10 +837,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleS>
-      <JointAngleL>
+      <JointAngleL xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18133</uax:Identifier>
+          <uax:Identifier>ns=3;i=15081</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -847,7 +855,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18133</uax:NumericId>
+        <uax:NumericId>15081</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -857,7 +865,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18138</uax:Identifier>
+            <uax:Identifier>ns=3;i=15086</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -872,7 +880,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18138</uax:NumericId>
+          <uax:NumericId>15086</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -881,10 +889,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleL>
-      <JointAngleR>
+      <JointAngleR xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18139</uax:Identifier>
+          <uax:Identifier>ns=3;i=15087</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -899,7 +907,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18139</uax:NumericId>
+        <uax:NumericId>15087</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -909,7 +917,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18144</uax:Identifier>
+            <uax:Identifier>ns=3;i=15092</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -924,7 +932,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18144</uax:NumericId>
+          <uax:NumericId>15092</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -933,10 +941,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleR>
-      <JointAngleU>
+      <JointAngleU xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18145</uax:Identifier>
+          <uax:Identifier>ns=3;i=15093</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -951,7 +959,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18145</uax:NumericId>
+        <uax:NumericId>15093</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -961,7 +969,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18150</uax:Identifier>
+            <uax:Identifier>ns=3;i=15098</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -976,7 +984,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18150</uax:NumericId>
+          <uax:NumericId>15098</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -985,10 +993,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleU>
-      <JointAngleB>
+      <JointAngleB xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18151</uax:Identifier>
+          <uax:Identifier>ns=3;i=15099</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -1003,7 +1011,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18151</uax:NumericId>
+        <uax:NumericId>15099</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -1013,7 +1021,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18156</uax:Identifier>
+            <uax:Identifier>ns=3;i=15104</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -1028,7 +1036,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18156</uax:NumericId>
+          <uax:NumericId>15104</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -1037,10 +1045,10 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleB>
-      <JointAngleT>
+      <JointAngleT xmlns="https://nextusc.com/UA/FF/">
         <uax:NodeClass>Variable_2</uax:NodeClass>
         <uax:NodeId>
-          <uax:Identifier>ns=3;i=18157</uax:Identifier>
+          <uax:Identifier>ns=3;i=15105</uax:Identifier>
         </uax:NodeId>
         <uax:BrowseName>
           <uax:NamespaceIndex>3</uax:NamespaceIndex>
@@ -1055,7 +1063,7 @@
         <uax:ModellingRuleId>
           <uax:Identifier>i=78</uax:Identifier>
         </uax:ModellingRuleId>
-        <uax:NumericId>18157</uax:NumericId>
+        <uax:NumericId>15105</uax:NumericId>
         <uax:DataType>
           <uax:Identifier>i=11</uax:Identifier>
         </uax:DataType>
@@ -1065,7 +1073,7 @@
         <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
           <uax:NodeId>
-            <uax:Identifier>ns=3;i=18162</uax:Identifier>
+            <uax:Identifier>ns=3;i=15110</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
             <uax:NamespaceIndex>0</uax:NamespaceIndex>
@@ -1080,7 +1088,7 @@
           <uax:ModellingRuleId>
             <uax:Identifier>i=78</uax:Identifier>
           </uax:ModellingRuleId>
-          <uax:NumericId>18162</uax:NumericId>
+          <uax:NumericId>15110</uax:NumericId>
           <uax:DataType>
             <uax:Identifier>i=887</uax:Identifier>
           </uax:DataType>
@@ -1089,7 +1097,7 @@
           <uax:UserAccessLevel>1</uax:UserAccessLevel>
         </EngineeringUnits>
       </JointAngleT>
-    </JointAngleSet>
+    </ParameterSet>
   </GP8>
   <YRC1000 xmlns="https://nextusc.com/UA/FF/">
     <uax:NodeClass>ObjectType_8</uax:NodeClass>
@@ -1287,13 +1295,13 @@
           <uax:Identifier>ns=3;i=18595</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>15505</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=15506</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -1304,10 +1312,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=58</uax:Identifier>
+            <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>15506</uax:NumericId>
-          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
+          <SpeedOverride>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=15543</uax:Identifier>
@@ -1334,6 +1342,282 @@
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
           </SpeedOverride>
+          <JointAngleS xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15111</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleS</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15111</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15116</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15116</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleS>
+          <JointAngleL xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15117</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleL</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15117</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15122</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15122</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleL>
+          <JointAngleR xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15123</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleR</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15123</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15128</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15128</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleR>
+          <JointAngleU xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15129</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleU</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15129</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15134</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15134</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleU>
+          <JointAngleB xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15135</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleB</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15135</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15140</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15140</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleB>
+          <JointAngleT xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15141</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleT</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15141</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15146</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15146</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleT>
         </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
@@ -1496,299 +1780,6 @@
           </uax:TypeDefinitionId>
           <uax:NumericId>15625</uax:NumericId>
         </PowerTrains>
-        <JointAngleSet>
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18052</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>3</uax:NamespaceIndex>
-            <uax:Name>JointAngleSet</uax:Name>
-          </uax:BrowseName>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18052</uax:NumericId>
-          <JointAngleS>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18053</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleS</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18053</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18058</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18058</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleS>
-          <JointAngleL>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18059</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleL</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18059</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18064</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18064</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleL>
-          <JointAngleR>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18065</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleR</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18065</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18070</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18070</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleR>
-          <JointAngleU>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18071</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleU</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18071</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18076</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18076</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleU>
-          <JointAngleB>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18077</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleB</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18077</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18082</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18082</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleB>
-          <JointAngleT>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18083</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleT</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18083</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18088</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18088</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleT>
-        </JointAngleSet>
       </MotionDeviceR01>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
@@ -2097,13 +2088,13 @@
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>15905</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=15906</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -2114,10 +2105,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=58</uax:Identifier>
+            <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>15906</uax:NumericId>
-          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
+          <SpeedOverride>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=15943</uax:Identifier>
@@ -2144,6 +2135,282 @@
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
           </SpeedOverride>
+          <JointAngleS xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15147</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleS</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15147</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15152</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15152</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleS>
+          <JointAngleL xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15153</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleL</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15153</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15158</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15158</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleL>
+          <JointAngleR xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15159</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleR</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15159</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15164</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15164</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleR>
+          <JointAngleU xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15165</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleU</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15165</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15170</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15170</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleU>
+          <JointAngleB xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15171</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleB</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15171</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15176</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15176</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleB>
+          <JointAngleT xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15177</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleT</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15177</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15182</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15182</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleT>
         </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
@@ -2306,299 +2573,6 @@
           </uax:TypeDefinitionId>
           <uax:NumericId>16025</uax:NumericId>
         </PowerTrains>
-        <JointAngleSet>
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18163</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>3</uax:NamespaceIndex>
-            <uax:Name>JointAngleSet</uax:Name>
-          </uax:BrowseName>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18163</uax:NumericId>
-          <JointAngleS>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18164</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleS</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18164</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18169</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18169</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleS>
-          <JointAngleL>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18170</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleL</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18170</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18175</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18175</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleL>
-          <JointAngleR>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18176</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleR</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18176</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18181</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18181</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleR>
-          <JointAngleU>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18182</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleU</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18182</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18187</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18187</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleU>
-          <JointAngleB>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18188</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleB</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18188</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18193</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18193</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleB>
-          <JointAngleT>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18194</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleT</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18194</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18199</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18199</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleT>
-        </JointAngleSet>
       </MotionDeviceR02>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
@@ -2907,13 +2881,13 @@
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>16305</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=16306</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -2924,10 +2898,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=58</uax:Identifier>
+            <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>16306</uax:NumericId>
-          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
+          <SpeedOverride>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=16343</uax:Identifier>
@@ -2954,6 +2928,282 @@
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
           </SpeedOverride>
+          <JointAngleS xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15183</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleS</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15183</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15188</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15188</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleS>
+          <JointAngleL xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15189</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleL</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15189</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15194</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15194</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleL>
+          <JointAngleR xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15195</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleR</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15195</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15200</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15200</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleR>
+          <JointAngleU xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15201</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleU</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15201</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15206</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15206</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleU>
+          <JointAngleB xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15207</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleB</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15207</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15212</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15212</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleB>
+          <JointAngleT xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15213</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleT</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15213</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15218</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15218</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleT>
         </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
@@ -3116,299 +3366,6 @@
           </uax:TypeDefinitionId>
           <uax:NumericId>16425</uax:NumericId>
         </PowerTrains>
-        <JointAngleSet>
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18200</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>3</uax:NamespaceIndex>
-            <uax:Name>JointAngleSet</uax:Name>
-          </uax:BrowseName>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18200</uax:NumericId>
-          <JointAngleS>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18201</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleS</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18201</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18206</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18206</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleS>
-          <JointAngleL>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18207</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleL</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18207</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18212</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18212</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleL>
-          <JointAngleR>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18213</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleR</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18213</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18218</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18218</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleR>
-          <JointAngleU>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18219</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleU</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18219</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18224</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18224</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleU>
-          <JointAngleB>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18225</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleB</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18225</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18230</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18230</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleB>
-          <JointAngleT>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18231</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleT</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18231</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18236</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18236</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleT>
-        </JointAngleSet>
       </MotionDeviceR03>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
@@ -3717,13 +3674,13 @@
           <uax:Identifier>ns=3;i=18811</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>16705</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=16706</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -3734,10 +3691,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=58</uax:Identifier>
+            <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>16706</uax:NumericId>
-          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
+          <SpeedOverride>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=16743</uax:Identifier>
@@ -3764,6 +3721,282 @@
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
           </SpeedOverride>
+          <JointAngleS xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15219</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleS</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15219</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15224</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15224</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleS>
+          <JointAngleL xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15225</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleL</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15225</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15230</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15230</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleL>
+          <JointAngleR xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15231</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleR</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15231</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15236</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15236</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleR>
+          <JointAngleU xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15237</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleU</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15237</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15242</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15242</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleU>
+          <JointAngleB xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15243</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleB</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15243</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15248</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15248</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleB>
+          <JointAngleT xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15249</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleT</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15249</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15254</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15254</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleT>
         </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
@@ -3926,299 +4159,6 @@
           </uax:TypeDefinitionId>
           <uax:NumericId>16825</uax:NumericId>
         </PowerTrains>
-        <JointAngleSet>
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18237</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>3</uax:NamespaceIndex>
-            <uax:Name>JointAngleSet</uax:Name>
-          </uax:BrowseName>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18237</uax:NumericId>
-          <JointAngleS>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18238</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleS</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18238</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18243</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18243</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleS>
-          <JointAngleL>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18244</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleL</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18244</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18249</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18249</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleL>
-          <JointAngleR>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18250</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleR</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18250</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18255</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18255</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleR>
-          <JointAngleU>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18256</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleU</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18256</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18261</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18261</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleU>
-          <JointAngleB>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18262</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleB</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18262</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18267</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18267</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleB>
-          <JointAngleT>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18268</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleT</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18268</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18273</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18273</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleT>
-        </JointAngleSet>
       </MotionDeviceR04>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">
@@ -4527,13 +4467,13 @@
           <uax:Identifier>ns=3;i=18595</uax:Identifier>
         </uax:TypeDefinitionId>
         <uax:NumericId>17105</uax:NumericId>
-        <ParameterSet xmlns="http://opcfoundation.org/UA/DI/">
+        <ParameterSet xmlns="http://opcfoundation.org/UA/Robotics/">
           <uax:NodeClass>Object_1</uax:NodeClass>
           <uax:NodeId>
             <uax:Identifier>ns=3;i=17106</uax:Identifier>
           </uax:NodeId>
           <uax:BrowseName>
-            <uax:NamespaceIndex>1</uax:NamespaceIndex>
+            <uax:NamespaceIndex>2</uax:NamespaceIndex>
             <uax:Name>ParameterSet</uax:Name>
           </uax:BrowseName>
           <uax:Description>
@@ -4544,10 +4484,10 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=58</uax:Identifier>
+            <uax:Identifier>i=61</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>17106</uax:NumericId>
-          <SpeedOverride xmlns="http://opcfoundation.org/UA/Robotics/">
+          <SpeedOverride>
             <uax:NodeClass>Variable_2</uax:NodeClass>
             <uax:NodeId>
               <uax:Identifier>ns=3;i=17143</uax:Identifier>
@@ -4574,6 +4514,282 @@
             <uax:AccessLevel>1</uax:AccessLevel>
             <uax:UserAccessLevel>1</uax:UserAccessLevel>
           </SpeedOverride>
+          <JointAngleS xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15255</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleS</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15255</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15260</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15260</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleS>
+          <JointAngleL xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15261</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleL</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15261</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15266</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15266</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleL>
+          <JointAngleR xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15267</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleR</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15267</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15272</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15272</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleR>
+          <JointAngleU xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15273</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleU</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15273</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15278</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15278</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleU>
+          <JointAngleB xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15279</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleB</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15279</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15284</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15284</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleB>
+          <JointAngleT xmlns="https://nextusc.com/UA/FF/">
+            <uax:NodeClass>Variable_2</uax:NodeClass>
+            <uax:NodeId>
+              <uax:Identifier>ns=3;i=15285</uax:Identifier>
+            </uax:NodeId>
+            <uax:BrowseName>
+              <uax:NamespaceIndex>3</uax:NamespaceIndex>
+              <uax:Name>JointAngleT</uax:Name>
+            </uax:BrowseName>
+            <uax:ReferenceTypeId>
+              <uax:Identifier>i=47</uax:Identifier>
+            </uax:ReferenceTypeId>
+            <uax:TypeDefinitionId>
+              <uax:Identifier>i=17497</uax:Identifier>
+            </uax:TypeDefinitionId>
+            <uax:NumericId>15285</uax:NumericId>
+            <uax:DataType>
+              <uax:Identifier>i=11</uax:Identifier>
+            </uax:DataType>
+            <uax:ValueRank>-1</uax:ValueRank>
+            <uax:AccessLevel>1</uax:AccessLevel>
+            <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
+              <uax:NodeClass>Variable_2</uax:NodeClass>
+              <uax:NodeId>
+                <uax:Identifier>ns=3;i=15290</uax:Identifier>
+              </uax:NodeId>
+              <uax:BrowseName>
+                <uax:NamespaceIndex>0</uax:NamespaceIndex>
+                <uax:Name>EngineeringUnits</uax:Name>
+              </uax:BrowseName>
+              <uax:ReferenceTypeId>
+                <uax:Identifier>i=46</uax:Identifier>
+              </uax:ReferenceTypeId>
+              <uax:TypeDefinitionId>
+                <uax:Identifier>i=68</uax:Identifier>
+              </uax:TypeDefinitionId>
+              <uax:NumericId>15290</uax:NumericId>
+              <uax:DataType>
+                <uax:Identifier>i=887</uax:Identifier>
+              </uax:DataType>
+              <uax:ValueRank>-1</uax:ValueRank>
+              <uax:AccessLevel>1</uax:AccessLevel>
+              <uax:UserAccessLevel>1</uax:UserAccessLevel>
+            </EngineeringUnits>
+          </JointAngleT>
         </ParameterSet>
         <Manufacturer xmlns="http://opcfoundation.org/UA/DI/">
           <uax:NodeClass>Variable_2</uax:NodeClass>
@@ -4736,299 +4952,6 @@
           </uax:TypeDefinitionId>
           <uax:NumericId>17225</uax:NumericId>
         </PowerTrains>
-        <JointAngleSet>
-          <uax:NodeClass>Object_1</uax:NodeClass>
-          <uax:NodeId>
-            <uax:Identifier>ns=3;i=18089</uax:Identifier>
-          </uax:NodeId>
-          <uax:BrowseName>
-            <uax:NamespaceIndex>3</uax:NamespaceIndex>
-            <uax:Name>JointAngleSet</uax:Name>
-          </uax:BrowseName>
-          <uax:ReferenceTypeId>
-            <uax:Identifier>i=47</uax:Identifier>
-          </uax:ReferenceTypeId>
-          <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
-          </uax:TypeDefinitionId>
-          <uax:NumericId>18089</uax:NumericId>
-          <JointAngleS>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18090</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleS</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18090</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18095</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18095</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleS>
-          <JointAngleL>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18096</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleL</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18096</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18101</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18101</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleL>
-          <JointAngleR>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18102</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleR</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18102</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18107</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18107</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleR>
-          <JointAngleU>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18108</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleU</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18108</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18113</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18113</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleU>
-          <JointAngleB>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18114</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleB</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18114</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18119</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18119</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleB>
-          <JointAngleT>
-            <uax:NodeClass>Variable_2</uax:NodeClass>
-            <uax:NodeId>
-              <uax:Identifier>ns=3;i=18120</uax:Identifier>
-            </uax:NodeId>
-            <uax:BrowseName>
-              <uax:NamespaceIndex>3</uax:NamespaceIndex>
-              <uax:Name>JointAngleT</uax:Name>
-            </uax:BrowseName>
-            <uax:ReferenceTypeId>
-              <uax:Identifier>i=47</uax:Identifier>
-            </uax:ReferenceTypeId>
-            <uax:TypeDefinitionId>
-              <uax:Identifier>i=17497</uax:Identifier>
-            </uax:TypeDefinitionId>
-            <uax:NumericId>18120</uax:NumericId>
-            <uax:DataType>
-              <uax:Identifier>i=11</uax:Identifier>
-            </uax:DataType>
-            <uax:ValueRank>-1</uax:ValueRank>
-            <uax:AccessLevel>1</uax:AccessLevel>
-            <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            <EngineeringUnits xmlns="http://opcfoundation.org/UA/">
-              <uax:NodeClass>Variable_2</uax:NodeClass>
-              <uax:NodeId>
-                <uax:Identifier>ns=3;i=18125</uax:Identifier>
-              </uax:NodeId>
-              <uax:BrowseName>
-                <uax:NamespaceIndex>0</uax:NamespaceIndex>
-                <uax:Name>EngineeringUnits</uax:Name>
-              </uax:BrowseName>
-              <uax:ReferenceTypeId>
-                <uax:Identifier>i=46</uax:Identifier>
-              </uax:ReferenceTypeId>
-              <uax:TypeDefinitionId>
-                <uax:Identifier>i=68</uax:Identifier>
-              </uax:TypeDefinitionId>
-              <uax:NumericId>18125</uax:NumericId>
-              <uax:DataType>
-                <uax:Identifier>i=887</uax:Identifier>
-              </uax:DataType>
-              <uax:ValueRank>-1</uax:ValueRank>
-              <uax:AccessLevel>1</uax:AccessLevel>
-              <uax:UserAccessLevel>1</uax:UserAccessLevel>
-            </EngineeringUnits>
-          </JointAngleT>
-        </JointAngleSet>
       </MotionDeviceR05>
     </MotionDevices>
     <Controllers xmlns="http://opcfoundation.org/UA/Robotics/">

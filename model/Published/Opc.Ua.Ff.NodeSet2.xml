@@ -202,247 +202,249 @@
   <UAObjectType NodeId="ns=1;i=18595" BrowseName="1:&lt;HC10&gt;" SymbolicName="HC10">
     <DisplayName>&lt;HC10&gt;</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18015</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=18596</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">ns=2;i=1004</Reference>
     </References>
   </UAObjectType>
-  <UAObject NodeId="ns=1;i=18015" BrowseName="1:JointAngleSet" ParentNodeId="ns=1;i=18595">
-    <DisplayName>JointAngleSet</DisplayName>
+  <UAObject NodeId="ns=1;i=18596" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=18595">
+    <DisplayName>ParameterSet</DisplayName>
+    <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18016</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18022</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18028</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18034</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18040</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18046</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15001</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15018</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15024</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15030</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15036</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15069</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18595</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=18016" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18015" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15001" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18596" DataType="Double">
     <DisplayName>JointAngleS</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18021</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15017</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18015</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18596</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18021" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18016" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15017" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15001" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18016</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15001</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18022" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18015" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15018" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18596" DataType="Double">
     <DisplayName>JointAngleL</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18027</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15023</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18015</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18596</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18027" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18022" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15023" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15018" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18022</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15018</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18028" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18015" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15024" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18596" DataType="Double">
     <DisplayName>JointAngleR</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18033</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15029</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18015</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18596</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18033" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18028" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15029" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15024" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18028</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15024</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18034" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18015" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15030" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18596" DataType="Double">
     <DisplayName>JointAngleU</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18039</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15035</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18015</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18596</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18039" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18034" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15035" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15030" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18034</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15030</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18040" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18015" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15036" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18596" DataType="Double">
     <DisplayName>JointAngleB</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18045</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15068</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18015</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18596</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18045" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18040" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15068" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15036" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18040</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15036</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18046" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18015" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15069" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18596" DataType="Double">
     <DisplayName>JointAngleT</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18051</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15074</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18015</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18596</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18051" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18046" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15074" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15069" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18046</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15069</Reference>
     </References>
   </UAVariable>
   <UAObjectType NodeId="ns=1;i=18811" BrowseName="1:&lt;GP8&gt;" SymbolicName="GP8">
     <DisplayName>&lt;GP8&gt;</DisplayName>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18126</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=18812</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">ns=2;i=1004</Reference>
     </References>
   </UAObjectType>
-  <UAObject NodeId="ns=1;i=18126" BrowseName="1:JointAngleSet" ParentNodeId="ns=1;i=18811">
-    <DisplayName>JointAngleSet</DisplayName>
+  <UAObject NodeId="ns=1;i=18812" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=18811">
+    <DisplayName>ParameterSet</DisplayName>
+    <Description>Flat list of Parameters</Description>
     <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18127</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18133</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18139</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18145</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18151</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18157</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15075</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15081</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15087</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15093</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15099</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15105</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18811</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=18127" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18126" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15075" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18812" DataType="Double">
     <DisplayName>JointAngleS</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18132</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15080</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18126</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18812</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18132" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18127" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15080" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15075" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18127</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15075</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18133" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18126" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15081" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18812" DataType="Double">
     <DisplayName>JointAngleL</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18138</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15086</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18126</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18812</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18138" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18133" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15086" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15081" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18133</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15081</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18139" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18126" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15087" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18812" DataType="Double">
     <DisplayName>JointAngleR</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18144</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15092</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18126</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18812</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18144" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18139" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15092" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15087" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18139</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15087</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18145" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18126" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15093" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18812" DataType="Double">
     <DisplayName>JointAngleU</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18150</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15098</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18126</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18812</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18150" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18145" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15098" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15093" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18145</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15093</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18151" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18126" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15099" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18812" DataType="Double">
     <DisplayName>JointAngleB</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18156</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15104</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18126</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18812</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18156" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18151" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15104" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15099" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18151</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15099</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18157" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18126" DataType="Double">
+  <UAVariable NodeId="ns=1;i=15105" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18812" DataType="Double">
     <DisplayName>JointAngleT</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18162</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15110</Reference>
       <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18126</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18812</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=18162" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18157" DataType="i=887">
+  <UAVariable NodeId="ns=1;i=15110" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15105" DataType="i=887">
     <DisplayName>EngineeringUnits</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18157</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15105</Reference>
     </References>
   </UAVariable>
   <UAObjectType NodeId="ns=1;i=19027" BrowseName="1:&lt;YRC1000&gt;" SymbolicName="YRC1000">
@@ -528,17 +530,22 @@
       <Reference ReferenceType="HasProperty">ns=1;i=15540</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15544</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15625</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18052</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18595</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20894</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15506" BrowseName="3:ParameterSet" ParentNodeId="ns=1;i=15505">
+  <UAObject NodeId="ns=1;i=15506" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=15505">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=15543</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15111</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15117</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15123</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15129</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15135</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15141</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15505</Reference>
     </References>
   </UAObject>
@@ -548,6 +555,96 @@
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15506</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15111" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=15506" DataType="Double">
+    <DisplayName>JointAngleS</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15116</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15506</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15116" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15111" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15111</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15117" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=15506" DataType="Double">
+    <DisplayName>JointAngleL</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15122</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15506</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15122" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15117" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15117</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15123" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=15506" DataType="Double">
+    <DisplayName>JointAngleR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15128</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15506</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15128" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15123" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15123</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15129" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=15506" DataType="Double">
+    <DisplayName>JointAngleU</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15134</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15506</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15134" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15129" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15129</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15135" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=15506" DataType="Double">
+    <DisplayName>JointAngleB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15140</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15506</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15140" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15135" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15135</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15141" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=15506" DataType="Double">
+    <DisplayName>JointAngleT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15146</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15506</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15146" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15141" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15141</Reference>
     </References>
   </UAVariable>
   <UAVariable NodeId="ns=1;i=15526" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=15505" DataType="LocalizedText">
@@ -602,109 +699,6 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15505</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=18052" BrowseName="1:JointAngleSet" ParentNodeId="ns=1;i=15505">
-    <DisplayName>JointAngleSet</DisplayName>
-    <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18053</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18059</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18065</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18071</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18077</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18083</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15505</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=18053" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18052" DataType="Double">
-    <DisplayName>JointAngleS</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18058</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18052</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18058" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18053" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18053</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18059" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18052" DataType="Double">
-    <DisplayName>JointAngleL</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18064</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18052</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18064" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18059" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18059</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18065" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18052" DataType="Double">
-    <DisplayName>JointAngleR</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18070</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18052</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18070" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18065" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18065</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18071" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18052" DataType="Double">
-    <DisplayName>JointAngleU</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18076</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18052</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18076" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18071" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18071</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18077" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18052" DataType="Double">
-    <DisplayName>JointAngleB</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18082</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18052</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18082" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18077" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18077</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18083" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18052" DataType="Double">
-    <DisplayName>JointAngleT</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18088</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18052</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18088" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18083" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18083</Reference>
-    </References>
-  </UAVariable>
   <UAObject NodeId="ns=1;i=21113" BrowseName="2:Controllers" ParentNodeId="ns=1;i=20857">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
@@ -827,17 +821,22 @@
       <Reference ReferenceType="HasProperty">ns=1;i=15940</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=15944</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=16025</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18163</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18811</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=22735</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=15906" BrowseName="3:ParameterSet" ParentNodeId="ns=1;i=15905">
+  <UAObject NodeId="ns=1;i=15906" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=15905">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=15943</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15147</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15153</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15159</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15165</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15171</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15177</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15905</Reference>
     </References>
   </UAObject>
@@ -847,6 +846,96 @@
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15906</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15147" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=15906" DataType="Double">
+    <DisplayName>JointAngleS</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15152</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15906</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15152" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15147" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15147</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15153" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=15906" DataType="Double">
+    <DisplayName>JointAngleL</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15158</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15906</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15158" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15153" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15153</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15159" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=15906" DataType="Double">
+    <DisplayName>JointAngleR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15164</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15906</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15164" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15159" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15159</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15165" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=15906" DataType="Double">
+    <DisplayName>JointAngleU</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15170</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15906</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15170" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15165" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15165</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15171" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=15906" DataType="Double">
+    <DisplayName>JointAngleB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15176</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15906</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15176" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15171" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15171</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15177" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=15906" DataType="Double">
+    <DisplayName>JointAngleT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15182</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15906</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15182" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15177" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15177</Reference>
     </References>
   </UAVariable>
   <UAVariable NodeId="ns=1;i=15926" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=15905" DataType="LocalizedText">
@@ -901,109 +990,6 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15905</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=18163" BrowseName="1:JointAngleSet" ParentNodeId="ns=1;i=15905">
-    <DisplayName>JointAngleSet</DisplayName>
-    <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18164</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18170</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18176</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18182</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18188</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18194</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15905</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=18164" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18163" DataType="Double">
-    <DisplayName>JointAngleS</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18169</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18163</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18169" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18164" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18164</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18170" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18163" DataType="Double">
-    <DisplayName>JointAngleL</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18175</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18163</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18175" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18170" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18170</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18176" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18163" DataType="Double">
-    <DisplayName>JointAngleR</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18181</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18163</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18181" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18176" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18176</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18182" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18163" DataType="Double">
-    <DisplayName>JointAngleU</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18187</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18163</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18187" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18182" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18182</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18188" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18163" DataType="Double">
-    <DisplayName>JointAngleB</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18193</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18163</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18193" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18188" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18188</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18194" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18163" DataType="Double">
-    <DisplayName>JointAngleT</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18199</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18163</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18199" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18194" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18194</Reference>
-    </References>
-  </UAVariable>
   <UAObject NodeId="ns=1;i=23431" BrowseName="2:Controllers" ParentNodeId="ns=1;i=22698">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
@@ -1126,17 +1112,22 @@
       <Reference ReferenceType="HasProperty">ns=1;i=16340</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=16344</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=16425</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18200</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18811</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=24576</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16306" BrowseName="3:ParameterSet" ParentNodeId="ns=1;i=16305">
+  <UAObject NodeId="ns=1;i=16306" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=16305">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=16343</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15183</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15189</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15195</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15201</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15207</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15213</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16305</Reference>
     </References>
   </UAObject>
@@ -1146,6 +1137,96 @@
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16306</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15183" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=16306" DataType="Double">
+    <DisplayName>JointAngleS</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15188</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16306</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15188" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15183" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15183</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15189" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=16306" DataType="Double">
+    <DisplayName>JointAngleL</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15194</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16306</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15194" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15189" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15189</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15195" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=16306" DataType="Double">
+    <DisplayName>JointAngleR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15200</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16306</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15200" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15195" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15195</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15201" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=16306" DataType="Double">
+    <DisplayName>JointAngleU</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15206</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16306</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15206" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15201" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15201</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15207" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=16306" DataType="Double">
+    <DisplayName>JointAngleB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15212</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16306</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15212" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15207" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15207</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15213" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=16306" DataType="Double">
+    <DisplayName>JointAngleT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15218</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16306</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15218" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15213" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15213</Reference>
     </References>
   </UAVariable>
   <UAVariable NodeId="ns=1;i=16326" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16305" DataType="LocalizedText">
@@ -1200,109 +1281,6 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16305</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=18200" BrowseName="1:JointAngleSet" ParentNodeId="ns=1;i=16305">
-    <DisplayName>JointAngleSet</DisplayName>
-    <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18201</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18207</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18213</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18219</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18225</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18231</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16305</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=18201" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18200" DataType="Double">
-    <DisplayName>JointAngleS</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18206</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18200</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18206" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18201" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18201</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18207" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18200" DataType="Double">
-    <DisplayName>JointAngleL</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18212</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18200</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18212" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18207" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18207</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18213" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18200" DataType="Double">
-    <DisplayName>JointAngleR</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18218</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18200</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18218" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18213" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18213</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18219" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18200" DataType="Double">
-    <DisplayName>JointAngleU</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18224</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18200</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18224" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18219" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18219</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18225" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18200" DataType="Double">
-    <DisplayName>JointAngleB</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18230</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18200</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18230" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18225" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18225</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18231" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18200" DataType="Double">
-    <DisplayName>JointAngleT</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18236</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18200</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18236" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18231" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18231</Reference>
-    </References>
-  </UAVariable>
   <UAObject NodeId="ns=1;i=25272" BrowseName="2:Controllers" ParentNodeId="ns=1;i=24539">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
@@ -1425,17 +1403,22 @@
       <Reference ReferenceType="HasProperty">ns=1;i=16740</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=16744</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=16825</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18237</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18811</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25940</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=16706" BrowseName="3:ParameterSet" ParentNodeId="ns=1;i=16705">
+  <UAObject NodeId="ns=1;i=16706" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=16705">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=16743</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15219</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15225</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15231</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15237</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15243</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15249</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16705</Reference>
     </References>
   </UAObject>
@@ -1445,6 +1428,96 @@
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16706</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15219" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=16706" DataType="Double">
+    <DisplayName>JointAngleS</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15224</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16706</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15224" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15219" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15219</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15225" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=16706" DataType="Double">
+    <DisplayName>JointAngleL</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15230</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16706</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15230" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15225" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15225</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15231" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=16706" DataType="Double">
+    <DisplayName>JointAngleR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15236</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16706</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15236" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15231" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15231</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15237" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=16706" DataType="Double">
+    <DisplayName>JointAngleU</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15242</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16706</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15242" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15237" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15237</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15243" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=16706" DataType="Double">
+    <DisplayName>JointAngleB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15248</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16706</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15248" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15243" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15243</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15249" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=16706" DataType="Double">
+    <DisplayName>JointAngleT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15254</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16706</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15254" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15249" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15249</Reference>
     </References>
   </UAVariable>
   <UAVariable NodeId="ns=1;i=16726" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16705" DataType="LocalizedText">
@@ -1499,109 +1572,6 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16705</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=18237" BrowseName="1:JointAngleSet" ParentNodeId="ns=1;i=16705">
-    <DisplayName>JointAngleSet</DisplayName>
-    <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18238</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18244</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18250</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18256</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18262</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18268</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=16705</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=18238" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18237" DataType="Double">
-    <DisplayName>JointAngleS</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18243</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18237</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18243" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18238" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18238</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18244" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18237" DataType="Double">
-    <DisplayName>JointAngleL</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18249</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18237</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18249" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18244" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18244</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18250" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18237" DataType="Double">
-    <DisplayName>JointAngleR</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18255</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18237</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18255" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18250" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18250</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18256" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18237" DataType="Double">
-    <DisplayName>JointAngleU</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18261</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18237</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18261" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18256" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18256</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18262" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18237" DataType="Double">
-    <DisplayName>JointAngleB</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18267</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18237</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18267" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18262" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18262</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18268" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18237" DataType="Double">
-    <DisplayName>JointAngleT</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18273</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18237</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18273" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18268" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18268</Reference>
-    </References>
-  </UAVariable>
   <UAObject NodeId="ns=1;i=26159" BrowseName="2:Controllers" ParentNodeId="ns=1;i=25903">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>
@@ -1724,17 +1694,22 @@
       <Reference ReferenceType="HasProperty">ns=1;i=17140</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=17144</Reference>
       <Reference ReferenceType="HasComponent">ns=1;i=17225</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18089</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=1;i=18595</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27251</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=17106" BrowseName="3:ParameterSet" ParentNodeId="ns=1;i=17105">
+  <UAObject NodeId="ns=1;i=17106" BrowseName="2:ParameterSet" ParentNodeId="ns=1;i=17105">
     <DisplayName>ParameterSet</DisplayName>
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=17143</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15255</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15261</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15267</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15273</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15279</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15285</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17105</Reference>
     </References>
   </UAObject>
@@ -1744,6 +1719,96 @@
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17106</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15255" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=17106" DataType="Double">
+    <DisplayName>JointAngleS</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15260</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17106</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15260" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15255" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15255</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15261" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=17106" DataType="Double">
+    <DisplayName>JointAngleL</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15266</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17106</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15266" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15261" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15261</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15267" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=17106" DataType="Double">
+    <DisplayName>JointAngleR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15272</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17106</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15272" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15267" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15267</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15273" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=17106" DataType="Double">
+    <DisplayName>JointAngleU</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15278</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17106</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15278" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15273" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15273</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15279" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=17106" DataType="Double">
+    <DisplayName>JointAngleB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15284</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17106</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15284" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15279" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15279</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15285" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=17106" DataType="Double">
+    <DisplayName>JointAngleT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15290</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17106</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15290" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=15285" DataType="i=887">
+    <DisplayName>EngineeringUnits</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15285</Reference>
     </References>
   </UAVariable>
   <UAVariable NodeId="ns=1;i=17126" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17105" DataType="LocalizedText">
@@ -1798,109 +1863,6 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17105</Reference>
     </References>
   </UAObject>
-  <UAObject NodeId="ns=1;i=18089" BrowseName="1:JointAngleSet" ParentNodeId="ns=1;i=17105">
-    <DisplayName>JointAngleSet</DisplayName>
-    <References>
-      <Reference ReferenceType="HasComponent">ns=1;i=18090</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18096</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18102</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18108</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18114</Reference>
-      <Reference ReferenceType="HasComponent">ns=1;i=18120</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17105</Reference>
-    </References>
-  </UAObject>
-  <UAVariable NodeId="ns=1;i=18090" BrowseName="1:JointAngleS" ParentNodeId="ns=1;i=18089" DataType="Double">
-    <DisplayName>JointAngleS</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18095</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18089</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18095" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18090" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18090</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18096" BrowseName="1:JointAngleL" ParentNodeId="ns=1;i=18089" DataType="Double">
-    <DisplayName>JointAngleL</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18101</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18089</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18101" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18096" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18096</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18102" BrowseName="1:JointAngleR" ParentNodeId="ns=1;i=18089" DataType="Double">
-    <DisplayName>JointAngleR</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18107</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18089</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18107" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18102" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18102</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18108" BrowseName="1:JointAngleU" ParentNodeId="ns=1;i=18089" DataType="Double">
-    <DisplayName>JointAngleU</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18113</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18089</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18113" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18108" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18108</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18114" BrowseName="1:JointAngleB" ParentNodeId="ns=1;i=18089" DataType="Double">
-    <DisplayName>JointAngleB</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18119</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18089</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18119" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18114" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18114</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18120" BrowseName="1:JointAngleT" ParentNodeId="ns=1;i=18089" DataType="Double">
-    <DisplayName>JointAngleT</DisplayName>
-    <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=18125</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=17497</Reference>
-      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=18089</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=18125" BrowseName="EngineeringUnits" ParentNodeId="ns=1;i=18120" DataType="i=887">
-    <DisplayName>EngineeringUnits</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=18120</Reference>
-    </References>
-  </UAVariable>
   <UAObject NodeId="ns=1;i=27470" BrowseName="2:Controllers" ParentNodeId="ns=1;i=27214">
     <DisplayName>Controllers</DisplayName>
     <Description>Contains the set of controllers in the motion device system.</Description>

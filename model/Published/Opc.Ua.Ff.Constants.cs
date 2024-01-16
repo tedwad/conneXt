@@ -3133,24 +3133,24 @@ namespace Opc.Ua.Ff
         public const uint OPCUAConneXtNamespaceMetadata = 18562;
 
         /// <summary>
+        /// The identifier for the HC10_ParameterSet Object.
+        /// </summary>
+        public const uint HC10_ParameterSet = 18596;
+
+        /// <summary>
         /// The identifier for the HC10_Axes_AxisIdentifier_ParameterSet Object.
         /// </summary>
         public const uint HC10_Axes_AxisIdentifier_ParameterSet = 18637;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet Object.
+        /// The identifier for the GP8_ParameterSet Object.
         /// </summary>
-        public const uint HC10_JointAngleSet = 18015;
+        public const uint GP8_ParameterSet = 18812;
 
         /// <summary>
         /// The identifier for the GP8_Axes_AxisIdentifier_ParameterSet Object.
         /// </summary>
         public const uint GP8_Axes_AxisIdentifier_ParameterSet = 18853;
-
-        /// <summary>
-        /// The identifier for the GP8_JointAngleSet Object.
-        /// </summary>
-        public const uint GP8_JointAngleSet = 18126;
 
         /// <summary>
         /// The identifier for the YRC1000_TaskControls_TaskControlIdentifier_ParameterSet Object.
@@ -3318,11 +3318,6 @@ namespace Opc.Ua.Ff
         public const uint R01_MotionDevices_MotionDeviceR01_PowerTrains = 15625;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet Object.
-        /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet = 18052;
-
-        /// <summary>
         /// The identifier for the R01_Controllers_ControllerR01 Object.
         /// </summary>
         public const uint R01_Controllers_ControllerR01 = 15723;
@@ -3436,11 +3431,6 @@ namespace Opc.Ua.Ff
         /// The identifier for the R02_MotionDevices_MotionDeviceR02_PowerTrains Object.
         /// </summary>
         public const uint R02_MotionDevices_MotionDeviceR02_PowerTrains = 16025;
-
-        /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet Object.
-        /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet = 18163;
 
         /// <summary>
         /// The identifier for the R02_Controllers_ControllerR02 Object.
@@ -3558,11 +3548,6 @@ namespace Opc.Ua.Ff
         public const uint R03_MotionDevices_MotionDeviceR03_PowerTrains = 16425;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet Object.
-        /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet = 18200;
-
-        /// <summary>
         /// The identifier for the R03_Controllers_ControllerR03 Object.
         /// </summary>
         public const uint R03_Controllers_ControllerR03 = 16523;
@@ -3678,11 +3663,6 @@ namespace Opc.Ua.Ff
         public const uint R04_MotionDevices_MotionDeviceR04_PowerTrains = 16825;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet Object.
-        /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet = 18237;
-
-        /// <summary>
         /// The identifier for the R04_Controllers_ControllerR04 Object.
         /// </summary>
         public const uint R04_Controllers_ControllerR04 = 16923;
@@ -3796,11 +3776,6 @@ namespace Opc.Ua.Ff
         /// The identifier for the R05_MotionDevices_MotionDeviceR05_PowerTrains Object.
         /// </summary>
         public const uint R05_MotionDevices_MotionDeviceR05_PowerTrains = 17225;
-
-        /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet Object.
-        /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet = 18089;
 
         /// <summary>
         /// The identifier for the R05_Controllers_ControllerR05 Object.
@@ -4583,64 +4558,64 @@ namespace Opc.Ua.Ff
         public const uint HC10_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = 18796;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleS = 18016;
+        public const uint HC10_ParameterSet_JointAngleS = 15001;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleS_EngineeringUnits = 18021;
+        public const uint HC10_ParameterSet_JointAngleS_EngineeringUnits = 15017;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleL = 18022;
+        public const uint HC10_ParameterSet_JointAngleL = 15018;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleL_EngineeringUnits = 18027;
+        public const uint HC10_ParameterSet_JointAngleL_EngineeringUnits = 15023;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleR = 18028;
+        public const uint HC10_ParameterSet_JointAngleR = 15024;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleR_EngineeringUnits = 18033;
+        public const uint HC10_ParameterSet_JointAngleR_EngineeringUnits = 15029;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleU = 18034;
+        public const uint HC10_ParameterSet_JointAngleU = 15030;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleU_EngineeringUnits = 18039;
+        public const uint HC10_ParameterSet_JointAngleU_EngineeringUnits = 15035;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleB = 18040;
+        public const uint HC10_ParameterSet_JointAngleB = 15036;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleB_EngineeringUnits = 18045;
+        public const uint HC10_ParameterSet_JointAngleB_EngineeringUnits = 15068;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleT = 18046;
+        public const uint HC10_ParameterSet_JointAngleT = 15069;
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public const uint HC10_JointAngleSet_JointAngleT_EngineeringUnits = 18051;
+        public const uint HC10_ParameterSet_JointAngleT_EngineeringUnits = 15074;
 
         /// <summary>
         /// The identifier for the GP8_Lock_Locked Variable.
@@ -4983,64 +4958,64 @@ namespace Opc.Ua.Ff
         public const uint GP8_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = 19012;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleS = 18127;
+        public const uint GP8_ParameterSet_JointAngleS = 15075;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleS_EngineeringUnits = 18132;
+        public const uint GP8_ParameterSet_JointAngleS_EngineeringUnits = 15080;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleL = 18133;
+        public const uint GP8_ParameterSet_JointAngleL = 15081;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleL_EngineeringUnits = 18138;
+        public const uint GP8_ParameterSet_JointAngleL_EngineeringUnits = 15086;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleR = 18139;
+        public const uint GP8_ParameterSet_JointAngleR = 15087;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleR_EngineeringUnits = 18144;
+        public const uint GP8_ParameterSet_JointAngleR_EngineeringUnits = 15092;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleU = 18145;
+        public const uint GP8_ParameterSet_JointAngleU = 15093;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleU_EngineeringUnits = 18150;
+        public const uint GP8_ParameterSet_JointAngleU_EngineeringUnits = 15098;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleB = 18151;
+        public const uint GP8_ParameterSet_JointAngleB = 15099;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleB_EngineeringUnits = 18156;
+        public const uint GP8_ParameterSet_JointAngleB_EngineeringUnits = 15104;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleT = 18157;
+        public const uint GP8_ParameterSet_JointAngleT = 15105;
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public const uint GP8_JointAngleSet_JointAngleT_EngineeringUnits = 18162;
+        public const uint GP8_ParameterSet_JointAngleT_EngineeringUnits = 15110;
 
         /// <summary>
         /// The identifier for the YRC1000_Lock_Locked Variable.
@@ -7983,64 +7958,64 @@ namespace Opc.Ua.Ff
         public const uint R01_MotionDevices_MotionDeviceR01_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = 15708;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS = 18053;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS = 15111;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS_EngineeringUnits = 18058;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS_EngineeringUnits = 15116;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL = 18059;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL = 15117;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL_EngineeringUnits = 18064;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL_EngineeringUnits = 15122;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR = 18065;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR = 15123;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR_EngineeringUnits = 18070;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR_EngineeringUnits = 15128;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU = 18071;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU = 15129;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU_EngineeringUnits = 18076;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU_EngineeringUnits = 15134;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB = 18077;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB = 15135;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB_EngineeringUnits = 18082;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB_EngineeringUnits = 15140;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT = 18083;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT = 15141;
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public const uint R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT_EngineeringUnits = 18088;
+        public const uint R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT_EngineeringUnits = 15146;
 
         /// <summary>
         /// The identifier for the R01_Controllers_ControllerR01_Lock_Locked Variable.
@@ -9423,64 +9398,64 @@ namespace Opc.Ua.Ff
         public const uint R02_MotionDevices_MotionDeviceR02_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = 16108;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS = 18164;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS = 15147;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS_EngineeringUnits = 18169;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS_EngineeringUnits = 15152;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL = 18170;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL = 15153;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL_EngineeringUnits = 18175;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL_EngineeringUnits = 15158;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR = 18176;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR = 15159;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR_EngineeringUnits = 18181;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR_EngineeringUnits = 15164;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU = 18182;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU = 15165;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU_EngineeringUnits = 18187;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU_EngineeringUnits = 15170;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB = 18188;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB = 15171;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB_EngineeringUnits = 18193;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB_EngineeringUnits = 15176;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT = 18194;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT = 15177;
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public const uint R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT_EngineeringUnits = 18199;
+        public const uint R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT_EngineeringUnits = 15182;
 
         /// <summary>
         /// The identifier for the R02_Controllers_ControllerR02_Lock_Locked Variable.
@@ -10863,64 +10838,64 @@ namespace Opc.Ua.Ff
         public const uint R03_MotionDevices_MotionDeviceR03_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = 16508;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS = 18201;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS = 15183;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS_EngineeringUnits = 18206;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS_EngineeringUnits = 15188;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL = 18207;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL = 15189;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL_EngineeringUnits = 18212;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL_EngineeringUnits = 15194;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR = 18213;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR = 15195;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR_EngineeringUnits = 18218;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR_EngineeringUnits = 15200;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU = 18219;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU = 15201;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU_EngineeringUnits = 18224;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU_EngineeringUnits = 15206;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB = 18225;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB = 15207;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB_EngineeringUnits = 18230;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB_EngineeringUnits = 15212;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT = 18231;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT = 15213;
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public const uint R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT_EngineeringUnits = 18236;
+        public const uint R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT_EngineeringUnits = 15218;
 
         /// <summary>
         /// The identifier for the R03_Controllers_ControllerR03_Lock_Locked Variable.
@@ -12303,64 +12278,64 @@ namespace Opc.Ua.Ff
         public const uint R04_MotionDevices_MotionDeviceR04_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = 16908;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS = 18238;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS = 15219;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS_EngineeringUnits = 18243;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS_EngineeringUnits = 15224;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL = 18244;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL = 15225;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL_EngineeringUnits = 18249;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL_EngineeringUnits = 15230;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR = 18250;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR = 15231;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR_EngineeringUnits = 18255;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR_EngineeringUnits = 15236;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU = 18256;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU = 15237;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU_EngineeringUnits = 18261;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU_EngineeringUnits = 15242;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB = 18262;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB = 15243;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB_EngineeringUnits = 18267;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB_EngineeringUnits = 15248;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT = 18268;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT = 15249;
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public const uint R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT_EngineeringUnits = 18273;
+        public const uint R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT_EngineeringUnits = 15254;
 
         /// <summary>
         /// The identifier for the R04_Controllers_ControllerR04_Lock_Locked Variable.
@@ -13743,64 +13718,64 @@ namespace Opc.Ua.Ff
         public const uint R05_MotionDevices_MotionDeviceR05_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = 17308;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS = 18090;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS = 15255;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS_EngineeringUnits = 18095;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS_EngineeringUnits = 15260;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL = 18096;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL = 15261;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL_EngineeringUnits = 18101;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL_EngineeringUnits = 15266;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR = 18102;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR = 15267;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR_EngineeringUnits = 18107;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR_EngineeringUnits = 15272;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU = 18108;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU = 15273;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU_EngineeringUnits = 18113;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU_EngineeringUnits = 15278;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB = 18114;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB = 15279;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB_EngineeringUnits = 18119;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB_EngineeringUnits = 15284;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT = 18120;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT = 15285;
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public const uint R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT_EngineeringUnits = 18125;
+        public const uint R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT_EngineeringUnits = 15290;
 
         /// <summary>
         /// The identifier for the R05_Controllers_ControllerR05_Lock_Locked Variable.
@@ -19773,24 +19748,24 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId OPCUAConneXtNamespaceMetadata = new ExpandedNodeId(Opc.Ua.Ff.Objects.OPCUAConneXtNamespaceMetadata, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
+        /// The identifier for the HC10_ParameterSet Object.
+        /// </summary>
+        public static readonly ExpandedNodeId HC10_ParameterSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.HC10_ParameterSet, Opc.Ua.Ff.Namespaces.FutureFactories);
+
+        /// <summary>
         /// The identifier for the HC10_Axes_AxisIdentifier_ParameterSet Object.
         /// </summary>
         public static readonly ExpandedNodeId HC10_Axes_AxisIdentifier_ParameterSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.HC10_Axes_AxisIdentifier_ParameterSet, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet Object.
+        /// The identifier for the GP8_ParameterSet Object.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.HC10_JointAngleSet, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.GP8_ParameterSet, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the GP8_Axes_AxisIdentifier_ParameterSet Object.
         /// </summary>
         public static readonly ExpandedNodeId GP8_Axes_AxisIdentifier_ParameterSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.GP8_Axes_AxisIdentifier_ParameterSet, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
-        /// The identifier for the GP8_JointAngleSet Object.
-        /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.GP8_JointAngleSet, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the YRC1000_TaskControls_TaskControlIdentifier_ParameterSet Object.
@@ -19958,11 +19933,6 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_PowerTrains = new ExpandedNodeId(Opc.Ua.Ff.Objects.R01_MotionDevices_MotionDeviceR01_PowerTrains, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet Object.
-        /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.R01_MotionDevices_MotionDeviceR01_JointAngleSet, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
         /// The identifier for the R01_Controllers_ControllerR01 Object.
         /// </summary>
         public static readonly ExpandedNodeId R01_Controllers_ControllerR01 = new ExpandedNodeId(Opc.Ua.Ff.Objects.R01_Controllers_ControllerR01, Opc.Ua.Ff.Namespaces.FutureFactories);
@@ -20076,11 +20046,6 @@ namespace Opc.Ua.Ff
         /// The identifier for the R02_MotionDevices_MotionDeviceR02_PowerTrains Object.
         /// </summary>
         public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_PowerTrains = new ExpandedNodeId(Opc.Ua.Ff.Objects.R02_MotionDevices_MotionDeviceR02_PowerTrains, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet Object.
-        /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.R02_MotionDevices_MotionDeviceR02_JointAngleSet, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the R02_Controllers_ControllerR02 Object.
@@ -20198,11 +20163,6 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_PowerTrains = new ExpandedNodeId(Opc.Ua.Ff.Objects.R03_MotionDevices_MotionDeviceR03_PowerTrains, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet Object.
-        /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.R03_MotionDevices_MotionDeviceR03_JointAngleSet, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
         /// The identifier for the R03_Controllers_ControllerR03 Object.
         /// </summary>
         public static readonly ExpandedNodeId R03_Controllers_ControllerR03 = new ExpandedNodeId(Opc.Ua.Ff.Objects.R03_Controllers_ControllerR03, Opc.Ua.Ff.Namespaces.FutureFactories);
@@ -20318,11 +20278,6 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_PowerTrains = new ExpandedNodeId(Opc.Ua.Ff.Objects.R04_MotionDevices_MotionDeviceR04_PowerTrains, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet Object.
-        /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.R04_MotionDevices_MotionDeviceR04_JointAngleSet, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
         /// The identifier for the R04_Controllers_ControllerR04 Object.
         /// </summary>
         public static readonly ExpandedNodeId R04_Controllers_ControllerR04 = new ExpandedNodeId(Opc.Ua.Ff.Objects.R04_Controllers_ControllerR04, Opc.Ua.Ff.Namespaces.FutureFactories);
@@ -20436,11 +20391,6 @@ namespace Opc.Ua.Ff
         /// The identifier for the R05_MotionDevices_MotionDeviceR05_PowerTrains Object.
         /// </summary>
         public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_PowerTrains = new ExpandedNodeId(Opc.Ua.Ff.Objects.R05_MotionDevices_MotionDeviceR05_PowerTrains, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet Object.
-        /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet = new ExpandedNodeId(Opc.Ua.Ff.Objects.R05_MotionDevices_MotionDeviceR05_JointAngleSet, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the R05_Controllers_ControllerR05 Object.
@@ -21223,64 +21173,64 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId HC10_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the HC10_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the HC10_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId HC10_JointAngleSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_JointAngleSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId HC10_ParameterSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.HC10_ParameterSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the GP8_Lock_Locked Variable.
@@ -21623,64 +21573,64 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId GP8_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the GP8_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the GP8_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId GP8_JointAngleSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_JointAngleSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId GP8_ParameterSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.GP8_ParameterSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the YRC1000_Lock_Locked Variable.
@@ -24623,64 +24573,64 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_JointAngleSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R01_MotionDevices_MotionDeviceR01_ParameterSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the R01_Controllers_ControllerR01_Lock_Locked Variable.
@@ -26063,64 +26013,64 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_JointAngleSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R02_MotionDevices_MotionDeviceR02_ParameterSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the R02_Controllers_ControllerR02_Lock_Locked Variable.
@@ -27503,64 +27453,64 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_JointAngleSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R03_MotionDevices_MotionDeviceR03_ParameterSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the R03_Controllers_ControllerR03_Lock_Locked Variable.
@@ -28943,64 +28893,64 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_JointAngleSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R04_MotionDevices_MotionDeviceR04_ParameterSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the R04_Controllers_ControllerR04_Lock_Locked Variable.
@@ -30383,64 +30333,64 @@ namespace Opc.Ua.Ff
         public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_AdditionalComponents_AdditionalComponentIdentifier_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleS_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleL_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleR_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleU_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleB_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
-        /// The identifier for the R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT_EngineeringUnits Variable.
+        /// The identifier for the R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT_EngineeringUnits Variable.
         /// </summary>
-        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_JointAngleSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
+        public static readonly ExpandedNodeId R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT_EngineeringUnits = new ExpandedNodeId(Opc.Ua.Ff.Variables.R05_MotionDevices_MotionDeviceR05_ParameterSet_JointAngleT_EngineeringUnits, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the R05_Controllers_ControllerR05_Lock_Locked Variable.
@@ -33370,11 +33320,6 @@ namespace Opc.Ua.Ff
         /// The BrowseName for the HC10 component.
         /// </summary>
         public const string HC10 = "<HC10>";
-
-        /// <summary>
-        /// The BrowseName for the JointAngleSet component.
-        /// </summary>
-        public const string JointAngleSet = "JointAngleSet";
 
         /// <summary>
         /// The BrowseName for the OPCUAConneXtNamespaceMetadata component.

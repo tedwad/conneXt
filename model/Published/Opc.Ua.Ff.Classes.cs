@@ -94,56 +94,43 @@ namespace Opc.Ua.Ff
         private const string InitializationString =
            "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
            "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADAAwAAABIQzEwSW5zdGFuY2UBA6NIAQOjSKNIAAD/////CQAAACRggAoBAAAAAQAMAAAAUGFyYW1l" +
-           "dGVyU2V0AQOkSAMAAAAAFwAAAEZsYXQgbGlzdCBvZiBQYXJhbWV0ZXJzAC8AOqRIAAD/////AQAAADVg" +
+           "AAADAAwAAABIQzEwSW5zdGFuY2UBA6NIAQOjSKNIAAD/////CAAAACRggAoBAAAAAgAMAAAAUGFyYW1l" +
+           "dGVyU2V0AQOkSAMAAAAAFwAAAEZsYXQgbGlzdCBvZiBQYXJhbWV0ZXJzAC8APaRIAAD/////BwAAADVg" +
            "iQoCAAAAAgANAAAAU3BlZWRPdmVycmlkZQEDykgDAAAAAFsAAABTcGVlZE92ZXJyaWRlIHByb3ZpZGVz" +
            "IHRoZSBjdXJyZW50IHNwZWVkIHNldHRpbmcgaW4gcGVyY2VudCBvZiBwcm9ncmFtbWVkIHNwZWVkICgw" +
-           "IC0gMTAwJSkuAC8AP8pIAAAAC/////8BAf////8AAAAAFWCJCgIAAAABAAwAAABNYW51ZmFjdHVyZXIB" +
-           "A7lIAC4ARLlIAAAAFf////8BAf////8AAAAAFWCJCgIAAAABAAUAAABNb2RlbAEDu0gALgBEu0gAAAAV" +
-           "/////wEB/////wAAAAAVYIkKAgAAAAEACwAAAFByb2R1Y3RDb2RlAQO/SAAuAES/SAAAAAz/////AQH/" +
-           "////AAAAABVgiQoCAAAAAQAMAAAAU2VyaWFsTnVtYmVyAQPCSAAuAETCSAAAAAz/////AQH/////AAAA" +
-           "ADVgiQoCAAAAAgAUAAAATW90aW9uRGV2aWNlQ2F0ZWdvcnkBA8dIAwAAAACCAAAAVGhlIHZhcmlhYmxl" +
-           "IE1vdGlvbkRldmljZUNhdGVnb3J5IHByb3ZpZGVzIHRoZSBraW5kIG9mIG1vdGlvbiBkZXZpY2UgZGVm" +
-           "aW5lZCBieSBNb3Rpb25EZXZpY2VDYXRlZ29yeUVudW1lcmF0aW9uIGJhc2VkIG9uIElTTyA4MzczLgAu" +
-           "AETHSAAAAQIRR/////8BAf////8AAAAAJGCACgEAAAACAAQAAABBeGVzAQPLSAMAAAAAPgAAAEF4ZXMg" +
-           "aXMgYSBjb250YWluZXIgZm9yIG9uZSBvciBtb3JlIGluc3RhbmNlcyBvZiB0aGUgQXhpc1R5cGUuAC8A" +
-           "PctIAAD/////AAAAACRggAoBAAAAAgALAAAAUG93ZXJUcmFpbnMBAxtJAwAAAABLAAAAUG93ZXJUcmFp" +
-           "bnMgaXMgYSBjb250YWluZXIgZm9yIG9uZSBvciBtb3JlIGluc3RhbmNlcyBvZiB0aGUgUG93ZXJUcmFp" +
-           "blR5cGUuAC8APRtJAAD/////AAAAAARggAoBAAAAAwANAAAASm9pbnRBbmdsZVNldAEDX0YALwA9X0YA" +
-           "AP////8GAAAAFWCJCgIAAAADAAsAAABKb2ludEFuZ2xlUwEDYEYALwEAWURgRgAAAAv/////AQH/////" +
-           "AQAAABVgiQoCAAAAAAAQAAAARW5naW5lZXJpbmdVbml0cwEDZUYALgBEZUYAAAEAdwP/////AQH/////" +
-           "AAAAABVgiQoCAAAAAwALAAAASm9pbnRBbmdsZUwBA2ZGAC8BAFlEZkYAAAAL/////wEB/////wEAAAAV" +
-           "YIkKAgAAAAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBA2tGAC4ARGtGAAABAHcD/////wEB/////wAAAAAV" +
-           "YIkKAgAAAAMACwAAAEpvaW50QW5nbGVSAQNsRgAvAQBZRGxGAAAAC/////8BAf////8BAAAAFWCJCgIA" +
-           "AAAAABAAAABFbmdpbmVlcmluZ1VuaXRzAQNxRgAuAERxRgAAAQB3A/////8BAf////8AAAAAFWCJCgIA" +
-           "AAADAAsAAABKb2ludEFuZ2xlVQEDckYALwEAWURyRgAAAAv/////AQH/////AQAAABVgiQoCAAAAAAAQ" +
-           "AAAARW5naW5lZXJpbmdVbml0cwEDd0YALgBEd0YAAAEAdwP/////AQH/////AAAAABVgiQoCAAAAAwAL" +
-           "AAAASm9pbnRBbmdsZUIBA3hGAC8BAFlEeEYAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAAEAAAAEVu" +
-           "Z2luZWVyaW5nVW5pdHMBA31GAC4ARH1GAAABAHcD/////wEB/////wAAAAAVYIkKAgAAAAMACwAAAEpv" +
-           "aW50QW5nbGVUAQN+RgAvAQBZRH5GAAAAC/////8BAf////8BAAAAFWCJCgIAAAAAABAAAABFbmdpbmVl" +
-           "cmluZ1VuaXRzAQODRgAuAESDRgAAAQB3A/////8BAf////8AAAAA";
+           "IC0gMTAwJSkuAC8AP8pIAAAAC/////8BAf////8AAAAAFWCJCgIAAAADAAsAAABKb2ludEFuZ2xlUwED" +
+           "mToALwEAWUSZOgAAAAv/////AQH/////AQAAABVgiQoCAAAAAAAQAAAARW5naW5lZXJpbmdVbml0cwED" +
+           "qToALgBEqToAAAEAdwP/////AQH/////AAAAABVgiQoCAAAAAwALAAAASm9pbnRBbmdsZUwBA6o6AC8B" +
+           "AFlEqjoAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBA686AC4A" +
+           "RK86AAABAHcD/////wEB/////wAAAAAVYIkKAgAAAAMACwAAAEpvaW50QW5nbGVSAQOwOgAvAQBZRLA6" +
+           "AAAAC/////8BAf////8BAAAAFWCJCgIAAAAAABAAAABFbmdpbmVlcmluZ1VuaXRzAQO1OgAuAES1OgAA" +
+           "AQB3A/////8BAf////8AAAAAFWCJCgIAAAADAAsAAABKb2ludEFuZ2xlVQEDtjoALwEAWUS2OgAAAAv/" +
+           "////AQH/////AQAAABVgiQoCAAAAAAAQAAAARW5naW5lZXJpbmdVbml0cwEDuzoALgBEuzoAAAEAdwP/" +
+           "////AQH/////AAAAABVgiQoCAAAAAwALAAAASm9pbnRBbmdsZUIBA7w6AC8BAFlEvDoAAAAL/////wEB" +
+           "/////wEAAAAVYIkKAgAAAAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBA9w6AC4ARNw6AAABAHcD/////wEB" +
+           "/////wAAAAAVYIkKAgAAAAMACwAAAEpvaW50QW5nbGVUAQPdOgAvAQBZRN06AAAAC/////8BAf////8B" +
+           "AAAAFWCJCgIAAAAAABAAAABFbmdpbmVlcmluZ1VuaXRzAQPiOgAuAETiOgAAAQB3A/////8BAf////8A" +
+           "AAAAFWCJCgIAAAABAAwAAABNYW51ZmFjdHVyZXIBA7lIAC4ARLlIAAAAFf////8BAf////8AAAAAFWCJ" +
+           "CgIAAAABAAUAAABNb2RlbAEDu0gALgBEu0gAAAAV/////wEB/////wAAAAAVYIkKAgAAAAEACwAAAFBy" +
+           "b2R1Y3RDb2RlAQO/SAAuAES/SAAAAAz/////AQH/////AAAAABVgiQoCAAAAAQAMAAAAU2VyaWFsTnVt" +
+           "YmVyAQPCSAAuAETCSAAAAAz/////AQH/////AAAAADVgiQoCAAAAAgAUAAAATW90aW9uRGV2aWNlQ2F0" +
+           "ZWdvcnkBA8dIAwAAAACCAAAAVGhlIHZhcmlhYmxlIE1vdGlvbkRldmljZUNhdGVnb3J5IHByb3ZpZGVz" +
+           "IHRoZSBraW5kIG9mIG1vdGlvbiBkZXZpY2UgZGVmaW5lZCBieSBNb3Rpb25EZXZpY2VDYXRlZ29yeUVu" +
+           "dW1lcmF0aW9uIGJhc2VkIG9uIElTTyA4MzczLgAuAETHSAAAAQIRR/////8BAf////8AAAAAJGCACgEA" +
+           "AAACAAQAAABBeGVzAQPLSAMAAAAAPgAAAEF4ZXMgaXMgYSBjb250YWluZXIgZm9yIG9uZSBvciBtb3Jl" +
+           "IGluc3RhbmNlcyBvZiB0aGUgQXhpc1R5cGUuAC8APctIAAD/////AAAAACRggAoBAAAAAgALAAAAUG93" +
+           "ZXJUcmFpbnMBAxtJAwAAAABLAAAAUG93ZXJUcmFpbnMgaXMgYSBjb250YWluZXIgZm9yIG9uZSBvciBt" +
+           "b3JlIGluc3RhbmNlcyBvZiB0aGUgUG93ZXJUcmFpblR5cGUuAC8APRtJAAD/////AAAAAA==";
         #endregion
         #endif
         #endregion
 
         #region Public Properties
         /// <remarks />
-        public FolderState JointAngleSet
+        public new FolderState ParameterSet
         {
-            get
-            {
-                return m_jointAngleSet;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_jointAngleSet, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_jointAngleSet = value;
-            }
+            get { return (FolderState)base.ParameterSet; }
+            set { base.ParameterSet = value; }
         }
         #endregion
 
@@ -157,10 +144,6 @@ namespace Opc.Ua.Ff
             ISystemContext context,
             IList<BaseInstanceState> children)
         {
-            if (m_jointAngleSet != null)
-            {
-                children.Add(m_jointAngleSet);
-            }
 
             base.GetChildren(context, children);
         }
@@ -183,24 +166,24 @@ namespace Opc.Ua.Ff
 
             switch (browseName.Name)
             {
-                case Opc.Ua.Ff.BrowseNames.JointAngleSet:
+                case Opc.Ua.Robotics.BrowseNames.ParameterSet:
                 {
                     if (createOrReplace)
                     {
-                        if (JointAngleSet == null)
+                        if (ParameterSet == null)
                         {
                             if (replacement == null)
                             {
-                                JointAngleSet = new FolderState(this);
+                                ParameterSet = new FolderState(this);
                             }
                             else
                             {
-                                JointAngleSet = (FolderState)replacement;
+                                ParameterSet = (FolderState)replacement;
                             }
                         }
                     }
 
-                    instance = JointAngleSet;
+                    instance = ParameterSet;
                     break;
                 }
             }
@@ -215,7 +198,6 @@ namespace Opc.Ua.Ff
         #endregion
 
         #region Private Fields
-        private FolderState m_jointAngleSet;
         #endregion
     }
     #endif
@@ -277,56 +259,43 @@ namespace Opc.Ua.Ff
         private const string InitializationString =
            "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
            "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
-           "AAADAAsAAABHUDhJbnN0YW5jZQEDe0kBA3tJe0kAAP////8JAAAAJGCACgEAAAABAAwAAABQYXJhbWV0" +
-           "ZXJTZXQBA3xJAwAAAAAXAAAARmxhdCBsaXN0IG9mIFBhcmFtZXRlcnMALwA6fEkAAP////8BAAAANWCJ" +
+           "AAADAAsAAABHUDhJbnN0YW5jZQEDe0kBA3tJe0kAAP////8IAAAAJGCACgEAAAACAAwAAABQYXJhbWV0" +
+           "ZXJTZXQBA3xJAwAAAAAXAAAARmxhdCBsaXN0IG9mIFBhcmFtZXRlcnMALwA9fEkAAP////8HAAAANWCJ" +
            "CgIAAAACAA0AAABTcGVlZE92ZXJyaWRlAQOiSQMAAAAAWwAAAFNwZWVkT3ZlcnJpZGUgcHJvdmlkZXMg" +
            "dGhlIGN1cnJlbnQgc3BlZWQgc2V0dGluZyBpbiBwZXJjZW50IG9mIHByb2dyYW1tZWQgc3BlZWQgKDAg" +
-           "LSAxMDAlKS4ALwA/okkAAAAL/////wEB/////wAAAAAVYIkKAgAAAAEADAAAAE1hbnVmYWN0dXJlcgED" +
-           "kUkALgBEkUkAAAAV/////wEB/////wAAAAAVYIkKAgAAAAEABQAAAE1vZGVsAQOTSQAuAESTSQAAABX/" +
-           "////AQH/////AAAAABVgiQoCAAAAAQALAAAAUHJvZHVjdENvZGUBA5dJAC4ARJdJAAAADP////8BAf//" +
-           "//8AAAAAFWCJCgIAAAABAAwAAABTZXJpYWxOdW1iZXIBA5pJAC4ARJpJAAAADP////8BAf////8AAAAA" +
-           "NWCJCgIAAAACABQAAABNb3Rpb25EZXZpY2VDYXRlZ29yeQEDn0kDAAAAAIIAAABUaGUgdmFyaWFibGUg" +
-           "TW90aW9uRGV2aWNlQ2F0ZWdvcnkgcHJvdmlkZXMgdGhlIGtpbmQgb2YgbW90aW9uIGRldmljZSBkZWZp" +
-           "bmVkIGJ5IE1vdGlvbkRldmljZUNhdGVnb3J5RW51bWVyYXRpb24gYmFzZWQgb24gSVNPIDgzNzMuAC4A" +
-           "RJ9JAAABAhFH/////wEB/////wAAAAAkYIAKAQAAAAIABAAAAEF4ZXMBA6NJAwAAAAA+AAAAQXhlcyBp" +
-           "cyBhIGNvbnRhaW5lciBmb3Igb25lIG9yIG1vcmUgaW5zdGFuY2VzIG9mIHRoZSBBeGlzVHlwZS4ALwA9" +
-           "o0kAAP////8AAAAAJGCACgEAAAACAAsAAABQb3dlclRyYWlucwED80kDAAAAAEsAAABQb3dlclRyYWlu" +
-           "cyBpcyBhIGNvbnRhaW5lciBmb3Igb25lIG9yIG1vcmUgaW5zdGFuY2VzIG9mIHRoZSBQb3dlclRyYWlu" +
-           "VHlwZS4ALwA980kAAP////8AAAAABGCACgEAAAADAA0AAABKb2ludEFuZ2xlU2V0AQPORgAvAD3ORgAA" +
-           "/////wYAAAAVYIkKAgAAAAMACwAAAEpvaW50QW5nbGVTAQPPRgAvAQBZRM9GAAAAC/////8BAf////8B" +
-           "AAAAFWCJCgIAAAAAABAAAABFbmdpbmVlcmluZ1VuaXRzAQPURgAuAETURgAAAQB3A/////8BAf////8A" +
-           "AAAAFWCJCgIAAAADAAsAAABKb2ludEFuZ2xlTAED1UYALwEAWUTVRgAAAAv/////AQH/////AQAAABVg" +
-           "iQoCAAAAAAAQAAAARW5naW5lZXJpbmdVbml0cwED2kYALgBE2kYAAAEAdwP/////AQH/////AAAAABVg" +
-           "iQoCAAAAAwALAAAASm9pbnRBbmdsZVIBA9tGAC8BAFlE20YAAAAL/////wEB/////wEAAAAVYIkKAgAA" +
-           "AAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBA+BGAC4AROBGAAABAHcD/////wEB/////wAAAAAVYIkKAgAA" +
-           "AAMACwAAAEpvaW50QW5nbGVVAQPhRgAvAQBZROFGAAAAC/////8BAf////8BAAAAFWCJCgIAAAAAABAA" +
-           "AABFbmdpbmVlcmluZ1VuaXRzAQPmRgAuAETmRgAAAQB3A/////8BAf////8AAAAAFWCJCgIAAAADAAsA" +
-           "AABKb2ludEFuZ2xlQgED50YALwEAWUTnRgAAAAv/////AQH/////AQAAABVgiQoCAAAAAAAQAAAARW5n" +
-           "aW5lZXJpbmdVbml0cwED7EYALgBE7EYAAAEAdwP/////AQH/////AAAAABVgiQoCAAAAAwALAAAASm9p" +
-           "bnRBbmdsZVQBA+1GAC8BAFlE7UYAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAAEAAAAEVuZ2luZWVy" +
-           "aW5nVW5pdHMBA/JGAC4ARPJGAAABAHcD/////wEB/////wAAAAA=";
+           "LSAxMDAlKS4ALwA/okkAAAAL/////wEB/////wAAAAAVYIkKAgAAAAMACwAAAEpvaW50QW5nbGVTAQPj" +
+           "OgAvAQBZROM6AAAAC/////8BAf////8BAAAAFWCJCgIAAAAAABAAAABFbmdpbmVlcmluZ1VuaXRzAQPo" +
+           "OgAuAEToOgAAAQB3A/////8BAf////8AAAAAFWCJCgIAAAADAAsAAABKb2ludEFuZ2xlTAED6ToALwEA" +
+           "WUTpOgAAAAv/////AQH/////AQAAABVgiQoCAAAAAAAQAAAARW5naW5lZXJpbmdVbml0cwED7joALgBE" +
+           "7joAAAEAdwP/////AQH/////AAAAABVgiQoCAAAAAwALAAAASm9pbnRBbmdsZVIBA+86AC8BAFlE7zoA" +
+           "AAAL/////wEB/////wEAAAAVYIkKAgAAAAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBA/Q6AC4ARPQ6AAAB" +
+           "AHcD/////wEB/////wAAAAAVYIkKAgAAAAMACwAAAEpvaW50QW5nbGVVAQP1OgAvAQBZRPU6AAAAC///" +
+           "//8BAf////8BAAAAFWCJCgIAAAAAABAAAABFbmdpbmVlcmluZ1VuaXRzAQP6OgAuAET6OgAAAQB3A///" +
+           "//8BAf////8AAAAAFWCJCgIAAAADAAsAAABKb2ludEFuZ2xlQgED+zoALwEAWUT7OgAAAAv/////AQH/" +
+           "////AQAAABVgiQoCAAAAAAAQAAAARW5naW5lZXJpbmdVbml0cwEDADsALgBEADsAAAEAdwP/////AQH/" +
+           "////AAAAABVgiQoCAAAAAwALAAAASm9pbnRBbmdsZVQBAwE7AC8BAFlEATsAAAAL/////wEB/////wEA" +
+           "AAAVYIkKAgAAAAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBAwY7AC4ARAY7AAABAHcD/////wEB/////wAA" +
+           "AAAVYIkKAgAAAAEADAAAAE1hbnVmYWN0dXJlcgEDkUkALgBEkUkAAAAV/////wEB/////wAAAAAVYIkK" +
+           "AgAAAAEABQAAAE1vZGVsAQOTSQAuAESTSQAAABX/////AQH/////AAAAABVgiQoCAAAAAQALAAAAUHJv" +
+           "ZHVjdENvZGUBA5dJAC4ARJdJAAAADP////8BAf////8AAAAAFWCJCgIAAAABAAwAAABTZXJpYWxOdW1i" +
+           "ZXIBA5pJAC4ARJpJAAAADP////8BAf////8AAAAANWCJCgIAAAACABQAAABNb3Rpb25EZXZpY2VDYXRl" +
+           "Z29yeQEDn0kDAAAAAIIAAABUaGUgdmFyaWFibGUgTW90aW9uRGV2aWNlQ2F0ZWdvcnkgcHJvdmlkZXMg" +
+           "dGhlIGtpbmQgb2YgbW90aW9uIGRldmljZSBkZWZpbmVkIGJ5IE1vdGlvbkRldmljZUNhdGVnb3J5RW51" +
+           "bWVyYXRpb24gYmFzZWQgb24gSVNPIDgzNzMuAC4ARJ9JAAABAhFH/////wEB/////wAAAAAkYIAKAQAA" +
+           "AAIABAAAAEF4ZXMBA6NJAwAAAAA+AAAAQXhlcyBpcyBhIGNvbnRhaW5lciBmb3Igb25lIG9yIG1vcmUg" +
+           "aW5zdGFuY2VzIG9mIHRoZSBBeGlzVHlwZS4ALwA9o0kAAP////8AAAAAJGCACgEAAAACAAsAAABQb3dl" +
+           "clRyYWlucwED80kDAAAAAEsAAABQb3dlclRyYWlucyBpcyBhIGNvbnRhaW5lciBmb3Igb25lIG9yIG1v" +
+           "cmUgaW5zdGFuY2VzIG9mIHRoZSBQb3dlclRyYWluVHlwZS4ALwA980kAAP////8AAAAA";
         #endregion
         #endif
         #endregion
 
         #region Public Properties
         /// <remarks />
-        public FolderState JointAngleSet
+        public new FolderState ParameterSet
         {
-            get
-            {
-                return m_jointAngleSet;
-            }
-
-            set
-            {
-                if (!Object.ReferenceEquals(m_jointAngleSet, value))
-                {
-                    ChangeMasks |= NodeStateChangeMasks.Children;
-                }
-
-                m_jointAngleSet = value;
-            }
+            get { return (FolderState)base.ParameterSet; }
+            set { base.ParameterSet = value; }
         }
         #endregion
 
@@ -340,10 +309,6 @@ namespace Opc.Ua.Ff
             ISystemContext context,
             IList<BaseInstanceState> children)
         {
-            if (m_jointAngleSet != null)
-            {
-                children.Add(m_jointAngleSet);
-            }
 
             base.GetChildren(context, children);
         }
@@ -366,24 +331,24 @@ namespace Opc.Ua.Ff
 
             switch (browseName.Name)
             {
-                case Opc.Ua.Ff.BrowseNames.JointAngleSet:
+                case Opc.Ua.Robotics.BrowseNames.ParameterSet:
                 {
                     if (createOrReplace)
                     {
-                        if (JointAngleSet == null)
+                        if (ParameterSet == null)
                         {
                             if (replacement == null)
                             {
-                                JointAngleSet = new FolderState(this);
+                                ParameterSet = new FolderState(this);
                             }
                             else
                             {
-                                JointAngleSet = (FolderState)replacement;
+                                ParameterSet = (FolderState)replacement;
                             }
                         }
                     }
 
-                    instance = JointAngleSet;
+                    instance = ParameterSet;
                     break;
                 }
             }
@@ -398,7 +363,6 @@ namespace Opc.Ua.Ff
         #endregion
 
         #region Private Fields
-        private FolderState m_jointAngleSet;
         #endregion
     }
     #endif
