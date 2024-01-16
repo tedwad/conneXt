@@ -549,7 +549,7 @@ namespace Opc.Ua.Ff
            "AwAAAB8AAABodHRwOi8vb3BjZm91bmRhdGlvbi5vcmcvVUEvREkvJQAAAGh0dHA6Ly9vcGNmb3VuZGF0" +
            "aW9uLm9yZy9VQS9Sb2JvdGljcy8aAAAAaHR0cHM6Ly9uZXh0dXNjLmNvbS9VQS9GRi//////BGCAAgEA" +
            "AAADABUAAABTSU5BTUlDU0cxMjBDSW5zdGFuY2UBA/E7AQPxO/E7AAD/////CgAAACRggAoBAAAAAQAM" +
-           "AAAAUGFyYW1ldGVyU2V0AQPyOwMAAAAAFwAAAEZsYXQgbGlzdCBvZiBQYXJhbWV0ZXJzAC8APfI7AAD/" +
+           "AAAAUGFyYW1ldGVyU2V0AQPyOwMAAAAAFwAAAEZsYXQgbGlzdCBvZiBQYXJhbWV0ZXJzAC8AOvI7AAD/" +
            "////AQAAADVgiQoCAAAAAgALAAAAVGVtcGVyYXR1cmUBAzc8AwAAAABIAAAAVGhlIERyaXZlIHRlbXBl" +
            "cmF0dXJlIGdpdmVuIGJ5IGEgdGVtcGVyYXR1cmUgc2Vuc29yIGluc2lkZSBvZiB0aGUgRHJpdmUuAC8B" +
            "AFlENzwAAAAL/////wEB/////wEAAAAVYIkKAgAAAAAAEAAAAEVuZ2luZWVyaW5nVW5pdHMBAzw8AC4A" +
@@ -579,75 +579,9 @@ namespace Opc.Ua.Ff
         #endregion
 
         #region Public Properties
-        /// <remarks />
-        public new FolderState ParameterSet
-        {
-            get { return (FolderState)base.ParameterSet; }
-            set { base.ParameterSet = value; }
-        }
         #endregion
 
         #region Overridden Methods
-        /// <summary>
-        /// Populates a list with the children that belong to the node.
-        /// </summary>
-        /// <param name="context">The context for the system being accessed.</param>
-        /// <param name="children">The list of children to populate.</param>
-        public override void GetChildren(
-            ISystemContext context,
-            IList<BaseInstanceState> children)
-        {
-
-            base.GetChildren(context, children);
-        }
-
-        /// <summary>
-        /// Finds the child with the specified browse name.
-        /// </summary>
-        protected override BaseInstanceState FindChild(
-            ISystemContext context,
-            QualifiedName browseName,
-            bool createOrReplace,
-            BaseInstanceState replacement)
-        {
-            if (QualifiedName.IsNull(browseName))
-            {
-                return null;
-            }
-
-            BaseInstanceState instance = null;
-
-            switch (browseName.Name)
-            {
-                case Opc.Ua.Di.BrowseNames.ParameterSet:
-                {
-                    if (createOrReplace)
-                    {
-                        if (ParameterSet == null)
-                        {
-                            if (replacement == null)
-                            {
-                                ParameterSet = new FolderState(this);
-                            }
-                            else
-                            {
-                                ParameterSet = (FolderState)replacement;
-                            }
-                        }
-                    }
-
-                    instance = ParameterSet;
-                    break;
-                }
-            }
-
-            if (instance != null)
-            {
-                return instance;
-            }
-
-            return base.FindChild(context, browseName, createOrReplace, replacement);
-        }
         #endregion
 
         #region Private Fields

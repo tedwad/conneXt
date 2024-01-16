@@ -477,7 +477,7 @@
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=15415</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15345</Reference>
     </References>
@@ -2364,7 +2364,7 @@
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=17552</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAObject>
@@ -2478,7 +2478,7 @@
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=17603</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAObject>
@@ -2592,7 +2592,7 @@
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=17654</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAObject>
@@ -2706,7 +2706,7 @@
     <Description>Flat list of Parameters</Description>
     <References>
       <Reference ReferenceType="HasComponent">ns=1;i=17705</Reference>
-      <Reference ReferenceType="HasTypeDefinition">i=61</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAObject>

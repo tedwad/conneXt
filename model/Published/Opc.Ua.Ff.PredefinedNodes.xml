@@ -1167,7 +1167,7 @@
         <uax:Identifier>i=47</uax:Identifier>
       </uax:ReferenceTypeId>
       <uax:TypeDefinitionId>
-        <uax:Identifier>i=61</uax:Identifier>
+        <uax:Identifier>i=58</uax:Identifier>
       </uax:TypeDefinitionId>
       <uax:ModellingRuleId>
         <uax:Identifier>i=78</uax:Identifier>
@@ -6244,7 +6244,7 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>17508</uax:NumericId>
           <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
@@ -6575,7 +6575,7 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>17559</uax:NumericId>
           <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
@@ -6906,7 +6906,7 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>17610</uax:NumericId>
           <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">
@@ -7237,7 +7237,7 @@
             <uax:Identifier>i=47</uax:Identifier>
           </uax:ReferenceTypeId>
           <uax:TypeDefinitionId>
-            <uax:Identifier>i=61</uax:Identifier>
+            <uax:Identifier>i=58</uax:Identifier>
           </uax:TypeDefinitionId>
           <uax:NumericId>17661</uax:NumericId>
           <Temperature xmlns="http://opcfoundation.org/UA/Robotics/">

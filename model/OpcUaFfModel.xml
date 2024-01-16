@@ -139,7 +139,7 @@
 	<ObjectType SymbolicName="FF:SINAMICSG120C" BaseType="ROB:DriveType">
 		<BrowseName>&lt;SINAMICSG120C&gt;</BrowseName>
 		<Children>
-			<Object SymbolicName="DI:ParameterSet" TypeDefinition="ua:FolderType" ModellingRule="Mandatory">
+			<Object SymbolicName="DI:ParameterSet" TypeDefinition="ua:BaseObjectType" ModellingRule="Mandatory">
 				<Children>
 					<Variable SymbolicName="ROB:Temperature" TypeDefinition="ua:AnalogUnitType" DataType="ua:Double" ModellingRule="Mandatory">
 						<Description>The Drive temperature given by a temperature sensor inside of the Drive.</Description>
