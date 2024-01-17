@@ -450,45 +450,9 @@
   <UAObjectType NodeId="ns=1;i=19027" BrowseName="1:&lt;YRC1000&gt;" SymbolicName="YRC1000">
     <DisplayName>&lt;YRC1000&gt;</DisplayName>
     <References>
-      <Reference ReferenceType="HasProperty">ns=1;i=19049</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=19051</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=19055</Reference>
-      <Reference ReferenceType="HasProperty">ns=1;i=19058</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">ns=2;i=1003</Reference>
     </References>
   </UAObjectType>
-  <UAVariable NodeId="ns=1;i=19049" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=19027" DataType="LocalizedText" AccessLevel="3">
-    <DisplayName>Manufacturer</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=19027</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=19051" BrowseName="3:Model" ParentNodeId="ns=1;i=19027" DataType="LocalizedText" AccessLevel="3">
-    <DisplayName>Model</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=19027</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=19055" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=19027" DataType="String" AccessLevel="3">
-    <DisplayName>ProductCode</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=19027</Reference>
-    </References>
-  </UAVariable>
-  <UAVariable NodeId="ns=1;i=19058" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=19027" DataType="String" AccessLevel="3">
-    <DisplayName>SerialNumber</DisplayName>
-    <References>
-      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
-      <Reference ReferenceType="HasModellingRule">i=78</Reference>
-      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=19027</Reference>
-    </References>
-  </UAVariable>
   <UAObjectType NodeId="ns=1;i=19467" BrowseName="1:&lt;YRC1000mini&gt;" SymbolicName="YRC1000mini">
     <DisplayName>&lt;YRC1000mini&gt;</DisplayName>
     <References>
@@ -683,28 +647,28 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15141</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15526" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=15505" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=15526" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=15505" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15505</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15528" BrowseName="3:Model" ParentNodeId="ns=1;i=15505" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=15528" BrowseName="3:Model" ParentNodeId="ns=1;i=15505" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15505</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15532" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=15505" DataType="String">
+  <UAVariable NodeId="ns=1;i=15532" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=15505" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15505</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15535" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=15505" DataType="String">
+  <UAVariable NodeId="ns=1;i=15535" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=15505" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -974,28 +938,28 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15177</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15926" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=15905" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=15926" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=15905" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15905</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15928" BrowseName="3:Model" ParentNodeId="ns=1;i=15905" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=15928" BrowseName="3:Model" ParentNodeId="ns=1;i=15905" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15905</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15932" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=15905" DataType="String">
+  <UAVariable NodeId="ns=1;i=15932" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=15905" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15905</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15935" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=15905" DataType="String">
+  <UAVariable NodeId="ns=1;i=15935" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=15905" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -1049,28 +1013,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=23431</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16144" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16123" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16144" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16123" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16123</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16146" BrowseName="3:Model" ParentNodeId="ns=1;i=16123" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16146" BrowseName="3:Model" ParentNodeId="ns=1;i=16123" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16123</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16150" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16123" DataType="String">
+  <UAVariable NodeId="ns=1;i=16150" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16123" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16123</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16153" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16123" DataType="String">
+  <UAVariable NodeId="ns=1;i=16153" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16123" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -1265,28 +1229,28 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15213</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16326" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16305" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16326" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16305" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16305</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16328" BrowseName="3:Model" ParentNodeId="ns=1;i=16305" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16328" BrowseName="3:Model" ParentNodeId="ns=1;i=16305" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16305</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16332" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16305" DataType="String">
+  <UAVariable NodeId="ns=1;i=16332" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16305" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16305</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16335" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16305" DataType="String">
+  <UAVariable NodeId="ns=1;i=16335" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16305" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -1340,28 +1304,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=25272</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16544" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16523" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16544" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16523" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16523</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16546" BrowseName="3:Model" ParentNodeId="ns=1;i=16523" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16546" BrowseName="3:Model" ParentNodeId="ns=1;i=16523" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16523</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16550" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16523" DataType="String">
+  <UAVariable NodeId="ns=1;i=16550" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16523" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16523</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16553" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16523" DataType="String">
+  <UAVariable NodeId="ns=1;i=16553" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16523" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -1556,28 +1520,28 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15249</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16726" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16705" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16726" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16705" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16705</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16728" BrowseName="3:Model" ParentNodeId="ns=1;i=16705" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16728" BrowseName="3:Model" ParentNodeId="ns=1;i=16705" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16705</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16732" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16705" DataType="String">
+  <UAVariable NodeId="ns=1;i=16732" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16705" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16705</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16735" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16705" DataType="String">
+  <UAVariable NodeId="ns=1;i=16735" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16705" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -1631,28 +1595,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=26159</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=16944" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16923" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16944" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=16923" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16923</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16946" BrowseName="3:Model" ParentNodeId="ns=1;i=16923" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=16946" BrowseName="3:Model" ParentNodeId="ns=1;i=16923" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16923</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16950" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16923" DataType="String">
+  <UAVariable NodeId="ns=1;i=16950" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=16923" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=16923</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=16953" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16923" DataType="String">
+  <UAVariable NodeId="ns=1;i=16953" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=16923" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -1847,28 +1811,28 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15285</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17126" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17105" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17126" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17105" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17105</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17128" BrowseName="3:Model" ParentNodeId="ns=1;i=17105" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17128" BrowseName="3:Model" ParentNodeId="ns=1;i=17105" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17105</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17132" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17105" DataType="String">
+  <UAVariable NodeId="ns=1;i=17132" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17105" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17105</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17135" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17105" DataType="String">
+  <UAVariable NodeId="ns=1;i=17135" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17105" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -1922,28 +1886,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=27470</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=17344" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17323" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17344" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17323" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17323</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17346" BrowseName="3:Model" ParentNodeId="ns=1;i=17323" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17346" BrowseName="3:Model" ParentNodeId="ns=1;i=17323" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17323</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17350" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17323" DataType="String">
+  <UAVariable NodeId="ns=1;i=17350" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17323" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17323</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17353" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17323" DataType="String">
+  <UAVariable NodeId="ns=1;i=17353" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17323" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -2046,28 +2010,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20338</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20358" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=20337" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=20358" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=20337" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20337</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20360" BrowseName="3:Model" ParentNodeId="ns=1;i=20337" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=20360" BrowseName="3:Model" ParentNodeId="ns=1;i=20337" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20337</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20364" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=20337" DataType="String">
+  <UAVariable NodeId="ns=1;i=20364" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=20337" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20337</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20367" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=20337" DataType="String">
+  <UAVariable NodeId="ns=1;i=20367" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=20337" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -2130,28 +2094,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20556</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20576" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=20555" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=20576" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=20555" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20555</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20578" BrowseName="3:Model" ParentNodeId="ns=1;i=20555" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=20578" BrowseName="3:Model" ParentNodeId="ns=1;i=20555" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20555</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20582" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=20555" DataType="String">
+  <UAVariable NodeId="ns=1;i=20582" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=20555" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20555</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20585" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=20555" DataType="String">
+  <UAVariable NodeId="ns=1;i=20585" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=20555" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -2214,28 +2178,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=20774</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20794" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=20773" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=20794" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=20773" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20773</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20796" BrowseName="3:Model" ParentNodeId="ns=1;i=20773" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=20796" BrowseName="3:Model" ParentNodeId="ns=1;i=20773" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20773</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20800" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=20773" DataType="String">
+  <UAVariable NodeId="ns=1;i=20800" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=20773" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=20773</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=20803" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=20773" DataType="String">
+  <UAVariable NodeId="ns=1;i=20803" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=20773" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -2298,28 +2262,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21351</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=21371" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=21350" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=21371" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=21350" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=21350</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=21373" BrowseName="3:Model" ParentNodeId="ns=1;i=21350" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=21373" BrowseName="3:Model" ParentNodeId="ns=1;i=21350" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=21350</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=21377" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=21350" DataType="String">
+  <UAVariable NodeId="ns=1;i=21377" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=21350" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=21350</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=21380" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=21350" DataType="String">
+  <UAVariable NodeId="ns=1;i=21380" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=21350" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
@@ -2420,7 +2384,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17552</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17528" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17507" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17528" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17507" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <Description>Name of the company that manufactured the device</Description>
     <References>
@@ -2428,7 +2392,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17530" BrowseName="3:Model" ParentNodeId="ns=1;i=17507" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17530" BrowseName="3:Model" ParentNodeId="ns=1;i=17507" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <Description>Model name of the device</Description>
     <References>
@@ -2436,7 +2400,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17531" BrowseName="3:HardwareRevision" ParentNodeId="ns=1;i=17507" DataType="String">
+  <UAVariable NodeId="ns=1;i=17531" BrowseName="3:HardwareRevision" ParentNodeId="ns=1;i=17507" DataType="String" AccessLevel="3">
     <DisplayName>HardwareRevision</DisplayName>
     <Description>Revision level of the hardware of the device</Description>
     <References>
@@ -2444,7 +2408,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17532" BrowseName="3:SoftwareRevision" ParentNodeId="ns=1;i=17507" DataType="String">
+  <UAVariable NodeId="ns=1;i=17532" BrowseName="3:SoftwareRevision" ParentNodeId="ns=1;i=17507" DataType="String" AccessLevel="3">
     <DisplayName>SoftwareRevision</DisplayName>
     <Description>Revision level of the software/firmware of the device</Description>
     <References>
@@ -2452,7 +2416,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17533" BrowseName="3:DeviceRevision" ParentNodeId="ns=1;i=17507" DataType="String">
+  <UAVariable NodeId="ns=1;i=17533" BrowseName="3:DeviceRevision" ParentNodeId="ns=1;i=17507" DataType="String" AccessLevel="3">
     <DisplayName>DeviceRevision</DisplayName>
     <Description>Overall revision level of the device</Description>
     <References>
@@ -2460,7 +2424,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17534" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17507" DataType="String">
+  <UAVariable NodeId="ns=1;i=17534" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17507" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
     <References>
@@ -2468,7 +2432,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17535" BrowseName="3:DeviceManual" ParentNodeId="ns=1;i=17507" DataType="String">
+  <UAVariable NodeId="ns=1;i=17535" BrowseName="3:DeviceManual" ParentNodeId="ns=1;i=17507" DataType="String" AccessLevel="3">
     <DisplayName>DeviceManual</DisplayName>
     <Description>Address (pathname in the file system or a URL | Web address) of user manual for the device</Description>
     <References>
@@ -2476,7 +2440,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17537" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17507" DataType="String">
+  <UAVariable NodeId="ns=1;i=17537" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17507" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <Description>Identifier that uniquely identifies, within a manufacturer, a device instance</Description>
     <References>
@@ -2484,7 +2448,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17507</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17539" BrowseName="3:RevisionCounter" ParentNodeId="ns=1;i=17507" DataType="Int32">
+  <UAVariable NodeId="ns=1;i=17539" BrowseName="3:RevisionCounter" ParentNodeId="ns=1;i=17507" DataType="Int32" AccessLevel="3">
     <DisplayName>RevisionCounter</DisplayName>
     <Description>An incremental counter indicating the number of times the static data within the Device has been modified</Description>
     <References>
@@ -2534,7 +2498,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17603</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17579" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17558" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17579" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17558" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <Description>Name of the company that manufactured the device</Description>
     <References>
@@ -2542,7 +2506,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17581" BrowseName="3:Model" ParentNodeId="ns=1;i=17558" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17581" BrowseName="3:Model" ParentNodeId="ns=1;i=17558" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <Description>Model name of the device</Description>
     <References>
@@ -2550,7 +2514,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17582" BrowseName="3:HardwareRevision" ParentNodeId="ns=1;i=17558" DataType="String">
+  <UAVariable NodeId="ns=1;i=17582" BrowseName="3:HardwareRevision" ParentNodeId="ns=1;i=17558" DataType="String" AccessLevel="3">
     <DisplayName>HardwareRevision</DisplayName>
     <Description>Revision level of the hardware of the device</Description>
     <References>
@@ -2558,7 +2522,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17583" BrowseName="3:SoftwareRevision" ParentNodeId="ns=1;i=17558" DataType="String">
+  <UAVariable NodeId="ns=1;i=17583" BrowseName="3:SoftwareRevision" ParentNodeId="ns=1;i=17558" DataType="String" AccessLevel="3">
     <DisplayName>SoftwareRevision</DisplayName>
     <Description>Revision level of the software/firmware of the device</Description>
     <References>
@@ -2566,7 +2530,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17584" BrowseName="3:DeviceRevision" ParentNodeId="ns=1;i=17558" DataType="String">
+  <UAVariable NodeId="ns=1;i=17584" BrowseName="3:DeviceRevision" ParentNodeId="ns=1;i=17558" DataType="String" AccessLevel="3">
     <DisplayName>DeviceRevision</DisplayName>
     <Description>Overall revision level of the device</Description>
     <References>
@@ -2574,7 +2538,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17585" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17558" DataType="String">
+  <UAVariable NodeId="ns=1;i=17585" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17558" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
     <References>
@@ -2582,7 +2546,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17586" BrowseName="3:DeviceManual" ParentNodeId="ns=1;i=17558" DataType="String">
+  <UAVariable NodeId="ns=1;i=17586" BrowseName="3:DeviceManual" ParentNodeId="ns=1;i=17558" DataType="String" AccessLevel="3">
     <DisplayName>DeviceManual</DisplayName>
     <Description>Address (pathname in the file system or a URL | Web address) of user manual for the device</Description>
     <References>
@@ -2590,7 +2554,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17588" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17558" DataType="String">
+  <UAVariable NodeId="ns=1;i=17588" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17558" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <Description>Identifier that uniquely identifies, within a manufacturer, a device instance</Description>
     <References>
@@ -2598,7 +2562,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17558</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17590" BrowseName="3:RevisionCounter" ParentNodeId="ns=1;i=17558" DataType="Int32">
+  <UAVariable NodeId="ns=1;i=17590" BrowseName="3:RevisionCounter" ParentNodeId="ns=1;i=17558" DataType="Int32" AccessLevel="3">
     <DisplayName>RevisionCounter</DisplayName>
     <Description>An incremental counter indicating the number of times the static data within the Device has been modified</Description>
     <References>
@@ -2648,7 +2612,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17654</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17630" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17609" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17630" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17609" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <Description>Name of the company that manufactured the device</Description>
     <References>
@@ -2656,7 +2620,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17632" BrowseName="3:Model" ParentNodeId="ns=1;i=17609" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17632" BrowseName="3:Model" ParentNodeId="ns=1;i=17609" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <Description>Model name of the device</Description>
     <References>
@@ -2664,7 +2628,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17633" BrowseName="3:HardwareRevision" ParentNodeId="ns=1;i=17609" DataType="String">
+  <UAVariable NodeId="ns=1;i=17633" BrowseName="3:HardwareRevision" ParentNodeId="ns=1;i=17609" DataType="String" AccessLevel="3">
     <DisplayName>HardwareRevision</DisplayName>
     <Description>Revision level of the hardware of the device</Description>
     <References>
@@ -2672,7 +2636,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17634" BrowseName="3:SoftwareRevision" ParentNodeId="ns=1;i=17609" DataType="String">
+  <UAVariable NodeId="ns=1;i=17634" BrowseName="3:SoftwareRevision" ParentNodeId="ns=1;i=17609" DataType="String" AccessLevel="3">
     <DisplayName>SoftwareRevision</DisplayName>
     <Description>Revision level of the software/firmware of the device</Description>
     <References>
@@ -2680,7 +2644,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17635" BrowseName="3:DeviceRevision" ParentNodeId="ns=1;i=17609" DataType="String">
+  <UAVariable NodeId="ns=1;i=17635" BrowseName="3:DeviceRevision" ParentNodeId="ns=1;i=17609" DataType="String" AccessLevel="3">
     <DisplayName>DeviceRevision</DisplayName>
     <Description>Overall revision level of the device</Description>
     <References>
@@ -2688,7 +2652,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17636" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17609" DataType="String">
+  <UAVariable NodeId="ns=1;i=17636" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17609" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
     <References>
@@ -2696,7 +2660,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17637" BrowseName="3:DeviceManual" ParentNodeId="ns=1;i=17609" DataType="String">
+  <UAVariable NodeId="ns=1;i=17637" BrowseName="3:DeviceManual" ParentNodeId="ns=1;i=17609" DataType="String" AccessLevel="3">
     <DisplayName>DeviceManual</DisplayName>
     <Description>Address (pathname in the file system or a URL | Web address) of user manual for the device</Description>
     <References>
@@ -2704,7 +2668,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17639" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17609" DataType="String">
+  <UAVariable NodeId="ns=1;i=17639" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17609" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <Description>Identifier that uniquely identifies, within a manufacturer, a device instance</Description>
     <References>
@@ -2712,7 +2676,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17609</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17641" BrowseName="3:RevisionCounter" ParentNodeId="ns=1;i=17609" DataType="Int32">
+  <UAVariable NodeId="ns=1;i=17641" BrowseName="3:RevisionCounter" ParentNodeId="ns=1;i=17609" DataType="Int32" AccessLevel="3">
     <DisplayName>RevisionCounter</DisplayName>
     <Description>An incremental counter indicating the number of times the static data within the Device has been modified</Description>
     <References>
@@ -2762,7 +2726,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17705</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17681" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17660" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17681" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=17660" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <Description>Name of the company that manufactured the device</Description>
     <References>
@@ -2770,7 +2734,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17683" BrowseName="3:Model" ParentNodeId="ns=1;i=17660" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=17683" BrowseName="3:Model" ParentNodeId="ns=1;i=17660" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <Description>Model name of the device</Description>
     <References>
@@ -2778,7 +2742,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17684" BrowseName="3:HardwareRevision" ParentNodeId="ns=1;i=17660" DataType="String">
+  <UAVariable NodeId="ns=1;i=17684" BrowseName="3:HardwareRevision" ParentNodeId="ns=1;i=17660" DataType="String" AccessLevel="3">
     <DisplayName>HardwareRevision</DisplayName>
     <Description>Revision level of the hardware of the device</Description>
     <References>
@@ -2786,7 +2750,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17685" BrowseName="3:SoftwareRevision" ParentNodeId="ns=1;i=17660" DataType="String">
+  <UAVariable NodeId="ns=1;i=17685" BrowseName="3:SoftwareRevision" ParentNodeId="ns=1;i=17660" DataType="String" AccessLevel="3">
     <DisplayName>SoftwareRevision</DisplayName>
     <Description>Revision level of the software/firmware of the device</Description>
     <References>
@@ -2794,7 +2758,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17686" BrowseName="3:DeviceRevision" ParentNodeId="ns=1;i=17660" DataType="String">
+  <UAVariable NodeId="ns=1;i=17686" BrowseName="3:DeviceRevision" ParentNodeId="ns=1;i=17660" DataType="String" AccessLevel="3">
     <DisplayName>DeviceRevision</DisplayName>
     <Description>Overall revision level of the device</Description>
     <References>
@@ -2802,7 +2766,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17687" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17660" DataType="String">
+  <UAVariable NodeId="ns=1;i=17687" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=17660" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <Description>The ProductCode property provides a unique combination of numbers and letters used to identify the product. It may be the order information displayed on type shields or in ERP systems.</Description>
     <References>
@@ -2810,7 +2774,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17688" BrowseName="3:DeviceManual" ParentNodeId="ns=1;i=17660" DataType="String">
+  <UAVariable NodeId="ns=1;i=17688" BrowseName="3:DeviceManual" ParentNodeId="ns=1;i=17660" DataType="String" AccessLevel="3">
     <DisplayName>DeviceManual</DisplayName>
     <Description>Address (pathname in the file system or a URL | Web address) of user manual for the device</Description>
     <References>
@@ -2818,7 +2782,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17690" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17660" DataType="String">
+  <UAVariable NodeId="ns=1;i=17690" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=17660" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <Description>Identifier that uniquely identifies, within a manufacturer, a device instance</Description>
     <References>
@@ -2826,7 +2790,7 @@
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=17660</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=17692" BrowseName="3:RevisionCounter" ParentNodeId="ns=1;i=17660" DataType="Int32">
+  <UAVariable NodeId="ns=1;i=17692" BrowseName="3:RevisionCounter" ParentNodeId="ns=1;i=17660" DataType="Int32" AccessLevel="3">
     <DisplayName>RevisionCounter</DisplayName>
     <Description>An incremental counter indicating the number of times the static data within the Device has been modified</Description>
     <References>

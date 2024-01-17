@@ -125,12 +125,6 @@
 
 	<ObjectType SymbolicName="FF:YRC1000" BaseType="ROB:ControllerType">
 		<BrowseName>&lt;YRC1000&gt;</BrowseName>
-			<Children>
-				<Property SymbolicName="DI:SerialNumber" DataType="ua:String" ValueRank="Scalar" ModellingRule="Mandatory" AccessLevel="ReadWrite" />
-				<Property SymbolicName="DI:Manufacturer" DataType="ua:LocalizedText" ValueRank="Scalar" ModellingRule="Mandatory" AccessLevel="ReadWrite" />
-				<Property SymbolicName="DI:Model" DataType="ua:LocalizedText" ValueRank="Scalar" ModellingRule="Mandatory" AccessLevel="ReadWrite" />
-				<Property SymbolicName="DI:ProductCode" DataType="ua:String" ValueRank="Scalar" ModellingRule="Mandatory" AccessLevel="ReadWrite" />
-			</Children>
 	</ObjectType>
 
 	<ObjectType SymbolicName="FF:YRC1000mini" BaseType="ROB:ControllerType">
@@ -173,7 +167,7 @@
 				<Description>Contains the set of controllers in the motion device system.</Description>
 				<Children>
 					<Object SymbolicName="FF:ControllerR01" TypeDefinition="FF:YRC1000" ModellingRule="Mandatory">
-						<BrowseName>ControllerR01</BrowseName>						
+						<BrowseName>ControllerR01</BrowseName>
 					</Object>
 				</Children>
 			</Object>

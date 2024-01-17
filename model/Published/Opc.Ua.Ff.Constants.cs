@@ -5063,26 +5063,6 @@ namespace Opc.Ua.Ff
         public const uint YRC1000_Lock_BreakLock_OutputArguments = 19048;
 
         /// <summary>
-        /// The identifier for the YRC1000_Manufacturer Variable.
-        /// </summary>
-        public const uint YRC1000_Manufacturer = 19049;
-
-        /// <summary>
-        /// The identifier for the YRC1000_Model Variable.
-        /// </summary>
-        public const uint YRC1000_Model = 19051;
-
-        /// <summary>
-        /// The identifier for the YRC1000_ProductCode Variable.
-        /// </summary>
-        public const uint YRC1000_ProductCode = 19055;
-
-        /// <summary>
-        /// The identifier for the YRC1000_SerialNumber Variable.
-        /// </summary>
-        public const uint YRC1000_SerialNumber = 19058;
-
-        /// <summary>
         /// The identifier for the YRC1000_CurrentUser_Level Variable.
         /// </summary>
         public const uint YRC1000_CurrentUser_Level = 19064;
@@ -21696,26 +21676,6 @@ namespace Opc.Ua.Ff
         /// The identifier for the YRC1000_Lock_BreakLock_OutputArguments Variable.
         /// </summary>
         public static readonly ExpandedNodeId YRC1000_Lock_BreakLock_OutputArguments = new ExpandedNodeId(Opc.Ua.Ff.Variables.YRC1000_Lock_BreakLock_OutputArguments, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
-        /// The identifier for the YRC1000_Manufacturer Variable.
-        /// </summary>
-        public static readonly ExpandedNodeId YRC1000_Manufacturer = new ExpandedNodeId(Opc.Ua.Ff.Variables.YRC1000_Manufacturer, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
-        /// The identifier for the YRC1000_Model Variable.
-        /// </summary>
-        public static readonly ExpandedNodeId YRC1000_Model = new ExpandedNodeId(Opc.Ua.Ff.Variables.YRC1000_Model, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
-        /// The identifier for the YRC1000_ProductCode Variable.
-        /// </summary>
-        public static readonly ExpandedNodeId YRC1000_ProductCode = new ExpandedNodeId(Opc.Ua.Ff.Variables.YRC1000_ProductCode, Opc.Ua.Ff.Namespaces.FutureFactories);
-
-        /// <summary>
-        /// The identifier for the YRC1000_SerialNumber Variable.
-        /// </summary>
-        public static readonly ExpandedNodeId YRC1000_SerialNumber = new ExpandedNodeId(Opc.Ua.Ff.Variables.YRC1000_SerialNumber, Opc.Ua.Ff.Namespaces.FutureFactories);
 
         /// <summary>
         /// The identifier for the YRC1000_CurrentUser_Level Variable.
