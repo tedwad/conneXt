@@ -450,9 +450,45 @@
   <UAObjectType NodeId="ns=1;i=19027" BrowseName="1:&lt;YRC1000&gt;" SymbolicName="YRC1000">
     <DisplayName>&lt;YRC1000&gt;</DisplayName>
     <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=19049</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=19051</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=19055</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=19058</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">ns=2;i=1003</Reference>
     </References>
   </UAObjectType>
+  <UAVariable NodeId="ns=1;i=19049" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=19027" DataType="LocalizedText" AccessLevel="3">
+    <DisplayName>Manufacturer</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=19027</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=19051" BrowseName="3:Model" ParentNodeId="ns=1;i=19027" DataType="LocalizedText" AccessLevel="3">
+    <DisplayName>Model</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=19027</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=19055" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=19027" DataType="String" AccessLevel="3">
+    <DisplayName>ProductCode</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=19027</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=19058" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=19027" DataType="String" AccessLevel="3">
+    <DisplayName>SerialNumber</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=19027</Reference>
+    </References>
+  </UAVariable>
   <UAObjectType NodeId="ns=1;i=19467" BrowseName="1:&lt;YRC1000mini&gt;" SymbolicName="YRC1000mini">
     <DisplayName>&lt;YRC1000mini&gt;</DisplayName>
     <References>
@@ -722,28 +758,28 @@
       <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=21113</Reference>
     </References>
   </UAObject>
-  <UAVariable NodeId="ns=1;i=15744" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=15723" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=15744" BrowseName="3:Manufacturer" ParentNodeId="ns=1;i=15723" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Manufacturer</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15723</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15746" BrowseName="3:Model" ParentNodeId="ns=1;i=15723" DataType="LocalizedText">
+  <UAVariable NodeId="ns=1;i=15746" BrowseName="3:Model" ParentNodeId="ns=1;i=15723" DataType="LocalizedText" AccessLevel="3">
     <DisplayName>Model</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15723</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15750" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=15723" DataType="String">
+  <UAVariable NodeId="ns=1;i=15750" BrowseName="3:ProductCode" ParentNodeId="ns=1;i=15723" DataType="String" AccessLevel="3">
     <DisplayName>ProductCode</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15723</Reference>
     </References>
   </UAVariable>
-  <UAVariable NodeId="ns=1;i=15753" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=15723" DataType="String">
+  <UAVariable NodeId="ns=1;i=15753" BrowseName="3:SerialNumber" ParentNodeId="ns=1;i=15723" DataType="String" AccessLevel="3">
     <DisplayName>SerialNumber</DisplayName>
     <References>
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
