@@ -17,190 +17,220 @@ _UA_BEGIN_DECLS
 
 
 /* DeviceHealthEnumeration */
-static UA_INLINE void
-UA_DeviceHealthEnumeration_init(UA_DeviceHealthEnumeration *p) {
+UA_INLINABLE( void
+UA_DeviceHealthEnumeration_init(UA_DeviceHealthEnumeration *p) ,{
     memset(p, 0, sizeof(UA_DeviceHealthEnumeration));
-}
+})
 
-static UA_INLINE UA_DeviceHealthEnumeration *
-UA_DeviceHealthEnumeration_new(void) {
+UA_INLINABLE( UA_DeviceHealthEnumeration *
+UA_DeviceHealthEnumeration_new(void) ,{
     return (UA_DeviceHealthEnumeration*)UA_new(&UA_TYPES_DI[UA_TYPES_DI_DEVICEHEALTHENUMERATION]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_DeviceHealthEnumeration_copy(const UA_DeviceHealthEnumeration *src, UA_DeviceHealthEnumeration *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_DeviceHealthEnumeration_copy(const UA_DeviceHealthEnumeration *src, UA_DeviceHealthEnumeration *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_DI[UA_TYPES_DI_DEVICEHEALTHENUMERATION]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_DeviceHealthEnumeration_deleteMembers(UA_DeviceHealthEnumeration *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_DeviceHealthEnumeration_deleteMembers(UA_DeviceHealthEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_DEVICEHEALTHENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_DeviceHealthEnumeration_clear(UA_DeviceHealthEnumeration *p) {
+UA_INLINABLE( void
+UA_DeviceHealthEnumeration_clear(UA_DeviceHealthEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_DEVICEHEALTHENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_DeviceHealthEnumeration_delete(UA_DeviceHealthEnumeration *p) {
+UA_INLINABLE( void
+UA_DeviceHealthEnumeration_delete(UA_DeviceHealthEnumeration *p) ,{
     UA_delete(p, &UA_TYPES_DI[UA_TYPES_DI_DEVICEHEALTHENUMERATION]);
+})static UA_INLINE UA_Boolean
+UA_DeviceHealthEnumeration_equal(const UA_DeviceHealthEnumeration *p1, const UA_DeviceHealthEnumeration *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_DI[UA_TYPES_DI_DEVICEHEALTHENUMERATION]) == UA_ORDER_EQ);
 }
+
+
 
 /* TransferResultErrorDataType */
-static UA_INLINE void
-UA_TransferResultErrorDataType_init(UA_TransferResultErrorDataType *p) {
+UA_INLINABLE( void
+UA_TransferResultErrorDataType_init(UA_TransferResultErrorDataType *p) ,{
     memset(p, 0, sizeof(UA_TransferResultErrorDataType));
-}
+})
 
-static UA_INLINE UA_TransferResultErrorDataType *
-UA_TransferResultErrorDataType_new(void) {
+UA_INLINABLE( UA_TransferResultErrorDataType *
+UA_TransferResultErrorDataType_new(void) ,{
     return (UA_TransferResultErrorDataType*)UA_new(&UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTERRORDATATYPE]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_TransferResultErrorDataType_copy(const UA_TransferResultErrorDataType *src, UA_TransferResultErrorDataType *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_TransferResultErrorDataType_copy(const UA_TransferResultErrorDataType *src, UA_TransferResultErrorDataType *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTERRORDATATYPE]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_TransferResultErrorDataType_deleteMembers(UA_TransferResultErrorDataType *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_TransferResultErrorDataType_deleteMembers(UA_TransferResultErrorDataType *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTERRORDATATYPE]);
-}
+})
 
-static UA_INLINE void
-UA_TransferResultErrorDataType_clear(UA_TransferResultErrorDataType *p) {
+UA_INLINABLE( void
+UA_TransferResultErrorDataType_clear(UA_TransferResultErrorDataType *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTERRORDATATYPE]);
-}
+})
 
-static UA_INLINE void
-UA_TransferResultErrorDataType_delete(UA_TransferResultErrorDataType *p) {
+UA_INLINABLE( void
+UA_TransferResultErrorDataType_delete(UA_TransferResultErrorDataType *p) ,{
     UA_delete(p, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTERRORDATATYPE]);
+})static UA_INLINE UA_Boolean
+UA_TransferResultErrorDataType_equal(const UA_TransferResultErrorDataType *p1, const UA_TransferResultErrorDataType *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTERRORDATATYPE]) == UA_ORDER_EQ);
 }
+
+
 
 /* ParameterResultDataType */
-static UA_INLINE void
-UA_ParameterResultDataType_init(UA_ParameterResultDataType *p) {
+UA_INLINABLE( void
+UA_ParameterResultDataType_init(UA_ParameterResultDataType *p) ,{
     memset(p, 0, sizeof(UA_ParameterResultDataType));
-}
+})
 
-static UA_INLINE UA_ParameterResultDataType *
-UA_ParameterResultDataType_new(void) {
+UA_INLINABLE( UA_ParameterResultDataType *
+UA_ParameterResultDataType_new(void) ,{
     return (UA_ParameterResultDataType*)UA_new(&UA_TYPES_DI[UA_TYPES_DI_PARAMETERRESULTDATATYPE]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_ParameterResultDataType_copy(const UA_ParameterResultDataType *src, UA_ParameterResultDataType *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_ParameterResultDataType_copy(const UA_ParameterResultDataType *src, UA_ParameterResultDataType *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_DI[UA_TYPES_DI_PARAMETERRESULTDATATYPE]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_ParameterResultDataType_deleteMembers(UA_ParameterResultDataType *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_ParameterResultDataType_deleteMembers(UA_ParameterResultDataType *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_PARAMETERRESULTDATATYPE]);
-}
+})
 
-static UA_INLINE void
-UA_ParameterResultDataType_clear(UA_ParameterResultDataType *p) {
+UA_INLINABLE( void
+UA_ParameterResultDataType_clear(UA_ParameterResultDataType *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_PARAMETERRESULTDATATYPE]);
-}
+})
 
-static UA_INLINE void
-UA_ParameterResultDataType_delete(UA_ParameterResultDataType *p) {
+UA_INLINABLE( void
+UA_ParameterResultDataType_delete(UA_ParameterResultDataType *p) ,{
     UA_delete(p, &UA_TYPES_DI[UA_TYPES_DI_PARAMETERRESULTDATATYPE]);
+})static UA_INLINE UA_Boolean
+UA_ParameterResultDataType_equal(const UA_ParameterResultDataType *p1, const UA_ParameterResultDataType *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_DI[UA_TYPES_DI_PARAMETERRESULTDATATYPE]) == UA_ORDER_EQ);
 }
+
+
 
 /* SoftwareVersionFileType */
-static UA_INLINE void
-UA_SoftwareVersionFileType_init(UA_SoftwareVersionFileType *p) {
+UA_INLINABLE( void
+UA_SoftwareVersionFileType_init(UA_SoftwareVersionFileType *p) ,{
     memset(p, 0, sizeof(UA_SoftwareVersionFileType));
-}
+})
 
-static UA_INLINE UA_SoftwareVersionFileType *
-UA_SoftwareVersionFileType_new(void) {
+UA_INLINABLE( UA_SoftwareVersionFileType *
+UA_SoftwareVersionFileType_new(void) ,{
     return (UA_SoftwareVersionFileType*)UA_new(&UA_TYPES_DI[UA_TYPES_DI_SOFTWAREVERSIONFILETYPE]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_SoftwareVersionFileType_copy(const UA_SoftwareVersionFileType *src, UA_SoftwareVersionFileType *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_SoftwareVersionFileType_copy(const UA_SoftwareVersionFileType *src, UA_SoftwareVersionFileType *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_DI[UA_TYPES_DI_SOFTWAREVERSIONFILETYPE]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_SoftwareVersionFileType_deleteMembers(UA_SoftwareVersionFileType *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_SoftwareVersionFileType_deleteMembers(UA_SoftwareVersionFileType *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_SOFTWAREVERSIONFILETYPE]);
-}
+})
 
-static UA_INLINE void
-UA_SoftwareVersionFileType_clear(UA_SoftwareVersionFileType *p) {
+UA_INLINABLE( void
+UA_SoftwareVersionFileType_clear(UA_SoftwareVersionFileType *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_SOFTWAREVERSIONFILETYPE]);
-}
+})
 
-static UA_INLINE void
-UA_SoftwareVersionFileType_delete(UA_SoftwareVersionFileType *p) {
+UA_INLINABLE( void
+UA_SoftwareVersionFileType_delete(UA_SoftwareVersionFileType *p) ,{
     UA_delete(p, &UA_TYPES_DI[UA_TYPES_DI_SOFTWAREVERSIONFILETYPE]);
+})static UA_INLINE UA_Boolean
+UA_SoftwareVersionFileType_equal(const UA_SoftwareVersionFileType *p1, const UA_SoftwareVersionFileType *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_DI[UA_TYPES_DI_SOFTWAREVERSIONFILETYPE]) == UA_ORDER_EQ);
 }
+
+
 
 /* UpdateBehavior */
-static UA_INLINE void
-UA_UpdateBehavior_init(UA_UpdateBehavior *p) {
+UA_INLINABLE( void
+UA_UpdateBehavior_init(UA_UpdateBehavior *p) ,{
     memset(p, 0, sizeof(UA_UpdateBehavior));
-}
+})
 
-static UA_INLINE UA_UpdateBehavior *
-UA_UpdateBehavior_new(void) {
+UA_INLINABLE( UA_UpdateBehavior *
+UA_UpdateBehavior_new(void) ,{
     return (UA_UpdateBehavior*)UA_new(&UA_TYPES_DI[UA_TYPES_DI_UPDATEBEHAVIOR]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_UpdateBehavior_copy(const UA_UpdateBehavior *src, UA_UpdateBehavior *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_UpdateBehavior_copy(const UA_UpdateBehavior *src, UA_UpdateBehavior *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_DI[UA_TYPES_DI_UPDATEBEHAVIOR]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_UpdateBehavior_deleteMembers(UA_UpdateBehavior *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_UpdateBehavior_deleteMembers(UA_UpdateBehavior *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_UPDATEBEHAVIOR]);
-}
+})
 
-static UA_INLINE void
-UA_UpdateBehavior_clear(UA_UpdateBehavior *p) {
+UA_INLINABLE( void
+UA_UpdateBehavior_clear(UA_UpdateBehavior *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_UPDATEBEHAVIOR]);
-}
+})
 
-static UA_INLINE void
-UA_UpdateBehavior_delete(UA_UpdateBehavior *p) {
+UA_INLINABLE( void
+UA_UpdateBehavior_delete(UA_UpdateBehavior *p) ,{
     UA_delete(p, &UA_TYPES_DI[UA_TYPES_DI_UPDATEBEHAVIOR]);
+})static UA_INLINE UA_Boolean
+UA_UpdateBehavior_equal(const UA_UpdateBehavior *p1, const UA_UpdateBehavior *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_DI[UA_TYPES_DI_UPDATEBEHAVIOR]) == UA_ORDER_EQ);
 }
+
+
 
 /* TransferResultDataDataType */
-static UA_INLINE void
-UA_TransferResultDataDataType_init(UA_TransferResultDataDataType *p) {
+UA_INLINABLE( void
+UA_TransferResultDataDataType_init(UA_TransferResultDataDataType *p) ,{
     memset(p, 0, sizeof(UA_TransferResultDataDataType));
-}
+})
 
-static UA_INLINE UA_TransferResultDataDataType *
-UA_TransferResultDataDataType_new(void) {
+UA_INLINABLE( UA_TransferResultDataDataType *
+UA_TransferResultDataDataType_new(void) ,{
     return (UA_TransferResultDataDataType*)UA_new(&UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTDATADATATYPE]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_TransferResultDataDataType_copy(const UA_TransferResultDataDataType *src, UA_TransferResultDataDataType *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_TransferResultDataDataType_copy(const UA_TransferResultDataDataType *src, UA_TransferResultDataDataType *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTDATADATATYPE]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_TransferResultDataDataType_deleteMembers(UA_TransferResultDataDataType *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_TransferResultDataDataType_deleteMembers(UA_TransferResultDataDataType *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTDATADATATYPE]);
-}
+})
 
-static UA_INLINE void
-UA_TransferResultDataDataType_clear(UA_TransferResultDataDataType *p) {
+UA_INLINABLE( void
+UA_TransferResultDataDataType_clear(UA_TransferResultDataDataType *p) ,{
     UA_clear(p, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTDATADATATYPE]);
-}
+})
 
-static UA_INLINE void
-UA_TransferResultDataDataType_delete(UA_TransferResultDataDataType *p) {
+UA_INLINABLE( void
+UA_TransferResultDataDataType_delete(UA_TransferResultDataDataType *p) ,{
     UA_delete(p, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTDATADATATYPE]);
+})static UA_INLINE UA_Boolean
+UA_TransferResultDataDataType_equal(const UA_TransferResultDataDataType *p1, const UA_TransferResultDataDataType *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_DI[UA_TYPES_DI_TRANSFERRESULTDATADATATYPE]) == UA_ORDER_EQ);
 }
+
+
 
 #if defined(__GNUC__) && __GNUC__ >= 4 && __GNUC_MINOR__ >= 6
 # pragma GCC diagnostic pop

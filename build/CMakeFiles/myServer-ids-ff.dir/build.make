@@ -56,10 +56,10 @@ include CMakeFiles/myServer-ids-ff.dir/progress.make
 CMakeFiles/myServer-ids-ff: src_generated/ff_nodeids.h
 
 
-src_generated/ff_nodeids.h: ../install/share/open62541/tools/generate_nodeid_header.py
+src_generated/ff_nodeids.h: /usr/local/share/open62541/tools/generate_nodeid_header.py
 src_generated/ff_nodeids.h: ../model/OpcUaFfModel.csv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src_generated/ff_nodeids.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/generate_nodeid_header.py /home/ubuntu/conneXt/model/OpcUaFfModel.csv /home/ubuntu/conneXt/build/src_generated//ff_nodeids FF
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/generate_nodeid_header.py /home/ubuntu/conneXt/model/OpcUaFfModel.csv /home/ubuntu/conneXt/build/src_generated//ff_nodeids FF
 
 myServer-ids-ff: CMakeFiles/myServer-ids-ff
 myServer-ids-ff: src_generated/ff_nodeids.h

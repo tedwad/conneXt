@@ -57,27 +57,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodeset_compiler.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodes.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodeset.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/datatypes.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541_nodes.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541_datatypes.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodeset_compiler.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodes.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodeset.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/datatypes.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_nodes.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_datatypes.py
 src_generated/namespace_di_generated.c: ../nodesets/DI/Opc.Ua.Di.NodeSet2.xml
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
 src_generated/namespace_di_generated.c: ../nodesets/DI/Opc.Ua.Di.Types.bsd
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src_generated/namespace_di_generated.c, src_generated/namespace_di_generated.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/nodeset_compiler/nodeset_compiler.py --internal-headers --bsd=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.Types.bsd --types-array=UA_TYPES --types-array=UA_TYPES_DI --existing=/home/ubuntu/conneXt/install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --xml=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml /home/ubuntu/conneXt/build/src_generated//namespace_di_generated
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/nodeset_compiler/nodeset_compiler.py --internal-headers --bsd=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.Types.bsd --types-array=UA_TYPES --types-array=UA_TYPES_DI --existing=/usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --xml=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml /home/ubuntu/conneXt/build/src_generated//namespace_di_generated
 
 src_generated/namespace_di_generated.h: src_generated/namespace_di_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/namespace_di_generated.h
 
-src_generated/types_di_generated.c: ../install/share/open62541/tools/generate_datatypes.py
+src_generated/types_di_generated.c: /usr/local/share/open62541/tools/generate_datatypes.py
+src_generated/types_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_typedefinitions.py
 src_generated/types_di_generated.c: ../nodesets/DI/Opc.Ua.Di.Types.bsd
 src_generated/types_di_generated.c: ../nodesets/DI/OpcUaDiModel.csv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating src_generated/types_di_generated.c, src_generated/types_di_generated.h, src_generated/types_di_generated_handling.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/generate_datatypes.py --namespaceMap=1:http://opcfoundation.org/UA/DI/ --type-bsd=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.Types.bsd --type-csv=/home/ubuntu/conneXt/nodesets/DI/OpcUaDiModel.csv --no-builtin /home/ubuntu/conneXt/build/src_generated//types_di
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/generate_datatypes.py --type-bsd=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.Types.bsd --type-csv=/home/ubuntu/conneXt/nodesets/DI/OpcUaDiModel.csv --no-builtin /home/ubuntu/conneXt/build/src_generated//types_di
 
 src_generated/types_di_generated.h: src_generated/types_di_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/types_di_generated.h
@@ -85,28 +86,29 @@ src_generated/types_di_generated.h: src_generated/types_di_generated.c
 src_generated/types_di_generated_handling.h: src_generated/types_di_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/types_di_generated_handling.h
 
-src_generated/namespace_rob_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodeset_compiler.py
-src_generated/namespace_rob_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodes.py
-src_generated/namespace_rob_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodeset.py
-src_generated/namespace_rob_generated.c: ../install/share/open62541/tools/nodeset_compiler/datatypes.py
-src_generated/namespace_rob_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541.py
-src_generated/namespace_rob_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541_nodes.py
-src_generated/namespace_rob_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541_datatypes.py
+src_generated/namespace_rob_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodeset_compiler.py
+src_generated/namespace_rob_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodes.py
+src_generated/namespace_rob_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodeset.py
+src_generated/namespace_rob_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/datatypes.py
+src_generated/namespace_rob_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541.py
+src_generated/namespace_rob_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_nodes.py
+src_generated/namespace_rob_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_datatypes.py
 src_generated/namespace_rob_generated.c: ../nodesets/Robotics/Opc.Ua.Robotics.NodeSet2.xml
-src_generated/namespace_rob_generated.c: ../install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
+src_generated/namespace_rob_generated.c: /usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
 src_generated/namespace_rob_generated.c: ../nodesets/DI/Opc.Ua.Di.NodeSet2.xml
 src_generated/namespace_rob_generated.c: ../nodesets/Robotics/Opc.Ua.Robotics.Types.bsd
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating src_generated/namespace_rob_generated.c, src_generated/namespace_rob_generated.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/nodeset_compiler/nodeset_compiler.py --internal-headers --bsd=/home/ubuntu/conneXt/nodesets/Robotics/Opc.Ua.Robotics.Types.bsd --types-array=UA_TYPES --types-array=UA_TYPES_DI --types-array=UA_TYPES_ROB --existing=/home/ubuntu/conneXt/install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --existing=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml --xml=/home/ubuntu/conneXt/nodesets/Robotics/Opc.Ua.Robotics.NodeSet2.xml /home/ubuntu/conneXt/build/src_generated//namespace_rob_generated
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/nodeset_compiler/nodeset_compiler.py --internal-headers --bsd=/home/ubuntu/conneXt/nodesets/Robotics/Opc.Ua.Robotics.Types.bsd --types-array=UA_TYPES --types-array=UA_TYPES_DI --types-array=UA_TYPES_ROB --existing=/usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --existing=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml --xml=/home/ubuntu/conneXt/nodesets/Robotics/Opc.Ua.Robotics.NodeSet2.xml /home/ubuntu/conneXt/build/src_generated//namespace_rob_generated
 
 src_generated/namespace_rob_generated.h: src_generated/namespace_rob_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/namespace_rob_generated.h
 
-src_generated/types_rob_generated.c: ../install/share/open62541/tools/generate_datatypes.py
+src_generated/types_rob_generated.c: /usr/local/share/open62541/tools/generate_datatypes.py
+src_generated/types_rob_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_typedefinitions.py
 src_generated/types_rob_generated.c: ../nodesets/Robotics/Opc.Ua.Robotics.Types.bsd
 src_generated/types_rob_generated.c: ../nodesets/Robotics/NodeIds.csv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating src_generated/types_rob_generated.c, src_generated/types_rob_generated.h, src_generated/types_rob_generated_handling.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/generate_datatypes.py --namespaceMap=2:http://opcfoundation.org/UA/Robotics/ --namespaceMap=1:http://opcfoundation.org/UA/DI/ --type-bsd=/home/ubuntu/conneXt/nodesets/Robotics/Opc.Ua.Robotics.Types.bsd --type-csv=/home/ubuntu/conneXt/nodesets/Robotics/NodeIds.csv --no-builtin /home/ubuntu/conneXt/build/src_generated//types_rob
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/generate_datatypes.py --type-bsd=/home/ubuntu/conneXt/nodesets/Robotics/Opc.Ua.Robotics.Types.bsd --type-csv=/home/ubuntu/conneXt/nodesets/Robotics/NodeIds.csv --no-builtin /home/ubuntu/conneXt/build/src_generated//types_rob
 
 src_generated/types_rob_generated.h: src_generated/types_rob_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/types_rob_generated.h
@@ -114,31 +116,32 @@ src_generated/types_rob_generated.h: src_generated/types_rob_generated.c
 src_generated/types_rob_generated_handling.h: src_generated/types_rob_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/types_rob_generated_handling.h
 
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodeset_compiler.py
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodes.py
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodeset.py
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/nodeset_compiler/datatypes.py
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541.py
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541_nodes.py
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541_datatypes.py
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodeset_compiler.py
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodes.py
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodeset.py
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/datatypes.py
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541.py
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_nodes.py
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_datatypes.py
 src_generated/namespace_ff_generated.c: ../model/Published/Opc.Ua.Ff.NodeSet2.xml
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
 src_generated/namespace_ff_generated.c: ../nodesets/DI/Opc.Ua.Di.NodeSet2.xml
-src_generated/namespace_ff_generated.c: ../install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
+src_generated/namespace_ff_generated.c: /usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
 src_generated/namespace_ff_generated.c: ../nodesets/DI/Opc.Ua.Di.NodeSet2.xml
 src_generated/namespace_ff_generated.c: ../nodesets/Robotics/Opc.Ua.Robotics.NodeSet2.xml
 src_generated/namespace_ff_generated.c: ../model/Published/Opc.Ua.Ff.Types.bsd
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating src_generated/namespace_ff_generated.c, src_generated/namespace_ff_generated.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/nodeset_compiler/nodeset_compiler.py --internal-headers --bsd=/home/ubuntu/conneXt/model/Published/Opc.Ua.Ff.Types.bsd --types-array=UA_TYPES --types-array=UA_TYPES_DI --types-array=UA_TYPES --types-array=UA_TYPES_DI --types-array=UA_TYPES_ROB --types-array=UA_TYPES_FF --existing=/home/ubuntu/conneXt/install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --existing=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml --existing=/home/ubuntu/conneXt/install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --existing=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml --existing=/home/ubuntu/conneXt/nodesets/Robotics/Opc.Ua.Robotics.NodeSet2.xml --xml=/home/ubuntu/conneXt/model/Published/Opc.Ua.Ff.NodeSet2.xml /home/ubuntu/conneXt/build/src_generated//namespace_ff_generated
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/nodeset_compiler/nodeset_compiler.py --internal-headers --bsd=/home/ubuntu/conneXt/model/Published/Opc.Ua.Ff.Types.bsd --types-array=UA_TYPES --types-array=UA_TYPES_DI --types-array=UA_TYPES --types-array=UA_TYPES_DI --types-array=UA_TYPES_ROB --types-array=UA_TYPES_FF --existing=/usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --existing=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml --existing=/usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --existing=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml --existing=/home/ubuntu/conneXt/nodesets/Robotics/Opc.Ua.Robotics.NodeSet2.xml --xml=/home/ubuntu/conneXt/model/Published/Opc.Ua.Ff.NodeSet2.xml /home/ubuntu/conneXt/build/src_generated//namespace_ff_generated
 
 src_generated/namespace_ff_generated.h: src_generated/namespace_ff_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/namespace_ff_generated.h
 
-src_generated/types_ff_generated.c: ../install/share/open62541/tools/generate_datatypes.py
+src_generated/types_ff_generated.c: /usr/local/share/open62541/tools/generate_datatypes.py
+src_generated/types_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_typedefinitions.py
 src_generated/types_ff_generated.c: ../model/Published/Opc.Ua.Ff.Types.bsd
 src_generated/types_ff_generated.c: ../model/OpcUaFfModel.csv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating src_generated/types_ff_generated.c, src_generated/types_ff_generated.h, src_generated/types_ff_generated_handling.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/generate_datatypes.py --namespaceMap=3:https://nextusc.com/UA/FF/ --namespaceMap=1:http://opcfoundation.org/UA/DI/ --namespaceMap=2:http://opcfoundation.org/UA/Robotics/ --namespaceMap=1:http://opcfoundation.org/UA/DI/ --type-bsd=/home/ubuntu/conneXt/model/Published/Opc.Ua.Ff.Types.bsd --type-csv=/home/ubuntu/conneXt/model/OpcUaFfModel.csv --no-builtin /home/ubuntu/conneXt/build/src_generated//types_ff
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/generate_datatypes.py --type-bsd=/home/ubuntu/conneXt/model/Published/Opc.Ua.Ff.Types.bsd --type-csv=/home/ubuntu/conneXt/model/OpcUaFfModel.csv --no-builtin /home/ubuntu/conneXt/build/src_generated//types_ff
 
 src_generated/types_ff_generated.h: src_generated/types_ff_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/types_ff_generated.h
@@ -146,9 +149,22 @@ src_generated/types_ff_generated.h: src_generated/types_ff_generated.c
 src_generated/types_ff_generated_handling.h: src_generated/types_ff_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/types_ff_generated_handling.h
 
+CMakeFiles/main.dir/main.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/main.c.o   -c /home/ubuntu/conneXt/main.c
+
+CMakeFiles/main.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/conneXt/main.c > CMakeFiles/main.dir/main.c.i
+
+CMakeFiles/main.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/conneXt/main.c -o CMakeFiles/main.dir/main.c.s
+
 CMakeFiles/main.dir/src_generated/namespace_di_generated.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src_generated/namespace_di_generated.c.o: src_generated/namespace_di_generated.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/src_generated/namespace_di_generated.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/src_generated/namespace_di_generated.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src_generated/namespace_di_generated.c.o   -c /home/ubuntu/conneXt/build/src_generated/namespace_di_generated.c
 
 CMakeFiles/main.dir/src_generated/namespace_di_generated.c.i: cmake_force
@@ -161,7 +177,7 @@ CMakeFiles/main.dir/src_generated/namespace_di_generated.c.s: cmake_force
 
 CMakeFiles/main.dir/src_generated/types_di_generated.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src_generated/types_di_generated.c.o: src_generated/types_di_generated.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/src_generated/types_di_generated.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/src_generated/types_di_generated.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src_generated/types_di_generated.c.o   -c /home/ubuntu/conneXt/build/src_generated/types_di_generated.c
 
 CMakeFiles/main.dir/src_generated/types_di_generated.c.i: cmake_force
@@ -174,7 +190,7 @@ CMakeFiles/main.dir/src_generated/types_di_generated.c.s: cmake_force
 
 CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.o: src_generated/namespace_rob_generated.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.o   -c /home/ubuntu/conneXt/build/src_generated/namespace_rob_generated.c
 
 CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.i: cmake_force
@@ -187,7 +203,7 @@ CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.s: cmake_force
 
 CMakeFiles/main.dir/src_generated/types_rob_generated.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src_generated/types_rob_generated.c.o: src_generated/types_rob_generated.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/src_generated/types_rob_generated.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/src_generated/types_rob_generated.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src_generated/types_rob_generated.c.o   -c /home/ubuntu/conneXt/build/src_generated/types_rob_generated.c
 
 CMakeFiles/main.dir/src_generated/types_rob_generated.c.i: cmake_force
@@ -200,7 +216,7 @@ CMakeFiles/main.dir/src_generated/types_rob_generated.c.s: cmake_force
 
 CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.o: src_generated/namespace_ff_generated.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.o   -c /home/ubuntu/conneXt/build/src_generated/namespace_ff_generated.c
 
 CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.i: cmake_force
@@ -213,7 +229,7 @@ CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.s: cmake_force
 
 CMakeFiles/main.dir/src_generated/types_ff_generated.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src_generated/types_ff_generated.c.o: src_generated/types_ff_generated.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/src_generated/types_ff_generated.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/src_generated/types_ff_generated.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src_generated/types_ff_generated.c.o   -c /home/ubuntu/conneXt/build/src_generated/types_ff_generated.c
 
 CMakeFiles/main.dir/src_generated/types_ff_generated.c.i: cmake_force
@@ -224,41 +240,28 @@ CMakeFiles/main.dir/src_generated/types_ff_generated.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src_generated/types_ff_generated.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/conneXt/build/src_generated/types_ff_generated.c -o CMakeFiles/main.dir/src_generated/types_ff_generated.c.s
 
-CMakeFiles/main.dir/main.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/main.c.o   -c /home/ubuntu/conneXt/main.c
-
-CMakeFiles/main.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/conneXt/main.c > CMakeFiles/main.dir/main.c.i
-
-CMakeFiles/main.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/conneXt/main.c -o CMakeFiles/main.dir/main.c.s
-
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/main.c.o" \
 "CMakeFiles/main.dir/src_generated/namespace_di_generated.c.o" \
 "CMakeFiles/main.dir/src_generated/types_di_generated.c.o" \
 "CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.o" \
 "CMakeFiles/main.dir/src_generated/types_rob_generated.c.o" \
 "CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.o" \
-"CMakeFiles/main.dir/src_generated/types_ff_generated.c.o" \
-"CMakeFiles/main.dir/main.c.o"
+"CMakeFiles/main.dir/src_generated/types_ff_generated.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+main: CMakeFiles/main.dir/main.c.o
 main: CMakeFiles/main.dir/src_generated/namespace_di_generated.c.o
 main: CMakeFiles/main.dir/src_generated/types_di_generated.c.o
 main: CMakeFiles/main.dir/src_generated/namespace_rob_generated.c.o
 main: CMakeFiles/main.dir/src_generated/types_rob_generated.c.o
 main: CMakeFiles/main.dir/src_generated/namespace_ff_generated.c.o
 main: CMakeFiles/main.dir/src_generated/types_ff_generated.c.o
-main: CMakeFiles/main.dir/main.c.o
 main: CMakeFiles/main.dir/build.make
-main: ../install/lib/libopen62541.so.1.3.9
+main: /usr/local/lib/libopen62541.so.1.4.0
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

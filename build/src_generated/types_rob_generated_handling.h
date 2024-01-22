@@ -17,128 +17,148 @@ _UA_BEGIN_DECLS
 
 
 /* ExecutionModeEnumeration */
-static UA_INLINE void
-UA_ExecutionModeEnumeration_init(UA_ExecutionModeEnumeration *p) {
+UA_INLINABLE( void
+UA_ExecutionModeEnumeration_init(UA_ExecutionModeEnumeration *p) ,{
     memset(p, 0, sizeof(UA_ExecutionModeEnumeration));
-}
+})
 
-static UA_INLINE UA_ExecutionModeEnumeration *
-UA_ExecutionModeEnumeration_new(void) {
+UA_INLINABLE( UA_ExecutionModeEnumeration *
+UA_ExecutionModeEnumeration_new(void) ,{
     return (UA_ExecutionModeEnumeration*)UA_new(&UA_TYPES_ROB[UA_TYPES_ROB_EXECUTIONMODEENUMERATION]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_ExecutionModeEnumeration_copy(const UA_ExecutionModeEnumeration *src, UA_ExecutionModeEnumeration *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_ExecutionModeEnumeration_copy(const UA_ExecutionModeEnumeration *src, UA_ExecutionModeEnumeration *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_ROB[UA_TYPES_ROB_EXECUTIONMODEENUMERATION]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_ExecutionModeEnumeration_deleteMembers(UA_ExecutionModeEnumeration *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_ExecutionModeEnumeration_deleteMembers(UA_ExecutionModeEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_ROB[UA_TYPES_ROB_EXECUTIONMODEENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_ExecutionModeEnumeration_clear(UA_ExecutionModeEnumeration *p) {
+UA_INLINABLE( void
+UA_ExecutionModeEnumeration_clear(UA_ExecutionModeEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_ROB[UA_TYPES_ROB_EXECUTIONMODEENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_ExecutionModeEnumeration_delete(UA_ExecutionModeEnumeration *p) {
+UA_INLINABLE( void
+UA_ExecutionModeEnumeration_delete(UA_ExecutionModeEnumeration *p) ,{
     UA_delete(p, &UA_TYPES_ROB[UA_TYPES_ROB_EXECUTIONMODEENUMERATION]);
+})static UA_INLINE UA_Boolean
+UA_ExecutionModeEnumeration_equal(const UA_ExecutionModeEnumeration *p1, const UA_ExecutionModeEnumeration *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_ROB[UA_TYPES_ROB_EXECUTIONMODEENUMERATION]) == UA_ORDER_EQ);
 }
+
+
 
 /* MotionDeviceCategoryEnumeration */
-static UA_INLINE void
-UA_MotionDeviceCategoryEnumeration_init(UA_MotionDeviceCategoryEnumeration *p) {
+UA_INLINABLE( void
+UA_MotionDeviceCategoryEnumeration_init(UA_MotionDeviceCategoryEnumeration *p) ,{
     memset(p, 0, sizeof(UA_MotionDeviceCategoryEnumeration));
-}
+})
 
-static UA_INLINE UA_MotionDeviceCategoryEnumeration *
-UA_MotionDeviceCategoryEnumeration_new(void) {
+UA_INLINABLE( UA_MotionDeviceCategoryEnumeration *
+UA_MotionDeviceCategoryEnumeration_new(void) ,{
     return (UA_MotionDeviceCategoryEnumeration*)UA_new(&UA_TYPES_ROB[UA_TYPES_ROB_MOTIONDEVICECATEGORYENUMERATION]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_MotionDeviceCategoryEnumeration_copy(const UA_MotionDeviceCategoryEnumeration *src, UA_MotionDeviceCategoryEnumeration *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_MotionDeviceCategoryEnumeration_copy(const UA_MotionDeviceCategoryEnumeration *src, UA_MotionDeviceCategoryEnumeration *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_ROB[UA_TYPES_ROB_MOTIONDEVICECATEGORYENUMERATION]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_MotionDeviceCategoryEnumeration_deleteMembers(UA_MotionDeviceCategoryEnumeration *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_MotionDeviceCategoryEnumeration_deleteMembers(UA_MotionDeviceCategoryEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_ROB[UA_TYPES_ROB_MOTIONDEVICECATEGORYENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_MotionDeviceCategoryEnumeration_clear(UA_MotionDeviceCategoryEnumeration *p) {
+UA_INLINABLE( void
+UA_MotionDeviceCategoryEnumeration_clear(UA_MotionDeviceCategoryEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_ROB[UA_TYPES_ROB_MOTIONDEVICECATEGORYENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_MotionDeviceCategoryEnumeration_delete(UA_MotionDeviceCategoryEnumeration *p) {
+UA_INLINABLE( void
+UA_MotionDeviceCategoryEnumeration_delete(UA_MotionDeviceCategoryEnumeration *p) ,{
     UA_delete(p, &UA_TYPES_ROB[UA_TYPES_ROB_MOTIONDEVICECATEGORYENUMERATION]);
+})static UA_INLINE UA_Boolean
+UA_MotionDeviceCategoryEnumeration_equal(const UA_MotionDeviceCategoryEnumeration *p1, const UA_MotionDeviceCategoryEnumeration *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_ROB[UA_TYPES_ROB_MOTIONDEVICECATEGORYENUMERATION]) == UA_ORDER_EQ);
 }
+
+
 
 /* AxisMotionProfileEnumeration */
-static UA_INLINE void
-UA_AxisMotionProfileEnumeration_init(UA_AxisMotionProfileEnumeration *p) {
+UA_INLINABLE( void
+UA_AxisMotionProfileEnumeration_init(UA_AxisMotionProfileEnumeration *p) ,{
     memset(p, 0, sizeof(UA_AxisMotionProfileEnumeration));
-}
+})
 
-static UA_INLINE UA_AxisMotionProfileEnumeration *
-UA_AxisMotionProfileEnumeration_new(void) {
+UA_INLINABLE( UA_AxisMotionProfileEnumeration *
+UA_AxisMotionProfileEnumeration_new(void) ,{
     return (UA_AxisMotionProfileEnumeration*)UA_new(&UA_TYPES_ROB[UA_TYPES_ROB_AXISMOTIONPROFILEENUMERATION]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_AxisMotionProfileEnumeration_copy(const UA_AxisMotionProfileEnumeration *src, UA_AxisMotionProfileEnumeration *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_AxisMotionProfileEnumeration_copy(const UA_AxisMotionProfileEnumeration *src, UA_AxisMotionProfileEnumeration *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_ROB[UA_TYPES_ROB_AXISMOTIONPROFILEENUMERATION]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_AxisMotionProfileEnumeration_deleteMembers(UA_AxisMotionProfileEnumeration *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_AxisMotionProfileEnumeration_deleteMembers(UA_AxisMotionProfileEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_ROB[UA_TYPES_ROB_AXISMOTIONPROFILEENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_AxisMotionProfileEnumeration_clear(UA_AxisMotionProfileEnumeration *p) {
+UA_INLINABLE( void
+UA_AxisMotionProfileEnumeration_clear(UA_AxisMotionProfileEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_ROB[UA_TYPES_ROB_AXISMOTIONPROFILEENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_AxisMotionProfileEnumeration_delete(UA_AxisMotionProfileEnumeration *p) {
+UA_INLINABLE( void
+UA_AxisMotionProfileEnumeration_delete(UA_AxisMotionProfileEnumeration *p) ,{
     UA_delete(p, &UA_TYPES_ROB[UA_TYPES_ROB_AXISMOTIONPROFILEENUMERATION]);
+})static UA_INLINE UA_Boolean
+UA_AxisMotionProfileEnumeration_equal(const UA_AxisMotionProfileEnumeration *p1, const UA_AxisMotionProfileEnumeration *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_ROB[UA_TYPES_ROB_AXISMOTIONPROFILEENUMERATION]) == UA_ORDER_EQ);
 }
+
+
 
 /* OperationalModeEnumeration */
-static UA_INLINE void
-UA_OperationalModeEnumeration_init(UA_OperationalModeEnumeration *p) {
+UA_INLINABLE( void
+UA_OperationalModeEnumeration_init(UA_OperationalModeEnumeration *p) ,{
     memset(p, 0, sizeof(UA_OperationalModeEnumeration));
-}
+})
 
-static UA_INLINE UA_OperationalModeEnumeration *
-UA_OperationalModeEnumeration_new(void) {
+UA_INLINABLE( UA_OperationalModeEnumeration *
+UA_OperationalModeEnumeration_new(void) ,{
     return (UA_OperationalModeEnumeration*)UA_new(&UA_TYPES_ROB[UA_TYPES_ROB_OPERATIONALMODEENUMERATION]);
-}
+})
 
-static UA_INLINE UA_StatusCode
-UA_OperationalModeEnumeration_copy(const UA_OperationalModeEnumeration *src, UA_OperationalModeEnumeration *dst) {
+UA_INLINABLE( UA_StatusCode
+UA_OperationalModeEnumeration_copy(const UA_OperationalModeEnumeration *src, UA_OperationalModeEnumeration *dst) ,{
     return UA_copy(src, dst, &UA_TYPES_ROB[UA_TYPES_ROB_OPERATIONALMODEENUMERATION]);
-}
+})
 
-UA_DEPRECATED static UA_INLINE void
-UA_OperationalModeEnumeration_deleteMembers(UA_OperationalModeEnumeration *p) {
+UA_DEPRECATED UA_INLINABLE( void
+UA_OperationalModeEnumeration_deleteMembers(UA_OperationalModeEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_ROB[UA_TYPES_ROB_OPERATIONALMODEENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_OperationalModeEnumeration_clear(UA_OperationalModeEnumeration *p) {
+UA_INLINABLE( void
+UA_OperationalModeEnumeration_clear(UA_OperationalModeEnumeration *p) ,{
     UA_clear(p, &UA_TYPES_ROB[UA_TYPES_ROB_OPERATIONALMODEENUMERATION]);
-}
+})
 
-static UA_INLINE void
-UA_OperationalModeEnumeration_delete(UA_OperationalModeEnumeration *p) {
+UA_INLINABLE( void
+UA_OperationalModeEnumeration_delete(UA_OperationalModeEnumeration *p) ,{
     UA_delete(p, &UA_TYPES_ROB[UA_TYPES_ROB_OPERATIONALMODEENUMERATION]);
+})static UA_INLINE UA_Boolean
+UA_OperationalModeEnumeration_equal(const UA_OperationalModeEnumeration *p1, const UA_OperationalModeEnumeration *p2) {
+    return (UA_order(p1, p2, &UA_TYPES_ROB[UA_TYPES_ROB_OPERATIONALMODEENUMERATION]) == UA_ORDER_EQ);
 }
+
+
 
 #if defined(__GNUC__) && __GNUC__ >= 4 && __GNUC_MINOR__ >= 6
 # pragma GCC diagnostic pop

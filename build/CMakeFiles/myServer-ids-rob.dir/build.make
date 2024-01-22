@@ -56,10 +56,10 @@ include CMakeFiles/myServer-ids-rob.dir/progress.make
 CMakeFiles/myServer-ids-rob: src_generated/rob_nodeids.h
 
 
-src_generated/rob_nodeids.h: ../install/share/open62541/tools/generate_nodeid_header.py
+src_generated/rob_nodeids.h: /usr/local/share/open62541/tools/generate_nodeid_header.py
 src_generated/rob_nodeids.h: ../nodesets/Robotics/NodeIds.csv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src_generated/rob_nodeids.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/generate_nodeid_header.py /home/ubuntu/conneXt/nodesets/Robotics/NodeIds.csv /home/ubuntu/conneXt/build/src_generated//rob_nodeids ROB
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/generate_nodeid_header.py /home/ubuntu/conneXt/nodesets/Robotics/NodeIds.csv /home/ubuntu/conneXt/build/src_generated//rob_nodeids ROB
 
 myServer-ids-rob: CMakeFiles/myServer-ids-rob
 myServer-ids-rob: src_generated/rob_nodeids.h

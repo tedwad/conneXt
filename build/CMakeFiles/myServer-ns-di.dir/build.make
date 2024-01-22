@@ -57,18 +57,18 @@ CMakeFiles/myServer-ns-di: src_generated/namespace_di_generated.c
 CMakeFiles/myServer-ns-di: src_generated/namespace_di_generated.h
 
 
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodeset_compiler.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodes.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/nodeset.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/datatypes.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541_nodes.py
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/nodeset_compiler/backend_open62541_datatypes.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodeset_compiler.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodes.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/nodeset.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/datatypes.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_nodes.py
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_datatypes.py
 src_generated/namespace_di_generated.c: ../nodesets/DI/Opc.Ua.Di.NodeSet2.xml
-src_generated/namespace_di_generated.c: ../install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
+src_generated/namespace_di_generated.c: /usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml
 src_generated/namespace_di_generated.c: ../nodesets/DI/Opc.Ua.Di.Types.bsd
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src_generated/namespace_di_generated.c, src_generated/namespace_di_generated.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/nodeset_compiler/nodeset_compiler.py --internal-headers --bsd=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.Types.bsd --types-array=UA_TYPES --types-array=UA_TYPES_DI --existing=/home/ubuntu/conneXt/install/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --xml=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml /home/ubuntu/conneXt/build/src_generated//namespace_di_generated
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/nodeset_compiler/nodeset_compiler.py --internal-headers --bsd=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.Types.bsd --types-array=UA_TYPES --types-array=UA_TYPES_DI --existing=/usr/local/share/open62541/tools/ua-nodeset/Schema/Opc.Ua.NodeSet2.xml --xml=/home/ubuntu/conneXt/nodesets/DI/Opc.Ua.Di.NodeSet2.xml /home/ubuntu/conneXt/build/src_generated//namespace_di_generated
 
 src_generated/namespace_di_generated.h: src_generated/namespace_di_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/namespace_di_generated.h

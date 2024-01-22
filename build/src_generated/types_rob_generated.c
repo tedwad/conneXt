@@ -15,12 +15,12 @@
 
 /* OperationalModeEnumeration */
 #define OperationalModeEnumeration_members NULL
-const UA_DataType UA_TYPES_ROB[UA_TYPES_ROB_COUNT] = {
+UA_DataType UA_TYPES_ROB[UA_TYPES_ROB_COUNT] = {
 /* ExecutionModeEnumeration */
 {
     UA_TYPENAME("ExecutionModeEnumeration") /* .typeName */
-    {2, UA_NODEIDTYPE_NUMERIC, {18191LU}}, /* .typeId */
-    {2, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {18191LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
     sizeof(UA_ExecutionModeEnumeration), /* .memSize */
     UA_DATATYPEKIND_ENUM, /* .typeKind */
     true, /* .pointerFree */
@@ -31,8 +31,8 @@ const UA_DataType UA_TYPES_ROB[UA_TYPES_ROB_COUNT] = {
 /* MotionDeviceCategoryEnumeration */
 {
     UA_TYPENAME("MotionDeviceCategoryEnumeration") /* .typeName */
-    {2, UA_NODEIDTYPE_NUMERIC, {18193LU}}, /* .typeId */
-    {2, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {18193LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
     sizeof(UA_MotionDeviceCategoryEnumeration), /* .memSize */
     UA_DATATYPEKIND_ENUM, /* .typeKind */
     true, /* .pointerFree */
@@ -43,8 +43,8 @@ const UA_DataType UA_TYPES_ROB[UA_TYPES_ROB_COUNT] = {
 /* AxisMotionProfileEnumeration */
 {
     UA_TYPENAME("AxisMotionProfileEnumeration") /* .typeName */
-    {2, UA_NODEIDTYPE_NUMERIC, {3008LU}}, /* .typeId */
-    {2, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {3008LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
     sizeof(UA_AxisMotionProfileEnumeration), /* .memSize */
     UA_DATATYPEKIND_ENUM, /* .typeKind */
     true, /* .pointerFree */
@@ -55,8 +55,8 @@ const UA_DataType UA_TYPES_ROB[UA_TYPES_ROB_COUNT] = {
 /* OperationalModeEnumeration */
 {
     UA_TYPENAME("OperationalModeEnumeration") /* .typeName */
-    {2, UA_NODEIDTYPE_NUMERIC, {3006LU}}, /* .typeId */
-    {2, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {3006LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
     sizeof(UA_OperationalModeEnumeration), /* .memSize */
     UA_DATATYPEKIND_ENUM, /* .typeKind */
     true, /* .pointerFree */

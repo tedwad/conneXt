@@ -3,7 +3,7 @@ project(myServer)
 # open62541 must be installed.
 # If in custom path, then use -DCMAKE_PREFIX_PATH=/home/ubuntu/conneXt/install
 # To force cmake to use python3, use -DPYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3.8 
-find_package(open62541 1.3.9 REQUIRED COMPONENTS FullNamespace)
+find_package(open62541 REQUIRED COMPONENTS FullNamespace)
 # Output directory for Nodeset Compiler
 set(GENERATE_OUTPUT_DIR "${CMAKE_BINARY_DIR}/src_generated/")
 file(MAKE_DIRECTORY "${GENERATE_OUTPUT_DIR}")
@@ -14,8 +14,6 @@ ua_generate_nodeset_and_datatypes(
         FILE_CSV "${PROJECT_SOURCE_DIR}/nodesets/DI/OpcUaDiModel.csv"
         FILE_BSD "${PROJECT_SOURCE_DIR}/nodesets/DI/Opc.Ua.Di.Types.bsd"
         OUTPUT_DIR "${GENERATE_OUTPUT_DIR}"
-    # This namespace index must match the order in which you are adding the nodeset in the source code
-        NAMESPACE_MAP "1:http://opcfoundation.org/UA/DI/"
         FILE_NS "${PROJECT_SOURCE_DIR}/nodesets/DI/Opc.Ua.Di.NodeSet2.xml"
         INTERNAL
         DEPENDS "${UA_FILE_NS0}"
@@ -26,8 +24,6 @@ ua_generate_nodeset_and_datatypes(
         FILE_CSV "${PROJECT_SOURCE_DIR}/nodesets/Robotics/NodeIds.csv"
         FILE_BSD "${PROJECT_SOURCE_DIR}/nodesets/Robotics/Opc.Ua.Robotics.Types.bsd"
         OUTPUT_DIR "${GENERATE_OUTPUT_DIR}"
-    # This namespace index must match the order in which you are adding the nodeset in the source code
-        NAMESPACE_MAP "2:http://opcfoundation.org/UA/Robotics/"
         FILE_NS "${PROJECT_SOURCE_DIR}/nodesets/Robotics/Opc.Ua.Robotics.NodeSet2.xml"
         INTERNAL
         DEPENDS "${UA_FILE_NS0}" "di"
@@ -38,21 +34,18 @@ ua_generate_nodeset_and_datatypes(
         FILE_CSV "${PROJECT_SOURCE_DIR}/model/OpcUaFfModel.csv"
         FILE_BSD "${PROJECT_SOURCE_DIR}/model/Published/Opc.Ua.Ff.Types.bsd"
         OUTPUT_DIR "${GENERATE_OUTPUT_DIR}"
-    # This namespace index must match the order in which you are adding the nodeset in the source code
-        NAMESPACE_MAP "3:https://nextusc.com/UA/FF/"
         FILE_NS "${PROJECT_SOURCE_DIR}/model/Published/Opc.Ua.Ff.NodeSet2.xml"
         INTERNAL
         DEPENDS "${UA_FILE_NS0}" "di" "rob"
 )
 # Previous macro automatically sets some variables which hold the generated source code files using the provided NAME
-add_executable(main
+add_executable(main main.c
                ${UA_NODESET_DI_SOURCES}
                ${UA_TYPES_DI_SOURCES}
                ${UA_NODESET_ROB_SOURCES}
                ${UA_TYPES_ROB_SOURCES}
                ${UA_NODESET_FF_SOURCES}
-               ${UA_TYPES_FF_SOURCES}
-               main.c
+               ${UA_TYPES_FF_SOURCES}               
                )
 # Make sure the nodeset compiler is execute before compiling the main file
 add_dependencies(main

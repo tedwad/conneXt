@@ -77,12 +77,12 @@ static UA_DataTypeMember TransferResultDataDataType_members[3] = {
     true, /* .isArray */
     false  /* .isOptional */
 },};
-const UA_DataType UA_TYPES_DI[UA_TYPES_DI_COUNT] = {
+UA_DataType UA_TYPES_DI[UA_TYPES_DI_COUNT] = {
 /* DeviceHealthEnumeration */
 {
     UA_TYPENAME("DeviceHealthEnumeration") /* .typeName */
-    {1, UA_NODEIDTYPE_NUMERIC, {6244LU}}, /* .typeId */
-    {1, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {6244LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
     sizeof(UA_DeviceHealthEnumeration), /* .memSize */
     UA_DATATYPEKIND_ENUM, /* .typeKind */
     true, /* .pointerFree */
@@ -93,8 +93,8 @@ const UA_DataType UA_TYPES_DI[UA_TYPES_DI_COUNT] = {
 /* TransferResultErrorDataType */
 {
     UA_TYPENAME("TransferResultErrorDataType") /* .typeName */
-    {1, UA_NODEIDTYPE_NUMERIC, {15888LU}}, /* .typeId */
-    {1, UA_NODEIDTYPE_NUMERIC, {15891LU}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {15888LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {15891LU}}, /* .binaryEncodingId */
     sizeof(UA_TransferResultErrorDataType), /* .memSize */
     UA_DATATYPEKIND_STRUCTURE, /* .typeKind */
     false, /* .pointerFree */
@@ -105,8 +105,8 @@ const UA_DataType UA_TYPES_DI[UA_TYPES_DI_COUNT] = {
 /* ParameterResultDataType */
 {
     UA_TYPENAME("ParameterResultDataType") /* .typeName */
-    {1, UA_NODEIDTYPE_NUMERIC, {6525LU}}, /* .typeId */
-    {1, UA_NODEIDTYPE_NUMERIC, {6554LU}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {6525LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {6554LU}}, /* .binaryEncodingId */
     sizeof(UA_ParameterResultDataType), /* .memSize */
     UA_DATATYPEKIND_STRUCTURE, /* .typeKind */
     false, /* .pointerFree */
@@ -117,8 +117,8 @@ const UA_DataType UA_TYPES_DI[UA_TYPES_DI_COUNT] = {
 /* SoftwareVersionFileType */
 {
     UA_TYPENAME("SoftwareVersionFileType") /* .typeName */
-    {1, UA_NODEIDTYPE_NUMERIC, {331LU}}, /* .typeId */
-    {1, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {331LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
     sizeof(UA_SoftwareVersionFileType), /* .memSize */
     UA_DATATYPEKIND_ENUM, /* .typeKind */
     true, /* .pointerFree */
@@ -129,8 +129,8 @@ const UA_DataType UA_TYPES_DI[UA_TYPES_DI_COUNT] = {
 /* UpdateBehavior */
 {
     UA_TYPENAME("UpdateBehavior") /* .typeName */
-    {1, UA_NODEIDTYPE_NUMERIC, {333LU}}, /* .typeId */
-    {1, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {333LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {0}}, /* .binaryEncodingId */
     sizeof(UA_UpdateBehavior), /* .memSize */
     UA_DATATYPEKIND_UINT32, /* .typeKind */
     true, /* .pointerFree */
@@ -141,8 +141,8 @@ const UA_DataType UA_TYPES_DI[UA_TYPES_DI_COUNT] = {
 /* TransferResultDataDataType */
 {
     UA_TYPENAME("TransferResultDataDataType") /* .typeName */
-    {1, UA_NODEIDTYPE_NUMERIC, {15889LU}}, /* .typeId */
-    {1, UA_NODEIDTYPE_NUMERIC, {15892LU}}, /* .binaryEncodingId */
+    {0, UA_NODEIDTYPE_NUMERIC, {15889LU}}, /* .typeId */
+    {0, UA_NODEIDTYPE_NUMERIC, {15892LU}}, /* .binaryEncodingId */
     sizeof(UA_TransferResultDataDataType), /* .memSize */
     UA_DATATYPEKIND_STRUCTURE, /* .typeKind */
     false, /* .pointerFree */

@@ -56,10 +56,10 @@ include CMakeFiles/myServer-ids-di.dir/progress.make
 CMakeFiles/myServer-ids-di: src_generated/di_nodeids.h
 
 
-src_generated/di_nodeids.h: ../install/share/open62541/tools/generate_nodeid_header.py
+src_generated/di_nodeids.h: /usr/local/share/open62541/tools/generate_nodeid_header.py
 src_generated/di_nodeids.h: ../nodesets/DI/OpcUaDiModel.csv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src_generated/di_nodeids.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/generate_nodeid_header.py /home/ubuntu/conneXt/nodesets/DI/OpcUaDiModel.csv /home/ubuntu/conneXt/build/src_generated//di_nodeids DI
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/generate_nodeid_header.py /home/ubuntu/conneXt/nodesets/DI/OpcUaDiModel.csv /home/ubuntu/conneXt/build/src_generated//di_nodeids DI
 
 myServer-ids-di: CMakeFiles/myServer-ids-di
 myServer-ids-di: src_generated/di_nodeids.h

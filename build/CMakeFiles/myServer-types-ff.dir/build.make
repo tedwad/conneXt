@@ -58,11 +58,12 @@ CMakeFiles/myServer-types-ff: src_generated/types_ff_generated.h
 CMakeFiles/myServer-types-ff: src_generated/types_ff_generated_handling.h
 
 
-src_generated/types_ff_generated.c: ../install/share/open62541/tools/generate_datatypes.py
+src_generated/types_ff_generated.c: /usr/local/share/open62541/tools/generate_datatypes.py
+src_generated/types_ff_generated.c: /usr/local/share/open62541/tools/nodeset_compiler/backend_open62541_typedefinitions.py
 src_generated/types_ff_generated.c: ../model/Published/Opc.Ua.Ff.Types.bsd
 src_generated/types_ff_generated.c: ../model/OpcUaFfModel.csv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/conneXt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src_generated/types_ff_generated.c, src_generated/types_ff_generated.h, src_generated/types_ff_generated_handling.h"
-	/usr/bin/python3.8 /home/ubuntu/conneXt/install/share/open62541/tools/generate_datatypes.py --namespaceMap=3:https://nextusc.com/UA/FF/ --namespaceMap=1:http://opcfoundation.org/UA/DI/ --namespaceMap=2:http://opcfoundation.org/UA/Robotics/ --namespaceMap=1:http://opcfoundation.org/UA/DI/ --type-bsd=/home/ubuntu/conneXt/model/Published/Opc.Ua.Ff.Types.bsd --type-csv=/home/ubuntu/conneXt/model/OpcUaFfModel.csv --no-builtin /home/ubuntu/conneXt/build/src_generated//types_ff
+	/usr/bin/python3.8 /usr/local/share/open62541/tools/generate_datatypes.py --type-bsd=/home/ubuntu/conneXt/model/Published/Opc.Ua.Ff.Types.bsd --type-csv=/home/ubuntu/conneXt/model/OpcUaFfModel.csv --no-builtin /home/ubuntu/conneXt/build/src_generated//types_ff
 
 src_generated/types_ff_generated.h: src_generated/types_ff_generated.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src_generated/types_ff_generated.h

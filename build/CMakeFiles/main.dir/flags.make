@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_FLAGS =  
 
-C_DEFINES = -DUA_ARCHITECTURE_POSIX
+C_DEFINES = 
 
-C_INCLUDES = -I/home/ubuntu/conneXt/build/src_generated -isystem /home/ubuntu/conneXt/install/include 
+C_INCLUDES = -I/home/ubuntu/conneXt/build/src_generated 
 

@@ -38,8 +38,8 @@ UA_findDataTypeByBinary(const UA_NodeId *typeId);
 # include <open62541/server.h>
 #endif
 
-#include "types_rob_generated.h"
 #include "types_di_generated.h"
+#include "types_rob_generated.h"
 
 
 
