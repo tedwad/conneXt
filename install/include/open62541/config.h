@@ -10,17 +10,17 @@
  * ----------------- */
 #define UA_OPEN62541_VER_MAJOR 1
 #define UA_OPEN62541_VER_MINOR 3
-#define UA_OPEN62541_VER_PATCH 4
-#define UA_OPEN62541_VER_LABEL "-775-ge200aa0f4" /* Release candidate label, etc. */
-#define UA_OPEN62541_VER_COMMIT "v1.3.4-775-ge200aa0f4"
-#define UA_OPEN62541_VERSION "v1.3.4-775-ge200aa0f4"
+#define UA_OPEN62541_VER_PATCH 9
+#define UA_OPEN62541_VER_LABEL "-1-g61706de92" /* Release candidate label, etc. */
+#define UA_OPEN62541_VER_COMMIT "v1.3.9-1-g61706de92"
+#define UA_OPEN62541_VERSION "v1.3.9-1-g61706de92"
 
 /**
  * Feature Options
  * ---------------
  * Changing the feature options has no effect on a pre-compiled library. */
 
-#define UA_LOGLEVEL 100
+#define UA_LOGLEVEL 300
 #ifndef UA_ENABLE_AMALGAMATION
 /* #undef UA_ENABLE_AMALGAMATION */
 #endif
@@ -40,14 +40,12 @@
 #define UA_ENABLE_PARSING
 /* #undef UA_ENABLE_EXPERIMENTAL_HISTORIZING */
 #define UA_ENABLE_SUBSCRIPTIONS_EVENTS
-#define UA_ENABLE_JSON_ENCODING
-/* #undef UA_ENABLE_XML_ENCODING */
+/* #undef UA_ENABLE_JSON_ENCODING */
 /* #undef UA_ENABLE_PUBSUB_MQTT */
 /* #undef UA_ENABLE_MQTT_TLS */
 /* #undef UA_ENABLE_MQTT_TLS_OPENSSL */
 /* #undef UA_ENABLE_MQTT_TLS_MBEDTLS */
 /* #undef UA_ENABLE_ENCRYPTION_MBEDTLS */
-/* #undef UA_ENABLE_CERT_REJECTED_DIR */
 /* #undef UA_ENABLE_TPM2_SECURITY */
 /* #undef UA_ENABLE_ENCRYPTION_OPENSSL */
 /* #undef UA_ENABLE_ENCRYPTION_LIBRESSL */
@@ -63,7 +61,6 @@
 /* Advanced Options */
 #define UA_ENABLE_STATUSCODE_DESCRIPTIONS
 #define UA_ENABLE_TYPEDESCRIPTION
-/* #undef UA_ENABLE_INLINABLE_EXPORT */
 #define UA_ENABLE_NODESET_COMPILER_DESCRIPTIONS
 /* #undef UA_ENABLE_DETERMINISTIC_RNG */
 /* #undef UA_ENABLE_DISCOVERY */
@@ -72,14 +69,13 @@
 /* #undef UA_ENABLE_QUERY */
 /* #undef UA_ENABLE_MALLOC_SINGLETON */
 #define UA_ENABLE_DISCOVERY_SEMAPHORE
+/* #undef UA_ENABLE_UNIT_TEST_FAILURE_HOOKS */
 /* #undef UA_ENABLE_VALGRIND_INTERACTIVE */
 #define UA_VALGRIND_INTERACTIVE_INTERVAL 1000
 #define UA_GENERATED_NAMESPACE_ZERO
 #define UA_GENERATED_NAMESPACE_ZERO_FULL
 /* #undef UA_ENABLE_PUBSUB_MONITORING */
 /* #undef UA_ENABLE_PUBSUB_BUFMALLOC */
-/* #undef UA_ENABLE_PUBSUB_SKS */
-/* #undef UA_ENABLE_REDUCED_ITERATIONS_FOR_TESTING */
 
 /* #undef UA_PACK_DEBIAN */
 
@@ -132,17 +128,10 @@
 # ifndef _DEFAULT_SOURCE
 #  define _DEFAULT_SOURCE
 # endif
-
 /* On older systems we need to define _BSD_SOURCE.
  * _DEFAULT_SOURCE is an alias for that. */
 # ifndef _BSD_SOURCE
 #  define _BSD_SOURCE
-# endif
-
-/* Define _GNU_SOURCE to get functions like ppoll. Comment this out to
- * only use standard POSIX definitions. */
-# ifndef _GNU_SOURCE
-#  define _GNU_SOURCE
 # endif
 #endif
 

@@ -1,0 +1,4 @@
+/home/ubuntu/conneXt/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/conneXt/build/CMakeFiles/main.dir
+/home/ubuntu/conneXt/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/conneXt/build/CMakeFiles/myServer-ns-mvi.dir

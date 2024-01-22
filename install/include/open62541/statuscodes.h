@@ -73,7 +73,7 @@
 /* "The server has stopped and cannot process any requests." */
 #define UA_STATUSCODE_BADSERVERHALTED 0x800E0000
 
-/* "No processing could be done because there was nothing to do." */
+/* "There was nothing to do because the client passed a list of operations with no elements." */
 #define UA_STATUSCODE_BADNOTHINGTODO 0x800F0000
 
 /* "The request could not be processed because it specified too many operations." */
@@ -637,7 +637,7 @@
 /* "No data exists for the requested time range or event filter." */
 #define UA_STATUSCODE_GOODNODATA 0x00A50000
 
-/* "More data is available in the time range beyond the number of values requested." */
+/* "The data or event field was successfully replaced in the historical database." */
 #define UA_STATUSCODE_GOODMOREDATA 0x00A60000
 
 /* "The requested number of Aggregates does not match the requested number of NodeIds." */
@@ -661,17 +661,11 @@
 /* "The request has not been processed by the server yet." */
 #define UA_STATUSCODE_BADREQUESTNOTCOMPLETE 0x81130000
 
-/* "The operation is not allowed because a transaction is in progress." */
-#define UA_STATUSCODE_BADTRANSACTIONPENDING 0x80E80000
-
 /* "The device identity needs a ticket before it can be accepted." */
 #define UA_STATUSCODE_BADTICKETREQUIRED 0x811F0000
 
 /* "The device identity needs a ticket before it can be accepted." */
 #define UA_STATUSCODE_BADTICKETINVALID 0x81200000
-
-/* "The requested operation is not allowed */
-#define UA_STATUSCODE_BADLOCKED 0x80E90000
 
 /* "The value does not come from the real source and has been edited by the server." */
 #define UA_STATUSCODE_GOODEDITED 0x00DC0000
@@ -804,9 +798,6 @@
 
 /* "The value is accurate */
 #define UA_STATUSCODE_GOODCASCADE 0x04090000
-
-/* "The DataSet specified for the DataSetWriter creation is invalid." */
-#define UA_STATUSCODE_BADDATASETIDINVALID 0x80E70000
 
 /* Depending on the version of the schema, the following might be already defined: */
 #ifndef UA_STATUSCODE_GOOD

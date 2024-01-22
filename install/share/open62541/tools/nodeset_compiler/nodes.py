@@ -69,7 +69,7 @@ class Node(object):
         self.symbolicName = None
         self.writeMask = None
         self.userWriteMask = None
-        self.references = dict() # using dict because it retains insertion order
+        self.references = set()
         self.hidden = False
         self.modelUri = None
         self.parent = None
@@ -137,7 +137,7 @@ class Node(object):
                     reftype = RefOrAlias(av)
                 elif at == "IsForward":
                     forward = not "false" in av.lower()
-            self.references[Reference(source, reftype, target, forward)] = None
+            self.references.add(Reference(source, reftype, target, forward))
 
     def getParentReference(self, parentreftypes):
         # HasSubtype has precedence
@@ -151,8 +151,8 @@ class Node(object):
 
     def popTypeDef(self):
         for ref in self.references:
-            if ref.referenceType == NodeId("ns=0;i=40") and ref.isForward:
-                del self.references[ref]
+            if ref.referenceType.i == 40 and ref.isForward:
+                self.references.remove(ref)
                 return ref
         return Reference(NodeId(), NodeId(), NodeId(), False)
 
@@ -162,7 +162,7 @@ class Node(object):
         if isinstance(self, VariableNode) or isinstance(self, VariableTypeNode):
             if str(self.dataType) in aliases:
                 self.dataType = NodeId(aliases[self.dataType])
-        new_refs = dict()
+        new_refs = set()
         for ref in self.references:
             if str(ref.source) in aliases:
                 ref.source = NodeId(aliases[ref.source])
@@ -170,7 +170,7 @@ class Node(object):
                 ref.target = NodeId(aliases[ref.target])
             if str(ref.referenceType) in aliases:
                 ref.referenceType = NodeId(aliases[ref.referenceType])
-            new_refs[ref] = None
+            new_refs.add(ref)
         self.references = new_refs
 
     def replaceNamespaces(self, nsMapping):
@@ -178,12 +178,12 @@ class Node(object):
         self.browseName.ns = nsMapping[self.browseName.ns]
         if hasattr(self, 'dataType') and isinstance(self.dataType, NodeId):
             self.dataType.ns = nsMapping[self.dataType.ns]
-        new_refs = dict()
+        new_refs = set()
         for ref in self.references:
             ref.source.ns = nsMapping[ref.source.ns]
             ref.target.ns = nsMapping[ref.target.ns]
             ref.referenceType.ns = nsMapping[ref.referenceType.ns]
-            new_refs[ref] = None
+            new_refs.add(ref)
         self.references = new_refs
         self.namespaceMapping = nsMapping
 

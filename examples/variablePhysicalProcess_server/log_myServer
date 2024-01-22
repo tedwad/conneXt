@@ -1,2 +1,0 @@
-gcc -c myServer.c
-gcc myServer.o -o myServer -lopen62541

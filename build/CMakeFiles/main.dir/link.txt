@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/src_generated/namespace_mvi_generated.c.o  -o main  -Wl,-rpath,/usr/local/lib /usr/local/lib/libopen62541.so.1.4.0 -lm -lpthread -lrt 

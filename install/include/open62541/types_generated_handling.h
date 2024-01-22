@@ -1008,37 +1008,6 @@ UA_AudioDataType_delete(UA_AudioDataType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_AUDIODATATYPE]);
 }
 
-/* UriString */
-static UA_INLINE void
-UA_UriString_init(UA_UriString *p) {
-    memset(p, 0, sizeof(UA_UriString));
-}
-
-static UA_INLINE UA_UriString *
-UA_UriString_new(void) {
-    return (UA_UriString*)UA_new(&UA_TYPES[UA_TYPES_URISTRING]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_UriString_copy(const UA_UriString *src, UA_UriString *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_URISTRING]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_UriString_deleteMembers(UA_UriString *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_URISTRING]);
-}
-
-static UA_INLINE void
-UA_UriString_clear(UA_UriString *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_URISTRING]);
-}
-
-static UA_INLINE void
-UA_UriString_delete(UA_UriString *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_URISTRING]);
-}
-
 /* BitFieldMaskDataType */
 static UA_INLINE void
 UA_BitFieldMaskDataType_init(UA_BitFieldMaskDataType *p) {
@@ -1068,37 +1037,6 @@ UA_BitFieldMaskDataType_clear(UA_BitFieldMaskDataType *p) {
 static UA_INLINE void
 UA_BitFieldMaskDataType_delete(UA_BitFieldMaskDataType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_BITFIELDMASKDATATYPE]);
-}
-
-/* SemanticVersionString */
-static UA_INLINE void
-UA_SemanticVersionString_init(UA_SemanticVersionString *p) {
-    memset(p, 0, sizeof(UA_SemanticVersionString));
-}
-
-static UA_INLINE UA_SemanticVersionString *
-UA_SemanticVersionString_new(void) {
-    return (UA_SemanticVersionString*)UA_new(&UA_TYPES[UA_TYPES_SEMANTICVERSIONSTRING]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_SemanticVersionString_copy(const UA_SemanticVersionString *src, UA_SemanticVersionString *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_SEMANTICVERSIONSTRING]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_SemanticVersionString_deleteMembers(UA_SemanticVersionString *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_SEMANTICVERSIONSTRING]);
-}
-
-static UA_INLINE void
-UA_SemanticVersionString_clear(UA_SemanticVersionString *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_SEMANTICVERSIONSTRING]);
-}
-
-static UA_INLINE void
-UA_SemanticVersionString_delete(UA_SemanticVersionString *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_SEMANTICVERSIONSTRING]);
 }
 
 /* KeyValuePair */
@@ -1192,68 +1130,6 @@ UA_EphemeralKeyType_clear(UA_EphemeralKeyType *p) {
 static UA_INLINE void
 UA_EphemeralKeyType_delete(UA_EphemeralKeyType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_EPHEMERALKEYTYPE]);
-}
-
-/* Handle */
-static UA_INLINE void
-UA_Handle_init(UA_Handle *p) {
-    memset(p, 0, sizeof(UA_Handle));
-}
-
-static UA_INLINE UA_Handle *
-UA_Handle_new(void) {
-    return (UA_Handle*)UA_new(&UA_TYPES[UA_TYPES_HANDLE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_Handle_copy(const UA_Handle *src, UA_Handle *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_HANDLE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_Handle_deleteMembers(UA_Handle *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_HANDLE]);
-}
-
-static UA_INLINE void
-UA_Handle_clear(UA_Handle *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_HANDLE]);
-}
-
-static UA_INLINE void
-UA_Handle_delete(UA_Handle *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_HANDLE]);
-}
-
-/* TrimmedString */
-static UA_INLINE void
-UA_TrimmedString_init(UA_TrimmedString *p) {
-    memset(p, 0, sizeof(UA_TrimmedString));
-}
-
-static UA_INLINE UA_TrimmedString *
-UA_TrimmedString_new(void) {
-    return (UA_TrimmedString*)UA_new(&UA_TYPES[UA_TYPES_TRIMMEDSTRING]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_TrimmedString_copy(const UA_TrimmedString *src, UA_TrimmedString *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_TRIMMEDSTRING]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_TrimmedString_deleteMembers(UA_TrimmedString *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_TRIMMEDSTRING]);
-}
-
-static UA_INLINE void
-UA_TrimmedString_clear(UA_TrimmedString *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_TRIMMEDSTRING]);
-}
-
-static UA_INLINE void
-UA_TrimmedString_delete(UA_TrimmedString *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_TRIMMEDSTRING]);
 }
 
 /* RationalNumber */
@@ -1535,68 +1411,6 @@ UA_CurrencyUnitType_delete(UA_CurrencyUnitType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_CURRENCYUNITTYPE]);
 }
 
-/* AlarmMask */
-static UA_INLINE void
-UA_AlarmMask_init(UA_AlarmMask *p) {
-    memset(p, 0, sizeof(UA_AlarmMask));
-}
-
-static UA_INLINE UA_AlarmMask *
-UA_AlarmMask_new(void) {
-    return (UA_AlarmMask*)UA_new(&UA_TYPES[UA_TYPES_ALARMMASK]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_AlarmMask_copy(const UA_AlarmMask *src, UA_AlarmMask *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_ALARMMASK]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_AlarmMask_deleteMembers(UA_AlarmMask *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_ALARMMASK]);
-}
-
-static UA_INLINE void
-UA_AlarmMask_clear(UA_AlarmMask *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_ALARMMASK]);
-}
-
-static UA_INLINE void
-UA_AlarmMask_delete(UA_AlarmMask *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_ALARMMASK]);
-}
-
-/* TrustListValidationOptions */
-static UA_INLINE void
-UA_TrustListValidationOptions_init(UA_TrustListValidationOptions *p) {
-    memset(p, 0, sizeof(UA_TrustListValidationOptions));
-}
-
-static UA_INLINE UA_TrustListValidationOptions *
-UA_TrustListValidationOptions_new(void) {
-    return (UA_TrustListValidationOptions*)UA_new(&UA_TYPES[UA_TYPES_TRUSTLISTVALIDATIONOPTIONS]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_TrustListValidationOptions_copy(const UA_TrustListValidationOptions *src, UA_TrustListValidationOptions *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_TRUSTLISTVALIDATIONOPTIONS]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_TrustListValidationOptions_deleteMembers(UA_TrustListValidationOptions *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_TRUSTLISTVALIDATIONOPTIONS]);
-}
-
-static UA_INLINE void
-UA_TrustListValidationOptions_clear(UA_TrustListValidationOptions *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_TRUSTLISTVALIDATIONOPTIONS]);
-}
-
-static UA_INLINE void
-UA_TrustListValidationOptions_delete(UA_TrustListValidationOptions *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_TRUSTLISTVALIDATIONOPTIONS]);
-}
-
 /* TrustListMasks */
 static UA_INLINE void
 UA_TrustListMasks_init(UA_TrustListMasks *p) {
@@ -1659,35 +1473,35 @@ UA_TrustListDataType_delete(UA_TrustListDataType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_TRUSTLISTDATATYPE]);
 }
 
-/* TransactionErrorType */
+/* DecimalDataType */
 static UA_INLINE void
-UA_TransactionErrorType_init(UA_TransactionErrorType *p) {
-    memset(p, 0, sizeof(UA_TransactionErrorType));
+UA_DecimalDataType_init(UA_DecimalDataType *p) {
+    memset(p, 0, sizeof(UA_DecimalDataType));
 }
 
-static UA_INLINE UA_TransactionErrorType *
-UA_TransactionErrorType_new(void) {
-    return (UA_TransactionErrorType*)UA_new(&UA_TYPES[UA_TYPES_TRANSACTIONERRORTYPE]);
+static UA_INLINE UA_DecimalDataType *
+UA_DecimalDataType_new(void) {
+    return (UA_DecimalDataType*)UA_new(&UA_TYPES[UA_TYPES_DECIMALDATATYPE]);
 }
 
 static UA_INLINE UA_StatusCode
-UA_TransactionErrorType_copy(const UA_TransactionErrorType *src, UA_TransactionErrorType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_TRANSACTIONERRORTYPE]);
+UA_DecimalDataType_copy(const UA_DecimalDataType *src, UA_DecimalDataType *dst) {
+    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_DECIMALDATATYPE]);
 }
 
 UA_DEPRECATED static UA_INLINE void
-UA_TransactionErrorType_deleteMembers(UA_TransactionErrorType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_TRANSACTIONERRORTYPE]);
+UA_DecimalDataType_deleteMembers(UA_DecimalDataType *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_DECIMALDATATYPE]);
 }
 
 static UA_INLINE void
-UA_TransactionErrorType_clear(UA_TransactionErrorType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_TRANSACTIONERRORTYPE]);
+UA_DecimalDataType_clear(UA_DecimalDataType *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_DECIMALDATATYPE]);
 }
 
 static UA_INLINE void
-UA_TransactionErrorType_delete(UA_TransactionErrorType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_TRANSACTIONERRORTYPE]);
+UA_DecimalDataType_delete(UA_DecimalDataType *p) {
+    UA_delete(p, &UA_TYPES[UA_TYPES_DECIMALDATATYPE]);
 }
 
 /* DataTypeDescription */
@@ -1750,99 +1564,6 @@ UA_SimpleTypeDescription_clear(UA_SimpleTypeDescription *p) {
 static UA_INLINE void
 UA_SimpleTypeDescription_delete(UA_SimpleTypeDescription *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_SIMPLETYPEDESCRIPTION]);
-}
-
-/* PortableQualifiedName */
-static UA_INLINE void
-UA_PortableQualifiedName_init(UA_PortableQualifiedName *p) {
-    memset(p, 0, sizeof(UA_PortableQualifiedName));
-}
-
-static UA_INLINE UA_PortableQualifiedName *
-UA_PortableQualifiedName_new(void) {
-    return (UA_PortableQualifiedName*)UA_new(&UA_TYPES[UA_TYPES_PORTABLEQUALIFIEDNAME]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PortableQualifiedName_copy(const UA_PortableQualifiedName *src, UA_PortableQualifiedName *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PORTABLEQUALIFIEDNAME]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PortableQualifiedName_deleteMembers(UA_PortableQualifiedName *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PORTABLEQUALIFIEDNAME]);
-}
-
-static UA_INLINE void
-UA_PortableQualifiedName_clear(UA_PortableQualifiedName *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PORTABLEQUALIFIEDNAME]);
-}
-
-static UA_INLINE void
-UA_PortableQualifiedName_delete(UA_PortableQualifiedName *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PORTABLEQUALIFIEDNAME]);
-}
-
-/* PortableNodeId */
-static UA_INLINE void
-UA_PortableNodeId_init(UA_PortableNodeId *p) {
-    memset(p, 0, sizeof(UA_PortableNodeId));
-}
-
-static UA_INLINE UA_PortableNodeId *
-UA_PortableNodeId_new(void) {
-    return (UA_PortableNodeId*)UA_new(&UA_TYPES[UA_TYPES_PORTABLENODEID]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PortableNodeId_copy(const UA_PortableNodeId *src, UA_PortableNodeId *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PORTABLENODEID]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PortableNodeId_deleteMembers(UA_PortableNodeId *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PORTABLENODEID]);
-}
-
-static UA_INLINE void
-UA_PortableNodeId_clear(UA_PortableNodeId *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PORTABLENODEID]);
-}
-
-static UA_INLINE void
-UA_PortableNodeId_delete(UA_PortableNodeId *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PORTABLENODEID]);
-}
-
-/* UnsignedRationalNumber */
-static UA_INLINE void
-UA_UnsignedRationalNumber_init(UA_UnsignedRationalNumber *p) {
-    memset(p, 0, sizeof(UA_UnsignedRationalNumber));
-}
-
-static UA_INLINE UA_UnsignedRationalNumber *
-UA_UnsignedRationalNumber_new(void) {
-    return (UA_UnsignedRationalNumber*)UA_new(&UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_UnsignedRationalNumber_copy(const UA_UnsignedRationalNumber *src, UA_UnsignedRationalNumber *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_UnsignedRationalNumber_deleteMembers(UA_UnsignedRationalNumber *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
-}
-
-static UA_INLINE void
-UA_UnsignedRationalNumber_clear(UA_UnsignedRationalNumber *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
-}
-
-static UA_INLINE void
-UA_UnsignedRationalNumber_delete(UA_UnsignedRationalNumber *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
 }
 
 /* PubSubState */
@@ -2000,37 +1721,6 @@ UA_PublishedDataItemsDataType_delete(UA_PublishedDataItemsDataType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_PUBLISHEDDATAITEMSDATATYPE]);
 }
 
-/* PublishedDataSetCustomSourceDataType */
-static UA_INLINE void
-UA_PublishedDataSetCustomSourceDataType_init(UA_PublishedDataSetCustomSourceDataType *p) {
-    memset(p, 0, sizeof(UA_PublishedDataSetCustomSourceDataType));
-}
-
-static UA_INLINE UA_PublishedDataSetCustomSourceDataType *
-UA_PublishedDataSetCustomSourceDataType_new(void) {
-    return (UA_PublishedDataSetCustomSourceDataType*)UA_new(&UA_TYPES[UA_TYPES_PUBLISHEDDATASETCUSTOMSOURCEDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PublishedDataSetCustomSourceDataType_copy(const UA_PublishedDataSetCustomSourceDataType *src, UA_PublishedDataSetCustomSourceDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PUBLISHEDDATASETCUSTOMSOURCEDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PublishedDataSetCustomSourceDataType_deleteMembers(UA_PublishedDataSetCustomSourceDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBLISHEDDATASETCUSTOMSOURCEDATATYPE]);
-}
-
-static UA_INLINE void
-UA_PublishedDataSetCustomSourceDataType_clear(UA_PublishedDataSetCustomSourceDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBLISHEDDATASETCUSTOMSOURCEDATATYPE]);
-}
-
-static UA_INLINE void
-UA_PublishedDataSetCustomSourceDataType_delete(UA_PublishedDataSetCustomSourceDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PUBLISHEDDATASETCUSTOMSOURCEDATATYPE]);
-}
-
 /* DataSetFieldContentMask */
 static UA_INLINE void
 UA_DataSetFieldContentMask_init(UA_DataSetFieldContentMask *p) {
@@ -2184,37 +1874,6 @@ UA_OverrideValueHandling_clear(UA_OverrideValueHandling *p) {
 static UA_INLINE void
 UA_OverrideValueHandling_delete(UA_OverrideValueHandling *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_OVERRIDEVALUEHANDLING]);
-}
-
-/* StandaloneSubscribedDataSetRefDataType */
-static UA_INLINE void
-UA_StandaloneSubscribedDataSetRefDataType_init(UA_StandaloneSubscribedDataSetRefDataType *p) {
-    memset(p, 0, sizeof(UA_StandaloneSubscribedDataSetRefDataType));
-}
-
-static UA_INLINE UA_StandaloneSubscribedDataSetRefDataType *
-UA_StandaloneSubscribedDataSetRefDataType_new(void) {
-    return (UA_StandaloneSubscribedDataSetRefDataType*)UA_new(&UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETREFDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_StandaloneSubscribedDataSetRefDataType_copy(const UA_StandaloneSubscribedDataSetRefDataType *src, UA_StandaloneSubscribedDataSetRefDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETREFDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_StandaloneSubscribedDataSetRefDataType_deleteMembers(UA_StandaloneSubscribedDataSetRefDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETREFDATATYPE]);
-}
-
-static UA_INLINE void
-UA_StandaloneSubscribedDataSetRefDataType_clear(UA_StandaloneSubscribedDataSetRefDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETREFDATATYPE]);
-}
-
-static UA_INLINE void
-UA_StandaloneSubscribedDataSetRefDataType_delete(UA_StandaloneSubscribedDataSetRefDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETREFDATATYPE]);
 }
 
 /* DataSetOrderingType */
@@ -2558,68 +2217,6 @@ UA_JsonDataSetReaderMessageDataType_delete(UA_JsonDataSetReaderMessageDataType *
     UA_delete(p, &UA_TYPES[UA_TYPES_JSONDATASETREADERMESSAGEDATATYPE]);
 }
 
-/* TransmitQosPriorityDataType */
-static UA_INLINE void
-UA_TransmitQosPriorityDataType_init(UA_TransmitQosPriorityDataType *p) {
-    memset(p, 0, sizeof(UA_TransmitQosPriorityDataType));
-}
-
-static UA_INLINE UA_TransmitQosPriorityDataType *
-UA_TransmitQosPriorityDataType_new(void) {
-    return (UA_TransmitQosPriorityDataType*)UA_new(&UA_TYPES[UA_TYPES_TRANSMITQOSPRIORITYDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_TransmitQosPriorityDataType_copy(const UA_TransmitQosPriorityDataType *src, UA_TransmitQosPriorityDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_TRANSMITQOSPRIORITYDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_TransmitQosPriorityDataType_deleteMembers(UA_TransmitQosPriorityDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_TRANSMITQOSPRIORITYDATATYPE]);
-}
-
-static UA_INLINE void
-UA_TransmitQosPriorityDataType_clear(UA_TransmitQosPriorityDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_TRANSMITQOSPRIORITYDATATYPE]);
-}
-
-static UA_INLINE void
-UA_TransmitQosPriorityDataType_delete(UA_TransmitQosPriorityDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_TRANSMITQOSPRIORITYDATATYPE]);
-}
-
-/* ReceiveQosPriorityDataType */
-static UA_INLINE void
-UA_ReceiveQosPriorityDataType_init(UA_ReceiveQosPriorityDataType *p) {
-    memset(p, 0, sizeof(UA_ReceiveQosPriorityDataType));
-}
-
-static UA_INLINE UA_ReceiveQosPriorityDataType *
-UA_ReceiveQosPriorityDataType_new(void) {
-    return (UA_ReceiveQosPriorityDataType*)UA_new(&UA_TYPES[UA_TYPES_RECEIVEQOSPRIORITYDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_ReceiveQosPriorityDataType_copy(const UA_ReceiveQosPriorityDataType *src, UA_ReceiveQosPriorityDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_RECEIVEQOSPRIORITYDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_ReceiveQosPriorityDataType_deleteMembers(UA_ReceiveQosPriorityDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_RECEIVEQOSPRIORITYDATATYPE]);
-}
-
-static UA_INLINE void
-UA_ReceiveQosPriorityDataType_clear(UA_ReceiveQosPriorityDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_RECEIVEQOSPRIORITYDATATYPE]);
-}
-
-static UA_INLINE void
-UA_ReceiveQosPriorityDataType_delete(UA_ReceiveQosPriorityDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_RECEIVEQOSPRIORITYDATATYPE]);
-}
-
 /* DatagramConnectionTransportDataType */
 static UA_INLINE void
 UA_DatagramConnectionTransportDataType_init(UA_DatagramConnectionTransportDataType *p) {
@@ -2651,37 +2248,6 @@ UA_DatagramConnectionTransportDataType_delete(UA_DatagramConnectionTransportData
     UA_delete(p, &UA_TYPES[UA_TYPES_DATAGRAMCONNECTIONTRANSPORTDATATYPE]);
 }
 
-/* DatagramConnectionTransport2DataType */
-static UA_INLINE void
-UA_DatagramConnectionTransport2DataType_init(UA_DatagramConnectionTransport2DataType *p) {
-    memset(p, 0, sizeof(UA_DatagramConnectionTransport2DataType));
-}
-
-static UA_INLINE UA_DatagramConnectionTransport2DataType *
-UA_DatagramConnectionTransport2DataType_new(void) {
-    return (UA_DatagramConnectionTransport2DataType*)UA_new(&UA_TYPES[UA_TYPES_DATAGRAMCONNECTIONTRANSPORT2DATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_DatagramConnectionTransport2DataType_copy(const UA_DatagramConnectionTransport2DataType *src, UA_DatagramConnectionTransport2DataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_DATAGRAMCONNECTIONTRANSPORT2DATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_DatagramConnectionTransport2DataType_deleteMembers(UA_DatagramConnectionTransport2DataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_DATAGRAMCONNECTIONTRANSPORT2DATATYPE]);
-}
-
-static UA_INLINE void
-UA_DatagramConnectionTransport2DataType_clear(UA_DatagramConnectionTransport2DataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_DATAGRAMCONNECTIONTRANSPORT2DATATYPE]);
-}
-
-static UA_INLINE void
-UA_DatagramConnectionTransport2DataType_delete(UA_DatagramConnectionTransport2DataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_DATAGRAMCONNECTIONTRANSPORT2DATATYPE]);
-}
-
 /* DatagramWriterGroupTransportDataType */
 static UA_INLINE void
 UA_DatagramWriterGroupTransportDataType_init(UA_DatagramWriterGroupTransportDataType *p) {
@@ -2711,68 +2277,6 @@ UA_DatagramWriterGroupTransportDataType_clear(UA_DatagramWriterGroupTransportDat
 static UA_INLINE void
 UA_DatagramWriterGroupTransportDataType_delete(UA_DatagramWriterGroupTransportDataType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_DATAGRAMWRITERGROUPTRANSPORTDATATYPE]);
-}
-
-/* DatagramWriterGroupTransport2DataType */
-static UA_INLINE void
-UA_DatagramWriterGroupTransport2DataType_init(UA_DatagramWriterGroupTransport2DataType *p) {
-    memset(p, 0, sizeof(UA_DatagramWriterGroupTransport2DataType));
-}
-
-static UA_INLINE UA_DatagramWriterGroupTransport2DataType *
-UA_DatagramWriterGroupTransport2DataType_new(void) {
-    return (UA_DatagramWriterGroupTransport2DataType*)UA_new(&UA_TYPES[UA_TYPES_DATAGRAMWRITERGROUPTRANSPORT2DATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_DatagramWriterGroupTransport2DataType_copy(const UA_DatagramWriterGroupTransport2DataType *src, UA_DatagramWriterGroupTransport2DataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_DATAGRAMWRITERGROUPTRANSPORT2DATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_DatagramWriterGroupTransport2DataType_deleteMembers(UA_DatagramWriterGroupTransport2DataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_DATAGRAMWRITERGROUPTRANSPORT2DATATYPE]);
-}
-
-static UA_INLINE void
-UA_DatagramWriterGroupTransport2DataType_clear(UA_DatagramWriterGroupTransport2DataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_DATAGRAMWRITERGROUPTRANSPORT2DATATYPE]);
-}
-
-static UA_INLINE void
-UA_DatagramWriterGroupTransport2DataType_delete(UA_DatagramWriterGroupTransport2DataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_DATAGRAMWRITERGROUPTRANSPORT2DATATYPE]);
-}
-
-/* DatagramDataSetReaderTransportDataType */
-static UA_INLINE void
-UA_DatagramDataSetReaderTransportDataType_init(UA_DatagramDataSetReaderTransportDataType *p) {
-    memset(p, 0, sizeof(UA_DatagramDataSetReaderTransportDataType));
-}
-
-static UA_INLINE UA_DatagramDataSetReaderTransportDataType *
-UA_DatagramDataSetReaderTransportDataType_new(void) {
-    return (UA_DatagramDataSetReaderTransportDataType*)UA_new(&UA_TYPES[UA_TYPES_DATAGRAMDATASETREADERTRANSPORTDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_DatagramDataSetReaderTransportDataType_copy(const UA_DatagramDataSetReaderTransportDataType *src, UA_DatagramDataSetReaderTransportDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_DATAGRAMDATASETREADERTRANSPORTDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_DatagramDataSetReaderTransportDataType_deleteMembers(UA_DatagramDataSetReaderTransportDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_DATAGRAMDATASETREADERTRANSPORTDATATYPE]);
-}
-
-static UA_INLINE void
-UA_DatagramDataSetReaderTransportDataType_clear(UA_DatagramDataSetReaderTransportDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_DATAGRAMDATASETREADERTRANSPORTDATATYPE]);
-}
-
-static UA_INLINE void
-UA_DatagramDataSetReaderTransportDataType_delete(UA_DatagramDataSetReaderTransportDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_DATAGRAMDATASETREADERTRANSPORTDATATYPE]);
 }
 
 /* BrokerConnectionTransportDataType */
@@ -2930,99 +2434,6 @@ UA_BrokerDataSetReaderTransportDataType_delete(UA_BrokerDataSetReaderTransportDa
     UA_delete(p, &UA_TYPES[UA_TYPES_BROKERDATASETREADERTRANSPORTDATATYPE]);
 }
 
-/* PubSubConfigurationRefMask */
-static UA_INLINE void
-UA_PubSubConfigurationRefMask_init(UA_PubSubConfigurationRefMask *p) {
-    memset(p, 0, sizeof(UA_PubSubConfigurationRefMask));
-}
-
-static UA_INLINE UA_PubSubConfigurationRefMask *
-UA_PubSubConfigurationRefMask_new(void) {
-    return (UA_PubSubConfigurationRefMask*)UA_new(&UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFMASK]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PubSubConfigurationRefMask_copy(const UA_PubSubConfigurationRefMask *src, UA_PubSubConfigurationRefMask *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFMASK]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PubSubConfigurationRefMask_deleteMembers(UA_PubSubConfigurationRefMask *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFMASK]);
-}
-
-static UA_INLINE void
-UA_PubSubConfigurationRefMask_clear(UA_PubSubConfigurationRefMask *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFMASK]);
-}
-
-static UA_INLINE void
-UA_PubSubConfigurationRefMask_delete(UA_PubSubConfigurationRefMask *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFMASK]);
-}
-
-/* PubSubConfigurationRefDataType */
-static UA_INLINE void
-UA_PubSubConfigurationRefDataType_init(UA_PubSubConfigurationRefDataType *p) {
-    memset(p, 0, sizeof(UA_PubSubConfigurationRefDataType));
-}
-
-static UA_INLINE UA_PubSubConfigurationRefDataType *
-UA_PubSubConfigurationRefDataType_new(void) {
-    return (UA_PubSubConfigurationRefDataType*)UA_new(&UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PubSubConfigurationRefDataType_copy(const UA_PubSubConfigurationRefDataType *src, UA_PubSubConfigurationRefDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PubSubConfigurationRefDataType_deleteMembers(UA_PubSubConfigurationRefDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFDATATYPE]);
-}
-
-static UA_INLINE void
-UA_PubSubConfigurationRefDataType_clear(UA_PubSubConfigurationRefDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFDATATYPE]);
-}
-
-static UA_INLINE void
-UA_PubSubConfigurationRefDataType_delete(UA_PubSubConfigurationRefDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONREFDATATYPE]);
-}
-
-/* PubSubConfigurationValueDataType */
-static UA_INLINE void
-UA_PubSubConfigurationValueDataType_init(UA_PubSubConfigurationValueDataType *p) {
-    memset(p, 0, sizeof(UA_PubSubConfigurationValueDataType));
-}
-
-static UA_INLINE UA_PubSubConfigurationValueDataType *
-UA_PubSubConfigurationValueDataType_new(void) {
-    return (UA_PubSubConfigurationValueDataType*)UA_new(&UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONVALUEDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PubSubConfigurationValueDataType_copy(const UA_PubSubConfigurationValueDataType *src, UA_PubSubConfigurationValueDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONVALUEDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PubSubConfigurationValueDataType_deleteMembers(UA_PubSubConfigurationValueDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONVALUEDATATYPE]);
-}
-
-static UA_INLINE void
-UA_PubSubConfigurationValueDataType_clear(UA_PubSubConfigurationValueDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONVALUEDATATYPE]);
-}
-
-static UA_INLINE void
-UA_PubSubConfigurationValueDataType_delete(UA_PubSubConfigurationValueDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONVALUEDATATYPE]);
-}
-
 /* DiagnosticsLevel */
 static UA_INLINE void
 UA_DiagnosticsLevel_init(UA_DiagnosticsLevel *p) {
@@ -3114,130 +2525,6 @@ UA_AliasNameDataType_clear(UA_AliasNameDataType *p) {
 static UA_INLINE void
 UA_AliasNameDataType_delete(UA_AliasNameDataType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_ALIASNAMEDATATYPE]);
-}
-
-/* PasswordOptionsMask */
-static UA_INLINE void
-UA_PasswordOptionsMask_init(UA_PasswordOptionsMask *p) {
-    memset(p, 0, sizeof(UA_PasswordOptionsMask));
-}
-
-static UA_INLINE UA_PasswordOptionsMask *
-UA_PasswordOptionsMask_new(void) {
-    return (UA_PasswordOptionsMask*)UA_new(&UA_TYPES[UA_TYPES_PASSWORDOPTIONSMASK]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PasswordOptionsMask_copy(const UA_PasswordOptionsMask *src, UA_PasswordOptionsMask *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PASSWORDOPTIONSMASK]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PasswordOptionsMask_deleteMembers(UA_PasswordOptionsMask *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PASSWORDOPTIONSMASK]);
-}
-
-static UA_INLINE void
-UA_PasswordOptionsMask_clear(UA_PasswordOptionsMask *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PASSWORDOPTIONSMASK]);
-}
-
-static UA_INLINE void
-UA_PasswordOptionsMask_delete(UA_PasswordOptionsMask *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PASSWORDOPTIONSMASK]);
-}
-
-/* UserConfigurationMask */
-static UA_INLINE void
-UA_UserConfigurationMask_init(UA_UserConfigurationMask *p) {
-    memset(p, 0, sizeof(UA_UserConfigurationMask));
-}
-
-static UA_INLINE UA_UserConfigurationMask *
-UA_UserConfigurationMask_new(void) {
-    return (UA_UserConfigurationMask*)UA_new(&UA_TYPES[UA_TYPES_USERCONFIGURATIONMASK]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_UserConfigurationMask_copy(const UA_UserConfigurationMask *src, UA_UserConfigurationMask *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_USERCONFIGURATIONMASK]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_UserConfigurationMask_deleteMembers(UA_UserConfigurationMask *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_USERCONFIGURATIONMASK]);
-}
-
-static UA_INLINE void
-UA_UserConfigurationMask_clear(UA_UserConfigurationMask *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_USERCONFIGURATIONMASK]);
-}
-
-static UA_INLINE void
-UA_UserConfigurationMask_delete(UA_UserConfigurationMask *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_USERCONFIGURATIONMASK]);
-}
-
-/* UserManagementDataType */
-static UA_INLINE void
-UA_UserManagementDataType_init(UA_UserManagementDataType *p) {
-    memset(p, 0, sizeof(UA_UserManagementDataType));
-}
-
-static UA_INLINE UA_UserManagementDataType *
-UA_UserManagementDataType_new(void) {
-    return (UA_UserManagementDataType*)UA_new(&UA_TYPES[UA_TYPES_USERMANAGEMENTDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_UserManagementDataType_copy(const UA_UserManagementDataType *src, UA_UserManagementDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_USERMANAGEMENTDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_UserManagementDataType_deleteMembers(UA_UserManagementDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_USERMANAGEMENTDATATYPE]);
-}
-
-static UA_INLINE void
-UA_UserManagementDataType_clear(UA_UserManagementDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_USERMANAGEMENTDATATYPE]);
-}
-
-static UA_INLINE void
-UA_UserManagementDataType_delete(UA_UserManagementDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_USERMANAGEMENTDATATYPE]);
-}
-
-/* EncodedTicket */
-static UA_INLINE void
-UA_EncodedTicket_init(UA_EncodedTicket *p) {
-    memset(p, 0, sizeof(UA_EncodedTicket));
-}
-
-static UA_INLINE UA_EncodedTicket *
-UA_EncodedTicket_new(void) {
-    return (UA_EncodedTicket*)UA_new(&UA_TYPES[UA_TYPES_ENCODEDTICKET]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_EncodedTicket_copy(const UA_EncodedTicket *src, UA_EncodedTicket *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_ENCODEDTICKET]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_EncodedTicket_deleteMembers(UA_EncodedTicket *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_ENCODEDTICKET]);
-}
-
-static UA_INLINE void
-UA_EncodedTicket_clear(UA_EncodedTicket *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_ENCODEDTICKET]);
-}
-
-static UA_INLINE void
-UA_EncodedTicket_delete(UA_EncodedTicket *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_ENCODEDTICKET]);
 }
 
 /* Duplex */
@@ -3488,97 +2775,35 @@ UA_TsnListenerStatus_delete(UA_TsnListenerStatus *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_TSNLISTENERSTATUS]);
 }
 
-/* PriorityMappingEntryType */
+/* UnsignedRationalNumber */
 static UA_INLINE void
-UA_PriorityMappingEntryType_init(UA_PriorityMappingEntryType *p) {
-    memset(p, 0, sizeof(UA_PriorityMappingEntryType));
+UA_UnsignedRationalNumber_init(UA_UnsignedRationalNumber *p) {
+    memset(p, 0, sizeof(UA_UnsignedRationalNumber));
 }
 
-static UA_INLINE UA_PriorityMappingEntryType *
-UA_PriorityMappingEntryType_new(void) {
-    return (UA_PriorityMappingEntryType*)UA_new(&UA_TYPES[UA_TYPES_PRIORITYMAPPINGENTRYTYPE]);
+static UA_INLINE UA_UnsignedRationalNumber *
+UA_UnsignedRationalNumber_new(void) {
+    return (UA_UnsignedRationalNumber*)UA_new(&UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
 }
 
 static UA_INLINE UA_StatusCode
-UA_PriorityMappingEntryType_copy(const UA_PriorityMappingEntryType *src, UA_PriorityMappingEntryType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PRIORITYMAPPINGENTRYTYPE]);
+UA_UnsignedRationalNumber_copy(const UA_UnsignedRationalNumber *src, UA_UnsignedRationalNumber *dst) {
+    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
 }
 
 UA_DEPRECATED static UA_INLINE void
-UA_PriorityMappingEntryType_deleteMembers(UA_PriorityMappingEntryType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PRIORITYMAPPINGENTRYTYPE]);
+UA_UnsignedRationalNumber_deleteMembers(UA_UnsignedRationalNumber *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
 }
 
 static UA_INLINE void
-UA_PriorityMappingEntryType_clear(UA_PriorityMappingEntryType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PRIORITYMAPPINGENTRYTYPE]);
+UA_UnsignedRationalNumber_clear(UA_UnsignedRationalNumber *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
 }
 
 static UA_INLINE void
-UA_PriorityMappingEntryType_delete(UA_PriorityMappingEntryType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PRIORITYMAPPINGENTRYTYPE]);
-}
-
-/* ReferenceDescriptionDataType */
-static UA_INLINE void
-UA_ReferenceDescriptionDataType_init(UA_ReferenceDescriptionDataType *p) {
-    memset(p, 0, sizeof(UA_ReferenceDescriptionDataType));
-}
-
-static UA_INLINE UA_ReferenceDescriptionDataType *
-UA_ReferenceDescriptionDataType_new(void) {
-    return (UA_ReferenceDescriptionDataType*)UA_new(&UA_TYPES[UA_TYPES_REFERENCEDESCRIPTIONDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_ReferenceDescriptionDataType_copy(const UA_ReferenceDescriptionDataType *src, UA_ReferenceDescriptionDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_REFERENCEDESCRIPTIONDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_ReferenceDescriptionDataType_deleteMembers(UA_ReferenceDescriptionDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_REFERENCEDESCRIPTIONDATATYPE]);
-}
-
-static UA_INLINE void
-UA_ReferenceDescriptionDataType_clear(UA_ReferenceDescriptionDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_REFERENCEDESCRIPTIONDATATYPE]);
-}
-
-static UA_INLINE void
-UA_ReferenceDescriptionDataType_delete(UA_ReferenceDescriptionDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_REFERENCEDESCRIPTIONDATATYPE]);
-}
-
-/* ReferenceListEntryDataType */
-static UA_INLINE void
-UA_ReferenceListEntryDataType_init(UA_ReferenceListEntryDataType *p) {
-    memset(p, 0, sizeof(UA_ReferenceListEntryDataType));
-}
-
-static UA_INLINE UA_ReferenceListEntryDataType *
-UA_ReferenceListEntryDataType_new(void) {
-    return (UA_ReferenceListEntryDataType*)UA_new(&UA_TYPES[UA_TYPES_REFERENCELISTENTRYDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_ReferenceListEntryDataType_copy(const UA_ReferenceListEntryDataType *src, UA_ReferenceListEntryDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_REFERENCELISTENTRYDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_ReferenceListEntryDataType_deleteMembers(UA_ReferenceListEntryDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_REFERENCELISTENTRYDATATYPE]);
-}
-
-static UA_INLINE void
-UA_ReferenceListEntryDataType_clear(UA_ReferenceListEntryDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_REFERENCELISTENTRYDATATYPE]);
-}
-
-static UA_INLINE void
-UA_ReferenceListEntryDataType_delete(UA_ReferenceListEntryDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_REFERENCELISTENTRYDATATYPE]);
+UA_UnsignedRationalNumber_delete(UA_UnsignedRationalNumber *p) {
+    UA_delete(p, &UA_TYPES[UA_TYPES_UNSIGNEDRATIONALNUMBER]);
 }
 
 /* IdType */
@@ -3922,6 +3147,37 @@ UA_StructureDefinition_delete(UA_StructureDefinition *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_STRUCTUREDEFINITION]);
 }
 
+/* ReferenceNode */
+static UA_INLINE void
+UA_ReferenceNode_init(UA_ReferenceNode *p) {
+    memset(p, 0, sizeof(UA_ReferenceNode));
+}
+
+static UA_INLINE UA_ReferenceNode *
+UA_ReferenceNode_new(void) {
+    return (UA_ReferenceNode*)UA_new(&UA_TYPES[UA_TYPES_REFERENCENODE]);
+}
+
+static UA_INLINE UA_StatusCode
+UA_ReferenceNode_copy(const UA_ReferenceNode *src, UA_ReferenceNode *dst) {
+    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_REFERENCENODE]);
+}
+
+UA_DEPRECATED static UA_INLINE void
+UA_ReferenceNode_deleteMembers(UA_ReferenceNode *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_REFERENCENODE]);
+}
+
+static UA_INLINE void
+UA_ReferenceNode_clear(UA_ReferenceNode *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_REFERENCENODE]);
+}
+
+static UA_INLINE void
+UA_ReferenceNode_delete(UA_ReferenceNode *p) {
+    UA_delete(p, &UA_TYPES[UA_TYPES_REFERENCENODE]);
+}
+
 /* Argument */
 static UA_INLINE void
 UA_Argument_init(UA_Argument *p) {
@@ -4261,6 +3517,68 @@ UA_UtcTime_clear(UA_UtcTime *p) {
 static UA_INLINE void
 UA_UtcTime_delete(UA_UtcTime *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_UTCTIME]);
+}
+
+/* Time */
+static UA_INLINE void
+UA_Time_init(UA_Time *p) {
+    memset(p, 0, sizeof(UA_Time));
+}
+
+static UA_INLINE UA_Time *
+UA_Time_new(void) {
+    return (UA_Time*)UA_new(&UA_TYPES[UA_TYPES_TIME]);
+}
+
+static UA_INLINE UA_StatusCode
+UA_Time_copy(const UA_Time *src, UA_Time *dst) {
+    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_TIME]);
+}
+
+UA_DEPRECATED static UA_INLINE void
+UA_Time_deleteMembers(UA_Time *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_TIME]);
+}
+
+static UA_INLINE void
+UA_Time_clear(UA_Time *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_TIME]);
+}
+
+static UA_INLINE void
+UA_Time_delete(UA_Time *p) {
+    UA_delete(p, &UA_TYPES[UA_TYPES_TIME]);
+}
+
+/* Date */
+static UA_INLINE void
+UA_Date_init(UA_Date *p) {
+    memset(p, 0, sizeof(UA_Date));
+}
+
+static UA_INLINE UA_Date *
+UA_Date_new(void) {
+    return (UA_Date*)UA_new(&UA_TYPES[UA_TYPES_DATE]);
+}
+
+static UA_INLINE UA_StatusCode
+UA_Date_copy(const UA_Date *src, UA_Date *dst) {
+    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_DATE]);
+}
+
+UA_DEPRECATED static UA_INLINE void
+UA_Date_deleteMembers(UA_Date *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_DATE]);
+}
+
+static UA_INLINE void
+UA_Date_clear(UA_Date *p) {
+    UA_clear(p, &UA_TYPES[UA_TYPES_DATE]);
+}
+
+static UA_INLINE void
+UA_Date_delete(UA_Date *p) {
+    UA_delete(p, &UA_TYPES[UA_TYPES_DATE]);
 }
 
 /* LocaleId */
@@ -11486,68 +10804,6 @@ UA_SubscribedDataSetMirrorDataType_delete(UA_SubscribedDataSetMirrorDataType *p)
     UA_delete(p, &UA_TYPES[UA_TYPES_SUBSCRIBEDDATASETMIRRORDATATYPE]);
 }
 
-/* SecurityGroupDataType */
-static UA_INLINE void
-UA_SecurityGroupDataType_init(UA_SecurityGroupDataType *p) {
-    memset(p, 0, sizeof(UA_SecurityGroupDataType));
-}
-
-static UA_INLINE UA_SecurityGroupDataType *
-UA_SecurityGroupDataType_new(void) {
-    return (UA_SecurityGroupDataType*)UA_new(&UA_TYPES[UA_TYPES_SECURITYGROUPDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_SecurityGroupDataType_copy(const UA_SecurityGroupDataType *src, UA_SecurityGroupDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_SECURITYGROUPDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_SecurityGroupDataType_deleteMembers(UA_SecurityGroupDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_SECURITYGROUPDATATYPE]);
-}
-
-static UA_INLINE void
-UA_SecurityGroupDataType_clear(UA_SecurityGroupDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_SECURITYGROUPDATATYPE]);
-}
-
-static UA_INLINE void
-UA_SecurityGroupDataType_delete(UA_SecurityGroupDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_SECURITYGROUPDATATYPE]);
-}
-
-/* PubSubKeyPushTargetDataType */
-static UA_INLINE void
-UA_PubSubKeyPushTargetDataType_init(UA_PubSubKeyPushTargetDataType *p) {
-    memset(p, 0, sizeof(UA_PubSubKeyPushTargetDataType));
-}
-
-static UA_INLINE UA_PubSubKeyPushTargetDataType *
-UA_PubSubKeyPushTargetDataType_new(void) {
-    return (UA_PubSubKeyPushTargetDataType*)UA_new(&UA_TYPES[UA_TYPES_PUBSUBKEYPUSHTARGETDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PubSubKeyPushTargetDataType_copy(const UA_PubSubKeyPushTargetDataType *src, UA_PubSubKeyPushTargetDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PUBSUBKEYPUSHTARGETDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PubSubKeyPushTargetDataType_deleteMembers(UA_PubSubKeyPushTargetDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBKEYPUSHTARGETDATATYPE]);
-}
-
-static UA_INLINE void
-UA_PubSubKeyPushTargetDataType_clear(UA_PubSubKeyPushTargetDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBKEYPUSHTARGETDATATYPE]);
-}
-
-static UA_INLINE void
-UA_PubSubKeyPushTargetDataType_delete(UA_PubSubKeyPushTargetDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PUBSUBKEYPUSHTARGETDATATYPE]);
-}
-
 /* EnumDefinition */
 static UA_INLINE void
 UA_EnumDefinition_init(UA_EnumDefinition *p) {
@@ -12044,37 +11300,6 @@ UA_TargetVariablesDataType_delete(UA_TargetVariablesDataType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_TARGETVARIABLESDATATYPE]);
 }
 
-/* StandaloneSubscribedDataSetDataType */
-static UA_INLINE void
-UA_StandaloneSubscribedDataSetDataType_init(UA_StandaloneSubscribedDataSetDataType *p) {
-    memset(p, 0, sizeof(UA_StandaloneSubscribedDataSetDataType));
-}
-
-static UA_INLINE UA_StandaloneSubscribedDataSetDataType *
-UA_StandaloneSubscribedDataSetDataType_new(void) {
-    return (UA_StandaloneSubscribedDataSetDataType*)UA_new(&UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETDATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_StandaloneSubscribedDataSetDataType_copy(const UA_StandaloneSubscribedDataSetDataType *src, UA_StandaloneSubscribedDataSetDataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETDATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_StandaloneSubscribedDataSetDataType_deleteMembers(UA_StandaloneSubscribedDataSetDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETDATATYPE]);
-}
-
-static UA_INLINE void
-UA_StandaloneSubscribedDataSetDataType_clear(UA_StandaloneSubscribedDataSetDataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETDATATYPE]);
-}
-
-static UA_INLINE void
-UA_StandaloneSubscribedDataSetDataType_delete(UA_StandaloneSubscribedDataSetDataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_STANDALONESUBSCRIBEDDATASETDATATYPE]);
-}
-
 /* DataTypeSchemaHeader */
 static UA_INLINE void
 UA_DataTypeSchemaHeader_init(UA_DataTypeSchemaHeader *p) {
@@ -12197,37 +11422,6 @@ UA_PubSubConfigurationDataType_clear(UA_PubSubConfigurationDataType *p) {
 static UA_INLINE void
 UA_PubSubConfigurationDataType_delete(UA_PubSubConfigurationDataType *p) {
     UA_delete(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATIONDATATYPE]);
-}
-
-/* PubSubConfiguration2DataType */
-static UA_INLINE void
-UA_PubSubConfiguration2DataType_init(UA_PubSubConfiguration2DataType *p) {
-    memset(p, 0, sizeof(UA_PubSubConfiguration2DataType));
-}
-
-static UA_INLINE UA_PubSubConfiguration2DataType *
-UA_PubSubConfiguration2DataType_new(void) {
-    return (UA_PubSubConfiguration2DataType*)UA_new(&UA_TYPES[UA_TYPES_PUBSUBCONFIGURATION2DATATYPE]);
-}
-
-static UA_INLINE UA_StatusCode
-UA_PubSubConfiguration2DataType_copy(const UA_PubSubConfiguration2DataType *src, UA_PubSubConfiguration2DataType *dst) {
-    return UA_copy(src, dst, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATION2DATATYPE]);
-}
-
-UA_DEPRECATED static UA_INLINE void
-UA_PubSubConfiguration2DataType_deleteMembers(UA_PubSubConfiguration2DataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATION2DATATYPE]);
-}
-
-static UA_INLINE void
-UA_PubSubConfiguration2DataType_clear(UA_PubSubConfiguration2DataType *p) {
-    UA_clear(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATION2DATATYPE]);
-}
-
-static UA_INLINE void
-UA_PubSubConfiguration2DataType_delete(UA_PubSubConfiguration2DataType *p) {
-    UA_delete(p, &UA_TYPES[UA_TYPES_PUBSUBCONFIGURATION2DATATYPE]);
 }
 
 #if defined(__GNUC__) && __GNUC__ >= 4 && __GNUC_MINOR__ >= 6

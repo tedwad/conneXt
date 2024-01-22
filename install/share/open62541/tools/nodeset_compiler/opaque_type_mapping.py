@@ -76,16 +76,6 @@ opaque_type_mapping = {
         'id': 12,
         'name': 'String'
     },
-    'UriString': {
-        'ns': 0,
-        'id': 12,
-        'name': 'String'
-    },
-    'SemanticVersionString': {
-        'ns': 0,
-        'id': 12,
-        'name': 'String'
-    },
     'Duration': {
         'ns': 0,
         'id': 11,
