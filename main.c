@@ -2,7 +2,15 @@
 #include <open62541/server.h>
 #include <open62541/server_config_default.h>
 
-#include "myServer.h"
+/* Files example_namespace.h and example_namespace.c are created from server_nodeset.xml in the
+ * /src_generated directory by CMake */
+#include "../open62541/build/src_generated/open62541/namespace0_generated.h"
+#include "build/src_generated/di_nodeids.h"
+#include "build/src_generated/namespace_di_generated.h"
+#include "build/src_generated/rob_nodeids.h"
+#include "build/src_generated/namespace_rob_generated.h"
+#include "build/src_generated/ff_nodeids.h"
+#include "build/src_generated/namespace_ff_generated.h"
 
 #include <signal.h>
 #include <stdlib.h>
